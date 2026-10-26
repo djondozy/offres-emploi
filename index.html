@@ -331,8 +331,14 @@ function howTo(o){
     <div class="field"><span>Envoyez votre dossier à</span><div class="copyrow"><code>${esc(p.valeur)}</code>${copyBtn(p.valeur)}</div></div>
     ${p.copie?`<div class="field"><span>En copie (obligatoire)</span><div class="copyrow"><code>${esc(p.copie)}</code>${copyBtn(p.copie)}</div></div>`:""}
     ${p.objet?`<div class="field"><span>Objet du mail</span><div class="copyrow"><code>${esc(p.objet)}</code>${copyBtn(p.objet)}</div></div>`:""}
-    ${p.depot?`<p class="small">${esc(p.depot)}${p.tel?` · tél. ${esc(p.tel)}`:""}</p>`:""}
+    ${p.depot?`<p class="small">${esc(p.depot)}${p.tel?` · tél. ${esc(p.tel)}`:""}</p>`:p.tel?`<p class="small">Une question ? Téléphone / WhatsApp : ${esc(p.tel)}</p>`:""}
     <p class="small">Regroupez vos pièces en PDF et vérifiez le nom du poste dans l'objet : c'est souvent ce qui fait trier les dossiers.</p></div>`;
+  if(p.mode==="tel"){const num=String(p.valeur||"").replace(/\D/g,"");const intl=num.startsWith("229")?num:"229"+num;
+    return `<div class="how">
+    <div class="field"><span>Appelez ou écrivez sur WhatsApp</span><div class="copyrow"><code>${esc(p.valeur)}</code>${copyBtn(p.valeur)}</div></div>
+    ${p.email?`<div class="field"><span>Ou par e-mail</span><div class="copyrow"><code>${esc(p.email)}</code>${copyBtn(p.email)}</div></div>`:""}
+    ${p.note?`<p class="small">${esc(p.note)}</p>`:""}
+    <a class="btn wa" href="https://wa.me/${intl}?text=${encodeURIComponent("Bonjour, je vous contacte pour l'offre « "+o.titre+" » vue sur Djob.")}" target="_blank" rel="noopener">${ic.wa} Écrire sur WhatsApp</a></div>`}
   if(p.mode==="depot")return `<div class="how"><div class="field"><span>Déposez votre dossier</span><p><b>${esc(p.valeur)}</b></p></div>${p.horaires?`<p class="small">${esc(p.horaires)}</p>`:""}${p.objet?`<p class="small">${esc(p.objet)}</p>`:""}</div>`;
   if(p.mode==="lien"&&okUrl(p.valeur))return `<div class="how"><p class="small">La candidature se fait à partir de l'avis officiel.</p><a class="btn main" href="${esc(p.valeur)}" target="_blank" rel="noopener">${esc(p.libelle||"Voir l'avis et postuler")} →</a></div>`;
   return "";

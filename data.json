@@ -1,5 +1,5 @@
 {
- "derniereMaj": "2026-10-26T15:00:00Z",
+ "derniereMaj": "2026-10-26T15:30:00Z",
  "offres": [
   {
    "id": "wardip2-13-postes",
@@ -824,6 +824,302 @@
     "url": "https://afriqueemplois.com/bj/post/41468"
    },
    "ajoute": "2026-10-20T06:00:00Z"
+  },
+  {
+   "id": "uac-mastercard-200-stages",
+   "titre": "Plus de 200 stages rémunérés de 12 mois",
+   "employeur": "Université d'Abomey-Calavi · programme Mastercard Foundation",
+   "ville": "Abomey-Calavi",
+   "zone": "cotonou",
+   "secteur": "Éducation",
+   "contrat": "Stage",
+   "niveau": "Diplômé de l'UAC",
+   "experience": "Débutant accepté",
+   "debutant": true,
+   "nbPostes": 200,
+   "dateLimite": "2026-10-28",
+   "publie": "2026-10-24",
+   "resume": "Une année entière de stage payé pour les jeunes diplômés de l'UAC qui cherchent leur première vraie expérience. C'est l'une des plus grosses offres de l'année : il reste deux jours pour s'inscrire.",
+   "profil": [
+    "Être diplômé(e) récent(e) de l'Université d'Abomey-Calavi",
+    "Chercher une première expérience professionnelle",
+    "Allocation mensuelle versée pendant 12 mois"
+   ],
+   "postuler": {
+    "mode": "lien",
+    "valeur": "https://tinyurl.com/inscriptions-etudiants",
+    "libelle": "S'inscrire sur le site du C3E"
+   },
+   "pieces": [],
+   "source": {
+    "nom": "Setondji Hub",
+    "url": "https://www.setondji.org/explore/opportunites/s_stages-uac-2026"
+   },
+   "ajoute": "2026-10-26T15:30:00Z"
+  },
+  {
+   "id": "adenka-microfinance-5-postes",
+   "titre": "5 cadres pour une microfinance",
+   "employeur": "Adenka Audit & Conseils, pour une microfinance béninoise",
+   "ville": "Cotonou",
+   "zone": "cotonou",
+   "secteur": "Finance & comptabilité",
+   "contrat": "À préciser",
+   "niveau": "Voir l'avis",
+   "experience": "Voir l'avis",
+   "debutant": false,
+   "nbPostes": 5,
+   "dateLimite": null,
+   "publie": "2026-10-19",
+   "resume": "Une institution de microfinance étoffe son siège à Cotonou : juridique, risques, conformité, informatique et recherche de financements. Les détails des profils s'obtiennent auprès du cabinet.",
+   "postes": [
+    {
+     "nom": "Assistant(e) juridique",
+     "nombre": 1
+    },
+    {
+     "nom": "Chargé(e) de la mobilisation des ressources",
+     "nombre": 1
+    },
+    {
+     "nom": "Responsable risque et monitoring",
+     "nombre": 1
+    },
+    {
+     "nom": "Responsable contrôle permanent et conformité",
+     "nombre": 1
+    },
+    {
+     "nom": "IT Senior",
+     "nombre": 1
+    }
+   ],
+   "profil": [
+    "Profils détaillés sur demande auprès du cabinet",
+    "Indiquez vos prétentions salariales"
+   ],
+   "postuler": {
+    "mode": "email",
+    "valeur": "information@adenka.bj",
+    "objet": "Le poste souhaité"
+   },
+   "pieces": [
+    "CV",
+    "Lettre de motivation",
+    "Prétentions salariales"
+   ],
+   "source": {
+    "nom": "Emploi BSM Groupe",
+    "url": "https://emploi.bsmgroupe.com/adenka-recrute-5-profils-pour-une-societe-de-microfinance-a-cotonou/"
+   },
+   "ajoute": "2026-10-26T15:30:00Z"
+  },
+  {
+   "id": "nuru-responsable-rh",
+   "titre": "Responsable ressources humaines (Bénin, Togo, Niger)",
+   "employeur": "Nuru Bénin (ONG)",
+   "ville": "Natitingou ou Cotonou",
+   "zone": "benin",
+   "secteur": "Humanitaire & ONG",
+   "contrat": "Temps plein",
+   "niveau": "BAC+3",
+   "experience": "5 ans et +",
+   "debutant": false,
+   "nbPostes": 1,
+   "dateLimite": "2026-10-28",
+   "publie": "2026-10-24",
+   "resume": "Un poste régional pour une personne RH expérimentée, avec des missions régulières au Togo et au Niger. Idéal si vous avez déjà travaillé en ONG internationale.",
+   "profil": [
+    "BAC+3 en RH, droit du travail ou gestion",
+    "5 ans d'expérience en gestion RH",
+    "Français et anglais professionnels",
+    "Déplacements réguliers dans la sous-région"
+   ],
+   "postuler": {
+    "mode": "lien",
+    "valeur": "https://emploi.bsmgroupe.com/responsable-ressources-humaines-benin-togo-niger-nuru-benin/",
+    "libelle": "Voir l'avis et postuler"
+   },
+   "pieces": [
+    "CV avec 3 références (noms, contacts, e-mails)"
+   ],
+   "source": {
+    "nom": "Emploi BSM Groupe",
+    "url": "https://emploi.bsmgroupe.com/responsable-ressources-humaines-benin-togo-niger-nuru-benin/"
+   },
+   "ajoute": "2026-10-26T15:30:00Z"
+  },
+  {
+   "id": "kps-groupe-achats-affaires",
+   "titre": "Achats-logistique et ingénieur d'affaires",
+   "employeur": "KPS Groupe",
+   "ville": "Cotonou (Agla)",
+   "zone": "cotonou",
+   "secteur": "Commerce & vente",
+   "contrat": "CDI",
+   "niveau": "Voir l'avis",
+   "experience": "Voir l'avis",
+   "debutant": false,
+   "nbPostes": 2,
+   "dateLimite": "2026-10-31",
+   "publie": "2026-10-23",
+   "resume": "KPS Groupe recrute deux profils en poste permanent à Agla. La fiche détaillée de chaque poste est téléchargeable sur l'annonce.",
+   "postes": [
+    {
+     "nom": "Chargé(e) achats et logistique",
+     "nombre": 1
+    },
+    {
+     "nom": "Ingénieur d'affaires",
+     "nombre": 1
+    }
+   ],
+   "profil": [
+    "Postes permanents, salaire à discuter",
+    "Missions et profil détaillés dans la fiche jointe à l'annonce"
+   ],
+   "postuler": {
+    "mode": "email",
+    "valeur": "recrutement@kpsgroupe.com",
+    "objet": "Le poste visé",
+    "tel": "01 59 92 13 02"
+   },
+   "pieces": [],
+   "source": {
+    "nom": "JobBénin",
+    "url": "https://jobbenin.com/offres/eyJpdiI6ImtiVngvZ3d0R2h1L2FPU0NVbFhpMmc9PSIsInZhbHVlIjoiOWtFOWZTYmJUaGFrRVJ3MHFyK3hlQT09IiwibWFjIjoiNWZiYWE0NjhlYTdiZTExMDk5NWM2YjQ0NDA1NTRlMTA1M2NlODNhOTRlODkyMGMwNTI3MDM0NmRjMWFjNGMyNSIsInRhZyI6IiJ9"
+   },
+   "ajoute": "2026-10-26T15:30:00Z"
+  },
+  {
+   "id": "la-mama-commercial",
+   "titre": "Commercial(e) terrain",
+   "employeur": "Pâtisserie La Mama",
+   "ville": "Cotonou (Yévédo)",
+   "zone": "cotonou",
+   "secteur": "Commerce & vente",
+   "contrat": "CDI",
+   "niveau": "BEPC",
+   "experience": "Débutant accepté",
+   "debutant": true,
+   "nbPostes": 1,
+   "dateLimite": "2026-12-01",
+   "publie": "2026-10-23",
+   "resume": "Vous faites connaître les gâteaux de la maison dans Cotonou et vous construisez votre carnet de clients. La paie suit vos ventes, avec un forfait pour vos déplacements.",
+   "profil": [
+    "BEPC ou plus",
+    "À l'aise pour parler et négocier",
+    "Autonome et motivé(e) par des objectifs"
+   ],
+   "postuler": {
+    "mode": "tel",
+    "valeur": "01 51 91 22 07",
+    "note": "Appelez ou écrivez sur WhatsApp en précisant « Commercial »."
+   },
+   "pieces": [],
+   "source": {
+    "nom": "JobBénin",
+    "url": "https://jobbenin.com/offres/eyJpdiI6InhSN0poc0U5aE1TWWFhQlJCS1hqaFE9PSIsInZhbHVlIjoiWWE3ZURkbCtNVHZSV1JBdXJtb1N1UT09IiwibWFjIjoiMmZkNjk0NTFmZjI0ZDU0Nzg5ZjhkM2E3Njk1N2M3NTVlNDg5ZGQ5ZTQwMmVhNTA4YTk4NDIyMWNkMzlmNGE3YSIsInRhZyI6IiJ9"
+   },
+   "ajoute": "2026-10-26T15:30:00Z"
+  },
+  {
+   "id": "boutique-calavi-vendeur-cm",
+   "titre": "Vendeur(se) et community manager",
+   "employeur": "Boutique de Maria Gleta",
+   "ville": "Abomey-Calavi",
+   "zone": "cotonou",
+   "secteur": "Commerce & vente",
+   "contrat": "CDI",
+   "niveau": "Sans diplôme exigé",
+   "experience": "Débutant accepté",
+   "debutant": true,
+   "nbPostes": null,
+   "dateLimite": "2026-11-03",
+   "publie": "2026-10-20",
+   "resume": "Une boutique cherche quelqu'un pour vendre en magasin, et quelqu'un pour animer sa page Facebook et TikTok. Une première petite expérience suffit.",
+   "profil": [
+    "0 à 1 an d'expérience en vente ou sur les réseaux sociaux",
+    "À l'aise avec le téléphone et les transferts MoMo",
+    "Honnête, rigoureux(se) et souriant(e)"
+   ],
+   "postuler": {
+    "mode": "tel",
+    "valeur": "01 95 99 34 79",
+    "note": "Écrivez sur WhatsApp en précisant : vente en boutique ou réseaux sociaux."
+   },
+   "pieces": [],
+   "source": {
+    "nom": "JobBénin",
+    "url": "https://jobbenin.com/offres/eyJpdiI6ImNCTWRpNTFsTzBib0hkaW05d0hybHc9PSIsInZhbHVlIjoidk5NR2tkWG53Y2JpN1hScTBNS0NxQT09IiwibWFjIjoiZmM3NjQxYzZjOTQxMWI3M2Q2NjkzMWMyYTI4ZDIzM2FlNmJlNTQwZTY2ODMzNmI1NDMzOTRlZjk5MzdiNDU5YiIsInRhZyI6IiJ9"
+   },
+   "ajoute": "2026-10-26T15:30:00Z"
+  },
+  {
+   "id": "reseau-distribution-agent",
+   "titre": "Agent de distribution (transfert mobile et Canal+)",
+   "employeur": "Réseau Distribution",
+   "ville": "Cotonou (Menontin, Agla, Tankpê)",
+   "zone": "cotonou",
+   "secteur": "Commerce & vente",
+   "contrat": "CDI",
+   "niveau": "BEPC",
+   "experience": "1 à 3 ans",
+   "debutant": false,
+   "nbPostes": null,
+   "dateLimite": "2026-11-18",
+   "publie": "2026-10-20",
+   "resume": "Au comptoir, vous faites les transferts d'argent, vendez les abonnements Canal+ et tenez la caisse. Un poste stable pour qui a déjà tenu une caisse ou un point MoMo.",
+   "profil": [
+    "BEPC",
+    "1 à 2 ans en vente ou en caisse",
+    "25 à 30 ans selon l'annonce",
+    "Habiter près de Godomey, Cocotomey ou Bidossêssi est un plus"
+   ],
+   "postuler": {
+    "mode": "tel",
+    "valeur": "01 97 38 95 30",
+    "note": "Appelez et présentez votre parcours en quelques mots."
+   },
+   "pieces": [],
+   "source": {
+    "nom": "JobBénin",
+    "url": "https://jobbenin.com/offres/eyJpdiI6Im1zREg4cVJqa0Z0Ukd1WmRNeHF6YkE9PSIsInZhbHVlIjoiZERWSjk5cUVDb3hDdndTM0IyTXE0Zz09IiwibWFjIjoiNzBlYTI1NTZkYTVmZjI1OWNiOTI0MDBiMjViMWM4Y2RiMTU2M2ViMTlkYjgyYmIwYjAxNmZiY2IxNWZjNjgwNSIsInRhZyI6IiJ9"
+   },
+   "ajoute": "2026-10-26T15:30:00Z"
+  },
+  {
+   "id": "mre-hotes-evenementiel",
+   "titre": "Hôtes et hôtesses d'accueil événementiel",
+   "employeur": "Morayo Royale Events",
+   "ville": "Cotonou (Akpakpa)",
+   "zone": "cotonou",
+   "secteur": "Hôtellerie & restauration",
+   "contrat": "Missions ponctuelles",
+   "niveau": "Sans diplôme exigé",
+   "experience": "Débutant accepté",
+   "debutant": true,
+   "nbPostes": null,
+   "dateLimite": "2026-10-30",
+   "publie": "2026-10-22",
+   "resume": "L'agence constitue son équipe pour accueillir les invités de ses événements : contrôle des accès, orientation, accueil VIP. Parfait pour gagner un complément, mission par mission.",
+   "profil": [
+    "Accueillant(e), ponctuel(le) et présentable",
+    "Aucune expérience obligatoire",
+    "Disponible selon les dates des événements"
+   ],
+   "postuler": {
+    "mode": "tel",
+    "valeur": "01 40 36 64 62",
+    "email": "marysezou93@gmail.com",
+    "note": "Appel ou WhatsApp. L'inscription au vivier ne garantit pas une mission immédiate."
+   },
+   "pieces": [],
+   "source": {
+    "nom": "JobBénin",
+    "url": "https://jobbenin.com/offres/eyJpdiI6IlNXZm9HQUlZeGhtZFZ1ZXI5QlIrL2c9PSIsInZhbHVlIjoiODNqTXZLeVlNdExBUXRSNmUrNGNSQT09IiwibWFjIjoiNzU0ODIzYmJkMWJiMDg2NmI5OWNiMjQyZDI4NWI0Njc1NmNjNDgyZTNiODg2OGFhNzJlYzA2ZDU0N2U4Y2ExMiIsInRhZyI6IiJ9"
+   },
+   "ajoute": "2026-10-26T15:30:00Z"
   }
  ]
 }
