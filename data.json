@@ -1,0 +1,829 @@
+{
+ "derniereMaj": "2026-10-26T15:00:00Z",
+ "offres": [
+  {
+   "id": "wardip2-13-postes",
+   "titre": "13 postes au projet WARDIP 2 (numérique)",
+   "employeur": "Projet WARDIP 2 · ministère du Numérique",
+   "ville": "Cotonou",
+   "zone": "cotonou",
+   "secteur": "Numérique",
+   "contrat": "CDD",
+   "niveau": "BAC+5",
+   "experience": "5 ans et +",
+   "debutant": false,
+   "nbPostes": 13,
+   "dateLimite": "2026-10-29",
+   "publie": "2026-10-16",
+   "resume": "Le projet régional d'intégration numérique financé par la Banque mondiale monte son équipe au Bénin. Des profils variés sont recherchés, du spécialiste en intelligence artificielle au conducteur de véhicule.",
+   "postes": [
+    {
+     "nom": "Spécialiste en intelligence artificielle",
+     "nombre": 1
+    },
+    {
+     "nom": "Spécialiste social et genre",
+     "nombre": 1
+    },
+    {
+     "nom": "Spécialiste en sauvegarde environnementale",
+     "nombre": 1
+    },
+    {
+     "nom": "Spécialiste en passation des marchés",
+     "nombre": 1
+    },
+    {
+     "nom": "Spécialiste en suivi-évaluation",
+     "nombre": 1
+    },
+    {
+     "nom": "Spécialiste en services financiers numériques",
+     "nombre": 1
+    },
+    {
+     "nom": "Spécialiste en infrastructures numériques",
+     "nombre": 1
+    },
+    {
+     "nom": "Spécialiste en compétences numériques",
+     "nombre": 1
+    },
+    {
+     "nom": "Responsable administratif et financier",
+     "nombre": 1
+    },
+    {
+     "nom": "Comptable",
+     "nombre": 1
+    },
+    {
+     "nom": "Secrétaire administratif",
+     "nombre": 1
+    },
+    {
+     "nom": "Agent de liaison",
+     "nombre": 1
+    },
+    {
+     "nom": "Conducteur de véhicule",
+     "nombre": 1
+    }
+   ],
+   "profil": [
+    "Contrat d'un an renouvelable, période d'essai de 3 mois",
+    "Spécialistes : BAC+5 et solide expérience (8 ans dont 3 en IA pour le poste IA)",
+    "Les postes d'appui (secrétaire, agent de liaison, conducteur) demandent moins d'expérience : voir l'avis"
+   ],
+   "postuler": {
+    "mode": "email",
+    "valeur": "wardip2@talentsplusafrique.com",
+    "copie": "recrutement_wardip2@gouv.bj",
+    "objet": "Intitulé du poste + sa référence (indiquée dans l'avis)"
+   },
+   "pieces": [
+    "Lettre de motivation",
+    "CV détaillé",
+    "Copies des diplômes et attestations",
+    "Pièce d'identité"
+   ],
+   "source": {
+    "nom": "Talents Plus Afrique",
+    "url": "https://www.talentsplusafrique.com/jobs"
+   },
+   "ajoute": "2026-10-20T06:00:00Z"
+  },
+  {
+   "id": "ouidah-golf-35-postes",
+   "titre": "35 postes au Ouidah Golf Club",
+   "employeur": "LAGO Avlékété S.A.",
+   "ville": "Avlékété, Ouidah",
+   "zone": "benin",
+   "secteur": "Hôtellerie & restauration",
+   "contrat": "À préciser",
+   "niveau": "Sans diplôme exigé",
+   "experience": "Débutant accepté",
+   "debutant": true,
+   "nbPostes": 35,
+   "dateLimite": "2026-10-30",
+   "publie": "2026-10-09",
+   "resume": "Le futur golf d'Avlékété recrute toute son équipe d'accueil et de restauration pour une ouverture début 2027. Il y a de la place pour les cuisiniers confirmés comme pour ceux qui débutent à la plonge, avec formation sur place.",
+   "postes": [
+    {
+     "nom": "Caddie de golf",
+     "nombre": 18
+    },
+    {
+     "nom": "Serveur de salle",
+     "nombre": 5
+    },
+    {
+     "nom": "Cuisinier",
+     "nombre": 3
+    },
+    {
+     "nom": "Barman / Barmaid",
+     "nombre": 2
+    },
+    {
+     "nom": "Plongeur",
+     "nombre": 2
+    },
+    {
+     "nom": "Chef cuisinier",
+     "nombre": 1
+    },
+    {
+     "nom": "Sous-chef cuisinier",
+     "nombre": 1
+    },
+    {
+     "nom": "Assistant directeur restauration",
+     "nombre": 1
+    },
+    {
+     "nom": "Comptable",
+     "nombre": 1
+    },
+    {
+     "nom": "Gestionnaire de stocks",
+     "nombre": 1
+    }
+   ],
+   "profil": [
+    "Plongeur : aucun diplôme demandé, formation interne",
+    "Caddie : BAC, 1 an dans le golf, bonne forme physique",
+    "Service et bar : 3 ans en restauration haut de gamme, anglais professionnel",
+    "Comptable : BAC+5, 5 ans, SYSCOHADA et SAGE 100"
+   ],
+   "postuler": {
+    "mode": "email",
+    "valeur": "contact@ouidahgolfclub.com",
+    "objet": "Candidature au poste de …"
+   },
+   "pieces": [
+    "CV avec références",
+    "Lettre au Directeur général de LAGO Avlékété",
+    "Copies des diplômes et certificats de travail",
+    "Preuves d'expérience (en PDF)"
+   ],
+   "source": {
+    "nom": "Setondji Hub",
+    "url": "https://www.setondji.org/explore/opportunites/e_emploi-ouidah-golf-club-2026"
+   },
+   "ajoute": "2026-10-20T06:00:00Z"
+  },
+  {
+   "id": "sipi-assistant-juridique",
+   "titre": "Assistant(e) juridique",
+   "employeur": "SIPI-Bénin S.A. (zone de Glo-Djigbé)",
+   "ville": "Glo-Djigbé",
+   "zone": "cotonou",
+   "secteur": "Droit",
+   "contrat": "À préciser",
+   "niveau": "BAC+5",
+   "experience": "1 à 3 ans",
+   "debutant": false,
+   "nbPostes": 1,
+   "dateLimite": "2026-10-30",
+   "publie": "2026-10-26",
+   "resume": "La société qui gère la zone industrielle de Glo-Djigbé cherche un juriste pour rédiger et suivre ses contrats. Vous ferez aussi la veille juridique et fiscale et suivrez les contentieux avec les avocats.",
+   "profil": [
+    "Master en droit des affaires, droit privé ou proche",
+    "Au moins 1 an en droit des affaires ou des contrats",
+    "Bonne connaissance du droit OHADA",
+    "Français courant, l'anglais est un plus"
+   ],
+   "postuler": {
+    "mode": "email",
+    "valeur": "hr.sipi@arisenet.com",
+    "objet": "Candidature Assistant juridique"
+   },
+   "pieces": [
+    "CV en français ou en anglais"
+   ],
+   "source": {
+    "nom": "Setondji Hub",
+    "url": "https://www.setondji.org/explore/opportunites/e_recrutement-sipi-benin-assistant-juridique-2026"
+   },
+   "ajoute": "2026-10-20T06:00:00Z"
+  },
+  {
+   "id": "bidc-jeunes-professionnels",
+   "titre": "Programme Jeunes Professionnels 2026",
+   "employeur": "BIDC, banque de la CEDEAO",
+   "ville": "Lomé, Togo",
+   "zone": "region",
+   "secteur": "Finance & comptabilité",
+   "contrat": "CDD",
+   "niveau": "BAC+5",
+   "experience": "Débutant accepté",
+   "debutant": true,
+   "nbPostes": null,
+   "dateLimite": "2026-10-30",
+   "publie": "2026-10-06",
+   "resume": "Une vraie porte d'entrée pour les jeunes diplômés de moins de 30 ans : deux ans à Lomé, en tournant dans plusieurs services de la banque. Les meilleurs peuvent ensuite décrocher un CDI.",
+   "profil": [
+    "Moins de 30 ans",
+    "Master en finance, économie, audit, droit, RH, informatique, ingénierie…",
+    "Ressortissant d'un pays d'Afrique de l'Ouest",
+    "Français, anglais ou portugais, et des bases dans une deuxième langue",
+    "Aucune expérience exigée"
+   ],
+   "postuler": {
+    "mode": "email",
+    "valeur": "recrutbidc@bidc-ebid.org",
+    "objet": "PROGRAMME DE RECRUTEMENT DES JEUNES PROFESSIONNELS – 2026"
+   },
+   "pieces": [
+    "CV détaillé",
+    "Copies des diplômes",
+    "Pièce d'identité ou passeport",
+    "Acte de naissance",
+    "Lettre de motivation"
+   ],
+   "source": {
+    "nom": "Setondji Hub",
+    "url": "https://www.setondji.org/explore/opportunites/e_emploi-jeunes-professionnels-bidc-lome-2026"
+   },
+   "ajoute": "2026-10-20T06:00:00Z"
+  },
+  {
+   "id": "presidence-bai-3-postes",
+   "titre": "Spécialistes passation de marchés et investigation",
+   "employeur": "Présidence de la République · Bureau d'Analyse et d'Investigation",
+   "ville": "Cotonou",
+   "zone": "cotonou",
+   "secteur": "Administration publique",
+   "contrat": "CDD",
+   "niveau": "Voir l'avis",
+   "experience": "Voir l'avis",
+   "debutant": false,
+   "nbPostes": 3,
+   "dateLimite": "2026-10-30",
+   "publie": "2026-10-07",
+   "resume": "Le BAI renforce son équipe avec deux spécialistes des marchés publics et un enquêteur. On attend de la discrétion, de la rigueur et une bonne connaissance du droit béninois.",
+   "postes": [
+    {
+     "nom": "Spécialiste en passation de marchés",
+     "nombre": 2
+    },
+    {
+     "nom": "Spécialiste en investigation",
+     "nombre": 1
+    }
+   ],
+   "profil": [
+    "Discrétion et sens de la confidentialité",
+    "Bonne connaissance du cadre juridique béninois",
+    "Maîtrise de la bureautique",
+    "Diplôme et expérience : détaillés dans l'avis officiel"
+   ],
+   "postuler": {
+    "mode": "email",
+    "valeur": "assistantebai@presidence.bj",
+    "objet": "Candidature au poste de [intitulé du poste]"
+   },
+   "pieces": [
+    "Lettre au Coordonnateur du BAI",
+    "Casier judiciaire valide",
+    "Pièce d'identité",
+    "CV détaillé",
+    "Diplômes et justificatifs d'expérience (en PDF)"
+   ],
+   "source": {
+    "nom": "Avis officiel · gouv.bj",
+    "url": "https://www.gouv.bj/doc/1053/download"
+   },
+   "ajoute": "2026-10-20T06:00:00Z"
+  },
+  {
+   "id": "mairie-lokossa-7-postes",
+   "titre": "7 agents pour la mairie",
+   "employeur": "Mairie de Lokossa",
+   "ville": "Lokossa",
+   "zone": "benin",
+   "secteur": "Administration publique",
+   "contrat": "CDD",
+   "niveau": "Du BEPC à la licence",
+   "experience": "Débutant accepté",
+   "debutant": true,
+   "nbPostes": 7,
+   "dateLimite": "2026-10-30",
+   "publie": "2026-10-18",
+   "resume": "La mairie recrute pour un an des profils du BEPC à la licence professionnelle. Le dossier se dépose sur place, au secrétariat administratif, jusqu'au vendredi 30 octobre.",
+   "postes": [
+    {
+     "nom": "Technicien supérieur en archivistique",
+     "nombre": 1
+    },
+    {
+     "nom": "Technicien supérieur en statistique",
+     "nombre": 1
+    },
+    {
+     "nom": "Assistant en gestion des marchés publics",
+     "nombre": 1
+    },
+    {
+     "nom": "Comptable (BAC G2)",
+     "nombre": 1
+    },
+    {
+     "nom": "Secrétaire des services administratifs (BAC G1)",
+     "nombre": 1
+    },
+    {
+     "nom": "Aide-comptable (CAP/IAC)",
+     "nombre": 1
+    },
+    {
+     "nom": "Secrétaire adjoint (BEPC)",
+     "nombre": 1
+    }
+   ],
+   "profil": [
+    "Nationalité béninoise",
+    "18 à 35 ans au 31 décembre 2026",
+    "À l'aise avec l'outil informatique",
+    "Disponible immédiatement",
+    "CDD d'un an non renouvelable"
+   ],
+   "postuler": {
+    "mode": "depot",
+    "valeur": "Secrétariat administratif de la mairie de Lokossa",
+    "horaires": "Du lundi au vendredi, 8h30–12h et 14h30–17h",
+    "objet": "Sur l'enveloppe : « Candidature au poste de … »"
+   },
+   "pieces": [
+    "Lettre de motivation",
+    "CV daté et signé",
+    "Acte de naissance",
+    "Casier judiciaire de moins de 3 mois",
+    "Copie légalisée du diplôme",
+    "Certificat médical d'aptitude",
+    "Preuves d'expérience"
+   ],
+   "source": {
+    "nom": "Setondji Hub",
+    "url": "https://www.setondji.org/explore/opportunites/e_recrutement-mairie-lokossa-2026"
+   },
+   "ajoute": "2026-10-20T06:00:00Z"
+  },
+  {
+   "id": "ouvriers-chantier-207",
+   "titre": "207 ouvriers pour des chantiers",
+   "employeur": "Talents Plus ETT Bénin, pour un client",
+   "ville": "Cotonou",
+   "zone": "cotonou",
+   "secteur": "BTP & métiers",
+   "contrat": "Temps plein",
+   "niveau": "Certificat professionnel",
+   "experience": "Débutant accepté",
+   "debutant": true,
+   "nbPostes": 207,
+   "dateLimite": "2026-10-31",
+   "publie": "2026-10-22",
+   "resume": "Gros recrutement sur des chantiers à Cotonou : maçons, carreleurs, coffreurs, manœuvres et poseurs. Trois mois d'expérience sur chantier suffisent, à condition d'être disponible tout de suite.",
+   "postes": [
+    {
+     "nom": "Manœuvre",
+     "nombre": 65
+    },
+    {
+     "nom": "Carreleur",
+     "nombre": 42
+    },
+    {
+     "nom": "Maçon",
+     "nombre": 35
+    },
+    {
+     "nom": "Poseur de carreaux agrafés",
+     "nombre": 20
+    },
+    {
+     "nom": "Poseur de faux plafonds",
+     "nombre": 20
+    },
+    {
+     "nom": "Poseur de BA13",
+     "nombre": 15
+    },
+    {
+     "nom": "Coffreur",
+     "nombre": 10
+    }
+   ],
+   "profil": [
+    "Avoir au moins 18 ans",
+    "Un diplôme ou certificat professionnel",
+    "Au moins 3 mois continus sur un chantier",
+    "Savoir lire et écrire",
+    "Disponible immédiatement"
+   ],
+   "postuler": {
+    "mode": "email",
+    "valeur": "recrutement-ett@talentsplusafrique.com",
+    "objet": "Le poste visé (ex. : Carreleur)",
+    "depot": "Ou sur place à Gbèdjromèdé, derrière le supermarché J'adore, immeuble SAIZONNOU",
+    "tel": "01 96 35 77 22"
+   },
+   "pieces": [
+    "Attestation de formation",
+    "Copie de l'IFU",
+    "Carte CIP en cours de validité",
+    "Acte de naissance sécurisé",
+    "2 photos d'identité"
+   ],
+   "source": {
+    "nom": "Talents Plus Afrique",
+    "url": "https://www.talentsplusafrique.com/job-details/575"
+   },
+   "ajoute": "2026-10-20T06:00:00Z"
+  },
+  {
+   "id": "responsable-operations-opcvm",
+   "titre": "Responsable des opérations OPCVM",
+   "employeur": "Institution financière (via Talents Plus)",
+   "ville": "Cotonou",
+   "zone": "cotonou",
+   "secteur": "Finance & comptabilité",
+   "contrat": "Temps plein",
+   "niveau": "BAC+5",
+   "experience": "5 ans et +",
+   "debutant": false,
+   "nbPostes": 1,
+   "dateLimite": "2026-10-31",
+   "publie": "2026-10-21",
+   "resume": "Un poste d'encadrement dans la gestion de fonds : vous supervisez les opérations des OPCVM, contrôlez la valorisation et préparez les rapports pour le régulateur. Une équipe middle office vous sera confiée.",
+   "profil": [
+    "Master en finance de marché, banque ou comptabilité",
+    "Environ 5 ans, idéalement en middle office OPCVM",
+    "Certification AMF-UMOA appréciée",
+    "Très bon niveau sur Excel"
+   ],
+   "postuler": {
+    "mode": "email",
+    "valeur": "recrutement@talentsplusafrique.com",
+    "objet": "Responsable des opérations OPCVM – TPC-1026R07ROO"
+   },
+   "pieces": [
+    "Lettre au Directeur général (disponibilité et prétentions)",
+    "CV détaillé",
+    "Diplômes et attestations",
+    "Pièce d'identité",
+    "Certificat de nationalité"
+   ],
+   "source": {
+    "nom": "Talents Plus Afrique",
+    "url": "https://www.talentsplusafrique.com/job-details/574"
+   },
+   "ajoute": "2026-10-20T06:00:00Z"
+  },
+  {
+   "id": "comptable-clients-tresorerie",
+   "titre": "Comptable clients et trésorerie",
+   "employeur": "Entreprise du secteur pétrolier (via Talents Plus)",
+   "ville": "Cotonou",
+   "zone": "cotonou",
+   "secteur": "Finance & comptabilité",
+   "contrat": "Temps plein",
+   "niveau": "BAC+3",
+   "experience": "1 à 3 ans",
+   "debutant": false,
+   "nbPostes": 1,
+   "dateLimite": "2026-11-01",
+   "publie": "2026-10-23",
+   "resume": "Vous tenez la comptabilité clients (factures, relances, recouvrement) et suivez la trésorerie au quotidien. Un bon anglais est indispensable.",
+   "profil": [
+    "BAC+3 en comptabilité, finance ou audit",
+    "2 ans d'expérience dont 1 sur un poste similaire",
+    "SYSCOHADA et fiscalité béninoise",
+    "Excellent anglais, logiciel Perfecto apprécié"
+   ],
+   "postuler": {
+    "mode": "email",
+    "valeur": "recrutement@talentsplusafrique.com",
+    "objet": "Comptable clients et trésorerie – TPC-1026R08CCT"
+   },
+   "pieces": [
+    "Lettre au Directeur général (disponibilité et prétentions)",
+    "CV détaillé",
+    "Diplômes et attestations"
+   ],
+   "source": {
+    "nom": "Talents Plus Afrique",
+    "url": "https://www.talentsplusafrique.com/job-details/577"
+   },
+   "ajoute": "2026-10-20T06:00:00Z"
+  },
+  {
+   "id": "ambassade-canada-politico-eco",
+   "titre": "Agent(e) principal(e) politico-économique",
+   "employeur": "Ambassade du Canada au Bénin",
+   "ville": "Cotonou",
+   "zone": "cotonou",
+   "secteur": "Organisations internationales",
+   "contrat": "CDI",
+   "niveau": "Voir l'avis",
+   "experience": "Voir l'avis",
+   "debutant": false,
+   "nbPostes": 1,
+   "dateLimite": "2026-11-01",
+   "publie": null,
+   "resume": "La toute nouvelle ambassade du Canada à Cotonou recrute un analyste local, à temps plein et sans limite de durée. Un poste rare pour qui suit de près la politique et l'économie béninoises.",
+   "profil": [
+    "Poste à temps plein, durée indéterminée, recrutement local",
+    "Conditions détaillées dans l'avis de l'ambassade"
+   ],
+   "postuler": {
+    "mode": "lien",
+    "valeur": "https://afriqueemplois.com/bj/post/41094",
+    "libelle": "Voir l'avis et postuler"
+   },
+   "pieces": [],
+   "source": {
+    "nom": "Afrique Emplois",
+    "url": "https://afriqueemplois.com/bj/post/41094"
+   },
+   "ajoute": "2026-10-20T06:00:00Z"
+  },
+  {
+   "id": "oim-vnu-chaine-appro",
+   "titre": "2 volontaires en chaîne d'approvisionnement",
+   "employeur": "OIM Bénin (Volontaires des Nations Unies)",
+   "ville": "Cotonou et Djougou",
+   "zone": "cotonou",
+   "secteur": "Organisations internationales",
+   "contrat": "Volontariat",
+   "niveau": "Aucun diplôme précisé",
+   "experience": "Débutant accepté",
+   "debutant": true,
+   "nbPostes": 2,
+   "dateLimite": "2026-11-02",
+   "publie": null,
+   "resume": "L'Organisation internationale pour les migrations prend deux volontaires communautaires pendant six mois, un à Cotonou et un à Djougou. Aucune expérience n'est demandée : une belle première ligne sur un CV.",
+   "profil": [
+    "Béninois, résident légal ou réfugié au Bénin",
+    "Aucune expérience exigée",
+    "Mission de 6 mois à temps plein, prolongeable"
+   ],
+   "postuler": {
+    "mode": "lien",
+    "valeur": "https://app.unv.org/opportunities/1784888021273333",
+    "libelle": "Postuler sur le site des VNU"
+   },
+   "pieces": [],
+   "source": {
+    "nom": "Les Opportunités",
+    "url": "https://www.lesopportunites.com/?p=160395"
+   },
+   "ajoute": "2026-10-20T06:00:00Z"
+  },
+  {
+   "id": "pam-3-postes",
+   "titre": "Chauffeur, magasinier et assistant(e) communication",
+   "employeur": "Programme alimentaire mondial (PAM)",
+   "ville": "Kandi, Bohicon et Cotonou",
+   "zone": "benin",
+   "secteur": "Organisations internationales",
+   "contrat": "À préciser",
+   "niveau": "Voir l'avis",
+   "experience": "Voir l'avis",
+   "debutant": false,
+   "nbPostes": 3,
+   "dateLimite": "2026-11-05",
+   "publie": "2026-10-23",
+   "resume": "Le PAM ouvre trois postes dans trois villes du pays. Chaque poste a sa fiche détaillée sur le site carrières de l'agence.",
+   "postes": [
+    {
+     "nom": "Chauffeur (Kandi)",
+     "nombre": 1
+    },
+    {
+     "nom": "Magasinier (Bohicon)",
+     "nombre": 1
+    },
+    {
+     "nom": "Assistant(e) en communication (Cotonou)",
+     "nombre": 1
+    }
+   ],
+   "profil": [
+    "Exigences détaillées sur chaque fiche du PAM",
+    "Méfiez-vous des intermédiaires : la candidature est gratuite et se fait en ligne"
+   ],
+   "postuler": {
+    "mode": "lien",
+    "valeur": "https://benin-news.com/2026/10/23/pam-recrutement-benin-cotonou-bohicon-kandi-2026/",
+    "libelle": "Voir les 3 fiches et postuler"
+   },
+   "pieces": [],
+   "source": {
+    "nom": "Benin News",
+    "url": "https://benin-news.com/2026/10/23/pam-recrutement-benin-cotonou-bohicon-kandi-2026/"
+   },
+   "ajoute": "2026-10-20T06:00:00Z"
+  },
+  {
+   "id": "unfpa-assistant-representant",
+   "titre": "Assistant(e) personnel(le) du Représentant",
+   "employeur": "UNFPA, Fonds des Nations Unies pour la population",
+   "ville": "Cotonou",
+   "zone": "cotonou",
+   "secteur": "Organisations internationales",
+   "contrat": "CDD",
+   "niveau": "Voir l'avis",
+   "experience": "Voir l'avis",
+   "debutant": false,
+   "nbPostes": 1,
+   "dateLimite": "2026-11-06",
+   "publie": "2026-10-16",
+   "resume": "Le bureau de l'UNFPA cherche le bras droit administratif de son Représentant au Bénin. Contrat d'un an, renouvelable.",
+   "profil": [
+    "Poste de catégorie G6",
+    "Contrat d'un an renouvelable",
+    "Clôture le 6 novembre à 13h"
+   ],
+   "postuler": {
+    "mode": "lien",
+    "valeur": "https://emploi.bsmgroupe.com/assistante-personnelle-du-representant-g6-unfpa-cotonou/",
+    "libelle": "Voir l'avis et postuler"
+   },
+   "pieces": [],
+   "source": {
+    "nom": "Emploi BSM Groupe",
+    "url": "https://emploi.bsmgroupe.com/assistante-personnelle-du-representant-g6-unfpa-cotonou/"
+   },
+   "ajoute": "2026-10-20T06:00:00Z"
+  },
+  {
+   "id": "crrae-umoa-statisticiens",
+   "titre": "2 cadres chargés des études et de la statistique",
+   "employeur": "CRRAE-UMOA, caisse de retraite de l'UMOA",
+   "ville": "Abidjan, Côte d'Ivoire",
+   "zone": "region",
+   "secteur": "Finance & comptabilité",
+   "contrat": "Temps plein",
+   "niveau": "BAC+5",
+   "experience": "1 à 3 ans",
+   "debutant": false,
+   "nbPostes": 2,
+   "dateLimite": "2026-11-12",
+   "publie": "2026-10-22",
+   "resume": "Ouvert à tous les ressortissants de l'UEMOA, dont le Bénin. Vous construisez la base statistique de la caisse et menez des études actuarielles sur ses régimes de retraite.",
+   "profil": [
+    "Ingénieur ou Master 2 en statistique, actuariat, économétrie…",
+    "18 mois d'expérience suffisent",
+    "Python, SQL et outils de BI",
+    "Nationalité d'un pays de l'UEMOA"
+   ],
+   "postuler": {
+    "mode": "email",
+    "valeur": "recrutement-tpci@talentsplusafrique.com",
+    "objet": "Cadre chargé des études et de la statistique – 2610R01CSCES"
+   },
+   "pieces": [
+    "Lettre signée au Directeur général de la CRRAE-UMOA",
+    "CV avec les dates exactes",
+    "Copies des diplômes",
+    "Attestations de travail",
+    "Preuve de nationalité"
+   ],
+   "source": {
+    "nom": "Talents Plus Afrique",
+    "url": "https://www.talentsplusafrique.com/job-details/576"
+   },
+   "ajoute": "2026-10-20T06:00:00Z"
+  },
+  {
+   "id": "lycee-talon-espagnol",
+   "titre": "Enseignant(e) d'espagnol",
+   "employeur": "Lycée International Français Pierre Manoël Talon",
+   "ville": "Cotonou",
+   "zone": "cotonou",
+   "secteur": "Éducation",
+   "contrat": "À préciser",
+   "niveau": "Voir l'avis",
+   "experience": "Voir l'avis",
+   "debutant": false,
+   "nbPostes": 1,
+   "dateLimite": "2026-10-30",
+   "publie": null,
+   "resume": "Le lycée international cherche un professeur d'espagnol pour une prise de poste rapide, dès le 2 novembre.",
+   "profil": [
+    "Prise de poste le 2 novembre 2026"
+   ],
+   "postuler": {
+    "mode": "lien",
+    "valeur": "https://afriqueemplois.com/bj/post/41475",
+    "libelle": "Voir l'avis et postuler"
+   },
+   "pieces": [
+    "CV",
+    "Lettre de motivation",
+    "Copie du diplôme le plus élevé",
+    "Pièce d'identité"
+   ],
+   "source": {
+    "nom": "Afrique Emplois",
+    "url": "https://afriqueemplois.com/bj/post/41475"
+   },
+   "ajoute": "2026-10-20T06:00:00Z"
+  },
+  {
+   "id": "action-education-suivi-eval",
+   "titre": "Assistant(e) suivi-évaluation",
+   "employeur": "Action Education",
+   "ville": "Parakou",
+   "zone": "benin",
+   "secteur": "Humanitaire & ONG",
+   "contrat": "CDD",
+   "niveau": "Voir l'avis",
+   "experience": "Voir l'avis",
+   "debutant": false,
+   "nbPostes": 1,
+   "dateLimite": "2026-10-30",
+   "publie": null,
+   "resume": "L'ONG d'éducation renforce le suivi de ses projets dans le nord. Clôture le vendredi 30 octobre à 17h.",
+   "profil": [
+    "CDD basé à Parakou",
+    "Profil détaillé dans l'avis"
+   ],
+   "postuler": {
+    "mode": "lien",
+    "valeur": "https://afriqueemplois.com/bj/post/41045",
+    "libelle": "Voir l'avis et postuler"
+   },
+   "pieces": [],
+   "source": {
+    "nom": "Afrique Emplois",
+    "url": "https://afriqueemplois.com/bj/post/41045"
+   },
+   "ajoute": "2026-10-20T06:00:00Z"
+  },
+  {
+   "id": "commerciaux-superviseurs",
+   "titre": "Commerciaux superviseurs",
+   "employeur": "Entreprise de la place (nom non communiqué)",
+   "ville": "Cotonou, Calavi et Glo",
+   "zone": "cotonou",
+   "secteur": "Commerce & vente",
+   "contrat": "À préciser",
+   "niveau": "Voir l'avis",
+   "experience": "Voir l'avis",
+   "debutant": false,
+   "nbPostes": null,
+   "dateLimite": "2026-10-30",
+   "publie": null,
+   "resume": "Une entreprise renforce sa force de vente sur Cotonou, Abomey-Calavi et Glo. L'annonce ne donne pas le nom de l'employeur : renseignez-vous avant d'aller plus loin.",
+   "profil": [
+    "Zone : Cotonou, Abomey-Calavi, Glo et environs",
+    "Détails dans l'annonce"
+   ],
+   "postuler": {
+    "mode": "lien",
+    "valeur": "https://afriqueemplois.com/bj/post/41306",
+    "libelle": "Voir l'annonce"
+   },
+   "pieces": [],
+   "source": {
+    "nom": "Afrique Emplois",
+    "url": "https://afriqueemplois.com/bj/post/41306"
+   },
+   "ajoute": "2026-10-20T06:00:00Z"
+  },
+  {
+   "id": "ceci-conseiller-distance",
+   "titre": "Conseiller en stratégie, commercialisation et entrepreneuriat",
+   "employeur": "CECI (ONG canadienne)",
+   "ville": "À distance",
+   "zone": "distance",
+   "secteur": "Humanitaire & ONG",
+   "contrat": "Volontariat",
+   "niveau": "Voir l'avis",
+   "experience": "Voir l'avis",
+   "debutant": false,
+   "nbPostes": 1,
+   "dateLimite": null,
+   "publie": null,
+   "resume": "Une mission de volontariat à distance, non rémunérée, pour accompagner des structures béninoises dans leur stratégie et leurs ventes. À considérer si vous voulez donner de votre temps et élargir votre réseau.",
+   "profil": [
+    "Mission bénévole, depuis chez vous",
+    "Expérience en commerce ou entrepreneuriat attendue (voir l'avis)"
+   ],
+   "postuler": {
+    "mode": "lien",
+    "valeur": "https://afriqueemplois.com/bj/post/41468",
+    "libelle": "Voir l'avis et postuler"
+   },
+   "pieces": [],
+   "source": {
+    "nom": "Afrique Emplois",
+    "url": "https://afriqueemplois.com/bj/post/41468"
+   },
+   "ajoute": "2026-10-20T06:00:00Z"
+  }
+ ]
+}
