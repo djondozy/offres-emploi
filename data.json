@@ -1,5 +1,5 @@
 {
- "derniereMaj": "2026-10-26T15:30:00Z",
+ "derniereMaj": "2026-10-26T16:20:00Z",
  "offres": [
   {
    "id": "wardip2-13-postes",
@@ -1120,6 +1120,586 @@
     "url": "https://jobbenin.com/offres/eyJpdiI6IlNXZm9HQUlZeGhtZFZ1ZXI5QlIrL2c9PSIsInZhbHVlIjoiODNqTXZLeVlNdExBUXRSNmUrNGNSQT09IiwibWFjIjoiNzU0ODIzYmJkMWJiMDg2NmI5OWNiMjQyZDI4NWI0Njc1NmNjNDgyZTNiODg2OGFhNzJlYzA2ZDU0N2U4Y2ExMiIsInRhZyI6IiJ9"
    },
    "ajoute": "2026-10-26T15:30:00Z"
+  },
+  {
+   "id": "aak-assistant-admin-rh",
+   "titre": "Assistant(e) administratif(ve) et RH",
+   "employeur": "AAK Bénin (KNAR Bénin)",
+   "ville": "Cotonou",
+   "zone": "cotonou",
+   "secteur": "Industrie & énergie",
+   "contrat": "Temps plein",
+   "niveau": "Voir l'avis",
+   "experience": "Voir l'avis",
+   "debutant": false,
+   "nbPostes": 1,
+   "dateLimite": null,
+   "publie": "2026-10-23",
+   "resume": "Le spécialiste mondial des huiles végétales, présent au Bénin depuis plus de 15 ans, renforce son équipe support à Cotonou. Un poste à temps plein entre administration et ressources humaines.",
+   "profil": [
+    "Profil et conditions détaillés sur l'annonce LinkedIn"
+   ],
+   "postuler": {
+    "mode": "lien",
+    "valeur": "https://bj.linkedin.com/jobs/view/4472552171",
+    "libelle": "Voir l'annonce sur LinkedIn"
+   },
+   "pieces": [],
+   "source": {
+    "nom": "LinkedIn",
+    "url": "https://bj.linkedin.com/jobs/view/4472552171"
+   },
+   "ajoute": "2026-10-26T16:20:00Z"
+  },
+  {
+   "id": "cabinet-ahoumenou-secretaire",
+   "titre": "Secrétaire dans un cabinet d'avocats",
+   "employeur": "Cabinet d'avocats Michel E. Ahoumenou",
+   "ville": "Cotonou",
+   "zone": "cotonou",
+   "secteur": "Droit",
+   "contrat": "À préciser",
+   "niveau": "Voir l'avis",
+   "experience": "Voir l'avis",
+   "debutant": false,
+   "nbPostes": 1,
+   "dateLimite": null,
+   "publie": "2026-10-26",
+   "resume": "Un cabinet d'avocats de Cotonou cherche sa secrétaire, publié aujourd'hui même. Soyez parmi les premiers à postuler.",
+   "profil": [
+    "Profil et conditions détaillés sur l'annonce LinkedIn"
+   ],
+   "postuler": {
+    "mode": "lien",
+    "valeur": "https://bj.linkedin.com/jobs/view/4483581091",
+    "libelle": "Voir l'annonce sur LinkedIn"
+   },
+   "pieces": [],
+   "source": {
+    "nom": "LinkedIn",
+    "url": "https://bj.linkedin.com/jobs/view/4483581091"
+   },
+   "ajoute": "2026-10-26T16:20:00Z"
+  },
+  {
+   "id": "a6ko-video-editor",
+   "titre": "Monteur vidéo senior",
+   "employeur": "a6ko",
+   "ville": "Abomey-Calavi",
+   "zone": "cotonou",
+   "secteur": "Communication",
+   "contrat": "À préciser",
+   "niveau": "Voir l'avis",
+   "experience": "Voir l'avis",
+   "debutant": false,
+   "nbPostes": 1,
+   "dateLimite": null,
+   "publie": "2026-10-20",
+   "resume": "Pour les passionnés de montage qui ont déjà un bon portfolio. L'annonce est rédigée en anglais.",
+   "profil": [
+    "Profil et conditions détaillés sur l'annonce LinkedIn"
+   ],
+   "postuler": {
+    "mode": "lien",
+    "valeur": "https://bj.linkedin.com/jobs/view/4481787762",
+    "libelle": "Voir l'annonce sur LinkedIn"
+   },
+   "pieces": [],
+   "source": {
+    "nom": "LinkedIn",
+    "url": "https://bj.linkedin.com/jobs/view/4481787762"
+   },
+   "ajoute": "2026-10-26T16:20:00Z"
+  },
+  {
+   "id": "bfem-reseaux-2-postes",
+   "titre": "2 ingénieurs réseaux et télécoms",
+   "employeur": "Beijing Foreign Enterprise Management Consultants",
+   "ville": "Cotonou",
+   "zone": "cotonou",
+   "secteur": "Numérique",
+   "contrat": "À préciser",
+   "niveau": "Voir l'avis",
+   "experience": "Voir l'avis",
+   "debutant": false,
+   "nbPostes": 2,
+   "dateLimite": null,
+   "publie": "2026-10-16",
+   "resume": "Un cabinet chinois recrute deux profils techniques pour un client à Cotonou : un ingénieur cœur de réseau et un spécialiste réseaux informatiques. Annonces en anglais.",
+   "profil": [
+    "Profil et conditions détaillés sur l'annonce LinkedIn"
+   ],
+   "postuler": {
+    "mode": "lien",
+    "valeur": "https://bj.linkedin.com/jobs/view/4480509419",
+    "libelle": "Voir l'annonce sur LinkedIn"
+   },
+   "pieces": [],
+   "source": {
+    "nom": "LinkedIn",
+    "url": "https://bj.linkedin.com/jobs/view/4480509419"
+   },
+   "ajoute": "2026-10-26T16:20:00Z",
+   "postes": [
+    {
+     "nom": "Core Network Engineer",
+     "nombre": 1
+    },
+    {
+     "nom": "Information Technology Network Specialist",
+     "nombre": 1
+    }
+   ]
+  },
+  {
+   "id": "metogninou-partenariats",
+   "titre": "Spécialiste en partenariats",
+   "employeur": "ONG Metogninou",
+   "ville": "Cotonou",
+   "zone": "cotonou",
+   "secteur": "Humanitaire & ONG",
+   "contrat": "À préciser",
+   "niveau": "Voir l'avis",
+   "experience": "Voir l'avis",
+   "debutant": false,
+   "nbPostes": 1,
+   "dateLimite": null,
+   "publie": "2026-10-25",
+   "resume": "Une ONG béninoise cherche quelqu'un pour nouer et suivre ses partenariats. Publié hier, peu de candidats pour l'instant.",
+   "profil": [
+    "Profil et conditions détaillés sur l'annonce LinkedIn"
+   ],
+   "postuler": {
+    "mode": "lien",
+    "valeur": "https://bj.linkedin.com/jobs/view/4140852385",
+    "libelle": "Voir l'annonce sur LinkedIn"
+   },
+   "pieces": [],
+   "source": {
+    "nom": "LinkedIn",
+    "url": "https://bj.linkedin.com/jobs/view/4140852385"
+   },
+   "ajoute": "2026-10-26T16:20:00Z"
+  },
+  {
+   "id": "concentrix-conseiller-client",
+   "titre": "Conseiller(ère) client francophone",
+   "employeur": "Concentrix",
+   "ville": "Cotonou",
+   "zone": "cotonou",
+   "secteur": "Commerce & vente",
+   "contrat": "Temps plein",
+   "niveau": "Voir l'avis",
+   "experience": "Voir l'avis",
+   "debutant": false,
+   "nbPostes": null,
+   "dateLimite": null,
+   "publie": "2026-10-24",
+   "resume": "Le géant des centres de relation client recrute à Cotonou pour la télévente et le service client en français. Ce type de poste est souvent ouvert aux profils qui débutent : vérifiez les conditions sur l'annonce.",
+   "profil": [
+    "Profil et conditions détaillés sur l'annonce LinkedIn"
+   ],
+   "postuler": {
+    "mode": "lien",
+    "valeur": "https://bj.linkedin.com/jobs/view/4408885212",
+    "libelle": "Voir l'annonce sur LinkedIn"
+   },
+   "pieces": [],
+   "source": {
+    "nom": "LinkedIn",
+    "url": "https://bj.linkedin.com/jobs/view/4408885212"
+   },
+   "ajoute": "2026-10-26T16:20:00Z"
+  },
+  {
+   "id": "shalom-responsable-etudes",
+   "titre": "Responsable des études",
+   "employeur": "Shalom Empire Groupe",
+   "ville": "Cotonou",
+   "zone": "cotonou",
+   "secteur": "Éducation",
+   "contrat": "À préciser",
+   "niveau": "Voir l'avis",
+   "experience": "Voir l'avis",
+   "debutant": false,
+   "nbPostes": 1,
+   "dateLimite": null,
+   "publie": "2026-10-22",
+   "resume": "Un groupe scolaire cherche la personne qui pilotera l'organisation pédagogique et le suivi des élèves.",
+   "profil": [
+    "Profil et conditions détaillés sur l'annonce LinkedIn"
+   ],
+   "postuler": {
+    "mode": "lien",
+    "valeur": "https://bj.linkedin.com/jobs/view/4480054239",
+    "libelle": "Voir l'annonce sur LinkedIn"
+   },
+   "pieces": [],
+   "source": {
+    "nom": "LinkedIn",
+    "url": "https://bj.linkedin.com/jobs/view/4480054239"
+   },
+   "ajoute": "2026-10-26T16:20:00Z"
+  },
+  {
+   "id": "oaci-assistant-representant",
+   "titre": "Assistant(e) personnel(le) du Représentant (G6)",
+   "employeur": "OACI, Organisation de l'aviation civile internationale",
+   "ville": "Cotonou",
+   "zone": "cotonou",
+   "secteur": "Organisations internationales",
+   "contrat": "À préciser",
+   "niveau": "Voir l'avis",
+   "experience": "Voir l'avis",
+   "debutant": false,
+   "nbPostes": 1,
+   "dateLimite": null,
+   "publie": "2026-10-18",
+   "resume": "Le bureau de l'agence des Nations Unies pour l'aviation civile recrute l'assistant(e) de son Représentant à Cotonou. Un poste de catégorie G6, avec les conditions d'une organisation internationale.",
+   "profil": [
+    "Profil et conditions détaillés sur l'annonce LinkedIn"
+   ],
+   "postuler": {
+    "mode": "lien",
+    "valeur": "https://bj.linkedin.com/jobs/view/4480508728",
+    "libelle": "Voir l'annonce sur LinkedIn"
+   },
+   "pieces": [],
+   "source": {
+    "nom": "LinkedIn",
+    "url": "https://bj.linkedin.com/jobs/view/4480508728"
+   },
+   "ajoute": "2026-10-26T16:20:00Z"
+  },
+  {
+   "id": "sctt-monteur-cableur",
+   "titre": "Monteur câbleur HTA-BT",
+   "employeur": "SCTT Sarl",
+   "ville": "Cotonou",
+   "zone": "cotonou",
+   "secteur": "BTP & métiers",
+   "contrat": "À préciser",
+   "niveau": "Voir l'avis",
+   "experience": "Voir l'avis",
+   "debutant": false,
+   "nbPostes": 1,
+   "dateLimite": null,
+   "publie": "2026-10-24",
+   "resume": "Pour les électriciens à l'aise sur les réseaux moyenne et basse tension. Un métier technique très demandé en ce moment.",
+   "profil": [
+    "Profil et conditions détaillés sur l'annonce LinkedIn"
+   ],
+   "postuler": {
+    "mode": "lien",
+    "valeur": "https://bj.linkedin.com/jobs/view/4483314843",
+    "libelle": "Voir l'annonce sur LinkedIn"
+   },
+   "pieces": [],
+   "source": {
+    "nom": "LinkedIn",
+    "url": "https://bj.linkedin.com/jobs/view/4483314843"
+   },
+   "ajoute": "2026-10-26T16:20:00Z"
+  },
+  {
+   "id": "yemalin-hepato-gastro",
+   "titre": "Médecin hépato-gastro-entérologue",
+   "employeur": "Cabinet médical Yemalin",
+   "ville": "Akpro-Missérété",
+   "zone": "benin",
+   "secteur": "Santé",
+   "contrat": "À préciser",
+   "niveau": "Voir l'avis",
+   "experience": "Voir l'avis",
+   "debutant": false,
+   "nbPostes": 1,
+   "dateLimite": null,
+   "publie": "2026-10-14",
+   "resume": "Un cabinet médical de l'Ouémé cherche un spécialiste en hépato-gastro-entérologie. Rare et précieux : si c'est votre spécialité, ne tardez pas.",
+   "profil": [
+    "Profil et conditions détaillés sur l'annonce LinkedIn"
+   ],
+   "postuler": {
+    "mode": "lien",
+    "valeur": "https://bj.linkedin.com/jobs/view/4479291165",
+    "libelle": "Voir l'annonce sur LinkedIn"
+   },
+   "pieces": [],
+   "source": {
+    "nom": "LinkedIn",
+    "url": "https://bj.linkedin.com/jobs/view/4479291165"
+   },
+   "ajoute": "2026-10-26T16:20:00Z"
+  },
+  {
+   "id": "flight-doctor-cotonou",
+   "titre": "Médecin de vol (flight doctor)",
+   "employeur": "Employeur confidentiel",
+   "ville": "Cotonou",
+   "zone": "cotonou",
+   "secteur": "Santé",
+   "contrat": "À préciser",
+   "niveau": "Voir l'avis",
+   "experience": "Voir l'avis",
+   "debutant": false,
+   "nbPostes": 1,
+   "dateLimite": null,
+   "publie": "2026-10-14",
+   "resume": "Un poste de médecin pour accompagner des évacuations ou transports sanitaires aériens. L'employeur reste anonyme : lisez bien l'annonce avant de postuler.",
+   "profil": [
+    "Profil et conditions détaillés sur l'annonce LinkedIn"
+   ],
+   "postuler": {
+    "mode": "lien",
+    "valeur": "https://bj.linkedin.com/jobs/view/4479508237",
+    "libelle": "Voir l'annonce sur LinkedIn"
+   },
+   "pieces": [],
+   "source": {
+    "nom": "LinkedIn",
+    "url": "https://bj.linkedin.com/jobs/view/4479508237"
+   },
+   "ajoute": "2026-10-26T16:20:00Z"
+  },
+  {
+   "id": "mli-coach-langue",
+   "titre": "Coach de langue anglais et français",
+   "employeur": "Moudachirou Language Institute (MLI-Bénin)",
+   "ville": "Cotonou",
+   "zone": "cotonou",
+   "secteur": "Éducation",
+   "contrat": "À préciser",
+   "niveau": "Voir l'avis",
+   "experience": "Voir l'avis",
+   "debutant": false,
+   "nbPostes": 1,
+   "dateLimite": null,
+   "publie": "2026-10-24",
+   "resume": "Un institut de langues cherche des coachs pour faire progresser ses apprenants en anglais et en français. Une bonne piste pour les enseignants et les bilingues.",
+   "profil": [
+    "Profil et conditions détaillés sur l'annonce LinkedIn"
+   ],
+   "postuler": {
+    "mode": "lien",
+    "valeur": "https://bj.linkedin.com/jobs/view/4483113023",
+    "libelle": "Voir l'annonce sur LinkedIn"
+   },
+   "pieces": [],
+   "source": {
+    "nom": "LinkedIn",
+    "url": "https://bj.linkedin.com/jobs/view/4483113023"
+   },
+   "ajoute": "2026-10-26T16:20:00Z"
+  },
+  {
+   "id": "vinci-ingenieur-vrd",
+   "titre": "Ingénieur travaux VRD",
+   "employeur": "VINCI Construction",
+   "ville": "Cotonou",
+   "zone": "cotonou",
+   "secteur": "BTP & métiers",
+   "contrat": "À préciser",
+   "niveau": "Voir l'avis",
+   "experience": "Voir l'avis",
+   "debutant": false,
+   "nbPostes": 1,
+   "dateLimite": null,
+   "publie": "2026-10-23",
+   "resume": "Le groupe VINCI recrute un ingénieur pour ses chantiers de voirie et réseaux divers au Bénin. Pour les ingénieurs génie civil avec de l'expérience terrain.",
+   "profil": [
+    "Profil et conditions détaillés sur l'annonce LinkedIn"
+   ],
+   "postuler": {
+    "mode": "lien",
+    "valeur": "https://bj.linkedin.com/jobs/view/4483140794",
+    "libelle": "Voir l'annonce sur LinkedIn"
+   },
+   "pieces": [],
+   "source": {
+    "nom": "LinkedIn",
+    "url": "https://bj.linkedin.com/jobs/view/4483140794"
+   },
+   "ajoute": "2026-10-26T16:20:00Z"
+  },
+  {
+   "id": "twyford-assistant-comptable",
+   "titre": "Assistant(e) comptable",
+   "employeur": "Twyford International",
+   "ville": "Sèmè-Kpodji",
+   "zone": "cotonou",
+   "secteur": "Finance & comptabilité",
+   "contrat": "À préciser",
+   "niveau": "Voir l'avis",
+   "experience": "Voir l'avis",
+   "debutant": false,
+   "nbPostes": 1,
+   "dateLimite": null,
+   "publie": "2026-10-20",
+   "resume": "L'usine de carreaux de céramique de Sèmè-Kpodji renforce sa comptabilité. Une bonne porte d'entrée dans l'industrie.",
+   "profil": [
+    "Profil et conditions détaillés sur l'annonce LinkedIn"
+   ],
+   "postuler": {
+    "mode": "lien",
+    "valeur": "https://bj.linkedin.com/jobs/view/4481552745",
+    "libelle": "Voir l'annonce sur LinkedIn"
+   },
+   "pieces": [],
+   "source": {
+    "nom": "LinkedIn",
+    "url": "https://bj.linkedin.com/jobs/view/4481552745"
+   },
+   "ajoute": "2026-10-26T16:20:00Z"
+  },
+  {
+   "id": "sunu-commerciaux-assurance",
+   "titre": "Commerciaux en assurance vie",
+   "employeur": "SUNU Assurances Bénin",
+   "ville": "Cotonou",
+   "zone": "cotonou",
+   "secteur": "Commerce & vente",
+   "contrat": "À préciser",
+   "niveau": "Voir l'avis",
+   "experience": "Voir l'avis",
+   "debutant": false,
+   "nbPostes": null,
+   "dateLimite": null,
+   "publie": "2026-10-23",
+   "resume": "SUNU Assurances agrandit sa force de vente à Cotonou. Si vous aimez convaincre et rencontrer du monde, c'est un métier où l'on progresse vite.",
+   "profil": [
+    "Profil et conditions détaillés sur l'annonce LinkedIn"
+   ],
+   "postuler": {
+    "mode": "lien",
+    "valeur": "https://bj.linkedin.com/jobs/view/4482719659",
+    "libelle": "Voir l'annonce sur LinkedIn"
+   },
+   "pieces": [],
+   "source": {
+    "nom": "LinkedIn",
+    "url": "https://bj.linkedin.com/jobs/view/4482719659"
+   },
+   "ajoute": "2026-10-26T16:20:00Z"
+  },
+  {
+   "id": "cma-cgm-port-agency",
+   "titre": "Responsable des opérations portuaires",
+   "employeur": "CMA CGM Bénin",
+   "ville": "Cotonou",
+   "zone": "cotonou",
+   "secteur": "Transport & logistique",
+   "contrat": "À préciser",
+   "niveau": "Voir l'avis",
+   "experience": "Voir l'avis",
+   "debutant": false,
+   "nbPostes": 1,
+   "dateLimite": null,
+   "publie": "2026-10-16",
+   "resume": "L'armateur cherche la personne qui pilotera ses opérations d'agence au port de Cotonou. Pour un profil confirmé du transport maritime.",
+   "profil": [
+    "Profil et conditions détaillés sur l'annonce LinkedIn"
+   ],
+   "postuler": {
+    "mode": "lien",
+    "valeur": "https://bj.linkedin.com/jobs/view/4479383467",
+    "libelle": "Voir l'annonce sur LinkedIn"
+   },
+   "pieces": [],
+   "source": {
+    "nom": "LinkedIn",
+    "url": "https://bj.linkedin.com/jobs/view/4479383467"
+   },
+   "ajoute": "2026-10-26T16:20:00Z"
+  },
+  {
+   "id": "afg-inspecteur-qualite",
+   "titre": "Inspecteur assurance et contrôle qualité",
+   "employeur": "AFG Assurance Vie Bénin",
+   "ville": "Cotonou",
+   "zone": "cotonou",
+   "secteur": "Finance & comptabilité",
+   "contrat": "À préciser",
+   "niveau": "Voir l'avis",
+   "experience": "Voir l'avis",
+   "debutant": false,
+   "nbPostes": 1,
+   "dateLimite": null,
+   "publie": "2026-10-25",
+   "resume": "Un assureur vie de la place cherche un inspecteur pour contrôler la qualité de son réseau. Publié hier.",
+   "profil": [
+    "Profil et conditions détaillés sur l'annonce LinkedIn"
+   ],
+   "postuler": {
+    "mode": "lien",
+    "valeur": "https://bj.linkedin.com/jobs/view/4483333831",
+    "libelle": "Voir l'annonce sur LinkedIn"
+   },
+   "pieces": [],
+   "source": {
+    "nom": "LinkedIn",
+    "url": "https://bj.linkedin.com/jobs/view/4483333831"
+   },
+   "ajoute": "2026-10-26T16:20:00Z"
+  },
+  {
+   "id": "pum-country-manager",
+   "titre": "Country Manager Bénin",
+   "employeur": "PUM (experts néerlandais bénévoles)",
+   "ville": "Cotonou",
+   "zone": "cotonou",
+   "secteur": "Organisations internationales",
+   "contrat": "À préciser",
+   "niveau": "Voir l'avis",
+   "experience": "Voir l'avis",
+   "debutant": false,
+   "nbPostes": 1,
+   "dateLimite": null,
+   "publie": "2026-10-13",
+   "resume": "L'organisation néerlandaise qui envoie des experts aider les PME cherche son représentant au Bénin. Un rôle de terrain, au contact des entreprises locales.",
+   "profil": [
+    "Profil et conditions détaillés sur l'annonce LinkedIn"
+   ],
+   "postuler": {
+    "mode": "lien",
+    "valeur": "https://bj.linkedin.com/jobs/view/4479033808",
+    "libelle": "Voir l'annonce sur LinkedIn"
+   },
+   "pieces": [],
+   "source": {
+    "nom": "LinkedIn",
+    "url": "https://bj.linkedin.com/jobs/view/4479033808"
+   },
+   "ajoute": "2026-10-26T16:20:00Z"
+  },
+  {
+   "id": "itab-commercial",
+   "titre": "Commercial(e) B2B et B2C",
+   "employeur": "ITAB Academy",
+   "ville": "Cotonou",
+   "zone": "cotonou",
+   "secteur": "Commerce & vente",
+   "contrat": "À préciser",
+   "niveau": "Voir l'avis",
+   "experience": "Voir l'avis",
+   "debutant": false,
+   "nbPostes": 1,
+   "dateLimite": null,
+   "publie": "2026-10-23",
+   "resume": "Une école de formation cherche un commercial pour vendre ses programmes aux entreprises et aux particuliers. Démarrage immédiat.",
+   "profil": [
+    "Profil et conditions détaillés sur l'annonce LinkedIn"
+   ],
+   "postuler": {
+    "mode": "lien",
+    "valeur": "https://bj.linkedin.com/jobs/view/4482885732",
+    "libelle": "Voir l'annonce sur LinkedIn"
+   },
+   "pieces": [],
+   "source": {
+    "nom": "LinkedIn",
+    "url": "https://bj.linkedin.com/jobs/view/4482885732"
+   },
+   "ajoute": "2026-10-26T16:20:00Z"
   }
  ]
 }
