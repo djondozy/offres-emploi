@@ -3,69 +3,94 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Djob · Offres d'emploi au Bénin</title>
-<meta name="description" content="Les offres d'emploi du Bénin rassemblées chaque matin : postes, dates limites, comment postuler. Gratuit, sans inscription.">
-<meta name="theme-color" content="#2B3A8C">
-<meta property="og:title" content="Djob · Offres d'emploi au Bénin">
-<meta property="og:description" content="Toutes les offres ouvertes, rassemblées chaque matin. Postulez directement chez l'employeur.">
-<meta property="og:image" content="icon-512.png">
+<title>Djob · Les offres d'emploi du Bénin</title>
+<meta name="description" content="Toutes les offres d'emploi du Bénin rassemblées chaque matin : Cotonou, Calavi, Porto-Novo, Parakou et la sous-région. Postes, dates limites, comment postuler. Gratuit, sans inscription.">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light only">
+<link rel="canonical" href="https://djondozy.github.io/offres-emploi/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Djob">
+<meta property="og:title" content="Djob · Les offres d'emploi du Bénin">
+<meta property="og:description" content="Toutes les offres ouvertes, rassemblées chaque matin. Postulez directement chez l'employeur, gratuitement.">
+<meta property="og:image" content="https://djondozy.github.io/offres-emploi/og.png">
+<meta property="og:url" content="https://djondozy.github.io/offres-emploi/">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="icon-192.png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gabarito:wght@500;600;700;800&family=Hanken+Grotesk:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gabarito:wght@500;600;700;800&family=Hanken+Grotesk:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap">
 <style>
-/* Layout: one calm column — greeting + search, quick filters, "ça ferme bientôt" strip, list of offers; details open in a sheet. */
+/* Layout: sticky top bar (bottom tab bar on phones) · four views: Offres, Mes candidatures, Conseils, À propos. Offers open in a sheet. Light theme only. */
 :root{
-  --bg:#F4F6FA; --surface:#FFFFFF; --sunk:#EBEEF5; --ink:#141C36; --muted:#5A6482; --line:#DCE1EC;
-  --indigo:#2B3A8C; --indigo-soft:#E4E8F8; --sun:#F2B417; --sun-soft:#FFF3D1; --sun-ink:#7A5600;
-  --leaf:#1B7347; --leaf-soft:#DDF2E6; --hot:#B93A0E; --hot-soft:#FDE6DC;
+  --bg:#F5F6FA; --surface:#FFFFFF; --sunk:#EEF0F6; --ink:#141B33; --muted:#5B6480; --line:#E1E4EE;
+  --indigo:#2B3A8C; --indigo-2:#3B4DB8; --indigo-soft:#E8EBFA;
+  --sun:#F2B417; --sun-soft:#FFF4D6; --sun-ink:#7A5600;
+  --leaf:#17784A; --leaf-soft:#E0F3E8; --hot:#BB3B10; --hot-soft:#FDEAE1;
   --display:"Gabarito","Trebuchet MS",system-ui,sans-serif;
   --body:"Hanken Grotesk","Segoe UI",system-ui,sans-serif;
-  --r:14px; color-scheme:light;
+  --r:16px; --shadow:0 1px 2px rgba(20,27,51,.05),0 4px 14px rgba(20,27,51,.04);
+  color-scheme:light;
 }
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
-  --bg:#0D1222; --surface:#151C33; --sunk:#1B2340; --ink:#E9EDF7; --muted:#9BA5C2; --line:#28314F;
-  --indigo:#93A3FF; --indigo-soft:#222C55; --sun:#F6C445; --sun-soft:#3A2F12; --sun-ink:#F6C445;
-  --leaf:#62C892; --leaf-soft:#173726; --hot:#FF9467; --hot-soft:#3D2017; color-scheme:dark}}
-:root[data-theme="dark"]{
-  --bg:#0D1222; --surface:#151C33; --sunk:#1B2340; --ink:#E9EDF7; --muted:#9BA5C2; --line:#28314F;
-  --indigo:#93A3FF; --indigo-soft:#222C55; --sun:#F6C445; --sun-soft:#3A2F12; --sun-ink:#F6C445;
-  --leaf:#62C892; --leaf-soft:#173726; --hot:#FF9467; --hot-soft:#3D2017; color-scheme:dark}
-
 *{box-sizing:border-box}
-html{-webkit-text-size-adjust:100%}
-body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 var(--body);padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
-button,input,select{font:inherit;color:inherit}
+[hidden]{display:none!important}
+html{-webkit-text-size-adjust:100%;scroll-padding-top:80px}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 var(--body);padding-bottom:env(safe-area-inset-bottom,0px)}
+button,input,select,textarea{font:inherit;color:inherit}
 a{color:var(--indigo)}
-.wrap{max-width:760px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+img{max-width:100%}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
 :focus-visible{outline:2.5px solid var(--indigo);outline-offset:2px;border-radius:8px}
+.wrap{max-width:780px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
 
-/* Bar */
-.bar{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-block:18px 6px}
-.logo{display:flex;align-items:baseline;gap:2px;font:800 26px/1 var(--display);letter-spacing:-.02em;color:var(--ink);text-decoration:none}
-.logo i{width:9px;height:9px;border-radius:50%;background:var(--sun);display:inline-block;margin-left:1px}
-.saved-btn{display:inline-flex;align-items:center;gap:7px;border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:7px 13px;font-weight:600;font-size:14px;cursor:pointer}
-.saved-btn[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
-.saved-btn b{font-variant-numeric:tabular-nums;background:var(--sun);color:#141C36;border-radius:999px;padding:0 7px;font-size:12px;line-height:20px}
+/* Top bar */
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:31;background:var(--surface)}
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:30;background:rgba(255,255,255,.94);backdrop-filter:saturate(1.4) blur(10px);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;height:62px}
+.logo{display:flex;align-items:baseline;font:800 27px/1 var(--display);letter-spacing:-.025em;color:var(--ink);text-decoration:none}
+.logo i{width:9px;height:9px;border-radius:50%;background:var(--sun);display:inline-block;margin-left:2px}
+.nav{display:flex;gap:4px}
+.nav button{border:0;background:transparent;padding:8px 12px;border-radius:10px;font-weight:600;font-size:15px;color:var(--muted);cursor:pointer;display:inline-flex;gap:6px;align-items:center}
+.nav button[aria-current="page"]{color:var(--indigo);background:var(--indigo-soft)}
+.nav .n{background:var(--sun);color:#141B33;border-radius:999px;font-size:11.5px;padding:0 6px;line-height:18px;font-weight:700}
+.share-site{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:7px 13px;font-weight:600;font-size:14px;cursor:pointer;display:inline-flex;gap:6px;align-items:center}
+
+/* Bottom tab bar (phones) */
+.tabbar{display:none}
+@media (max-width:719px){
+  .nav,.share-site{display:none}
+  .tabbar{display:grid;grid-template-columns:repeat(4,1fr);position:fixed;left:0;right:0;bottom:0;z-index:30;background:rgba(255,255,255,.97);border-top:1px solid var(--line);padding:6px max(8px,env(safe-area-inset-left,0px)) calc(6px + env(safe-area-inset-bottom,0px)) max(8px,env(safe-area-inset-right,0px));backdrop-filter:blur(10px)}
+  .tabbar button{border:0;background:none;display:flex;flex-direction:column;align-items:center;gap:2px;font-size:11.5px;font-weight:600;color:var(--muted);padding:5px 0;cursor:pointer;position:relative}
+  .tabbar button[aria-current="page"]{color:var(--indigo)}
+  .tabbar button[aria-current="page"] svg{stroke-width:2.4}
+  .tabbar .n{position:absolute;top:0;left:calc(50% + 6px);background:var(--sun);color:#141B33;border-radius:999px;font-size:10.5px;padding:0 5px;line-height:16px;font-weight:700}
+  main{padding-bottom:84px}
+}
 
 /* Hero */
-.hero{padding-block:22px 18px;display:flex;flex-direction:column;gap:14px}
-.hello{margin:0;color:var(--muted);font-weight:500}
-h1{font:800 clamp(30px,7.2vw,46px)/1.04 var(--display);letter-spacing:-.025em;margin:0;text-wrap:balance}
-h1 em{font-style:normal;color:var(--indigo);position:relative;white-space:nowrap}
-h1 em::after{content:"";position:absolute;left:-2px;right:-2px;bottom:.06em;height:.22em;background:var(--sun);opacity:.55;z-index:-1;border-radius:3px}
-.lede{margin:0;color:var(--muted);max-width:58ch;font-size:16.5px}
+.hero{padding-block:26px 8px;display:flex;flex-direction:column;gap:12px}
+.hello{margin:0;color:var(--muted);font-weight:500;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.since{display:inline-flex;align-items:center;gap:6px;background:var(--leaf-soft);color:var(--leaf);border-radius:999px;padding:3px 10px;font-size:13.5px;font-weight:700;border:0;cursor:pointer}
+.since i{width:7px;height:7px;border-radius:50%;background:var(--leaf)}
+h1{font:800 clamp(30px,7.4vw,48px)/1.04 var(--display);letter-spacing:-.028em;margin:0;text-wrap:balance}
+h1 em{font-style:normal;color:var(--indigo);background:linear-gradient(transparent 68%,rgba(242,180,23,.45) 68%,rgba(242,180,23,.45) 92%,transparent 92%)}
+.lede{margin:0;color:var(--muted);max-width:60ch;font-size:16.5px}
 .search{position:relative;margin-top:6px}
-.search svg{position:absolute;left:16px;top:50%;transform:translateY(-50%);color:var(--muted)}
-.search input{width:100%;padding:16px 46px 16px 48px;border-radius:16px;border:1.5px solid var(--line);background:var(--surface);font-size:17px;box-shadow:0 1px 0 var(--line)}
+.search svg{position:absolute;left:17px;top:50%;transform:translateY(-50%);color:var(--muted);pointer-events:none}
+.search input{width:100%;padding:17px 48px 17px 50px;border-radius:18px;border:1.5px solid var(--line);background:var(--surface);font-size:17px;box-shadow:var(--shadow)}
 .search input:focus{outline:none;border-color:var(--indigo);box-shadow:0 0 0 4px var(--indigo-soft)}
-.search .clear{position:absolute;right:8px;top:50%;transform:translateY(-50%);border:0;background:var(--sunk);border-radius:999px;width:32px;height:32px;cursor:pointer;color:var(--muted)}
+.search .clear{position:absolute;right:9px;top:50%;transform:translateY(-50%);border:0;background:var(--sunk);border-radius:999px;width:34px;height:34px;cursor:pointer;color:var(--muted);display:grid;place-items:center}
+.suggest{display:flex;flex-wrap:wrap;gap:6px 10px;font-size:14px;color:var(--muted)}
+.suggest button{border:0;background:none;padding:0;color:var(--indigo);font-weight:600;cursor:pointer;text-decoration:underline;text-decoration-color:rgba(43,58,140,.3);text-underline-offset:3px}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin-top:6px}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:10px 12px;min-width:0}
+.stat b{display:block;font:800 22px/1.1 var(--display);font-variant-numeric:tabular-nums}
+.stat span{font-size:12.5px;color:var(--muted);line-height:1.25;display:block}
+@media (max-width:480px){.stats{grid-template-columns:repeat(2,minmax(0,1fr))}}
 
 /* Filters */
-.filters{display:flex;flex-direction:column;gap:10px;padding-bottom:6px}
+.filters{display:flex;flex-direction:column;gap:10px;padding-block:16px 4px}
 .chips{display:flex;gap:8px;overflow-x:auto;padding:2px 2px 6px;scrollbar-width:none;margin:0 -2px}
 .chips::-webkit-scrollbar{display:none}
 .chip{flex:none;border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:8px 14px;font-size:14.5px;font-weight:600;cursor:pointer;white-space:nowrap;display:inline-flex;gap:6px;align-items:center}
@@ -74,86 +99,153 @@ h1 em::after{content:"";position:absolute;left:-2px;right:-2px;bottom:.06em;heig
 .chip[aria-pressed="true"] small{color:inherit;opacity:.8}
 .chip.leaf[aria-pressed="false"]{color:var(--leaf)}
 .chip.hot[aria-pressed="false"]{color:var(--hot)}
-.chips.sect .chip{font-weight:500;font-size:14px;padding:6px 12px;background:transparent}
-.chips.sect .chip[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:var(--bg)}
+.chip.more{background:var(--ink);color:#fff;border-color:var(--ink)}
+.chip.more b{background:var(--sun);color:#141B33;border-radius:999px;padding:0 6px;font-size:12px}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:16px;display:flex;flex-direction:column;gap:14px;box-shadow:var(--shadow)}
+.panel h3{margin:0 0 8px;font:700 13px var(--body);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.panel .chips{flex-wrap:wrap;overflow:visible}
+.panel .chip{font-size:14px;padding:6px 12px;font-weight:500}
+.panel .row{display:flex;gap:10px;flex-wrap:wrap;justify-content:space-between;align-items:center}
+select{border:1px solid var(--line);background:var(--surface);border-radius:10px;padding:9px 12px;font-size:15px}
+.listhead{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin:18px 0 10px}
+.count{margin:0;font-size:14.5px;color:var(--muted)}
+.count b{color:var(--ink)}
+.alertbtn{border:1px dashed var(--indigo);background:var(--indigo-soft);color:var(--indigo);border-radius:999px;padding:6px 12px;font-weight:700;font-size:13.5px;cursor:pointer;display:inline-flex;gap:6px;align-items:center}
 
-/* Closing soon */
-.soon{padding-block:14px 4px}
-.sec-h{font:700 13px/1 var(--body);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:0 0 10px;display:flex;justify-content:space-between;align-items:center}
-.soon-row{display:flex;gap:10px;overflow-x:auto;padding-bottom:6px;scrollbar-width:thin;scroll-snap-type:x proximity}
-.mini{flex:0 0 min(78%,250px);scroll-snap-align:start;background:var(--hot-soft);border-radius:var(--r);padding:12px 14px;border:0;text-align:left;cursor:pointer;display:flex;flex-direction:column;gap:4px}
+/* Soon strip */
+.sec-h{font:700 13px/1 var(--body);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:18px 0 10px;display:flex;justify-content:space-between;align-items:center}
+.soon-row{display:flex;align-items:flex-start;gap:10px;overflow-x:auto;padding-bottom:6px;scroll-snap-type:x proximity;scrollbar-width:thin}
+.mini{flex:0 0 min(78%,250px);scroll-snap-align:start;background:var(--hot-soft);border-radius:14px;padding:12px 14px;border:0;text-align:left;cursor:pointer;display:flex;flex-direction:column;gap:4px}
 .mini .d{font:700 13px var(--body);color:var(--hot)}
 .mini .t{font:600 16px/1.25 var(--display);color:var(--ink)}
 .mini .e{font-size:13.5px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 
-/* List */
-.count{margin:18px 0 10px;font-size:14.5px;color:var(--muted)}
-.count b{color:var(--ink)}
-.list{display:flex;flex-direction:column;gap:10px;padding-bottom:30px}
-.card{position:relative;display:grid;grid-template-columns:58px 1fr auto;gap:14px;align-items:start;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:16px 14px 16px 16px;cursor:pointer;transition:border-color .15s,transform .15s}
-.card:hover{border-color:var(--indigo)}
-.card:active{transform:scale(.995)}
-.when{text-align:center;border-radius:11px;background:var(--sunk);padding:8px 2px 7px;line-height:1.05}
-.when b{display:block;font:800 22px var(--display);font-variant-numeric:tabular-nums}
-.when span{font-size:11.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em;font-weight:600}
-.when.hot{background:var(--hot-soft)} .when.hot b,.when.hot span{color:var(--hot)}
-.when.none b{font-size:15px;padding-block:4px}
-.c-main{min-width:0;display:flex;flex-direction:column;gap:4px}
+/* Cards */
+.list{display:flex;flex-direction:column;gap:10px;padding-bottom:20px}
+.card{position:relative;display:grid;grid-template-columns:48px 1fr auto;gap:14px;align-items:start;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:16px 14px 16px 16px;cursor:pointer;transition:border-color .15s,box-shadow .15s;box-shadow:var(--shadow)}
+.card:hover{border-color:#B9C0E4;box-shadow:0 2px 4px rgba(20,27,51,.06),0 10px 24px rgba(20,27,51,.07)}
+.avatar{width:48px;height:48px;border-radius:13px;display:grid;place-items:center;font:700 16px var(--display);letter-spacing:.02em}
+.c-main{min-width:0;display:flex;flex-direction:column;gap:3px}
 .emp{font-size:13.5px;color:var(--muted);font-weight:500;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .card h2{font:600 19px/1.22 var(--display);margin:0;letter-spacing:-.01em;text-wrap:balance}
-.meta{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:14px;color:var(--muted);margin-top:2px}
+.meta{display:flex;flex-wrap:wrap;gap:3px 12px;font-size:14px;color:var(--muted);margin-top:3px}
 .meta span{display:inline-flex;align-items:center;gap:5px}
-.tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
-.tag{font-size:12.5px;font-weight:600;border-radius:6px;padding:3px 8px;background:var(--sunk);color:var(--muted)}
+.meta .dl{font-weight:600;color:var(--ink)}
+.meta .dl.hot{color:var(--hot)}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:7px}
+.tag{font-size:12.5px;font-weight:600;border-radius:7px;padding:3px 8px;background:var(--sunk);color:var(--muted)}
 .tag.leaf{background:var(--leaf-soft);color:var(--leaf)}
-.tag.sun{background:var(--sun-soft);color:var(--sun-ink)}
-.tag.new{background:var(--indigo-soft);color:var(--indigo)}
-.keep{border:0;background:transparent;cursor:pointer;color:var(--muted);width:38px;height:38px;border-radius:10px;display:grid;place-items:center;margin:-6px -4px 0 0}
+.tag.new{background:var(--sun-soft);color:var(--sun-ink)}
+.tag.done{background:var(--indigo-soft);color:var(--indigo)}
+.tag.hot{background:var(--hot-soft);color:var(--hot)}
+.keep{border:0;background:transparent;cursor:pointer;color:var(--muted);width:40px;height:40px;border-radius:11px;display:grid;place-items:center;margin:-8px -6px 0 0}
 .keep:hover{background:var(--sunk)}
 .keep[aria-pressed="true"]{color:var(--sun-ink)}
 .keep[aria-pressed="true"] svg{fill:var(--sun)}
+.more-btn{align-self:center;margin:6px 0 10px}
+@media (max-width:420px){.card{grid-template-columns:40px 1fr auto;gap:11px;padding:14px 10px 14px 12px}.avatar{width:40px;height:40px;font-size:14px;border-radius:11px}.card h2{font-size:17.5px}}
 
-.note{background:var(--sun-soft);border-radius:var(--r);padding:14px 16px;display:flex;gap:12px;align-items:flex-start;font-size:15px}
-.note svg{flex:none;color:var(--sun-ink);margin-top:2px}
+.note{border-radius:var(--r);padding:15px 16px;display:flex;gap:12px;align-items:flex-start;font-size:15px}
+.note svg{flex:none;margin-top:2px}
 .note p{margin:0}
-.note b{display:block;font-family:var(--display);font-size:16px;margin-bottom:2px}
-.empty{text-align:center;padding:40px 18px;border:1.5px dashed var(--line);border-radius:var(--r);color:var(--muted)}
-.empty h2{font:600 21px var(--display);color:var(--ink);margin:0 0 6px}
-.empty button{margin-top:12px}
-.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border-radius:12px;padding:12px 18px;font-weight:700;border:0;cursor:pointer;text-decoration:none;font-size:15.5px}
-.btn.main{background:var(--indigo);color:#fff}
-:root[data-theme="dark"] .btn.main{color:#0D1222}
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .btn.main{color:#0D1222}}
-.btn.soft{background:var(--sunk);color:var(--ink)}
-.btn.wa{background:#1FA855;color:#fff}
+.note b{display:block;font-family:var(--display);font-size:16.5px;margin-bottom:2px}
+.note.sun{background:var(--sun-soft)} .note.sun svg{color:var(--sun-ink)}
+.note.tip{background:var(--indigo-soft)} .note.tip svg{color:var(--indigo)}
+.note.leaf{background:var(--leaf-soft)} .note.leaf svg{color:var(--leaf)}
+.empty{text-align:center;padding:40px 20px;border:1.5px dashed var(--line);border-radius:var(--r);color:var(--muted);background:var(--surface)}
+.empty h2,.empty h3{font:600 21px var(--display);color:var(--ink);margin:0 0 6px}
+.empty p{margin:0 auto;max-width:46ch}
+.empty .btn{margin-top:14px}
 
-footer{border-top:1px solid var(--line);padding-block:22px 40px;color:var(--muted);font-size:14px;display:flex;flex-direction:column;gap:6px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border-radius:12px;padding:12px 18px;font-weight:700;border:0;cursor:pointer;text-decoration:none;font-size:15.5px;line-height:1.2;text-align:center}
+.btn.main{background:var(--indigo);color:#fff}
+.btn.main:hover{background:var(--indigo-2)}
+.btn.soft{background:var(--sunk);color:var(--ink)}
+.btn.line{background:var(--surface);color:var(--ink);border:1px solid var(--line)}
+.btn.wa{background:#1FA855;color:#fff}
+.btn.small{padding:8px 12px;font-size:14px;border-radius:10px}
+
+/* Views */
+.view{padding-top:6px}
+.view[hidden]{display:none}
+.page-h{padding-block:26px 6px}
+.page-h h1{font-size:clamp(28px,6.4vw,40px)}
+.page-h p{margin:8px 0 0;color:var(--muted);max-width:60ch}
+.seg{display:flex;gap:4px;background:var(--sunk);border-radius:12px;padding:4px;margin:16px 0 14px;overflow-x:auto}
+.seg button{flex:1;border:0;background:transparent;border-radius:9px;padding:9px 10px;font-weight:600;font-size:14.5px;color:var(--muted);cursor:pointer;white-space:nowrap}
+.seg button[aria-selected="true"]{background:var(--surface);color:var(--ink);box-shadow:var(--shadow)}
+
+.app{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:14px 16px;display:flex;flex-direction:column;gap:10px;box-shadow:var(--shadow)}
+.app-top{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
+.app h3{margin:0;font:600 17.5px/1.25 var(--display)}
+.app .emp{white-space:normal}
+.app-row{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:14px;color:var(--muted)}
+.app select{padding:6px 10px;font-size:14px}
+.app textarea{width:100%;border:1px solid var(--line);border-radius:10px;padding:9px 11px;font-size:14.5px;resize:vertical;min-height:42px;background:var(--bg)}
+.app .relance{background:var(--sun-soft);color:var(--sun-ink);border-radius:8px;padding:6px 10px;font-size:13.5px;font-weight:600}
+.linkish{border:0;background:none;padding:0;color:var(--indigo);font-weight:600;cursor:pointer;font-size:14px}
+.linkish.danger{color:var(--hot)}
+.alert-item{display:flex;justify-content:space-between;align-items:center;gap:10px;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:12px 14px}
+.alert-item b{font-family:var(--display);font-size:16.5px;font-weight:600}
+.alert-item span{display:block;font-size:13.5px;color:var(--muted)}
+.alert-item .new{background:var(--leaf-soft);color:var(--leaf);border-radius:999px;padding:2px 9px;font-weight:700;font-size:13px;margin-left:6px}
+.stack{display:flex;flex-direction:column;gap:10px}
+
+.guide{display:grid;gap:10px}
+details.g{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow)}
+details.g summary{list-style:none;cursor:pointer;padding:16px 18px;display:flex;gap:14px;align-items:center}
+details.g summary::-webkit-details-marker{display:none}
+details.g .ico{width:42px;height:42px;border-radius:12px;display:grid;place-items:center;flex:none}
+details.g h3{margin:0;font:600 18px/1.25 var(--display)}
+details.g summary p{margin:2px 0 0;font-size:14px;color:var(--muted)}
+details.g .chev{margin-left:auto;transition:transform .2s;color:var(--muted);flex:none}
+details.g[open] .chev{transform:rotate(180deg)}
+details.g .body{padding:0 18px 18px 74px;display:flex;flex-direction:column;gap:10px}
+details.g .body p{margin:0}
+details.g .body ul{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:6px}
+@media (max-width:480px){details.g .body{padding-left:18px}}
+.mailbox{background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:12px 14px;white-space:pre-wrap;font-size:14.5px}
+
+.about p{margin:0 0 12px;max-width:62ch}
+.about h2{font:700 22px var(--display);margin:24px 0 10px}
+.steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.step{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:16px;min-width:0}
+.step b{display:grid;place-items:center;width:32px;height:32px;border-radius:50%;background:var(--sun);font-family:var(--display);margin-bottom:8px}
+.step h3{margin:0 0 4px;font:600 17px var(--display)}
+.step p{margin:0;font-size:14.5px;color:var(--muted)}
+@media (max-width:600px){.steps{grid-template-columns:1fr}}
+
+footer{border-top:1px solid var(--line);margin-top:28px;padding-block:24px 34px;color:var(--muted);font-size:14px;display:flex;flex-direction:column;gap:6px}
 footer p{margin:0}
+footer .heart{color:var(--hot)}
 
 /* Sheet */
 dialog{border:0;padding:0;background:transparent;max-width:none;max-height:none;width:100%;height:100%;margin:0;color:var(--ink)}
-dialog::backdrop{background:rgba(10,14,30,.5)}
-.sheet{position:fixed;left:0;right:0;bottom:0;max-height:92vh;max-height:92dvh;overflow-y:auto;background:var(--surface);border-radius:22px 22px 0 0;padding:10px max(18px,env(safe-area-inset-right,0px)) calc(24px + env(safe-area-inset-bottom,0px)) max(18px,env(safe-area-inset-left,0px));animation:up .22s ease-out;overscroll-behavior:contain}
-@media (min-width:820px){.sheet{left:auto;top:0;bottom:0;width:520px;max-height:none;border-radius:0;padding:24px 28px 32px;animation:side .22s ease-out}}
+dialog::backdrop{background:rgba(16,22,44,.45)}
+.sheet{position:fixed;left:0;right:0;bottom:0;max-height:92vh;max-height:92dvh;overflow-y:auto;background:var(--surface);border-radius:24px 24px 0 0;padding:10px max(18px,env(safe-area-inset-right,0px)) calc(26px + env(safe-area-inset-bottom,0px)) max(18px,env(safe-area-inset-left,0px));animation:up .22s ease-out;overscroll-behavior:contain}
+@media (min-width:820px){.sheet{left:auto;top:0;bottom:0;width:540px;max-height:none;border-radius:0;padding:26px 30px 34px;animation:side .22s ease-out}}
 @keyframes up{from{transform:translateY(30px);opacity:0}}
 @keyframes side{from{transform:translateX(30px);opacity:0}}
 @media (prefers-reduced-motion:reduce){.sheet{animation:none}.card{transition:none}}
-.grab{width:42px;height:5px;border-radius:9px;background:var(--line);margin:0 auto 10px}
+.grab{width:42px;height:5px;border-radius:9px;background:var(--line);margin:0 auto 12px}
 @media (min-width:820px){.grab{display:none}}
-.s-top{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
-.close{border:0;background:var(--sunk);border-radius:999px;width:38px;height:38px;cursor:pointer;flex:none;display:grid;place-items:center}
+.s-top{display:flex;gap:14px;align-items:flex-start}
+.s-top .avatar{flex:none}
+.s-top>div{flex:1;min-width:0}
+.close{border:0;background:var(--sunk);border-radius:999px;width:40px;height:40px;cursor:pointer;flex:none;display:grid;place-items:center}
 .sheet .emp{white-space:normal;font-size:14.5px}
-.sheet h2{font:700 26px/1.12 var(--display);margin:4px 0 0;letter-spacing:-.02em;text-wrap:balance}
-.deadline{margin:14px 0 0;padding:12px 14px;border-radius:12px;background:var(--sunk);font-weight:600;display:flex;gap:10px;align-items:center}
+.sheet h2{font:700 26px/1.12 var(--display);margin:3px 0 0;letter-spacing:-.02em;text-wrap:balance}
+.deadline{margin:16px 0 0;padding:12px 14px;border-radius:12px;background:var(--sunk);font-weight:600;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
 .deadline.hot{background:var(--hot-soft);color:var(--hot)}
+.deadline .linkish{margin-left:auto}
 .s-sec{margin-top:22px}
 .s-sec h3{font:700 13px var(--body);text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin:0 0 8px}
 .s-sec p{margin:0}
-.facts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-top:16px}
+.facts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-top:14px}
 .fact{background:var(--sunk);border-radius:11px;padding:9px 12px;min-width:0}
 .fact span{display:block;font-size:12.5px;color:var(--muted)}
 .fact b{font-weight:600;font-size:15px}
-.postes{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
+.postes{list-style:none;margin:0;padding:0}
 .postes li{display:flex;justify-content:space-between;gap:12px;padding:8px 0;border-bottom:1px solid var(--line)}
 .postes li:last-child{border-bottom:0}
 .postes b{font-variant-numeric:tabular-nums;color:var(--indigo);flex:none}
@@ -163,168 +255,396 @@ ul.dots{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:5px}
 .copyrow{display:flex;gap:8px;align-items:stretch}
 .copyrow code{flex:1;min-width:0;background:var(--surface);border-radius:10px;padding:10px 12px;font:600 15px var(--body);overflow-wrap:anywhere;user-select:all}
 .copy{border:0;background:var(--indigo);color:#fff;border-radius:10px;padding:0 14px;font-weight:700;font-size:14px;cursor:pointer;flex:none}
-:root[data-theme="dark"] .copy{color:#0D1222}
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .copy{color:#0D1222}}
 .copy.ok{background:var(--leaf)}
 .how .small{font-size:14px;color:var(--muted);margin:0}
+details.tpl{background:var(--surface);border-radius:12px;padding:10px 12px}
+details.tpl summary{cursor:pointer;font-weight:700;color:var(--indigo);font-size:14.5px}
+details.tpl .mailbox{margin-top:10px;background:var(--bg)}
+details.tpl .btn{margin-top:8px}
 .checks{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:2px}
 .checks label{display:flex;gap:10px;align-items:flex-start;padding:7px 0;cursor:pointer}
 .checks input{width:20px;height:20px;accent-color:var(--leaf);flex:none;margin-top:2px}
 .checks input:checked+span{color:var(--muted);text-decoration:line-through}
-.actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}
-.actions .btn{flex:1 1 140px}
+.applied{display:flex;align-items:center;gap:10px;background:var(--leaf-soft);color:var(--leaf);border-radius:12px;padding:12px 14px;font-weight:600;margin-top:22px}
+.actions{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:20px}
+.actions .wide{grid-column:1/-1}
 .src{margin-top:18px;font-size:13.5px;color:var(--muted)}
-.toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:12px;font-weight:600;font-size:14.5px;z-index:50}
-@media (max-width:420px){.card{grid-template-columns:50px 1fr auto;gap:11px;padding:14px 10px 14px 12px}.when b{font-size:19px}.card h2{font-size:17.5px}}
+.toast{position:fixed;left:50%;bottom:calc(92px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:#fff;padding:10px 16px;border-radius:12px;font-weight:600;font-size:14.5px;z-index:60;max-width:calc(100% - 32px);text-align:center}
+@media (min-width:720px){.toast{bottom:28px}}
 </style>
 </head>
 <body>
-<div class="wrap">
-  <header class="bar">
+<header class="top">
+  <div class="wrap">
     <a class="logo" href="./" aria-label="Djob, accueil">djob<i></i></a>
-    <button class="saved-btn" id="savedBtn" type="button" aria-pressed="false">
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 3h12v18l-6-4-6 4z"/></svg>
-      Mes offres <b id="savedN">0</b>
+    <nav class="nav" aria-label="Rubriques">
+      <button type="button" data-view="offres" aria-current="page">Offres</button>
+      <button type="button" data-view="moi">Mes candidatures <span class="n" data-badge hidden></span></button>
+      <button type="button" data-view="conseils">Conseils</button>
+      <button type="button" data-view="apropos">À propos</button>
+    </nav>
+    <button class="share-site" type="button" data-share-site>
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 13.5 6.8 4M15.4 6.5l-6.8 4"/></svg>
+      Partager Djob
     </button>
-  </header>
+  </div>
+</header>
 
-  <section class="hero">
-    <p class="hello" id="hello">Bonjour.</p>
-    <h1 id="headline">Les offres d'emploi du Bénin, <em>chaque matin</em>.</h1>
-    <p class="lede">Nous rassemblons les avis de recrutement publiés un peu partout. Vous postulez directement chez l'employeur, gratuitement.</p>
-    <div class="search">
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
-      <label class="sr" for="q">Rechercher une offre</label>
-      <input id="q" type="search" placeholder="Un métier, une ville, un employeur…" autocomplete="off" enterkeyhint="search">
-      <button class="clear" id="clear" type="button" aria-label="Effacer" hidden>✕</button>
+<main>
+  <!-- OFFRES -->
+  <section class="view" id="v-offres">
+    <div class="wrap">
+      <div class="hero">
+        <p class="hello"><span id="hello">Bonjour.</span><button class="since" id="since" type="button" hidden><i></i><span></span></button></p>
+        <h1 id="headline">Les offres d'emploi du Bénin, <em>chaque matin</em>.</h1>
+        <p class="lede">On rassemble pour vous les avis de recrutement publiés un peu partout : journaux, sites d'emploi, institutions, LinkedIn. Vous postulez directement chez l'employeur, sans intermédiaire et sans rien payer.</p>
+        <div class="search">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+          <label class="sr" for="q">Rechercher une offre</label>
+          <input id="q" type="search" placeholder="Comptable, chauffeur, Parakou, ONG…" autocomplete="off" enterkeyhint="search">
+          <button class="clear" id="clear" type="button" aria-label="Effacer la recherche" hidden><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+        </div>
+        <div class="suggest" id="suggest"></div>
+        <div class="stats" id="stats"></div>
+      </div>
+
+      <div class="filters" aria-label="Filtres">
+        <div class="chips" id="quick" role="group" aria-label="Filtres rapides"></div>
+        <div class="panel" id="panel" hidden>
+          <div><h3>Votre niveau d'études</h3><div class="chips" id="f-niv" role="group" aria-label="Niveau"></div></div>
+          <div><h3>Domaine</h3><div class="chips" id="f-sect" role="group" aria-label="Domaine"></div></div>
+          <div><h3>Type de contrat</h3><div class="chips" id="f-contrat" role="group" aria-label="Contrat"></div></div>
+          <div class="row">
+            <label>Ville <select id="f-ville"></select></label>
+            <label>Trier par <select id="f-tri"><option value="urgence">Date limite la plus proche</option><option value="recent">Ajoutées récemment</option><option value="postes">Le plus de postes</option></select></label>
+          </div>
+          <div class="row"><button class="linkish" type="button" data-reset>Effacer les filtres</button><button class="btn main small" type="button" data-close-panel>Voir les offres</button></div>
+        </div>
+      </div>
+
+      <section id="soon" hidden>
+        <h2 class="sec-h"><span>Ça ferme bientôt</span></h2>
+        <div class="soon-row" id="soonRow"></div>
+      </section>
+
+      <div class="listhead"><p class="count" id="count" aria-live="polite"></p><button class="alertbtn" id="alertBtn" type="button" hidden>
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M6 8a6 6 0 1 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.9 1.9 0 0 0 3.4 0"/></svg>Me prévenir des nouvelles offres</button></div>
+      <div class="list" id="list"><div class="empty"><h2>Un instant…</h2><p>On charge les offres du jour.</p></div></div>
     </div>
   </section>
 
-  <nav class="filters" aria-label="Filtres">
-    <div class="chips" id="quick" role="group" aria-label="Filtres rapides"></div>
-    <div class="chips sect" id="sects" role="group" aria-label="Domaines"></div>
-  </nav>
-
-  <section class="soon" id="soon" hidden>
-    <h2 class="sec-h"><span>Ça ferme bientôt</span></h2>
-    <div class="soon-row" id="soonRow"></div>
+  <!-- MES CANDIDATURES -->
+  <section class="view" id="v-moi" hidden>
+    <div class="wrap">
+      <div class="page-h"><h1>Mes candidatures</h1><p>Votre carnet personnel : les offres que vous gardez, celles où vous avez postulé, et vos recherches suivies. Tout reste sur votre téléphone, rien n'est envoyé ailleurs.</p></div>
+      <div class="seg" role="tablist">
+        <button type="button" role="tab" data-seg="gardees" aria-selected="true">Gardées</button>
+        <button type="button" role="tab" data-seg="postulees" aria-selected="false">Postulées</button>
+        <button type="button" role="tab" data-seg="alertes" aria-selected="false">Mes alertes</button>
+      </div>
+      <div id="moiBody"></div>
+    </div>
   </section>
 
-  <p class="count" id="count" aria-live="polite"></p>
-  <main class="list" id="list">
-    <div class="empty"><h2>Un instant…</h2><p>On charge les offres du jour.</p></div>
-  </main>
+  <!-- CONSEILS -->
+  <section class="view" id="v-conseils" hidden>
+    <div class="wrap">
+      <div class="page-h"><h1>Bien postuler, sans stress</h1><p>Les petites choses qui font la différence quand un recruteur reçoit 300 dossiers pour un poste. Lisez dans l'ordre, ou piochez ce qui vous sert.</p></div>
+      <div class="guide" id="guide"></div>
+    </div>
+  </section>
 
-  <footer>
-    <p id="maj">Mis à jour chaque matin.</p>
-    <p>Chaque offre renvoie vers l'annonce d'origine. Vérifiez toujours l'avis officiel avant d'envoyer votre dossier.</p>
-    <p>Fait au Bénin, pour celles et ceux qui cherchent.</p>
-  </footer>
-</div>
+  <!-- A PROPOS -->
+  <section class="view about" id="v-apropos" hidden>
+    <div class="wrap">
+      <div class="page-h"><h1>Djob, c'est quoi ?</h1></div>
+      <p>Chercher du travail au Bénin, c'est souvent passer ses soirées à fouiller des groupes WhatsApp, des pages Facebook et des sites qui se contredisent. On a voulu un seul endroit, propre et fiable, où trouver les offres encore ouvertes, comprendre ce qu'on attend de vous et savoir exactement comment postuler.</p>
+      <p>Djob est gratuit, sans inscription et sans publicité. Nous ne sommes pas un cabinet de recrutement : nous ne recevons pas les candidatures et ne demandons jamais d'argent.</p>
+      <h2>Comment ça marche</h2>
+      <div class="steps">
+        <div class="step"><b>1</b><h3>On fait le tour</h3><p>Chaque matin, on parcourt les sites d'emploi, les avis officiels, les organisations internationales et LinkedIn.</p></div>
+        <div class="step"><b>2</b><h3>On vérifie et on trie</h3><p>On retire les doublons, les offres expirées et tout ce qui ressemble à une arnaque.</p></div>
+        <div class="step"><b>3</b><h3>Vous postulez directement</h3><p>Chaque offre vous dit quoi envoyer, à qui, et avant quand. Le reste se passe entre vous et l'employeur.</p></div>
+      </div>
+      <h2>Questions fréquentes</h2>
+      <div class="guide" id="faq"></div>
+      <h2>Vous recrutez ?</h2>
+      <p>Si votre offre est publiée en ligne (site, journal, LinkedIn, avis officiel), elle a de bonnes chances d'apparaître ici dès le lendemain. Pour être sûr, publiez-la sur l'un des sites d'emploi béninois connus avec une date limite et une adresse de candidature claires.</p>
+      <div class="note sun" style="margin-top:16px"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3 4 6v6c0 4.5 3.4 8 8 9 4.6-1 8-4.5 8-9V6z"/><path d="M12 8v5M12 16h.01"/></svg><p><b>Une règle simple</b>Un vrai employeur ne vous demande jamais d'argent : ni frais de dossier, ni « formation obligatoire » payante, ni dépôt pour réserver une place. Si on vous en demande, c'est une arnaque.</p></div>
+    </div>
+  </section>
+
+  <div class="wrap">
+    <footer>
+      <p id="maj">Mis à jour chaque matin.</p>
+      <p>Chaque offre renvoie vers l'annonce d'origine. Vérifiez toujours l'avis officiel avant d'envoyer votre dossier.</p>
+      <p>Fait au Bénin avec <span class="heart">♥</span>, pour celles et ceux qui cherchent. Bon courage, ça va aller.</p>
+    </footer>
+  </div>
+</main>
+
+<nav class="tabbar" aria-label="Rubriques">
+  <button type="button" data-view="offres" aria-current="page"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg>Offres</button>
+  <button type="button" data-view="moi"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 3h12v18l-6-4-6 4z"/></svg>Mes candidatures<span class="n" data-badge hidden></span></button>
+  <button type="button" data-view="conseils"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 18h6M10 22h4"/><path d="M12 2a7 7 0 0 0-4 12.7c.6.5 1 1.2 1 2.3h6c0-1.1.4-1.8 1-2.3A7 7 0 0 0 12 2z"/></svg>Conseils</button>
+  <button type="button" data-view="apropos"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5h.01"/></svg>À propos</button>
+</nav>
 
 <dialog id="dlg" aria-labelledby="dTitle"><div class="sheet" id="sheet"></div></dialog>
 <div class="toast" id="toast" role="status" hidden></div>
 
 <script>
-const $=s=>document.querySelector(s);
+const SITE="https://djondozy.github.io/offres-emploi/";
+const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const okUrl=u=>typeof u==="string"&&/^https?:\/\//.test(u);
 const store={get(k,d){try{const v=localStorage.getItem(k);return v?JSON.parse(v):d}catch{return d}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch{}}};
 
 const ZONES={cotonou:"Cotonou et environs",benin:"Ailleurs au Bénin",region:"Sous-région",distance:"À distance"};
+const NIVEAUX=[["sans","Sans diplôme"],["bepc","BEPC"],["bac","BAC"],["lic","BAC+2 / Licence"],["master","BAC+5 / Master"]];
+const CONTRATS=[["cdi","CDI"],["cdd","CDD"],["stage","Stage"],["volont","Volontariat"],["autre","Autre"]];
 const MOIS=["janv.","févr.","mars","avr.","mai","juin","juil.","août","sept.","oct.","nov.","déc."];
 const JOURS=["dimanche","lundi","mardi","mercredi","jeudi","vendredi","samedi"];
+const PALETTE=[["#E8EBFA","#2B3A8C"],["#FFF4D6","#7A5600"],["#E0F3E8","#17784A"],["#FDEAE1","#A33A12"],["#EDE7FA","#5A3FA8"],["#E1F1F6","#1D6A80"],["#F7E6EE","#9A2F5E"]];
 const ic={
   pin:'<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>',
   doc:'<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M14 3H6v18h12V7z"/><path d="M14 3v4h4"/></svg>',
   ppl:'<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.6-3.6 3.3-5.5 6.5-5.5s5.9 1.9 6.5 5.5"/><path d="M16 4.6a3.5 3.5 0 0 1 0 6.8M18 14.7c2 .7 3.2 2.5 3.5 5.3"/></svg>',
-  keep:'<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 3h12v18l-6-4-6 4z"/></svg>',
+  cal:'<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>',
+  keep:'<svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 3h12v18l-6-4-6 4z"/></svg>',
   clock:'<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>',
-  shield:'<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3 4 6v6c0 4.5 3.4 8 8 9 4.6-1 8-4.5 8-9V6z"/><path d="M12 8v5M12 16h.01"/></svg>',
+  shield:'<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3 4 6v6c0 4.5 3.4 8 8 9 4.6-1 8-4.5 8-9V6z"/><path d="M12 8v5M12 16h.01"/></svg>',
+  bulb:'<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 18h6M10 22h4"/><path d="M12 2a7 7 0 0 0-4 12.7c.6.5 1 1.2 1 2.3h6c0-1.1.4-1.8 1-2.3A7 7 0 0 0 12 2z"/></svg>',
+  check:'<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m8 12 3 3 5-6"/></svg>',
   x:'<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>',
+  chev:'<svg class="chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>',
   wa:'<svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.4.1-.7.3-.2.3-.9.9-.9 2.2s.9 2.5 1 2.7c.1.2 1.8 2.8 4.4 3.9 1.7.7 2.3.8 3.1.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.6-.3z"/></svg>'
 };
 
-let all=[],maj=null,query="",zone="tout",sect="Tous",onlySaved=false;
-let saved=store.get("djob-saved",[]),checks=store.get("djob-checks",{});
+/* ---------- state ---------- */
+let all=[],maj=null,view="offres",seg="gardees",panelOpen=false,shown=20;
+const F={q:"",zone:"tout",niv:new Set(),sect:new Set(),contrat:new Set(),ville:"",tri:"urgence"};
+let saved=store.get("djob-saved",[]),checks=store.get("djob-checks",{}),apps=store.get("djob-apps",{}),alerts=store.get("djob-alerts",[]);
+const lastVisit=store.get("djob-last",null);
+let sinceIds=[];
+
+/* ---------- helpers ---------- */
 const today=()=>{const t=new Date();t.setHours(0,0,0,0);return t};
 const D=s=>{const d=new Date(s+"T12:00:00");d.setHours(0,0,0,0);return d};
 const daysLeft=o=>o.dateLimite?Math.round((D(o.dateLimite)-today())/864e5):null;
 const isOpen=o=>{const n=daysLeft(o);return n===null||n>=0};
-const isNew=o=>o.ajoute&&Date.now()-new Date(o.ajoute)<2*864e5;
+const addedTs=o=>o.ajoute?new Date(o.ajoute).getTime():0;
+const isToday=o=>o.ajoute&&Date.now()-addedTs(o)<26*36e5;
 const norm=s=>String(s||"").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"");
-const hay=o=>norm([o.titre,o.employeur,o.ville,o.secteur,o.contrat,o.resume,...(o.postes||[]).map(p=>p.nom),...(o.profil||[])].join(" "));
+const hay=o=>o._h||(o._h=norm([o.titre,o.employeur,o.ville,o.secteur,o.contrat,o.niveau,o.resume,...(o.postes||[]).map(p=>p.nom),...(o.profil||[])].join(" ")));
 const left=n=>n===0?"Dernier jour":n===1?"Ferme demain":`Plus que ${n} jours`;
+const shortDate=s=>{const d=D(s);return `${d.getDate()} ${MOIS[d.getMonth()]}`};
 const longDate=s=>{const d=D(s);return `${JOURS[d.getDay()]} ${d.getDate()} ${MOIS[d.getMonth()].replace(".","")}`};
+const initials=s=>{const w=String(s).replace(/\(.*?\)/g,"").replace(/[^\p{L}\p{N}\s'-]/gu," ").split(/\s+/).filter(x=>x&&!/^(de|du|des|la|le|les|l'|d'|et|pour|via|au|aux|sa|sarl|s\.a\.|inc)$/i.test(x));return ((w[0]||"?")[0]+((w[1]||"")[0]||"")).toUpperCase()};
+const hue=s=>{let h=0;for(const c of String(s))h=(h*31+c.charCodeAt(0))>>>0;return PALETTE[h%PALETTE.length]};
+const avatar=o=>{const [b,f]=hue(o.employeur);return `<div class="avatar" style="background:${b};color:${f}" aria-hidden="true">${esc(initials(o.employeur))}</div>`};
+function levels(o){
+  const n=norm(o.niveau),s=new Set();
+  if(/sans diplome|aucun diplome|certificat|cap/.test(n))s.add("sans");
+  if(/bepc/.test(n))s.add("bepc");
+  if(/\bbac\b/.test(n.replace(/bac\s*\+\s*\d/g,"")))s.add("bac");
+  if(/bac\s*\+\s*[234]|licence/.test(n))s.add("lic");
+  if(/bac\s*\+\s*5|master|ingenieur/.test(n))s.add("master");
+  if(/du bepc a la licence/.test(n)){s.add("bepc");s.add("bac");s.add("lic")}
+  if(/diplome de l'uac|diplome/.test(n)&&!s.size)s.add("lic");
+  return s;
+}
+function contratKey(o){const c=norm(o.contrat);return /cdi/.test(c)?"cdi":/cdd/.test(c)?"cdd":/stage/.test(c)?"stage":/volont/.test(c)?"volont":"autre"}
+function cityOf(o){const v=o.ville.split(/[,(]| et /)[0].trim();return o.zone==="distance"?"À distance":v.replace(/^Glo-Djigbé.*/,"Glo-Djigbé")}
 
+/* ---------- greeting & stats ---------- */
 function greet(){
-  const h=new Date().getHours();
-  $("#hello").textContent=h<12?"Bonjour, et bon courage pour la recherche.":h<18?"Bon après-midi. Voici ce qui est ouvert en ce moment.":"Bonsoir. Un dernier coup d'œil avant demain ?";
+  const h=new Date().getHours(),d=new Date().getDay();
+  const msgs=h<12?(d===1?"Bonjour, et bonne semaine !":"Bonjour, et bon courage pour la recherche."):h<18?"Bon après-midi. Voici ce qui est ouvert en ce moment.":"Bonsoir. Un dernier coup d'œil avant demain ?";
+  $("#hello").textContent=msgs;
+}
+function headline(){
+  const p=all.reduce((s,o)=>s+(o.nbPostes||1),0);
+  if(all.length)$("#headline").innerHTML=`<em>${p} postes</em> à pourvoir en ce moment, au Bénin et autour.`;
+  const t=all.filter(isToday).length,w=all.filter(o=>{const n=daysLeft(o);return n!==null&&n<=7}).length,v=new Set(all.map(cityOf)).size;
+  $("#stats").innerHTML=[[all.length,"offres ouvertes"],[t,"ajoutées aujourd'hui"],[w,"ferment cette semaine"],[v,"villes"]].map(([n,l])=>`<div class="stat"><b>${n}</b><span>${l}</span></div>`).join("");
+  if(lastVisit){sinceIds=all.filter(o=>addedTs(o)>lastVisit).map(o=>o.id);
+    if(sinceIds.length){const b=$("#since");b.hidden=false;b.querySelector("span").textContent=`${sinceIds.length} nouvelle${sinceIds.length>1?"s":""} depuis votre dernière visite`}}
+  store.set("djob-last",Date.now());
+  const sugg=["Comptable","Chauffeur","Commercial","Stage","Parakou","ONG","Informatique","Santé"];
+  $("#suggest").innerHTML=`<span>Essayez :</span>`+sugg.map(s=>`<button type="button" data-sugg="${s}">${s}</button>`).join("");
 }
 
-function filtered(){
-  const q=norm(query.trim());
-  return all.filter(o=>(!onlySaved||saved.includes(o.id))
-    &&(zone==="tout"||(zone==="debut"?o.debutant:zone==="bientot"?(daysLeft(o)!==null&&daysLeft(o)<=3):o.zone===zone))
-    &&(sect==="Tous"||o.secteur===sect)
-    &&(!q||q.split(/\s+/).every(w=>hay(o).includes(w))));
+/* ---------- filtering ---------- */
+function activeCount(){return F.niv.size+F.sect.size+F.contrat.size+(F.ville?1:0)}
+function match(o,f=F){
+  const q=norm(f.q.trim());
+  return (f.zone==="tout"||(f.zone==="debut"?o.debutant:f.zone==="bientot"?(daysLeft(o)!==null&&daysLeft(o)<=3):f.zone==="nouveau"?(isToday(o)||sinceIds.includes(o.id)):o.zone===f.zone))
+    &&(!f.niv.size||[...levels(o)].some(l=>f.niv.has(l)))
+    &&(!f.sect.size||f.sect.has(o.secteur))
+    &&(!f.contrat.size||f.contrat.has(contratKey(o)))
+    &&(!f.ville||cityOf(o)===f.ville)
+    &&(!q||q.split(/\s+/).every(w=>hay(o).includes(w)));
+}
+function sorted(rows){
+  const by={urgence:(a,b)=>(daysLeft(a)??999)-(daysLeft(b)??999)||addedTs(b)-addedTs(a),recent:(a,b)=>addedTs(b)-addedTs(a)||(daysLeft(a)??999)-(daysLeft(b)??999),postes:(a,b)=>(b.nbPostes||1)-(a.nbPostes||1)};
+  return rows.sort(by[F.tri]);
 }
 
-function renderChips(){
-  const cnt=f=>all.filter(f).length;
-  const q=[["tout","Tout",cnt(()=>1),""],["debut","Débutants bienvenus",cnt(o=>o.debutant),"leaf"],["bientot","Ferme bientôt",cnt(o=>daysLeft(o)!==null&&daysLeft(o)<=3),"hot"],
+/* ---------- rendering: offers ---------- */
+function chipsHTML(list,set,attr){return list.map(([k,l,n])=>`<button class="chip" type="button" data-${attr}="${esc(k)}" aria-pressed="${set.has(k)}">${esc(l)}${n!=null?` <small>${n}</small>`:""}</button>`).join("")}
+function renderFilters(){
+  const cnt=f=>all.filter(f).length,ac=activeCount();
+  const q=[["tout","Tout",cnt(()=>1),""],["nouveau","Nouvelles",cnt(o=>isToday(o)||sinceIds.includes(o.id)),""],["debut","Débutants bienvenus",cnt(o=>o.debutant),"leaf"],["bientot","Ferme bientôt",cnt(o=>daysLeft(o)!==null&&daysLeft(o)<=3),"hot"],
     ...Object.entries(ZONES).map(([k,v])=>[k,v,cnt(o=>o.zone===k),""])].filter(x=>x[0]==="tout"||x[2]);
-  $("#quick").innerHTML=q.map(([k,l,n,c])=>`<button class="chip ${c}" type="button" data-z="${k}" aria-pressed="${zone===k}">${esc(l)} <small>${n}</small></button>`).join("");
+  $("#quick").innerHTML=`<button class="chip more" type="button" data-toggle-panel aria-expanded="${panelOpen}"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M4 6h16M7 12h10M10 18h4"/></svg>Filtres${ac?` <b>${ac}</b>`:""}</button>`+
+    q.map(([k,l,n,c])=>`<button class="chip ${c}" type="button" data-z="${k}" aria-pressed="${F.zone===k}">${esc(l)} <small>${n}</small></button>`).join("");
+  $("#panel").hidden=!panelOpen;
+  if(!panelOpen)return;
+  $("#f-niv").innerHTML=chipsHTML(NIVEAUX.map(([k,l])=>[k,l,cnt(o=>levels(o).has(k))]),F.niv,"niv");
   const s={};all.forEach(o=>s[o.secteur]=(s[o.secteur]||0)+1);
-  $("#sects").innerHTML=["Tous",...Object.keys(s).sort((a,b)=>s[b]-s[a])].map(k=>`<button class="chip" type="button" data-s="${esc(k)}" aria-pressed="${sect===k}">${k==="Tous"?"Tous les domaines":esc(k)}</button>`).join("");
+  $("#f-sect").innerHTML=chipsHTML(Object.keys(s).sort((a,b)=>s[b]-s[a]).map(k=>[k,k,s[k]]),F.sect,"sect");
+  $("#f-contrat").innerHTML=chipsHTML(CONTRATS.map(([k,l])=>[k,l,cnt(o=>contratKey(o)===k)]).filter(x=>x[2]),F.contrat,"contrat");
+  const v={};all.forEach(o=>{const c=cityOf(o);v[c]=(v[c]||0)+1});
+  $("#f-ville").innerHTML=`<option value="">Toutes</option>`+Object.keys(v).sort((a,b)=>v[b]-v[a]).map(c=>`<option value="${esc(c)}" ${F.ville===c?"selected":""}>${esc(c)} (${v[c]})</option>`).join("");
+  $("#f-tri").value=F.tri;
 }
-
-function whenBox(o){
-  const n=daysLeft(o);
-  if(n===null)return `<div class="when none"><b>—</b><span>sans date</span></div>`;
-  const d=D(o.dateLimite);
-  return `<div class="when${n<=3?" hot":""}" title="${esc(left(n))}"><b>${d.getDate()}</b><span>${MOIS[d.getMonth()]}</span></div>`;
-}
-
 function card(o){
-  const n=daysLeft(o),k=saved.includes(o.id);
-  const nb=o.nbPostes>1?`<span>${ic.ppl}${o.nbPostes} postes</span>`:"";
+  const n=daysLeft(o),k=saved.includes(o.id),a=apps[o.id];
+  const dl=n===null?`<span>${ic.cal}Sans date limite</span>`:`<span class="dl${n<=3?" hot":""}">${ic.cal}${n<=3?left(n):"Jusqu'au "+shortDate(o.dateLimite)}</span>`;
   return `<article class="card" data-id="${esc(o.id)}" tabindex="0" role="button" aria-label="${esc(o.titre)}, ${esc(o.employeur)}">
-    ${whenBox(o)}
+    ${avatar(o)}
     <div class="c-main">
       <div class="emp">${esc(o.employeur)}</div>
       <h2>${esc(o.titre)}</h2>
-      <div class="meta"><span>${ic.pin}${esc(o.ville)}</span><span>${ic.doc}${esc(o.contrat)}</span>${nb}</div>
-      <div class="tags">${n!==null&&n<=3?`<span class="tag" style="background:var(--hot-soft);color:var(--hot)">${left(n)}</span>`:""}${o.debutant?`<span class="tag leaf">Débutants bienvenus</span>`:""}${isNew(o)?`<span class="tag new">Nouveau</span>`:""}<span class="tag">${esc(o.secteur)}</span></div>
+      <div class="meta"><span>${ic.pin}${esc(o.ville)}</span>${dl}${o.nbPostes>1?`<span>${ic.ppl}${o.nbPostes} postes</span>`:""}</div>
+      <div class="tags">${a?`<span class="tag done">Postulé ✓</span>`:""}${(isToday(o)||sinceIds.includes(o.id))?`<span class="tag new">Nouveau</span>`:""}${o.debutant?`<span class="tag leaf">Débutants bienvenus</span>`:""}<span class="tag">${esc(o.contrat)}</span><span class="tag">${esc(o.secteur)}</span></div>
     </div>
-    <button class="keep" type="button" data-keep="${esc(o.id)}" aria-pressed="${k}" aria-label="${k?"Retirer de mes offres":"Garder cette offre"}">${ic.keep}</button>
+    <button class="keep" type="button" data-keep="${esc(o.id)}" aria-pressed="${k}" aria-label="${k?"Retirer de mes offres gardées":"Garder cette offre"}">${ic.keep}</button>
   </article>`;
 }
+const TIPS=[
+ ["Le bon nom de fichier","Nommez votre CV « NOM-Prénom-Poste.pdf ». Le recruteur le retrouve en deux secondes, et ça fait sérieux."],
+ ["Un seul PDF","Quand l'avis demande plusieurs pièces, regroupez-les dans un seul PDF, dans l'ordre de la liste. Un dossier complet passe devant."],
+ ["L'objet du mail compte","Recopiez exactement l'objet demandé dans l'avis, référence comprise. Beaucoup de dossiers sont triés automatiquement sur ce seul détail."],
+ ["N'attendez pas le dernier jour","Les boîtes mail saturent la veille de la clôture. Envoyez votre dossier deux ou trois jours avant."],
+ ["Relancez, poliment","Sans nouvelles après une semaine, un court message de relance montre votre motivation. Un seul suffit."],
+ ["Gardez vos pièces prêtes","CIP, IFU, casier judiciaire, acte de naissance sécurisé : scannez-les une fois pour toutes et gardez-les dans un dossier sur votre téléphone."]
+];
+const scam=`<aside class="note sun">${ic.shield}<p><b>Personne ne doit vous faire payer un emploi.</b>Si l'on vous demande de l'argent pour un dossier, un test ou une « place », c'est une arnaque. Passez votre chemin.</p></aside>`;
+function tipBox(i){const [t,x]=TIPS[(new Date().getDate()+i)%TIPS.length];return `<aside class="note tip">${ic.bulb}<p><b>Le conseil du jour · ${esc(t)}</b>${esc(x)}</p></aside>`}
 
-const scam=`<aside class="note">${ic.shield}<p><b>Personne ne doit vous faire payer un emploi.</b>Si l'on vous demande de l'argent pour un dossier, un test ou une « place », c'est une arnaque. Passez votre chemin.</p></aside>`;
-
-function render(){
-  const open=all;
-  renderChips();
-  $("#savedN").textContent=saved.filter(id=>open.some(o=>o.id===id)).length;
-  $("#savedBtn").setAttribute("aria-pressed",onlySaved);
-  // closing soon strip (only on the default view)
-  const soon=open.filter(o=>daysLeft(o)!==null&&daysLeft(o)<=3).sort((a,b)=>daysLeft(a)-daysLeft(b));
-  const showSoon=soon.length&&zone==="tout"&&sect==="Tous"&&!query&&!onlySaved;
-  $("#soon").hidden=!showSoon;
-  if(showSoon)$("#soonRow").innerHTML=soon.map(o=>`<button class="mini" type="button" data-id="${esc(o.id)}"><span class="d">${left(daysLeft(o))}</span><span class="t">${esc(o.titre)}</span><span class="e">${esc(o.employeur)}</span></button>`).join("");
-
-  const rows=filtered().sort((a,b)=>(daysLeft(a)??999)-(daysLeft(b)??999));
+function renderOffers(){
+  renderFilters();
+  const soon=all.filter(o=>daysLeft(o)!==null&&daysLeft(o)<=3).sort((a,b)=>daysLeft(a)-daysLeft(b));
+  const plain=F.zone==="tout"&&!activeCount()&&!F.q;
+  $("#soon").hidden=!(soon.length&&plain);
+  if(soon.length&&plain)$("#soonRow").innerHTML=soon.map(o=>`<button class="mini" type="button" data-id="${esc(o.id)}"><span class="d">${left(daysLeft(o))}</span><span class="t">${esc(o.titre)}</span><span class="e">${esc(o.employeur)}</span></button>`).join("");
+  const rows=sorted(all.filter(o=>match(o)));
   const postes=rows.reduce((s,o)=>s+(o.nbPostes||1),0);
-  $("#count").innerHTML=rows.length?`<b>${rows.length} offre${rows.length>1?"s":""}</b> · ${postes} poste${postes>1?"s":""} à pourvoir · les plus urgentes en premier`:"";
+  $("#count").innerHTML=rows.length?`<b>${rows.length} offre${rows.length>1?"s":""}</b> · ${postes} poste${postes>1?"s":""}`:"";
+  $("#alertBtn").hidden=plain||!rows.length;
   if(!all.length){$("#list").innerHTML=`<div class="empty"><h2>Pas d'offre ouverte ce matin</h2><p>Revenez demain : la liste est mise à jour chaque jour.</p></div>`;return}
-  if(!rows.length){
-    $("#list").innerHTML=onlySaved?`<div class="empty"><h2>Aucune offre gardée pour l'instant</h2><p>Touchez le petit marque-page d'une offre pour la retrouver ici.</p><button class="btn soft" type="button" data-reset>Voir toutes les offres</button></div>`
-      :`<div class="empty"><h2>Rien pour « ${esc(query||sect)} » aujourd'hui</h2><p>Essayez un mot plus simple, ou revenez demain : de nouvelles offres arrivent chaque matin.</p><button class="btn soft" type="button" data-reset>Tout afficher</button></div>`;return}
-  $("#list").innerHTML=rows.map((o,i)=>card(o)+(i===3&&rows.length>5?scam:"")).join("")+(rows.length<=5?scam:"");
+  if(!rows.length){$("#list").innerHTML=`<div class="empty"><h2>Rien pour cette recherche aujourd'hui</h2><p>Essayez un mot plus simple ou retirez un filtre. Vous pouvez aussi créer une alerte : on vous montrera les nouvelles offres à votre prochaine visite.</p><button class="btn soft" type="button" data-reset>Tout afficher</button></div>`;return}
+  const vis=rows.slice(0,shown);
+  let html="";vis.forEach((o,i)=>{html+=card(o);if(i===2)html+=tipBox(0);if(i===7)html+=scam});
+  if(vis.length<=2)html+=tipBox(0);if(vis.length<=7)html+=scam;
+  if(rows.length>shown)html+=`<button class="btn line more-btn" type="button" data-more>Voir ${Math.min(20,rows.length-shown)} offres de plus</button>`;
+  $("#list").innerHTML=html;
 }
 
+/* ---------- rendering: mes candidatures ---------- */
+const STATUTS=[["envoyee","Dossier envoyé"],["relance","Relancé"],["entretien","Entretien prévu"],["retenu","Retenu(e) !"],["non","Pas retenu(e)"]];
+function badge(){const n=saved.filter(id=>all.some(o=>o.id===id)).length+Object.keys(apps).length;$$("[data-badge]").forEach(b=>{b.hidden=!n;b.textContent=n})}
+function renderMoi(){
+  $$("[data-seg]").forEach(b=>b.setAttribute("aria-selected",b.dataset.seg===seg));
+  const body=$("#moiBody");
+  if(seg==="gardees"){
+    const rows=saved.map(id=>all.find(o=>o.id===id)).filter(Boolean);
+    body.innerHTML=rows.length?`<div class="list">${rows.map(card).join("")}</div>`:`<div class="empty"><h3>Rien de gardé pour l'instant</h3><p>Touchez le petit marque-page d'une offre pour la mettre de côté et la retrouver ici, même hors connexion.</p><button class="btn main" type="button" data-view="offres">Parcourir les offres</button></div>`;
+  }else if(seg==="postulees"){
+    const ids=Object.keys(apps).sort((a,b)=>(apps[b].date||"").localeCompare(apps[a].date||""));
+    body.innerHTML=ids.length?`<div class="stack">${ids.map(id=>{const a=apps[id],o=all.find(x=>x.id===id)||a.snap||{titre:id,employeur:""};
+      const days=Math.floor((Date.now()-new Date(a.date))/864e5),relance=a.statut==="envoyee"&&days>=7;
+      return `<div class="app" data-app="${esc(id)}">
+        <div class="app-top"><div><div class="emp">${esc(o.employeur)}</div><h3>${esc(o.titre)}</h3></div>${all.some(x=>x.id===id)?`<button class="linkish" type="button" data-id="${esc(id)}">Revoir l'offre</button>`:`<span class="tag">Offre close</span>`}</div>
+        <div class="app-row"><span>Postulé le ${new Date(a.date).toLocaleDateString("fr-FR",{day:"numeric",month:"long"})}</span>
+          <label class="sr" for="st-${esc(id)}">Où en êtes-vous ?</label><select id="st-${esc(id)}" data-statut="${esc(id)}">${STATUTS.map(([k,l])=>`<option value="${k}" ${a.statut===k?"selected":""}>${l}</option>`).join("")}</select></div>
+        ${relance?`<div class="relance">Cela fait ${days} jours. Un petit message de relance poli peut faire la différence.</div>`:""}
+        ${a.statut==="retenu"?`<div class="note leaf">${ic.check}<p><b>Félicitations !</b>Vous l'avez mérité. Pensez à prévenir les autres employeurs si vous retirez vos candidatures.</p></div>`:""}
+        <label class="sr" for="nt-${esc(id)}">Notes</label><textarea id="nt-${esc(id)}" data-note="${esc(id)}" rows="2" placeholder="Une note pour vous : nom du contact, date d'entretien…">${esc(a.note||"")}</textarea>
+        <div><button class="linkish danger" type="button" data-unapply="${esc(id)}">Retirer de la liste</button></div>
+      </div>`}).join("")}</div>`:`<div class="empty"><h3>Aucune candidature notée</h3><p>Quand vous postulez à une offre, touchez « J'ai postulé » sur sa fiche. Vous suivrez ici où vous en êtes, et on vous rappellera de relancer au bon moment.</p><button class="btn main" type="button" data-view="offres">Trouver une offre</button></div>`;
+  }else{
+    body.innerHTML=alerts.length?`<div class="stack">${alerts.map((al,i)=>{const f=deser(al.f),rows=all.filter(o=>match(o,f)),nw=rows.filter(o=>addedTs(o)>(al.seen||0)).length;
+      return `<div class="alert-item"><div><b>${esc(al.label)}</b>${nw?`<em class="new" style="font-style:normal">${nw} nouvelle${nw>1?"s":""}</em>`:""}<span>${rows.length} offre${rows.length>1?"s":""} ouverte${rows.length>1?"s":""} en ce moment</span></div>
+        <div style="display:flex;gap:8px;align-items:center"><button class="btn main small" type="button" data-run-alert="${i}">Voir</button><button class="close" type="button" data-del-alert="${i}" aria-label="Supprimer l'alerte">${ic.x}</button></div></div>`}).join("")}</div>
+      <p style="color:var(--muted);font-size:14px;margin-top:14px">Les alertes vivent sur cet appareil : à chaque visite, Djob vous montre combien d'offres sont arrivées pour chacune de vos recherches.</p>`
+      :`<div class="empty"><h3>Aucune alerte</h3><p>Faites une recherche (par exemple « comptable » à Parakou), puis touchez « Me prévenir des nouvelles offres ». À chaque visite, vous verrez ici ce qui est arrivé de neuf.</p><button class="btn main" type="button" data-view="offres">Faire une recherche</button></div>`;
+  }
+}
+
+/* ---------- guide & faq ---------- */
+const GUIDE=[
+ ["Votre dossier béninois, prêt d'avance","Les pièces qu'on vous demande presque toujours",["#E8EBFA","#2B3A8C"],
+  `<p>La plupart des avis au Bénin demandent les mêmes documents. Les avoir déjà scannés vous fait gagner des jours.</p>
+   <ul><li><b>CIP</b> (Certificat d'Identification Personnelle) : il remplace de nombreuses pièces d'état civil ; il se demande auprès de l'ANIP.</li>
+   <li><b>Acte de naissance sécurisé</b> : également délivré via l'ANIP.</li>
+   <li><b>IFU</b> (Identifiant Fiscal Unique) : demandé surtout pour les prestations et l'intérim ; il s'obtient auprès des impôts, souvent en ligne.</li>
+   <li><b>Casier judiciaire</b> de moins de 3 mois : à demander au tribunal ; pensez à le renouveler.</li>
+   <li><b>Diplômes et attestations de travail</b> : gardez des copies nettes, et des copies légalisées pour la fonction publique.</li></ul>
+   <p>Rangez tout dans un dossier « Candidatures » sur votre téléphone, en PDF, avec des noms clairs.</p>`],
+ ["Un CV qui se lit en 30 secondes","Ce que le recruteur regarde vraiment",["#FFF4D6","#7A5600"],
+  `<ul><li>Une page, deux au maximum si vous avez plus de 10 ans d'expérience.</li>
+   <li>En haut : nom, numéro WhatsApp, e-mail, ville. Pas besoin de date de naissance ni de situation de famille, sauf si l'avis le demande.</li>
+   <li>Pour chaque poste : ce que vous avez fait <i>et</i> un résultat concret (« 40 clients suivis », « caisse tenue sans écart pendant 2 ans »).</li>
+   <li>Adaptez le titre du CV au poste visé. Un CV « Comptable » pour une offre de comptable.</li>
+   <li>Une adresse e-mail sérieuse : prenom.nom@… plutôt qu'un pseudo.</li></ul>`],
+ ["La lettre et le mail de candidature","Court, personnel, sans fautes",["#E0F3E8","#17784A"],
+  `<p>Trois paragraphes suffisent : pourquoi ce poste, ce que vous apportez (avec un exemple), votre disponibilité. Faites relire par quelqu'un.</p>
+   <p>Le mail lui-même peut être très simple. Sur chaque offre qui se postule par e-mail, Djob vous propose un mail prêt à copier. En voici l'esprit :</p>
+   <div class="mailbox">Madame, Monsieur,
+
+Suite à votre avis de recrutement pour le poste de [poste], je vous adresse ma candidature. Vous trouverez en pièce jointe mon dossier complet.
+
+Je reste disponible pour un entretien à votre convenance.
+
+Veuillez agréer, Madame, Monsieur, mes salutations distinguées.
+[Prénom NOM] · [téléphone]</div>`],
+ ["Postuler par téléphone ou WhatsApp","Pour les petites entreprises et les boutiques",["#E1F1F6","#1D6A80"],
+  `<ul><li>Appelez entre 9h et 17h, dans un endroit calme.</li>
+   <li>Présentez-vous en une phrase : prénom, poste visé, où vous avez vu l'offre, quartier où vous habitez.</li>
+   <li>Sur WhatsApp, un message clair et poli, sans abréviations. Pas de vocal de 3 minutes au premier contact.</li>
+   <li>Notez le nom de la personne et la date dans « Mes candidatures ».</li></ul>`],
+ ["Réussir l'entretien","Se préparer la veille, arriver serein",["#EDE7FA","#5A3FA8"],
+  `<ul><li>Relisez l'offre et renseignez-vous sur l'entreprise (site, page Facebook, LinkedIn).</li>
+   <li>Préparez trois exemples concrets de ce que vous avez réussi.</li>
+   <li>Arrivez 10 à 15 minutes en avance, avec une copie de votre CV et vos diplômes.</li>
+   <li>À la fin, posez une question sur le poste : ça montre votre intérêt.</li>
+   <li>Le soir même, un court message de remerciement fait toujours bonne impression.</li></ul>`],
+ ["Repérer une arnaque","Les signaux qui ne trompent pas",["#FDEAE1","#A33A12"],
+  `<ul><li>On vous demande de l'argent : frais de dossier, de formation, de visite médicale, de « réservation ».</li>
+   <li>Le salaire promis est très élevé pour peu d'efforts, ou le travail consiste à recruter d'autres personnes.</li>
+   <li>Pas de nom d'entreprise, pas d'adresse, seulement un numéro WhatsApp étranger.</li>
+   <li>On vous demande une photo « en pied » ou des informations sans rapport avec le poste.</li></ul>
+   <p>Dans le doute, ne payez rien et parlez-en autour de vous.</p>`]
+];
+const FAQ=[
+ ["Djob est-il vraiment gratuit ?","Oui, entièrement. Pas d'inscription, pas d'abonnement, pas de publicité. Et aucun recruteur sérieux ne vous fera payer non plus."],
+ ["Est-ce que Djob recrute ou transmet mon CV ?","Non. Nous ne sommes pas un cabinet : nous rassemblons les annonces publiques. Vous postulez directement auprès de l'employeur, avec les coordonnées indiquées sur chaque offre."],
+ ["D'où viennent les offres ?","Des sites d'emploi béninois, des avis officiels (gouvernement, mairies), des organisations internationales, des cabinets de recrutement et de LinkedIn. Chaque fiche indique sa source, pour que vous puissiez vérifier."],
+ ["À quelle fréquence la liste change-t-elle ?","Tous les jours. Les nouvelles offres arrivent le matin, et celles dont la date limite est passée disparaissent automatiquement."],
+ ["Mes offres gardées et mes candidatures sont-elles privées ?","Oui. Elles restent sur votre téléphone ou votre ordinateur, nulle part ailleurs. Si vous changez d'appareil, elles ne vous suivront pas."],
+ ["Puis-je installer Djob comme une application ?","Oui. Sur Android, ouvrez le menu de Chrome et choisissez « Ajouter à l'écran d'accueil ». Sur iPhone, touchez Partager puis « Sur l'écran d'accueil ». La liste reste consultable même sans connexion."]
+];
+function renderGuide(){
+  $("#guide").innerHTML=GUIDE.map(([t,s,[b,f],body],i)=>`<details class="g"${i===0?" open":""}><summary><span class="ico" style="background:${b};color:${f}">${ic.bulb}</span><div><h3>${esc(t)}</h3><p>${esc(s)}</p></div>${ic.chev}</summary><div class="body">${body}</div></details>`).join("");
+  $("#faq").innerHTML=FAQ.map(([q,a])=>`<details class="g"><summary><div><h3>${esc(q)}</h3></div>${ic.chev}</summary><div class="body" style="padding-left:18px"><p>${esc(a)}</p></div></details>`).join("");
+}
+
+/* ---------- offer sheet ---------- */
 function copyBtn(v){return `<button class="copy" type="button" data-copy="${esc(v)}">Copier</button>`}
+function mailText(o){return `Madame, Monsieur,\n\nSuite à votre avis de recrutement pour le poste de ${o.titre.replace(/^\d+\s+postes?\s+/i,"")}${o.employeur?` (${o.employeur})`:""}, je vous adresse ma candidature.\n\nVous trouverez en pièce jointe mon dossier complet${o.pieces?.length?` : ${o.pieces.map(p=>p.toLowerCase()).join(", ")}`:""}.\n\nJe reste à votre disposition pour un entretien à votre convenance.\n\nVeuillez agréer, Madame, Monsieur, l'expression de mes salutations distinguées.\n\n[Prénom NOM]\n[Téléphone / WhatsApp]`}
 function howTo(o){
   const p=o.postuler||{};
   if(p.mode==="email")return `<div class="how">
@@ -332,25 +652,26 @@ function howTo(o){
     ${p.copie?`<div class="field"><span>En copie (obligatoire)</span><div class="copyrow"><code>${esc(p.copie)}</code>${copyBtn(p.copie)}</div></div>`:""}
     ${p.objet?`<div class="field"><span>Objet du mail</span><div class="copyrow"><code>${esc(p.objet)}</code>${copyBtn(p.objet)}</div></div>`:""}
     ${p.depot?`<p class="small">${esc(p.depot)}${p.tel?` · tél. ${esc(p.tel)}`:""}</p>`:p.tel?`<p class="small">Une question ? Téléphone / WhatsApp : ${esc(p.tel)}</p>`:""}
-    <p class="small">Regroupez vos pièces en PDF et vérifiez le nom du poste dans l'objet : c'est souvent ce qui fait trier les dossiers.</p></div>`;
-  if(p.mode==="tel"){const num=String(p.valeur||"").replace(/\D/g,"");const intl=num.startsWith("229")?num:"229"+num;
+    <details class="tpl"><summary>Votre mail de candidature, prêt à copier</summary><div class="mailbox">${esc(mailText(o))}</div><button class="btn main small" type="button" data-copy="${esc(mailText(o))}">Copier le mail</button></details>
+    <p class="small">Regroupez vos pièces dans un seul PDF bien nommé, et recopiez l'objet à l'identique.</p></div>`;
+  if(p.mode==="tel"){const num=String(p.valeur||"").replace(/\D/g,""),intl=num.startsWith("229")?num:"229"+num;
     return `<div class="how">
     <div class="field"><span>Appelez ou écrivez sur WhatsApp</span><div class="copyrow"><code>${esc(p.valeur)}</code>${copyBtn(p.valeur)}</div></div>
     ${p.email?`<div class="field"><span>Ou par e-mail</span><div class="copyrow"><code>${esc(p.email)}</code>${copyBtn(p.email)}</div></div>`:""}
     ${p.note?`<p class="small">${esc(p.note)}</p>`:""}
-    <a class="btn wa" href="https://wa.me/${intl}?text=${encodeURIComponent("Bonjour, je vous contacte pour l'offre « "+o.titre+" » vue sur Djob.")}" target="_blank" rel="noopener">${ic.wa} Écrire sur WhatsApp</a></div>`}
+    <a class="btn wa" href="https://wa.me/${intl}?text=${encodeURIComponent(`Bonjour, je vous contacte pour l'offre « ${o.titre} ». Je suis intéressé(e) et disponible pour en parler. Merci !`)}" target="_blank" rel="noopener">${ic.wa} Écrire sur WhatsApp</a></div>`}
   if(p.mode==="depot")return `<div class="how"><div class="field"><span>Déposez votre dossier</span><p><b>${esc(p.valeur)}</b></p></div>${p.horaires?`<p class="small">${esc(p.horaires)}</p>`:""}${p.objet?`<p class="small">${esc(p.objet)}</p>`:""}</div>`;
-  if(p.mode==="lien"&&okUrl(p.valeur))return `<div class="how"><p class="small">La candidature se fait à partir de l'avis officiel.</p><a class="btn main" href="${esc(p.valeur)}" target="_blank" rel="noopener">${esc(p.libelle||"Voir l'avis et postuler")} →</a></div>`;
-  return "";
+  if(p.mode==="lien"&&okUrl(p.valeur))return `<div class="how"><p class="small">La candidature se fait à partir de l'annonce d'origine.</p><a class="btn main" href="${esc(p.valeur)}" target="_blank" rel="noopener">${esc(p.libelle||"Voir l'avis et postuler")} →</a></div>`;
+  return `<p>Voir l'annonce d'origine.</p>`;
 }
-
 function openOffer(id,push=true){
   const o=all.find(x=>x.id===id);if(!o)return;
-  const n=daysLeft(o),k=saved.includes(o.id),ch=checks[o.id]||[];
-  const shareTxt=`${o.titre} · ${o.employeur} (${o.ville})${o.dateLimite?`, jusqu'au ${longDate(o.dateLimite)}`:""}. Toutes les infos ici : ${location.origin+location.pathname}#${o.id}`;
+  const n=daysLeft(o),k=saved.includes(o.id),ch=checks[o.id]||[],a=apps[o.id];
+  const link=SITE+"#"+o.id;
+  const shareTxt=`${o.titre} · ${o.employeur} (${o.ville})${o.dateLimite?`, jusqu'au ${longDate(o.dateLimite)}`:""}.\nToutes les infos ici : ${link}`;
   $("#sheet").innerHTML=`<div class="grab"></div>
-    <div class="s-top"><div><div class="emp">${esc(o.employeur)}</div><h2 id="dTitle">${esc(o.titre)}</h2></div><button class="close" type="button" data-close aria-label="Fermer">${ic.x}</button></div>
-    ${n!==null?`<div class="deadline${n<=3?" hot":""}">${ic.clock}<span>Candidatures jusqu'au ${longDate(o.dateLimite)} · ${left(n).toLowerCase()}</span></div>`:`<div class="deadline">${ic.clock}<span>Pas de date limite annoncée. N'attendez pas trop quand même.</span></div>`}
+    <div class="s-top">${avatar(o)}<div><div class="emp">${esc(o.employeur)}</div><h2 id="dTitle">${esc(o.titre)}</h2></div><button class="close" type="button" data-close aria-label="Fermer">${ic.x}</button></div>
+    ${n!==null?`<div class="deadline${n<=3?" hot":""}">${ic.clock}<span>Jusqu'au ${longDate(o.dateLimite)} · ${left(n).toLowerCase()}</span><button class="linkish" type="button" data-ics="${esc(o.id)}">Me le rappeler</button></div>`:`<div class="deadline">${ic.clock}<span>Pas de date limite annoncée. N'attendez pas trop quand même.</span></div>`}
     <div class="facts">
       <div class="fact"><span>Où</span><b>${esc(o.ville)}</b></div>
       <div class="fact"><span>Contrat</span><b>${esc(o.contrat)}</b></div>
@@ -362,9 +683,11 @@ function openOffer(id,push=true){
     ${o.profil?.length?`<div class="s-sec"><h3>Ce qu'on attend de vous</h3><ul class="dots">${o.profil.map(x=>`<li>${esc(x)}</li>`).join("")}</ul></div>`:""}
     ${o.pieces?.length?`<div class="s-sec"><h3>Votre dossier · cochez au fur et à mesure</h3><ul class="checks">${o.pieces.map((x,i)=>`<li><label><input type="checkbox" id="ck-${esc(o.id)}-${i}" data-ck="${i}" ${ch.includes(i)?"checked":""}><span>${esc(x)}</span></label></li>`).join("")}</ul></div>`:""}
     <div class="s-sec"><h3>Comment postuler</h3>${howTo(o)}</div>
+    ${a?`<div class="applied">${ic.check}<span>Vous avez postulé le ${new Date(a.date).toLocaleDateString("fr-FR",{day:"numeric",month:"long"})}. Suivez-la dans « Mes candidatures ».</span></div>`:""}
     <div class="actions">
-      <a class="btn wa" href="https://wa.me/?text=${encodeURIComponent(shareTxt)}" target="_blank" rel="noopener">${ic.wa} Partager sur WhatsApp</a>
-      <button class="btn soft" type="button" data-keep="${esc(o.id)}" aria-pressed="${k}">${k?"Gardée ✓":"Garder l'offre"}</button>
+      ${a?"":`<button class="btn main wide" type="button" data-apply="${esc(o.id)}">${ic.check} J'ai postulé</button>`}
+      <a class="btn wa wide" href="https://wa.me/?text=${encodeURIComponent(shareTxt)}" target="_blank" rel="noopener">${ic.wa} Envoyer à un ami sur WhatsApp</a>
+      <button class="btn soft" type="button" data-keep="${esc(o.id)}" aria-pressed="${k}">${k?"Gardée ✓":"Garder"}</button>
       <button class="btn soft" type="button" data-link="${esc(o.id)}">Copier le lien</button>
     </div>
     <p class="src">Annonce repérée sur ${okUrl(o.source?.url)?`<a href="${esc(o.source.url)}" target="_blank" rel="noopener">${esc(o.source.nom)}</a>`:esc(o.source?.nom)}${o.publie?`, publiée le ${longDate(o.publie)}`:""}. Vérifiez l'avis officiel avant d'envoyer votre dossier.</p>`;
@@ -374,56 +697,101 @@ function openOffer(id,push=true){
   document.title=`${o.titre} · Djob`;
 }
 function closeOffer(){const d=$("#dlg");if(d.open)d.close()}
-$("#dlg").addEventListener("close",()=>{document.title="Djob · Offres d'emploi au Bénin";if(location.hash)history.pushState(null,"",location.pathname+location.search)});
+$("#dlg").addEventListener("close",()=>{document.title="Djob · Les offres d'emploi du Bénin";if(/^#[a-z0-9-]+$/.test(location.hash)&&all.some(o=>"#"+o.id===location.hash))history.pushState(null,"",location.pathname+location.search)});
 $("#dlg").addEventListener("click",e=>{if(e.target===e.currentTarget)closeOffer()});
 
-let tt;function toast(m){const t=$("#toast");t.textContent=m;t.hidden=false;clearTimeout(tt);tt=setTimeout(()=>t.hidden=true,2000)}
+/* ---------- actions ---------- */
+let tt;function toast(m){const t=$("#toast");t.textContent=m;t.hidden=false;clearTimeout(tt);tt=setTimeout(()=>t.hidden=true,2300)}
 async function copy(txt,btn){
-  try{await navigator.clipboard.writeText(txt);if(btn){const o=btn.textContent;btn.textContent="Copié ✓";btn.classList.add("ok");setTimeout(()=>{btn.textContent=o;btn.classList.remove("ok")},1600)}else toast("Lien copié")}
+  try{await navigator.clipboard.writeText(txt);if(btn&&btn.classList.contains("copy")){const o=btn.textContent;btn.textContent="Copié ✓";btn.classList.add("ok");setTimeout(()=>{btn.textContent=o;btn.classList.remove("ok")},1600)}else toast("Copié")}
   catch{toast("Sélectionnez le texte pour le copier")}
 }
+function refresh(){badge();if(view==="offres")renderOffers();if(view==="moi")renderMoi()}
 function toggleKeep(id){
   saved=saved.includes(id)?saved.filter(x=>x!==id):[...saved,id];store.set("djob-saved",saved);
-  toast(saved.includes(id)?"Gardée dans « Mes offres »":"Retirée de « Mes offres »");
-  render();if($("#dlg").open&&$("#sheet").dataset.cur===id)openOffer(id,false);
+  toast(saved.includes(id)?"Gardée dans « Mes candidatures »":"Retirée de vos offres gardées");
+  refresh();if($("#dlg").open&&$("#sheet").dataset.cur===id)openOffer(id,false);
 }
+function apply(id){
+  const o=all.find(x=>x.id===id);apps[id]={date:new Date().toISOString(),statut:"envoyee",note:"",snap:{titre:o.titre,employeur:o.employeur}};store.set("djob-apps",apps);
+  toast("Bravo ! Candidature notée. On croise les doigts pour vous.");refresh();openOffer(id,false);
+}
+function ics(o){
+  const d=o.dateLimite.replace(/-/g,""),r=new Date(D(o.dateLimite).getTime()-2*864e5),rd=`${r.getFullYear()}${String(r.getMonth()+1).padStart(2,"0")}${String(r.getDate()).padStart(2,"0")}`;
+  const t=s=>String(s).replace(/[,;\\]/g,m=>"\\"+m).replace(/\n/g,"\\n");
+  const body=["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//Djob//FR","BEGIN:VEVENT",`UID:${o.id}@djob`,`DTSTAMP:${new Date().toISOString().replace(/[-:]/g,"").split(".")[0]}Z`,`DTSTART;VALUE=DATE:${rd}`,`SUMMARY:${t("Djob · Envoyer ma candidature : "+o.titre)}`,`DESCRIPTION:${t(`${o.employeur}. Date limite : ${longDate(o.dateLimite)}. ${SITE}#${o.id}`)}`,"BEGIN:VALARM","TRIGGER:PT9H","ACTION:DISPLAY","DESCRIPTION:Candidature à envoyer","END:VALARM","END:VEVENT","END:VCALENDAR"].join("\r\n");
+  const a=document.createElement("a");a.href=URL.createObjectURL(new Blob([body],{type:"text/calendar"}));a.download=`rappel-${o.id}.ics`;document.body.appendChild(a);a.click();a.remove();
+  toast("Rappel créé 2 jours avant la date limite. Ouvrez le fichier pour l'ajouter à votre agenda.");
+}
+const ser=f=>({q:f.q,zone:f.zone,niv:[...f.niv],sect:[...f.sect],contrat:[...f.contrat],ville:f.ville,tri:f.tri});
+const deser=s=>({q:s.q||"",zone:s.zone||"tout",niv:new Set(s.niv||[]),sect:new Set(s.sect||[]),contrat:new Set(s.contrat||[]),ville:s.ville||"",tri:s.tri||"urgence"});
+function alertLabel(){const p=[];if(F.q)p.push(`« ${F.q.trim()} »`);if(F.zone!=="tout")p.push({debut:"débutants",bientot:"ferme bientôt",nouveau:"nouvelles"}[F.zone]||ZONES[F.zone]);
+  F.niv.forEach(k=>p.push(NIVEAUX.find(x=>x[0]===k)[1]));F.sect.forEach(s=>p.push(s));F.contrat.forEach(k=>p.push(CONTRATS.find(x=>x[0]===k)[1]));if(F.ville)p.push(F.ville);return p.join(" · ")||"Toutes les offres"}
+function addAlert(){const label=alertLabel();if(alerts.some(a=>a.label===label)){toast("Cette alerte existe déjà");return}
+  alerts.push({label,f:ser(F),seen:Date.now()});store.set("djob-alerts",alerts);toast("Alerte créée. Retrouvez-la dans « Mes candidatures ».")}
+function setView(v,push=true){
+  view=v;$$(".view").forEach(s=>s.hidden=s.id!=="v-"+v);
+  $$("[data-view]").forEach(b=>{if(b.closest(".nav,.tabbar"))b.setAttribute("aria-current",b.dataset.view===v?"page":"false")});
+  if(v==="moi")renderMoi();if(v==="offres")renderOffers();
+  window.scrollTo({top:0});
+  if(push){const h=v==="offres"?"":"#"+v;if(location.hash!==h)history.pushState(null,"",h||location.pathname)}
+}
+function resetFilters(){F.zone="tout";F.niv.clear();F.sect.clear();F.contrat.clear();F.ville="";F.q="";$("#q").value="";$("#clear").hidden=true;shown=20}
 
 document.addEventListener("click",e=>{
   const t=e.target;
   const kp=t.closest("[data-keep]");if(kp){e.stopPropagation();toggleKeep(kp.dataset.keep);return}
   const cp=t.closest("[data-copy]");if(cp){copy(cp.dataset.copy,cp);return}
-  const ln=t.closest("[data-link]");if(ln){copy(location.origin+location.pathname+"#"+ln.dataset.link);return}
+  const ln=t.closest("[data-link]");if(ln){copy(SITE+"#"+ln.dataset.link);return}
+  const ap=t.closest("[data-apply]");if(ap){apply(ap.dataset.apply);return}
+  const ic_=t.closest("[data-ics]");if(ic_){ics(all.find(o=>o.id===ic_.dataset.ics));return}
   if(t.closest("[data-close]")){closeOffer();return}
-  if(t.closest("[data-reset]")){zone="tout";sect="Tous";onlySaved=false;query="";$("#q").value="";$("#clear").hidden=true;render();return}
-  const z=t.closest("[data-z]");if(z){zone=z.dataset.z;onlySaved=false;render();return}
-  const s=t.closest("[data-s]");if(s){sect=s.dataset.s;render();return}
+  const vw=t.closest("[data-view]");if(vw){closeOffer();setView(vw.dataset.view);return}
+  if(t.closest("[data-share-site]")){const txt="Djob : toutes les offres d'emploi du Bénin, mises à jour chaque matin. Gratuit. "+SITE;if(navigator.share)navigator.share({title:"Djob",text:txt,url:SITE}).catch(()=>{});else copy(SITE);return}
+  if(t.closest("[data-toggle-panel]")){panelOpen=!panelOpen;renderFilters();return}
+  if(t.closest("[data-close-panel]")){panelOpen=false;renderOffers();$(".listhead").scrollIntoView({behavior:"smooth",block:"start"});return}
+  if(t.closest("[data-reset]")){resetFilters();renderOffers();return}
+  if(t.closest("[data-more]")){shown+=20;renderOffers();return}
+  if(t.closest("#alertBtn")){addAlert();return}
+  if(t.closest("#since")){resetFilters();F.zone="nouveau";renderOffers();$(".listhead").scrollIntoView({behavior:"smooth"});return}
+  const sg=t.closest("[data-sugg]");if(sg){F.q=sg.dataset.sugg;$("#q").value=F.q;$("#clear").hidden=false;shown=20;renderOffers();return}
+  const z=t.closest("[data-z]");if(z){F.zone=z.dataset.z;shown=20;renderOffers();return}
+  for(const [attr,set] of [["niv",F.niv],["sect",F.sect],["contrat",F.contrat]]){const b=t.closest(`[data-${attr}]`);if(b){const k=b.dataset[attr];set.has(k)?set.delete(k):set.add(k);shown=20;renderOffers();return}}
+  const sgm=t.closest("[data-seg]");if(sgm){seg=sgm.dataset.seg;renderMoi();return}
+  const ra=t.closest("[data-run-alert]");if(ra){const al=alerts[+ra.dataset.runAlert];Object.assign(F,deser(al.f));$("#q").value=F.q;$("#clear").hidden=!F.q;al.seen=Date.now();store.set("djob-alerts",alerts);panelOpen=false;setView("offres");return}
+  const da=t.closest("[data-del-alert]");if(da){alerts.splice(+da.dataset.delAlert,1);store.set("djob-alerts",alerts);renderMoi();toast("Alerte supprimée");return}
+  const ua=t.closest("[data-unapply]");if(ua){delete apps[ua.dataset.unapply];store.set("djob-apps",apps);refresh();return}
   const c=t.closest("[data-id]");if(c){openOffer(c.dataset.id);return}
 });
 document.addEventListener("keydown",e=>{if((e.key==="Enter"||e.key===" ")&&e.target.classList?.contains("card")){e.preventDefault();openOffer(e.target.dataset.id)}});
 document.addEventListener("change",e=>{
-  const ck=e.target.closest("[data-ck]");if(!ck)return;const id=$("#sheet").dataset.cur,i=+ck.dataset.ck;
-  const cur=new Set(checks[id]||[]);ck.checked?cur.add(i):cur.delete(i);checks[id]=[...cur];store.set("djob-checks",checks);
-  const o=all.find(x=>x.id===id);if(o&&checks[id].length===o.pieces.length)toast("Dossier complet. Bonne chance !");
+  const t=e.target;
+  if(t.id==="f-ville"){F.ville=t.value;shown=20;renderOffers();return}
+  if(t.id==="f-tri"){F.tri=t.value;renderOffers();return}
+  if(t.dataset.statut){apps[t.dataset.statut].statut=t.value;store.set("djob-apps",apps);if(t.value==="retenu")toast("Félicitations !");renderMoi();return}
+  const ck=t.closest("[data-ck]");if(ck){const id=$("#sheet").dataset.cur,i=+ck.dataset.ck,cur=new Set(checks[id]||[]);ck.checked?cur.add(i):cur.delete(i);checks[id]=[...cur];store.set("djob-checks",checks);
+    const o=all.find(x=>x.id===id);if(o&&checks[id].length===o.pieces.length)toast("Dossier complet. Vous êtes prêt(e) !")}
 });
-$("#savedBtn").addEventListener("click",()=>{onlySaved=!onlySaved;if(onlySaved){zone="tout";sect="Tous"}render();window.scrollTo({top:$(".filters").offsetTop-10,behavior:"smooth"})});
-let tq;$("#q").addEventListener("input",e=>{$("#clear").hidden=!e.target.value;clearTimeout(tq);tq=setTimeout(()=>{query=e.target.value;render()},150)});
-$("#clear").addEventListener("click",()=>{$("#q").value="";query="";$("#clear").hidden=true;render();$("#q").focus()});
-window.addEventListener("popstate",()=>{const id=location.hash.slice(1);if(id&&all.some(o=>o.id===id))openOffer(id,false);else closeOffer()});
-
-function headline(){
-  const p=all.reduce((s,o)=>s+(o.nbPostes||1),0);
-  if(all.length)$("#headline").innerHTML=`<em>${p} postes</em> à pourvoir en ce moment, au Bénin et dans la sous-région.`;
+document.addEventListener("input",e=>{const t=e.target;if(t.dataset.note){apps[t.dataset.note].note=t.value;store.set("djob-apps",apps)}});
+let tq;$("#q").addEventListener("input",e=>{$("#clear").hidden=!e.target.value;clearTimeout(tq);tq=setTimeout(()=>{F.q=e.target.value;shown=20;renderOffers()},160)});
+$("#clear").addEventListener("click",()=>{$("#q").value="";F.q="";$("#clear").hidden=true;renderOffers();$("#q").focus()});
+function route(){
+  const h=location.hash.slice(1);
+  if(["moi","conseils","apropos"].includes(h)){closeOffer();setView(h,false)}
+  else if(h&&all.some(o=>o.id===h)){if(view!=="offres")setView("offres",false);openOffer(h,false)}
+  else{closeOffer();if(view!=="offres")setView("offres",false)}
 }
+window.addEventListener("popstate",route);
+
 function stamp(){
   if(!maj)return;const d=new Date(maj);if(isNaN(d))return;
   const same=d.toDateString()===new Date().toDateString();
-  $("#maj").textContent=`Mis à jour chaque matin · dernière fois ${same?"aujourd'hui":"le "+d.toLocaleDateString("fr-FR",{weekday:"long",day:"numeric",month:"long"})} à ${d.toLocaleTimeString("fr-FR",{hour:"2-digit",minute:"2-digit"})}.`;
+  $("#maj").textContent=`Mis à jour chaque matin · dernière mise à jour ${same?"aujourd'hui":"le "+d.toLocaleDateString("fr-FR",{weekday:"long",day:"numeric",month:"long"})} à ${d.toLocaleTimeString("fr-FR",{hour:"2-digit",minute:"2-digit"})}.`;
 }
 
-greet();
+greet();renderGuide();
 fetch("data.json",{cache:"no-cache"}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(d=>{
-  all=(d.offres||[]).filter(isOpen);maj=d.derniereMaj;headline();stamp();render();
-  const id=location.hash.slice(1);if(id&&all.some(o=>o.id===id))openOffer(id,false);
+  all=(d.offres||[]).filter(isOpen);maj=d.derniereMaj;headline();stamp();badge();route();if(view==="offres")renderOffers();
 }).catch(()=>{$("#list").innerHTML=`<div class="empty"><h2>La liste n'a pas pu se charger</h2><p>Vérifiez votre connexion, puis rechargez la page.</p><button class="btn soft" type="button" onclick="location.reload()">Recharger</button></div>`});
 
 if("serviceWorker" in navigator)window.addEventListener("load",()=>navigator.serviceWorker.register("sw.js").catch(()=>{}));
