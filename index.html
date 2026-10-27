@@ -1014,7 +1014,7 @@ function openOffer(id,push=true){
     ${n!==null?`<div class="deadline${n<=3?" hot":""}">${ic.clock}<span>Jusqu'au ${longDate(o.dateLimite)} · ${left(n).toLowerCase()}</span><button class="linkish" type="button" data-ics="${esc(o.id)}">Me le rappeler</button></div>`:`<div class="deadline">${ic.clock}<span>Pas de date limite annoncée. N'attendez pas trop quand même.</span></div>`}
     <div class="facts"><div class="fact"><span>Où</span><b>${esc(o.ville)}</b></div><div class="fact"><span>Contrat</span><b>${esc(o.contrat)}</b></div><div class="fact"><span>Niveau</span><b>${esc(o.niveau)}</b></div><div class="fact"><span>Expérience</span><b>${esc(o.experience)}</b></div>${o.salaire?`<div class="fact" style="grid-column:1/-1"><span>Salaire</span><b>${esc(o.salaire)}</b></div>`:""}</div>
     <div class="s-sec"><p>${esc(o.resume)}</p></div>
-    ${o.postes?.length?`<div class="s-sec"><h4>Les postes</h4><ul class="postes">${o.postes.map(p=>`<li><span>${esc(p.nom)}</span><b>${p.nombre}</b></li>`).join("")}</ul></div>`:""}
+    ${o.postes?.length?`<div class="s-sec"><h4>Les postes</h4><ul class="postes">${o.postes.map(p=>`<li><span>${esc(p.nom)}</span><b>${p.nombre??""}</b></li>`).join("")}</ul></div>`:""}
     ${o.profil?.length?`<div class="s-sec"><h4>Ce qu'on attend de vous</h4><ul class="dots">${o.profil.map(x=>`<li>${esc(x)}</li>`).join("")}</ul></div>`:""}
     ${o.pieces?.length?`<div class="s-sec"><h4>Votre dossier · cochez au fur et à mesure</h4><ul class="checks">${o.pieces.map((x,i)=>`<li><label><input type="checkbox" id="ck-${esc(o.id)}-${i}" data-ck="${i}" ${ch.includes(i)?"checked":""}><span>${esc(x)}</span></label></li>`).join("")}</ul></div>`:""}
     <div class="s-sec"><h4>Comment postuler</h4>${howTo(o)}</div>

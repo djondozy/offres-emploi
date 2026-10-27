@@ -1,6 +1,501 @@
 {
- "derniereMaj": "2026-10-27T05:42:32Z",
+ "derniereMaj": "2026-10-27T09:53:01Z",
  "offres": [
+  {
+   "id": "tpc-avant-vente-it-bid",
+   "titre": "Ingénieur(e) avant-vente IT et appels d'offres",
+   "employeur": "Intégrateur IT et télécoms (via Talents Plus)",
+   "ville": "Cotonou",
+   "zone": "cotonou",
+   "secteur": "Numérique",
+   "contrat": "CDD",
+   "niveau": "BAC+5",
+   "experience": "5 ans et +",
+   "debutant": false,
+   "nbPostes": 1,
+   "dateLimite": "2026-11-04",
+   "publie": "2026-10-26",
+   "resume": "Vous montez les réponses techniques et financières aux appels d'offres, de l'infrastructure serveur au cloud, puis vous les défendez devant les clients. Un poste pour un profil technique qui aime aussi convaincre, avec des déplacements au Togo.",
+   "profil": [
+    "BAC+5 en informatique, réseaux, télécoms ou cybersécurité",
+    "5 ans minimum en intégration IT, avant-vente ou réponse aux appels d'offres",
+    "Serveurs, virtualisation, réseaux, sécurité, cloud",
+    "Certifications constructeurs appréciées ; anglais technique"
+   ],
+   "pieces": [
+    "Lettre de motivation au Directeur général (disponibilité et prétentions salariales)",
+    "CV détaillé",
+    "Copies des diplômes et attestations de travail",
+    "Copie d'une pièce d'identité valide"
+   ],
+   "postuler": {
+    "mode": "email",
+    "valeur": "recrutement@talentsplusafrique.com",
+    "objet": "INGÉNIEUR(E) AVANT-VENTE IT & BID (H/F) (REF : TPC-1026R09IAV)"
+   },
+   "source": {
+    "nom": "Talents Plus Afrique",
+    "url": "https://www.talentsplusafrique.com/job-details/578"
+   },
+   "ajoute": "2026-10-27T09:53:01Z"
+  },
+  {
+   "id": "daho-beach-club-3-profils",
+   "titre": "Serveurs, extras du week-end et assistant(e) de direction",
+   "employeur": "DAHO Beach Club",
+   "ville": "Cotonou (Corniche d'Akpakpa)",
+   "zone": "cotonou",
+   "secteur": "Hôtellerie & restauration",
+   "contrat": "Temps plein",
+   "niveau": "Voir l'avis",
+   "experience": "Voir l'avis",
+   "debutant": false,
+   "nbPostes": null,
+   "dateLimite": null,
+   "publie": "2026-10-09",
+   "postes": [
+    {
+     "nom": "Serveur ou serveuse (poste fixe)",
+     "nombre": null
+    },
+    {
+     "nom": "Extras du samedi et du dimanche",
+     "nombre": null
+    },
+    {
+     "nom": "Assistant(e) de direction",
+     "nombre": null
+    }
+   ],
+   "resume": "Le beach club de la corniche d'Akpakpa renforce son équipe : service en salle, renforts le week-end et un poste d'assistanat de direction. Les extras du week-end sont une bonne façon de gagner un peu d'argent à côté des études.",
+   "profil": [
+    "Précisez le poste visé dans votre message",
+    "Conditions et horaires présentés selon le poste"
+   ],
+   "pieces": [
+    "CV"
+   ],
+   "postuler": {
+    "mode": "tel",
+    "valeur": "01 65 65 86 86",
+    "note": "Envoyez votre CV sur WhatsApp en indiquant le poste qui vous intéresse."
+   },
+   "source": {
+    "nom": "Opportunité pour tous",
+    "url": "https://opportunitepourtous.com/2026/10/09/daho-beach-club-cotonou-recrute-3-profils-2026/"
+   },
+   "ajoute": "2026-10-27T09:53:01Z"
+  },
+  {
+   "id": "restaurant-agla-patissier-serveur",
+   "titre": "Pâtissier(ère) et serveur(se)",
+   "employeur": "Restaurant à Agla (Kanglouè)",
+   "ville": "Cotonou (Agla)",
+   "zone": "cotonou",
+   "secteur": "Hôtellerie & restauration",
+   "contrat": "CDI",
+   "niveau": "Sans diplôme exigé",
+   "experience": "1 à 3 ans",
+   "debutant": false,
+   "nbPostes": 2,
+   "dateLimite": "2026-11-03",
+   "publie": "2026-10-20",
+   "postes": [
+    {
+     "nom": "Pâtissier(ère)",
+     "nombre": 1
+    },
+    {
+     "nom": "Serveur(se)",
+     "nombre": 1
+    }
+   ],
+   "resume": "Un restaurant d'Agla cherche une personne pour la pâtisserie et une autre pour le service, avec prise de poste immédiate. Une formation pratique peut remplacer l'expérience.",
+   "profil": [
+    "1 à 2 ans d'expérience ou une formation pratique",
+    "Disponible tout de suite",
+    "Bon français à l'oral comme à l'écrit"
+   ],
+   "pieces": [
+    "CV avec une photo"
+   ],
+   "postuler": {
+    "mode": "tel",
+    "valeur": "01 96 75 40 58",
+    "note": "Envoyez votre CV sur WhatsApp."
+   },
+   "source": {
+    "nom": "JobBénin",
+    "url": "https://jobbenin.com/offres/eyJpdiI6ImtVaDYrSzJrRy9qYzRuQ01lckdOeHc9PSIsInZhbHVlIjoiMkh2YXlBaExsRWRoMzgwbEpFdE11Zz09IiwibWFjIjoiNzg5NmI0NGY0Yjk0NDNjZDQ3OTg2YzRhZjIyM2JjYjljZGIzOTk5ZmVhZDhkY2FhMzVhYTFlMWRkNGI4YmQ0MCIsInRhZyI6IiJ9"
+   },
+   "ajoute": "2026-10-27T09:53:01Z"
+  },
+  {
+   "id": "bar-restau-togoudo-5-postes",
+   "titre": "5 postes en salle et au bar",
+   "employeur": "Bar-restaurant à Togoudo (Calavi)",
+   "ville": "Abomey-Calavi (Togoudo)",
+   "zone": "cotonou",
+   "secteur": "Hôtellerie & restauration",
+   "contrat": "CDI",
+   "niveau": "Sans diplôme exigé",
+   "experience": "1 à 3 ans",
+   "debutant": false,
+   "nbPostes": 5,
+   "dateLimite": "2026-11-03",
+   "publie": "2026-10-20",
+   "postes": [
+    {
+     "nom": "Service en salle",
+     "nombre": 3
+    },
+    {
+     "nom": "Service au bar",
+     "nombre": 2
+    }
+   ],
+   "resume": "Un bar-restaurant de Togoudo (Allégléta) recrute pour la salle et le bar, service du midi et soirées du week-end. Le repas est pris sur place et un jour de repos est prévu chaque semaine.",
+   "profil": [
+    "1 à 2 ans d'expérience en service",
+    "Disponible le midi et les soirs de week-end",
+    "Français courant"
+   ],
+   "pieces": [
+    "CV",
+    "Copie de la pièce d'identité",
+    "Photo récente"
+   ],
+   "postuler": {
+    "mode": "tel",
+    "valeur": "01 97 96 03 79",
+    "note": "Appelez ou écrivez sur WhatsApp au même numéro, en précisant le poste."
+   },
+   "source": {
+    "nom": "JobBénin",
+    "url": "https://jobbenin.com/offres/eyJpdiI6IklBZ1VmdlNaUFFsRkl1Vy9TZW9GUFE9PSIsInZhbHVlIjoiS29jcUNWazZJQ2xlZ0FjMFlqak1HZz09IiwibWFjIjoiOGRiMzE3ZDAwMDlhZWQ3NjA4Zjg3OTVkMDcxMWNlODVjZDllMjU2OTg0MjE5MDIzM2M2NTlmODdjNzI1NTgyYiIsInRhZyI6IiJ9"
+   },
+   "ajoute": "2026-10-27T09:53:01Z"
+  },
+  {
+   "id": "bar-restau-togba-serveurs",
+   "titre": "2 serveurs ou serveuses",
+   "employeur": "Bar-restaurant à Togba",
+   "ville": "Abomey-Calavi (Togba)",
+   "zone": "cotonou",
+   "secteur": "Hôtellerie & restauration",
+   "contrat": "CDD",
+   "niveau": "Sans diplôme exigé",
+   "experience": "Débutant accepté",
+   "debutant": true,
+   "nbPostes": 2,
+   "dateLimite": "2026-11-08",
+   "publie": "2026-10-20",
+   "resume": "Service en salle aux heures d'affluence dans un bar-restaurant de Togba, avec une prime en plus du salaire. Les débutants peuvent tenter leur chance.",
+   "profil": [
+    "Disponible aux heures de pointe",
+    "Bon français",
+    "Horaires fixés avec la direction"
+   ],
+   "pieces": [],
+   "postuler": {
+    "mode": "tel",
+    "valeur": "01 97 53 14 94",
+    "note": "Appelez ou écrivez sur WhatsApp au même numéro, en précisant le poste."
+   },
+   "source": {
+    "nom": "JobBénin",
+    "url": "https://jobbenin.com/offres/eyJpdiI6IlpiTklXUDhpZEpMakpyTk4rclVhYVE9PSIsInZhbHVlIjoiUVVXZDJCNWJlc1h6NkVXZHVCVXByZz09IiwibWFjIjoiN2QyODIwNDE0ZTVlNTU1ZjhkYzkxNGI2ZjQxYmRhNDI1NTljMjgzZTc1Nzc3MTkwODZiZDg1ZDE4MTc3ZjIyZCIsInRhZyI6IiJ9"
+   },
+   "ajoute": "2026-10-27T09:53:01Z"
+  },
+  {
+   "id": "restaurant-zogbadji-cuisinier",
+   "titre": "Cuisinier ou cuisinière",
+   "employeur": "Restaurant à Zogbadji (Calavi)",
+   "ville": "Abomey-Calavi (Zogbadji)",
+   "zone": "cotonou",
+   "secteur": "Hôtellerie & restauration",
+   "contrat": "Temps plein",
+   "niveau": "Sans diplôme exigé",
+   "experience": "1 à 3 ans",
+   "debutant": false,
+   "nbPostes": 1,
+   "dateLimite": "2026-10-30",
+   "publie": "2026-10-15",
+   "resume": "Un restaurant de la zone universitaire cherche quelqu'un qui maîtrise la cuisine béninoise et l'hygiène en cuisine. Idéal si vous habitez Calavi ou Zogbadji.",
+   "profil": [
+    "1 an d'expérience",
+    "Cuisine béninoise et hygiène stricte",
+    "Habiter Calavi ou Zogbadji",
+    "Disponible tout de suite"
+   ],
+   "pieces": [],
+   "postuler": {
+    "mode": "tel",
+    "valeur": "01 67 00 34 23",
+    "note": "Appelez ou écrivez sur WhatsApp au même numéro, en précisant le poste."
+   },
+   "source": {
+    "nom": "JobBénin",
+    "url": "https://jobbenin.com/offres/eyJpdiI6Ind5TDk4RUhuNHdXa0h1WVZFSTJDNEE9PSIsInZhbHVlIjoiY3BsMmdTWkp3M3lSWGNEelhGL1Jzdz09IiwibWFjIjoiNGJiMmE4MTBjZWMyNzc5OWVmZmJlMzA1ZDI5MTFiM2U5YzViYmRkNTUxMTkzYTM1ZGFhNjhiYTY2NWMxNTk0OCIsInRhZyI6IiJ9"
+   },
+   "ajoute": "2026-10-27T09:53:01Z"
+  },
+  {
+   "id": "restaurant-segbeya-3-postes",
+   "titre": "Cuisinier, aide-cuisinier et agent de plonge",
+   "employeur": "Restaurant à Akpakpa Sègbèya",
+   "ville": "Cotonou (Akpakpa)",
+   "zone": "cotonou",
+   "secteur": "Hôtellerie & restauration",
+   "contrat": "Temps plein",
+   "niveau": "Sans diplôme exigé",
+   "experience": "Voir l'avis",
+   "debutant": true,
+   "nbPostes": 3,
+   "dateLimite": "2026-11-04",
+   "publie": "2026-10-15",
+   "postes": [
+    {
+     "nom": "Cuisinier professionnel",
+     "nombre": 1
+    },
+    {
+     "nom": "Aide en cuisine",
+     "nombre": 1
+    },
+    {
+     "nom": "Agent de plonge et d'entretien",
+     "nombre": 1
+    }
+   ],
+   "resume": "Trois postes pour monter une équipe de cuisine à Akpakpa. Le cuisinier doit être confirmé ; l'aide et l'agent de plonge sont de bonnes portes d'entrée sans diplôme.",
+   "profil": [
+    "2 ans d'expérience pour le poste de cuisinier",
+    "Règles d'hygiène et de sécurité alimentaire",
+    "Sérieux, ponctualité, esprit d'équipe"
+   ],
+   "pieces": [],
+   "postuler": {
+    "mode": "tel",
+    "valeur": "01 69 84 30 81",
+    "note": "Appelez ou écrivez sur WhatsApp au même numéro, en précisant le poste."
+   },
+   "source": {
+    "nom": "JobBénin",
+    "url": "https://jobbenin.com/offres/eyJpdiI6IkdaK3ZMV3J0VEdpdVUzZEhTZUF5ZlE9PSIsInZhbHVlIjoibjlnZDN0UkIrb1M1WHRWWkQ0UzVsZz09IiwibWFjIjoiMjEyMDcxNWI5MTE3NDNjN2RiYjU1MGMzMWJiNDFmMDI3ZmNiYjE1YzQ2MDAwNjllYTEzMTkyNzY4YmQwMTZlZiIsInRhZyI6IiJ9"
+   },
+   "ajoute": "2026-10-27T09:53:01Z"
+  },
+  {
+   "id": "salon-fidjrosse-tresses",
+   "titre": "Coiffeur(se) tresses et tissage",
+   "employeur": "Salon de coiffure à Fidjrossè",
+   "ville": "Cotonou (Fidjrossè)",
+   "zone": "cotonou",
+   "secteur": "Services à la personne",
+   "contrat": "Temps plein",
+   "niveau": "Diplôme en coiffure",
+   "experience": "1 à 3 ans",
+   "debutant": false,
+   "nbPostes": 1,
+   "dateLimite": "2026-11-14",
+   "publie": "2026-10-15",
+   "resume": "Un salon de Fidjrossè cherche une main sûre pour les nattes, tresses et tissages. Montrez votre travail : quelques photos de vos coiffures font la différence.",
+   "profil": [
+    "Diplôme en coiffure",
+    "2 ans d'expérience en salon ou à votre compte",
+    "Nattes, tresses et tissage"
+   ],
+   "pieces": [
+    "Photos de coiffures réalisées"
+   ],
+   "postuler": {
+    "mode": "tel",
+    "valeur": "01 67 83 97 04",
+    "note": "Appelez ou laissez un message WhatsApp avec quelques photos de vos réalisations."
+   },
+   "source": {
+    "nom": "JobBénin",
+    "url": "https://jobbenin.com/offres/eyJpdiI6IkNCdWhUTE5INzY2aUxObC9mTGFiR1E9PSIsInZhbHVlIjoidFRYN3RvYUJPVWFFN0ZtUThVdFhrdz09IiwibWFjIjoiMGJiMjE1MDA3ZTY2ODljN2NhMGExY2M1NzE5MWVmYzZjN2I5MDlmMzc1ZmE1MmM0MWMzNjNhZWE0ZDA3OGJhMiIsInRhZyI6IiJ9"
+   },
+   "ajoute": "2026-10-27T09:53:01Z"
+  },
+  {
+   "id": "gamezone-maria-gleta-assistant",
+   "titre": "Assistant(e) dans une salle de jeux",
+   "employeur": "GameZone",
+   "ville": "Abomey-Calavi (Maria Gléta)",
+   "zone": "cotonou",
+   "secteur": "Services à la personne",
+   "contrat": "CDI",
+   "niveau": "BEPC",
+   "experience": "Débutant accepté",
+   "debutant": true,
+   "nbPostes": 1,
+   "dateLimite": "2026-11-04",
+   "publie": "2026-10-15",
+   "resume": "Accueil des clients et suivi de la salle dans une salle de jeux de Maria Gléta, avec une formation sur place. Un premier emploi accessible avec le BEPC ou le BAC.",
+   "profil": [
+    "BEPC ou BAC",
+    "Bon français",
+    "Horaires pouvant inclure soirs et week-ends"
+   ],
+   "pieces": [],
+   "postuler": {
+    "mode": "tel",
+    "valeur": "01 62 38 31 51",
+    "note": "Écrivez sur WhatsApp, c'est le seul canal indiqué."
+   },
+   "source": {
+    "nom": "JobBénin",
+    "url": "https://jobbenin.com/offres/eyJpdiI6IjB3L0VsakFQZ1pXdm5YdFZwSmgxb1E9PSIsInZhbHVlIjoieS9tRVAyY1cxV1hhZ2dmNXZiaTJWQT09IiwibWFjIjoiYWRjMGY5MjBjNjVkZWVhZTg5NzQ3ZmEzNjM2M2FhNDFkZGJkZjg1ODU0ZjQ4MTgzNzhkN2YwZmM1MGM5MjVjNyIsInRhZyI6IiJ9"
+   },
+   "ajoute": "2026-10-27T09:53:01Z"
+  },
+  {
+   "id": "agence-livreur-akassato",
+   "titre": "Livreur",
+   "employeur": "Agence de livraison",
+   "ville": "Cotonou et Calavi (Akassato, Zopah, Misséssinto)",
+   "zone": "cotonou",
+   "secteur": "Transport & logistique",
+   "contrat": "Temps plein",
+   "niveau": "Sans diplôme exigé",
+   "experience": "1 à 3 ans",
+   "debutant": false,
+   "nbPostes": null,
+   "dateLimite": "2026-10-30",
+   "publie": "2026-10-15",
+   "resume": "Des livraisons dans le nord de Cotonou et autour d'Akassato. La moto n'est pas exigée, mais il faut habiter dans le coin et connaître le métier.",
+   "profil": [
+    "1 an d'expérience en livraison",
+    "Habiter Akassato, Zopah, Misséssinto ou environs",
+    "Disponible tout de suite"
+   ],
+   "pieces": [],
+   "postuler": {
+    "mode": "tel",
+    "valeur": "01 65 15 50 65",
+    "note": "Appelez ou écrivez sur WhatsApp au même numéro, en précisant le poste."
+   },
+   "source": {
+    "nom": "JobBénin",
+    "url": "https://jobbenin.com/offres/eyJpdiI6IkNWY2ZKUkhZWlNIRjZ3cnVsbjVvY2c9PSIsInZhbHVlIjoieVB1NFdTMEphN0dzVDlEc2d5czZwdz09IiwibWFjIjoiYzc0ZDc4MTBkNGM2ZmQ5MzQ4ZGRhYjg3ZjcwODJiOTliZDcxZWExZGVkOWQ0MTYwNjg0MmQ2MmM3MDJhZTE4MSIsInRhZyI6IiJ9"
+   },
+   "ajoute": "2026-10-27T09:53:01Z"
+  },
+  {
+   "id": "restaurant-ita-4-postes",
+   "titre": "2 pâtissiers et 2 serveurs",
+   "employeur": "Restaurant à Ita",
+   "ville": "Ita (Plateau)",
+   "zone": "benin",
+   "secteur": "Hôtellerie & restauration",
+   "contrat": "Temps plein",
+   "niveau": "Sans diplôme exigé",
+   "experience": "Débutant accepté",
+   "debutant": true,
+   "nbPostes": 4,
+   "dateLimite": "2026-10-30",
+   "publie": "2026-10-15",
+   "postes": [
+    {
+     "nom": "Pâtissier(ère)",
+     "nombre": 2
+    },
+    {
+     "nom": "Serveur(se)",
+     "nombre": 2
+    }
+   ],
+   "resume": "Quatre postes dans un restaurant du Plateau, en journée ou en soirée. Les débutants sont acceptés, à condition d'être disponibles tout de suite.",
+   "profil": [
+    "Disponible immédiatement",
+    "Horaires de jour ou de soir",
+    "Bon français"
+   ],
+   "pieces": [],
+   "postuler": {
+    "mode": "tel",
+    "valeur": "01 67 23 46 84",
+    "note": "Appelez ou écrivez sur WhatsApp au même numéro, en précisant le poste."
+   },
+   "source": {
+    "nom": "JobBénin",
+    "url": "https://jobbenin.com/offres/eyJpdiI6ImhZNDIwNnh0djhSbHZFb3R3bGpITXc9PSIsInZhbHVlIjoiOEJPVktRenNBRVpXZlBJK1ZXY3hEQT09IiwibWFjIjoiNGViZTEwZDVhODI2MTIzYWM3ZmVlMTVmZWQxMTk2NzU3ODVhY2E2NDA3NWNkNzdmNWIxNzgzZWEzZDcwZTliYSIsInRhZyI6IiJ9"
+   },
+   "ajoute": "2026-10-27T09:53:01Z"
+  },
+  {
+   "id": "ecole-agontikon-enseignant",
+   "titre": "Enseignant(e) dans une école bilingue",
+   "employeur": "École bilingue d'Agontikon",
+   "ville": "Cotonou (Agontikon)",
+   "zone": "cotonou",
+   "secteur": "Éducation",
+   "contrat": "Temps plein",
+   "niveau": "BAC",
+   "experience": "1 à 3 ans",
+   "debutant": false,
+   "nbPostes": 1,
+   "dateLimite": "2026-10-30",
+   "publie": "2026-10-15",
+   "resume": "Une école bilingue de Cotonou cherche un enseignant à l'aise en anglais, avec un logement assuré. Une licence est appréciée mais le BAC suffit pour postuler.",
+   "profil": [
+    "BAC minimum, licence appréciée",
+    "Bon niveau d'anglais",
+    "1 an d'expérience souhaité",
+    "Logement fourni"
+   ],
+   "pieces": [
+    "Demande manuscrite",
+    "CV",
+    "Copie du diplôme"
+   ],
+   "postuler": {
+    "mode": "tel",
+    "valeur": "01 97 58 14 78",
+    "note": "Autre numéro : 01 43 11 14 24. Préparez votre dossier complet."
+   },
+   "source": {
+    "nom": "JobBénin",
+    "url": "https://jobbenin.com/offres/eyJpdiI6IkJkcHNwb3NDNnhDeDNoZGpkMXJuclE9PSIsInZhbHVlIjoiYml1QzVKN3N3YjNFalJBWFR6THNYUT09IiwibWFjIjoiOTZkYjQyY2E0MDU3YTAyNmJhOGQ5ZWMzZDMzNWVlNzU0NDg3ZGEzZGM3YzU2OGFjZGFiYWEyNzViYmIyZWI5YyIsInRhZyI6IiJ9"
+   },
+   "ajoute": "2026-10-27T09:53:01Z"
+  },
+  {
+   "id": "orphelinat-ze-vigile",
+   "titre": "Vigile de jour",
+   "employeur": "Orphelinat à Zè",
+   "ville": "Zè (près de la GDIZ)",
+   "zone": "benin",
+   "secteur": "Sécurité",
+   "contrat": "Temps plein",
+   "niveau": "Sans diplôme exigé",
+   "experience": "1 à 3 ans",
+   "debutant": false,
+   "nbPostes": 1,
+   "dateLimite": "2026-10-30",
+   "publie": "2026-10-15",
+   "resume": "Assurer la sécurité d'un orphelinat de Zè, de 7 h à 18 h. Un poste pour une personne sérieuse qui habite la commune.",
+   "profil": [
+    "1 an d'expérience",
+    "Habiter Zè",
+    "Sérieux, ponctuel et honnête"
+   ],
+   "pieces": [],
+   "postuler": {
+    "mode": "tel",
+    "valeur": "01 97 64 35 10",
+    "note": "Uniquement par WhatsApp."
+   },
+   "source": {
+    "nom": "JobBénin",
+    "url": "https://jobbenin.com/offres/eyJpdiI6IlFDbFZmejArZm5ieDVCSXFuZHpvYmc9PSIsInZhbHVlIjoiRTFqOVRXVUJTQ3o1cU85dGEvam9GZz09IiwibWFjIjoiOTkzOTM0YzI2NTEzNmI1MzY0ODJlNDlmNzcwMzRmMDlhY2IxY2YzNWFkNzQyYTllZDdjY2EyZjcyOWE2ZDU3MSIsInRhZyI6IiJ9"
+   },
+   "ajoute": "2026-10-27T09:53:01Z"
+  },
   {
    "id": "wardip2-13-postes",
    "titre": "13 postes au projet WARDIP 2 (numérique)",
@@ -951,7 +1446,7 @@
   },
   {
    "id": "kps-groupe-achats-affaires",
-   "titre": "Achats-logistique et ingénieur d'affaires",
+   "titre": "Achats-logistique, ingénieur d'affaires et partenariats",
    "employeur": "KPS Groupe",
    "ville": "Cotonou (Agla)",
    "zone": "cotonou",
@@ -960,10 +1455,10 @@
    "niveau": "Voir l'avis",
    "experience": "Voir l'avis",
    "debutant": false,
-   "nbPostes": 2,
+   "nbPostes": 3,
    "dateLimite": "2026-10-31",
    "publie": "2026-10-23",
-   "resume": "KPS Groupe recrute deux profils en poste permanent à Agla. La fiche détaillée de chaque poste est téléchargeable sur l'annonce.",
+   "resume": "KPS Groupe recrute trois profils en poste permanent à Agla. La fiche détaillée de chaque poste est téléchargeable sur l'annonce.",
    "postes": [
     {
      "nom": "Chargé(e) achats et logistique",
@@ -971,6 +1466,10 @@
     },
     {
      "nom": "Ingénieur d'affaires",
+     "nombre": 1
+    },
+    {
+     "nom": "Chargé(e) des partenariats",
      "nombre": 1
     }
    ],
