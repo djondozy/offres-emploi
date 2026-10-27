@@ -5,16 +5,39 @@
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#F5F6FA",
-  "theme_color": "#FFFFFF",
+  "background_color": "#FFFFFF",
+  "theme_color": "#0A7B3E",
   "lang": "fr",
-  "categories": ["business", "productivity"],
+  "categories": [
+    "business",
+    "productivity"
+  ],
   "icons": [
-    {"src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
-    {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"}
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
   ],
   "shortcuts": [
-    {"name": "Mes candidatures", "url": "./#moi"},
-    {"name": "Conseils", "url": "./#conseils"}
+    {
+      "name": "Offres",
+      "url": "./#offres"
+    },
+    {
+      "name": "Accompagnement",
+      "url": "./#accompagnement"
+    },
+    {
+      "name": "Publier une annonce",
+      "url": "./#publier"
+    }
   ]
 }

@@ -1,0 +1,90 @@
+{
+ "whatsapp": "",
+ "email": "",
+ "formulaires": {
+  "annonce": null,
+  "accompagnement": null
+ },
+ "services": [
+  {
+   "id": "cv",
+   "nom": "Un CV qui donne envie",
+   "pour": "Tout le monde",
+   "duree": "Livré sous 48 h",
+   "prix": "",
+   "desc": "On reprend votre CV avec vous : structure, mots justes, mise en page propre. Vous repartez avec une version Word et PDF, adaptée au poste que vous visez.",
+   "inclus": [
+    "Échange de 20 min pour comprendre votre parcours",
+    "CV réécrit, en Word et PDF",
+    "Une version adaptée à une offre précise"
+   ]
+  },
+  {
+   "id": "lettre",
+   "nom": "Lettre et mail de candidature",
+   "pour": "Pour une offre précise",
+   "duree": "Livré sous 24 h",
+   "prix": "",
+   "desc": "Une lettre courte et personnelle, écrite pour l'offre qui vous intéresse, avec le mail d'envoi prêt à copier.",
+   "inclus": [
+    "Lettre de motivation sur mesure",
+    "Mail d'accompagnement",
+    "Vérification de votre dossier avant envoi"
+   ]
+  },
+  {
+   "id": "entretien",
+   "nom": "Préparation à l'entretien",
+   "pour": "Vous êtes convoqué(e)",
+   "duree": "Séance de 45 min",
+   "prix": "",
+   "desc": "Une vraie simulation d'entretien, en visio, au téléphone ou sur WhatsApp, avec les questions qu'on vous posera vraiment et un retour honnête sur vos réponses.",
+   "inclus": [
+    "Simulation sur le poste visé",
+    "Les questions pièges et comment y répondre",
+    "Conseils de présentation et de tenue",
+    "Fiche récapitulative après la séance"
+   ]
+  },
+  {
+   "id": "pack",
+   "nom": "Pack premier emploi",
+   "pour": "Jeunes diplômés",
+   "duree": "Sur 1 à 2 semaines",
+   "prix": "",
+   "desc": "Pour démarrer du bon pied : CV, lettre type, profil LinkedIn et une simulation d'entretien. L'accompagnement le plus complet.",
+   "inclus": [
+    "CV et lettre type",
+    "Profil LinkedIn retravaillé",
+    "Une simulation d'entretien",
+    "Une liste d'offres choisies pour vous"
+   ]
+  },
+  {
+   "id": "concours",
+   "nom": "Tests écrits et concours",
+   "pour": "Fonction publique, banques, ONG",
+   "duree": "Séance de 1 h",
+   "prix": "",
+   "desc": "Méthode pour les tests de culture générale, de logique et d'expression écrite, avec des exercices corrigés.",
+   "inclus": [
+    "Méthode et pièges à éviter",
+    "Exercices corrigés",
+    "Plan de révision sur 2 semaines"
+   ]
+  },
+  {
+   "id": "linkedin",
+   "nom": "Profil LinkedIn",
+   "pour": "Être trouvé par les recruteurs",
+   "duree": "Livré sous 48 h",
+   "prix": "",
+   "desc": "Titre, résumé, expériences, compétences : un profil clair qui ressort quand un recruteur cherche votre métier au Bénin.",
+   "inclus": [
+    "Titre et résumé réécrits",
+    "Expériences mises en valeur",
+    "Conseils pour la photo et le réseau"
+   ]
+  }
+ ]
+}
