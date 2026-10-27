@@ -1,6 +1,794 @@
 {
- "derniereMaj": "2026-10-27T09:53:01Z",
+ "derniereMaj": "2026-10-27T10:04:11Z",
  "offres": [
+  {
+   "id": "indigital-teleconseiller-distance",
+   "titre": "Téléconseiller(ère) à distance (prise de rendez-vous)",
+   "employeur": "inDigital",
+   "ville": "Télétravail depuis le Bénin",
+   "zone": "distance",
+   "secteur": "Commerce & vente",
+   "contrat": "Temps partiel",
+   "niveau": "Voir l'avis",
+   "experience": "Débutant accepté",
+   "debutant": true,
+   "nbPostes": 1,
+   "dateLimite": null,
+   "publie": "2026-10-27",
+   "resume": "Vous appelez des dirigeants d'entreprise pour leur proposer un rendez-vous avec les experts de l'équipe, depuis chez vous, 20 à 40 heures par semaine. Une formation courte est assurée : scripts, écoute d'appels, gestion des objections.",
+   "profil": [
+    "Travail à distance, du lundi au vendredi (8 h-12 h et 14 h-19 h)",
+    "Objectif d'environ 200 appels par jour",
+    "Bonne élocution au téléphone et connexion fiable",
+    "Débutants formés par l'équipe"
+   ],
+   "pieces": [],
+   "postuler": {
+    "mode": "lien",
+    "valeur": "https://bj.linkedin.com/jobs/view/4484030125",
+    "libelle": "Voir l'annonce sur LinkedIn"
+   },
+   "source": {
+    "nom": "LinkedIn",
+    "url": "https://bj.linkedin.com/jobs/view/4484030125"
+   },
+   "ajoute": "2026-10-27T10:04:11Z"
+  },
+  {
+   "id": "papa-in-shape-teleprospecteur",
+   "titre": "Téléprospecteur(trice) 100 % télétravail",
+   "employeur": "Papa In Shape",
+   "ville": "Télétravail depuis le Bénin",
+   "zone": "distance",
+   "secteur": "Commerce & vente",
+   "contrat": "Temps plein",
+   "niveau": "Voir l'avis",
+   "experience": "Voir l'avis",
+   "debutant": false,
+   "nbPostes": 1,
+   "dateLimite": null,
+   "publie": "2026-10-07",
+   "resume": "Vous rappelez des personnes qui ont déjà demandé des informations sur un programme de remise en forme, et vous fixez les rendez-vous avec l'équipe commerciale. Tout se fait à distance, au téléphone, avec une clientèle francophone.",
+   "profil": [
+    "Travail 100 % à distance",
+    "Très bon français à l'oral",
+    "Aisance au téléphone et sens de l'écoute"
+   ],
+   "pieces": [],
+   "postuler": {
+    "mode": "lien",
+    "valeur": "https://bj.linkedin.com/jobs/view/4476702697",
+    "libelle": "Voir l'annonce sur LinkedIn"
+   },
+   "source": {
+    "nom": "LinkedIn",
+    "url": "https://bj.linkedin.com/jobs/view/4476702697"
+   },
+   "ajoute": "2026-10-27T10:04:11Z"
+  },
+  {
+   "id": "concentrix-6-postes-support",
+   "titre": "Paie, finance, RH et moyens généraux",
+   "employeur": "Concentrix Bénin",
+   "ville": "Cotonou",
+   "zone": "cotonou",
+   "secteur": "Finance & comptabilité",
+   "contrat": "Temps plein",
+   "niveau": "Voir l'avis",
+   "experience": "Voir l'avis",
+   "debutant": false,
+   "nbPostes": 4,
+   "dateLimite": null,
+   "publie": "2026-10-22",
+   "resume": "Au-delà des conseillers clients, Concentrix renforce ses équipes support à Cotonou : paie, planification financière, ressources humaines et moyens généraux. Chaque poste a son annonce LinkedIn ; le lien ci-dessous ouvre celle du chargé de paie.",
+   "profil": [
+    "Chargé(e) de paie : annonce 4472612719",
+    "Professionnel(le) FP&A : annonce 4471758377",
+    "People Solution Business Partner : annonce 4448464932",
+    "Chargé(e) des moyens généraux, français-anglais : annonce 4440176077"
+   ],
+   "pieces": [],
+   "postuler": {
+    "mode": "lien",
+    "valeur": "https://bj.linkedin.com/jobs/view/4472612719",
+    "libelle": "Voir l'annonce sur LinkedIn"
+   },
+   "source": {
+    "nom": "LinkedIn",
+    "url": "https://bj.linkedin.com/jobs/view/4472612719"
+   },
+   "ajoute": "2026-10-27T10:04:11Z",
+   "postes": [
+    {
+     "nom": "Chargé(e) de paie",
+     "nombre": 1
+    },
+    {
+     "nom": "Planification et analyse financière (FP&A)",
+     "nombre": 1
+    },
+    {
+     "nom": "People Solution Business Partner (RH)",
+     "nombre": 1
+    },
+    {
+     "nom": "Chargé(e) des moyens généraux",
+     "nombre": 1
+    }
+   ]
+  },
+  {
+   "id": "mia-mode-stage-partenariats",
+   "titre": "Stage : assistant(e) partenariats internationaux et financements",
+   "employeur": "MADE in AFRICA MODE & DESIGN (MiA MO/DE)",
+   "ville": "Cotonou",
+   "zone": "cotonou",
+   "secteur": "Communication",
+   "contrat": "Stage",
+   "niveau": "BAC+3",
+   "experience": "Débutant accepté",
+   "debutant": true,
+   "nbPostes": 1,
+   "dateLimite": null,
+   "publie": "2026-10-27",
+   "resume": "Une start-up panafricaine de la mode et du design cherche un(e) stagiaire pour développer ses partenariats avec des écoles et institutions en Afrique, en Europe et en Amérique du Nord, et suivre ses financements. Pour un étudiant en relations internationales, commerce international ou management culturel.",
+   "profil": [
+    "Étudiant(e) en relations internationales, commerce international ou management culturel",
+    "Goût pour la mode, le textile et le design",
+    "Rédaction et suivi de dossiers"
+   ],
+   "pieces": [],
+   "postuler": {
+    "mode": "lien",
+    "valeur": "https://bj.linkedin.com/jobs/view/4484008950",
+    "libelle": "Voir l'annonce sur LinkedIn"
+   },
+   "source": {
+    "nom": "LinkedIn",
+    "url": "https://bj.linkedin.com/jobs/view/4484008950"
+   },
+   "ajoute": "2026-10-27T10:04:11Z"
+  },
+  {
+   "id": "batibid-dev-full-stack",
+   "titre": "Développeur(se) full-stack expérimenté(e)",
+   "employeur": "BatiBid",
+   "ville": "Cotonou",
+   "zone": "cotonou",
+   "secteur": "Numérique",
+   "contrat": "Temps plein",
+   "niveau": "Voir l'avis",
+   "experience": "Voir l'avis",
+   "debutant": false,
+   "nbPostes": 1,
+   "dateLimite": null,
+   "publie": "2026-10-27",
+   "resume": "BatiBid, une entreprise béninoise de services immobiliers, modernise sa plateforme de gestion locative et cherche un développeur à l'aise côté serveur comme côté interface. Vous participerez à la refonte de ses outils.",
+   "profil": [
+    "Expérience confirmée en back-end et front-end",
+    "Capacité à reprendre et améliorer une plateforme existante"
+   ],
+   "pieces": [],
+   "postuler": {
+    "mode": "lien",
+    "valeur": "https://bj.linkedin.com/jobs/view/4483784501",
+    "libelle": "Voir l'annonce sur LinkedIn"
+   },
+   "source": {
+    "nom": "LinkedIn",
+    "url": "https://bj.linkedin.com/jobs/view/4483784501"
+   },
+   "ajoute": "2026-10-27T10:04:11Z"
+  },
+  {
+   "id": "zafara-commercial-terrain",
+   "titre": "Commercial(e) terrain et chargé(e) de relation client",
+   "employeur": "ZAFARA Bénin (marketplace)",
+   "ville": "Cotonou",
+   "zone": "cotonou",
+   "secteur": "Commerce & vente",
+   "contrat": "Temps plein",
+   "niveau": "Voir l'avis",
+   "experience": "Débutant accepté",
+   "debutant": true,
+   "nbPostes": 1,
+   "dateLimite": null,
+   "publie": "2026-10-26",
+   "resume": "ZAFARA, la marketplace béninoise des produits locaux, cherche quelqu'un pour recruter des commerçants partenaires sur le terrain et accompagner les utilisateurs. Un bon poste pour un profil dynamique qui aime le contact.",
+   "profil": [
+    "Prospection sur le terrain",
+    "Accompagnement des commerçants et des clients",
+    "Dynamique, polyvalent(e), orienté(e) résultats"
+   ],
+   "pieces": [],
+   "postuler": {
+    "mode": "lien",
+    "valeur": "https://bj.linkedin.com/jobs/view/4483544693",
+    "libelle": "Voir l'annonce sur LinkedIn"
+   },
+   "source": {
+    "nom": "LinkedIn",
+    "url": "https://bj.linkedin.com/jobs/view/4483544693"
+   },
+   "ajoute": "2026-10-27T10:04:11Z"
+  },
+  {
+   "id": "technoserve-directeur-karite",
+   "titre": "Directeur(trice) du programme BeninKarité",
+   "employeur": "TechnoServe",
+   "ville": "Cotonou",
+   "zone": "cotonou",
+   "secteur": "Humanitaire & ONG",
+   "contrat": "Temps plein",
+   "niveau": "Voir l'avis",
+   "experience": "5 ans et +",
+   "debutant": false,
+   "nbPostes": 1,
+   "dateLimite": null,
+   "publie": "2026-10-26",
+   "resume": "L'ONG TechnoServe cherche la personne qui dirigera son programme de développement de la filière karité au Bénin. Un poste de direction pour un profil expérimenté en gestion de programmes agricoles.",
+   "profil": [
+    "Profil et conditions détaillés sur l'annonce LinkedIn"
+   ],
+   "pieces": [],
+   "postuler": {
+    "mode": "lien",
+    "valeur": "https://bj.linkedin.com/jobs/view/4445736199",
+    "libelle": "Voir l'annonce sur LinkedIn"
+   },
+   "source": {
+    "nom": "LinkedIn",
+    "url": "https://bj.linkedin.com/jobs/view/4445736199"
+   },
+   "ajoute": "2026-10-27T10:04:11Z"
+  },
+  {
+   "id": "kargofy-livreur-courses",
+   "titre": "Livreur(se) de courses",
+   "employeur": "Kargofy Livraison Express",
+   "ville": "Cotonou",
+   "zone": "cotonou",
+   "secteur": "Transport & logistique",
+   "contrat": "Temps plein",
+   "niveau": "Voir l'avis",
+   "experience": "Débutant accepté",
+   "debutant": true,
+   "nbPostes": 1,
+   "dateLimite": null,
+   "publie": "2026-10-26",
+   "resume": "Kargofy livre des courses et produits du quotidien à des particuliers et des professionnels à Cotonou. L'entreprise mise sur la ponctualité : un poste pour quelqu'un de fiable qui connaît bien la ville.",
+   "profil": [
+    "Connaissance de Cotonou",
+    "Ponctualité et fiabilité",
+    "Sens du service"
+   ],
+   "pieces": [],
+   "postuler": {
+    "mode": "lien",
+    "valeur": "https://bj.linkedin.com/jobs/view/4440032735",
+    "libelle": "Voir l'annonce sur LinkedIn"
+   },
+   "source": {
+    "nom": "LinkedIn",
+    "url": "https://bj.linkedin.com/jobs/view/4440032735"
+   },
+   "ajoute": "2026-10-27T10:04:11Z"
+  },
+  {
+   "id": "seme-city-10-fellows-ia",
+   "titre": "10 stagiaires « fellows » au Benin AI Innovation Lab",
+   "employeur": "Sèmè City Institute of Technology",
+   "ville": "Sèmè-Kpodji",
+   "zone": "cotonou",
+   "secteur": "Numérique",
+   "contrat": "Stage",
+   "niveau": "BAC+3",
+   "experience": "Débutant accepté",
+   "debutant": true,
+   "nbPostes": 10,
+   "dateLimite": null,
+   "publie": "2026-10-26",
+   "resume": "Dix places pour travailler sur des solutions d'intelligence artificielle utiles au Bénin, comme l'estimation de l'extrême pauvreté dans le projet Boussole. Une belle porte d'entrée pour les jeunes diplômés en informatique ou en données.",
+   "profil": [
+    "Au moins un BAC+3 en développement informatique, science des données ou IA",
+    "Goût pour les projets à impact"
+   ],
+   "pieces": [],
+   "postuler": {
+    "mode": "lien",
+    "valeur": "https://bj.linkedin.com/jobs/view/4483742104",
+    "libelle": "Voir l'annonce sur LinkedIn"
+   },
+   "source": {
+    "nom": "LinkedIn",
+    "url": "https://bj.linkedin.com/jobs/view/4483742104"
+   },
+   "ajoute": "2026-10-27T10:04:11Z"
+  },
+  {
+   "id": "ifc-investment-officer-infra",
+   "titre": "Chargé(e) d'investissement, infrastructures",
+   "employeur": "IFC (Groupe de la Banque mondiale)",
+   "ville": "Cotonou",
+   "zone": "cotonou",
+   "secteur": "Organisations internationales",
+   "contrat": "CDI",
+   "niveau": "Voir l'avis",
+   "experience": "5 ans et +",
+   "debutant": false,
+   "nbPostes": 1,
+   "dateLimite": "2026-11-08",
+   "publie": "2026-10-25",
+   "resume": "La filiale secteur privé de la Banque mondiale recrute localement à Cotonou un chargé d'investissement pour ses projets d'infrastructures. Un poste à durée indéterminée pour un profil financier confirmé, bilingue.",
+   "profil": [
+    "Recrutement local, contrat à durée indéterminée",
+    "Anglais et français exigés",
+    "Expérience solide en financement de projets"
+   ],
+   "pieces": [],
+   "postuler": {
+    "mode": "lien",
+    "valeur": "https://bj.linkedin.com/jobs/view/4483392175",
+    "libelle": "Voir l'annonce sur LinkedIn"
+   },
+   "source": {
+    "nom": "LinkedIn",
+    "url": "https://bj.linkedin.com/jobs/view/4483392175"
+   },
+   "ajoute": "2026-10-27T10:04:11Z"
+  },
+  {
+   "id": "ecobank-chef-division-distribution",
+   "titre": "Chef de la division distribution physique",
+   "employeur": "Ecobank Bénin",
+   "ville": "Cotonou",
+   "zone": "cotonou",
+   "secteur": "Finance & comptabilité",
+   "contrat": "Temps plein",
+   "niveau": "Voir l'avis",
+   "experience": "5 ans et +",
+   "debutant": false,
+   "nbPostes": 1,
+   "dateLimite": "2026-10-31",
+   "publie": "2026-10-22",
+   "resume": "Ecobank Bénin cherche la personne qui pilotera son réseau d'agences et de points cash, en lien avec la direction de la banque de détail. Un poste de cadre pour un profil bancaire expérimenté.",
+   "profil": [
+    "Encadrement des chefs d'agence et des responsables cash point",
+    "Expérience confirmée en réseau bancaire"
+   ],
+   "pieces": [],
+   "postuler": {
+    "mode": "lien",
+    "valeur": "https://bj.linkedin.com/jobs/view/4481395888",
+    "libelle": "Voir l'annonce sur LinkedIn"
+   },
+   "source": {
+    "nom": "LinkedIn",
+    "url": "https://bj.linkedin.com/jobs/view/4481395888"
+   },
+   "ajoute": "2026-10-27T10:04:11Z"
+  },
+  {
+   "id": "ferme-pahou-2-stagiaires-elevage",
+   "titre": "2 stagiaires fermiers en élevage (rémunérés)",
+   "employeur": "Une ferme à Pahou (via Cabinet M Conseils)",
+   "ville": "Ouidah (Pahou, Adjarra Hounvê)",
+   "zone": "cotonou",
+   "secteur": "Agriculture",
+   "contrat": "Stage",
+   "niveau": "Voir l'avis",
+   "experience": "1 à 3 ans",
+   "debutant": false,
+   "nbPostes": 2,
+   "dateLimite": null,
+   "publie": "2026-10-22",
+   "resume": "Une ferme de Pahou cherche deux stagiaires rémunérés pour six mois renouvelables, en élevage de poulets de chair et de lapins. Idéal si vous avez déjà une formation et un peu de pratique en élevage.",
+   "profil": [
+    "Formation en élevage de poulets de chair et de lapins",
+    "Expérience dans ce type d'élevage",
+    "Avoir au plus 30 ans au 30 octobre 2026",
+    "Disponible rapidement"
+   ],
+   "pieces": [],
+   "postuler": {
+    "mode": "lien",
+    "valeur": "https://bj.linkedin.com/jobs/view/4482458228",
+    "libelle": "Voir l'annonce sur LinkedIn"
+   },
+   "source": {
+    "nom": "LinkedIn",
+    "url": "https://bj.linkedin.com/jobs/view/4482458228"
+   },
+   "ajoute": "2026-10-27T10:04:11Z"
+  },
+  {
+   "id": "chaine-espoir-chef-mission",
+   "titre": "Chef de mission Togo-Bénin",
+   "employeur": "La Chaîne de l'Espoir (ONG)",
+   "ville": "Cotonou",
+   "zone": "cotonou",
+   "secteur": "Humanitaire & ONG",
+   "contrat": "Temps plein",
+   "niveau": "Voir l'avis",
+   "experience": "5 ans et +",
+   "debutant": false,
+   "nbPostes": 1,
+   "dateLimite": null,
+   "publie": "2026-10-20",
+   "resume": "L'ONG médicale La Chaîne de l'Espoir, qui renforce les systèmes de santé pour les enfants et les mères, cherche son chef de mission pour le Togo et le Bénin. Pour un profil expérimenté en gestion de projets humanitaires.",
+   "profil": [
+    "Profil et conditions détaillés sur l'annonce LinkedIn"
+   ],
+   "pieces": [],
+   "postuler": {
+    "mode": "lien",
+    "valeur": "https://bj.linkedin.com/jobs/view/4478658098",
+    "libelle": "Voir l'annonce sur LinkedIn"
+   },
+   "source": {
+    "nom": "LinkedIn",
+    "url": "https://bj.linkedin.com/jobs/view/4478658098"
+   },
+   "ajoute": "2026-10-27T10:04:11Z"
+  },
+  {
+   "id": "tagnon-qhse-rse",
+   "titre": "Chargé(e) de projet QHSE et RSE",
+   "employeur": "TAGNON AFRICA",
+   "ville": "Cotonou",
+   "zone": "cotonou",
+   "secteur": "Industrie & énergie",
+   "contrat": "Temps plein",
+   "niveau": "Voir l'avis",
+   "experience": "Voir l'avis",
+   "debutant": false,
+   "nbPostes": 1,
+   "dateLimite": null,
+   "publie": "2026-10-21",
+   "resume": "Un cabinet spécialisé accompagne les entreprises dans leurs démarches qualité, sécurité, environnement et responsabilité sociétale, jusqu'à la certification. Vous menez ces missions auprès des clients.",
+   "profil": [
+    "Profil et conditions détaillés sur l'annonce LinkedIn"
+   ],
+   "pieces": [],
+   "postuler": {
+    "mode": "lien",
+    "valeur": "https://bj.linkedin.com/jobs/view/4481145164",
+    "libelle": "Voir l'annonce sur LinkedIn"
+   },
+   "source": {
+    "nom": "LinkedIn",
+    "url": "https://bj.linkedin.com/jobs/view/4481145164"
+   },
+   "ajoute": "2026-10-27T10:04:11Z"
+  },
+  {
+   "id": "amentum-icitap-porto-novo",
+   "titre": "2 postes d'appui antiterroriste (ICITAP)",
+   "employeur": "Amentum",
+   "ville": "Porto-Novo",
+   "zone": "cotonou",
+   "secteur": "Sécurité",
+   "contrat": "Temps plein",
+   "niveau": "Voir l'avis",
+   "experience": "5 ans et +",
+   "debutant": false,
+   "nbPostes": 2,
+   "dateLimite": null,
+   "publie": "2026-10-19",
+   "resume": "Dans le cadre du programme américain ICITAP, Amentum recrute à Porto-Novo des experts pour appuyer les forces de l'ordre béninoises : renseignement opérationnel et enquêtes. Pour des profils très expérimentés de la police ou du renseignement.",
+   "profil": [
+    "Opérations de renseignement : annonce 4444969536",
+    "Enquêtes : annonce 4444981250",
+    "Expérience longue en forces de l'ordre",
+    "Anglais requis"
+   ],
+   "pieces": [],
+   "postuler": {
+    "mode": "lien",
+    "valeur": "https://bj.linkedin.com/jobs/view/4444969536",
+    "libelle": "Voir l'annonce sur LinkedIn"
+   },
+   "source": {
+    "nom": "LinkedIn",
+    "url": "https://bj.linkedin.com/jobs/view/4444969536"
+   },
+   "ajoute": "2026-10-27T10:04:11Z"
+  },
+  {
+   "id": "premiere-urgence-grants",
+   "titre": "Responsable partenariats et financements",
+   "employeur": "Première Urgence Internationale",
+   "ville": "Cotonou",
+   "zone": "cotonou",
+   "secteur": "Humanitaire & ONG",
+   "contrat": "CDD",
+   "niveau": "Voir l'avis",
+   "experience": "Voir l'avis",
+   "debutant": false,
+   "nbPostes": 1,
+   "dateLimite": null,
+   "publie": "2026-10-14",
+   "resume": "L'ONG Première Urgence cherche, pour 6 mois, la personne qui gérera ses relations avec les bailleurs pour le Bénin, le Togo et le Sénégal, depuis Cotonou. Rédaction de propositions et suivi des subventions au programme.",
+   "profil": [
+    "CDD de 6 mois basé à Cotonou",
+    "Expérience en recherche de financements humanitaires"
+   ],
+   "pieces": [],
+   "postuler": {
+    "mode": "lien",
+    "valeur": "https://bj.linkedin.com/jobs/view/4476697345",
+    "libelle": "Voir l'annonce sur LinkedIn"
+   },
+   "source": {
+    "nom": "LinkedIn",
+    "url": "https://bj.linkedin.com/jobs/view/4476697345"
+   },
+   "ajoute": "2026-10-27T10:04:11Z"
+  },
+  {
+   "id": "pawapay-cybersecurite-uemoa",
+   "titre": "Responsable cybersécurité UEMOA",
+   "employeur": "PawaPay",
+   "ville": "Cotonou",
+   "zone": "cotonou",
+   "secteur": "Numérique",
+   "contrat": "Temps plein",
+   "niveau": "Voir l'avis",
+   "experience": "3 à 5 ans",
+   "debutant": false,
+   "nbPostes": 1,
+   "dateLimite": null,
+   "publie": "2026-10-13",
+   "resume": "La fintech panafricaine PawaPay, qui connecte les commerçants aux paiements mobiles, cherche un expert en cybersécurité pour la zone UEMOA. Un environnement très réglementé et en forte croissance.",
+   "profil": [
+    "Profil et conditions détaillés sur l'annonce LinkedIn"
+   ],
+   "pieces": [],
+   "postuler": {
+    "mode": "lien",
+    "valeur": "https://bj.linkedin.com/jobs/view/4478177378",
+    "libelle": "Voir l'annonce sur LinkedIn"
+   },
+   "source": {
+    "nom": "LinkedIn",
+    "url": "https://bj.linkedin.com/jobs/view/4478177378"
+   },
+   "ajoute": "2026-10-27T10:04:11Z"
+  },
+  {
+   "id": "sofitel-controleurs-couts-revenus",
+   "titre": "Contrôleur(se) des coûts et contrôleur(se) des revenus",
+   "employeur": "Sofitel Cotonou (Accor)",
+   "ville": "Cotonou",
+   "zone": "cotonou",
+   "secteur": "Hôtellerie & restauration",
+   "contrat": "Temps plein",
+   "niveau": "Voir l'avis",
+   "experience": "Voir l'avis",
+   "debutant": false,
+   "nbPostes": 2,
+   "dateLimite": null,
+   "publie": "2026-10-10",
+   "resume": "L'hôtel Sofitel de Cotonou renforce son service finance avec deux postes de contrôle : les coûts d'un côté, les recettes de l'autre. Une belle entrée dans un grand groupe hôtelier pour un profil comptable.",
+   "profil": [
+    "Contrôleur(se) des coûts : annonce 4476870950",
+    "Contrôleur(se) des revenus : annonce 4476294709",
+    "Formation en comptabilité ou contrôle de gestion"
+   ],
+   "pieces": [],
+   "postuler": {
+    "mode": "lien",
+    "valeur": "https://bj.linkedin.com/jobs/view/4476870950",
+    "libelle": "Voir l'annonce sur LinkedIn"
+   },
+   "source": {
+    "nom": "LinkedIn",
+    "url": "https://bj.linkedin.com/jobs/view/4476870950"
+   },
+   "ajoute": "2026-10-27T10:04:11Z"
+  },
+  {
+   "id": "sightsavers-ntd-officer",
+   "titre": "Chargé(e) de projet maladies tropicales négligées",
+   "employeur": "Sightsavers",
+   "ville": "Cotonou",
+   "zone": "cotonou",
+   "secteur": "Santé",
+   "contrat": "CDD",
+   "niveau": "Voir l'avis",
+   "experience": "3 à 5 ans",
+   "debutant": false,
+   "nbPostes": 1,
+   "dateLimite": null,
+   "publie": "2026-10-07",
+   "resume": "L'ONG Sightsavers cherche un chargé de projet pour ses programmes contre les maladies tropicales négligées au Bénin, avec un volet santé numérique. CDD de 12 mois, 35 heures par semaine.",
+   "profil": [
+    "CDD de 12 mois à Cotonou",
+    "Expérience de la gestion de partenaires",
+    "Expérience en santé numérique"
+   ],
+   "pieces": [],
+   "postuler": {
+    "mode": "lien",
+    "valeur": "https://bj.linkedin.com/jobs/view/4476709638",
+    "libelle": "Voir l'annonce sur LinkedIn"
+   },
+   "source": {
+    "nom": "LinkedIn",
+    "url": "https://bj.linkedin.com/jobs/view/4476709638"
+   },
+   "ajoute": "2026-10-27T10:04:11Z"
+  },
+  {
+   "id": "deloitte-stage-audit-it",
+   "titre": "Stage : auditeur(trice) IT",
+   "employeur": "Deloitte",
+   "ville": "Cotonou",
+   "zone": "cotonou",
+   "secteur": "Finance & comptabilité",
+   "contrat": "Stage",
+   "niveau": "Voir l'avis",
+   "experience": "Débutant accepté",
+   "debutant": true,
+   "nbPostes": 1,
+   "dateLimite": null,
+   "publie": "2026-10-07",
+   "resume": "Le cabinet Deloitte prend des stagiaires en audit informatique à Cotonou. Une expérience très recherchée sur un CV pour un étudiant en informatique, audit ou systèmes d'information.",
+   "profil": [
+    "Profil et conditions détaillés sur l'annonce LinkedIn"
+   ],
+   "pieces": [],
+   "postuler": {
+    "mode": "lien",
+    "valeur": "https://bj.linkedin.com/jobs/view/4475477984",
+    "libelle": "Voir l'annonce sur LinkedIn"
+   },
+   "source": {
+    "nom": "LinkedIn",
+    "url": "https://bj.linkedin.com/jobs/view/4475477984"
+   },
+   "ajoute": "2026-10-27T10:04:11Z"
+  },
+  {
+   "id": "vinci-graduate-controle-gestion",
+   "titre": "Programme jeunes diplômés : contrôle de gestion (CDI)",
+   "employeur": "VINCI Construction",
+   "ville": "Cotonou",
+   "zone": "cotonou",
+   "secteur": "Finance & comptabilité",
+   "contrat": "CDI",
+   "niveau": "Voir l'avis",
+   "experience": "Débutant accepté",
+   "debutant": true,
+   "nbPostes": 1,
+   "dateLimite": null,
+   "publie": "2026-10-06",
+   "resume": "Avec son African Builders Program, VINCI embauche en CDI de jeunes diplômés et les forme aux métiers de la finance sur ses chantiers routiers et de génie civil en Afrique. Une vraie rampe de lancement pour démarrer sa carrière.",
+   "profil": [
+    "Jeune diplômé(e) en finance, gestion ou contrôle de gestion",
+    "Mobilité sur le continent",
+    "CDI dès l'embauche"
+   ],
+   "pieces": [],
+   "postuler": {
+    "mode": "lien",
+    "valeur": "https://bj.linkedin.com/jobs/view/4475899832",
+    "libelle": "Voir l'annonce sur LinkedIn"
+   },
+   "source": {
+    "nom": "LinkedIn",
+    "url": "https://bj.linkedin.com/jobs/view/4475899832"
+   },
+   "ajoute": "2026-10-27T10:04:11Z"
+  },
+  {
+   "id": "vinci-contract-manager",
+   "titre": "Contract manager (gestion des contrats)",
+   "employeur": "VINCI Construction",
+   "ville": "Cotonou",
+   "zone": "cotonou",
+   "secteur": "BTP & métiers",
+   "contrat": "Temps plein",
+   "niveau": "Voir l'avis",
+   "experience": "Voir l'avis",
+   "debutant": false,
+   "nbPostes": 1,
+   "dateLimite": null,
+   "publie": "2026-09-28",
+   "resume": "Rattaché au directeur d'agence, vous pilotez les contrats des chantiers : correspondances FIDIC, avenants, réclamations, planning et archivage. Pour un profil juridique ou ingénieur à l'aise avec les contrats de travaux.",
+   "profil": [
+    "Bonne maîtrise des contrats FIDIC",
+    "Gestion des avenants et des réclamations",
+    "Rigueur documentaire"
+   ],
+   "pieces": [],
+   "postuler": {
+    "mode": "lien",
+    "valeur": "https://bj.linkedin.com/jobs/view/4472231028",
+    "libelle": "Voir l'annonce sur LinkedIn"
+   },
+   "source": {
+    "nom": "LinkedIn",
+    "url": "https://bj.linkedin.com/jobs/view/4472231028"
+   },
+   "ajoute": "2026-10-27T10:04:11Z"
+  },
+  {
+   "id": "ge-vernova-ingenieurs-scada",
+   "titre": "Ingénieurs SCADA et bases de données réseau électrique",
+   "employeur": "GE Vernova",
+   "ville": "Cotonou",
+   "zone": "cotonou",
+   "secteur": "Industrie & énergie",
+   "contrat": "Temps plein",
+   "niveau": "BAC+5",
+   "experience": "Voir l'avis",
+   "debutant": false,
+   "nbPostes": null,
+   "dateLimite": null,
+   "publie": "2026-10-05",
+   "resume": "GE Vernova recrute plusieurs ingénieurs à Cotonou pour ses systèmes de conduite du réseau électrique : modélisation de bases de données SCADA/ADMS, intégration et administration. Plusieurs annonces sont ouvertes pour ces mêmes métiers.",
+   "profil": [
+    "Ingénieur(e) en électricité, informatique industrielle ou bases de données",
+    "Connaissance des systèmes SCADA appréciée"
+   ],
+   "pieces": [],
+   "postuler": {
+    "mode": "lien",
+    "valeur": "https://bj.linkedin.com/jobs/view/4475895571",
+    "libelle": "Voir l'annonce sur LinkedIn"
+   },
+   "source": {
+    "nom": "LinkedIn",
+    "url": "https://bj.linkedin.com/jobs/view/4475895571"
+   },
+   "ajoute": "2026-10-27T10:04:11Z",
+   "postes": [
+    {
+     "nom": "Database / SCADA DB Modelling Engineer",
+     "nombre": null
+    },
+    {
+     "nom": "SCADA Integration Engineer",
+     "nombre": null
+    },
+    {
+     "nom": "Database Administration Engineer",
+     "nombre": null
+    }
+   ]
+  },
+  {
+   "id": "dci-instructeur-pilote",
+   "titre": "Instructeur(trice) pilote",
+   "employeur": "Défense Conseil International",
+   "ville": "Cotonou",
+   "zone": "cotonou",
+   "secteur": "Sécurité",
+   "contrat": "CDD",
+   "niveau": "Voir l'avis",
+   "experience": "5 ans et +",
+   "debutant": false,
+   "nbPostes": 1,
+   "dateLimite": null,
+   "publie": "2026-09-28",
+   "resume": "DCI, l'opérateur du ministère français des Armées pour la formation des pays partenaires, cherche un instructeur pilote à Cotonou pour un CDD de 22 mois à partir de novembre 2026. Pour des pilotes expérimentés.",
+   "profil": [
+    "CDD de 22 mois, début en novembre 2026",
+    "Expérience confirmée de pilote instructeur"
+   ],
+   "pieces": [],
+   "postuler": {
+    "mode": "lien",
+    "valeur": "https://bj.linkedin.com/jobs/view/4472497657",
+    "libelle": "Voir l'annonce sur LinkedIn"
+   },
+   "source": {
+    "nom": "LinkedIn",
+    "url": "https://bj.linkedin.com/jobs/view/4472497657"
+   },
+   "ajoute": "2026-10-27T10:04:11Z"
+  },
   {
    "id": "tpc-avant-vente-it-bid",
    "titre": "Ingénieur(e) avant-vente IT et appels d'offres",
@@ -1782,21 +2570,24 @@
   },
   {
    "id": "concentrix-conseiller-client",
-   "titre": "Conseiller(ère) client francophone",
+   "titre": "Conseillers clients : français, bilingue, télévente, télécom",
    "employeur": "Concentrix",
    "ville": "Cotonou",
    "zone": "cotonou",
    "secteur": "Commerce & vente",
    "contrat": "Temps plein",
    "niveau": "Voir l'avis",
-   "experience": "Voir l'avis",
-   "debutant": false,
+   "experience": "Débutant accepté",
+   "debutant": true,
    "nbPostes": null,
    "dateLimite": null,
    "publie": "2026-10-24",
-   "resume": "Le géant des centres de relation client recrute à Cotonou pour la télévente et le service client en français. Ce type de poste est souvent ouvert aux profils qui débutent : vérifiez les conditions sur l'annonce.",
+   "resume": "Le géant de la relation client recrute en continu à Cotonou des conseillers en français, en bilingue français-anglais, en télévente et pour des clients télécom. Ces postes sont souvent ouverts aux profils qui débutent : vérifiez les conditions sur chaque annonce.",
    "profil": [
-    "Profil et conditions détaillés sur l'annonce LinkedIn"
+    "Bilingue : annonce LinkedIn 4408874943",
+    "Télécom : annonce LinkedIn 4430204788",
+    "Français : annonce LinkedIn 4406458765",
+    "Très bon français à l'oral ; anglais pour le poste bilingue"
    ],
    "postuler": {
     "mode": "lien",
@@ -1808,7 +2599,25 @@
     "nom": "LinkedIn",
     "url": "https://bj.linkedin.com/jobs/view/4408885212"
    },
-   "ajoute": "2026-10-26T16:20:00Z"
+   "ajoute": "2026-10-26T16:20:00Z",
+   "postes": [
+    {
+     "nom": "Conseiller client français",
+     "nombre": null
+    },
+    {
+     "nom": "Conseiller client bilingue français-anglais",
+     "nombre": null
+    },
+    {
+     "nom": "Conseiller client télévente",
+     "nombre": null
+    },
+    {
+     "nom": "Conseiller client télécom",
+     "nombre": null
+    }
+   ]
   },
   {
    "id": "shalom-responsable-etudes",
