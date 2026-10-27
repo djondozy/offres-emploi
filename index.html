@@ -128,18 +128,28 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .dayhead{display:flex;align-items:center;gap:12px;margin:26px 0 8px;font-weight:700;font-size:14px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
 .dayhead::after{content:"";flex:1;height:1px;background:var(--line)}
 #list>.dayhead:first-child{margin-top:0}
-.rows{border-top:1px solid var(--line)}
-.row{display:grid;grid-template-columns:48px minmax(0,1fr) auto;gap:16px;align-items:start;padding:18px 4px;border-bottom:1px solid var(--line);cursor:pointer;transition:background .12s}
-.row:hover{background:var(--sunk)}
-.avatar{width:48px;height:48px;border-radius:10px;display:grid;place-items:center;font:700 15px var(--display)}
-.row .c{min-width:0}
+.rows{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+@media (max-width:1040px){.rows{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:620px){.rows{grid-template-columns:minmax(0,1fr);gap:14px}}
+.row{position:relative;display:flex;flex-direction:column;background:#fff;border:1.5px solid var(--line);border-radius:16px;overflow:hidden;cursor:pointer;transition:border-color .15s,transform .15s}
+.row:hover{border-color:var(--ink);transform:translateY(-2px)}
+.row:focus-visible{outline:3px solid var(--yellow);outline-offset:2px}
+.row .ph{position:relative;aspect-ratio:2/1;background:var(--green-t);overflow:hidden}
+.row .ph img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .4s}
+.row:hover .ph img{transform:scale(1.04)}
+.row .sect{position:absolute;left:10px;top:10px;z-index:1;background:rgba(255,255,255,.94);color:var(--ink);font-size:12.5px;font-weight:700;border-radius:999px;padding:4px 10px;max-width:calc(100% - 70px);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;box-shadow:0 1px 4px rgba(0,0,0,.12)}
+.avatar{width:50px;height:50px;border-radius:12px;display:grid;place-items:center;font:700 15px var(--display);flex:none}
+.row .avatar{position:relative;z-index:2;margin:-26px 0 0 14px;border:3px solid #fff;box-shadow:0 2px 6px rgba(0,0,0,.08)}
+.row .c{min-width:0;padding:8px 16px 0;flex:1;display:flex;flex-direction:column}
 .row .emp{font-size:14px;color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.row h3{font-size:18px;line-height:1.3;margin:1px 0 0;font-weight:700}
-.row .meta{display:flex;flex-wrap:wrap;gap:3px 16px;font-size:14.5px;color:var(--ink-2);margin-top:6px}
+.row h3{font-size:17.5px;line-height:1.3;margin:2px 0 0;font-weight:700;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.row .meta{display:flex;flex-wrap:wrap;gap:3px 14px;font-size:14px;color:var(--ink-2);margin-top:8px}
 .row .meta span{display:inline-flex;align-items:center;gap:6px}
 .row .meta svg{color:var(--muted)}
-.row .tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:9px}
-.row .side{display:flex;flex-direction:column;align-items:flex-end;gap:12px}
+.row .tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.row .foot{display:flex;justify-content:space-between;align-items:center;gap:10px;margin:14px 16px 0;padding:11px 0 13px;border-top:1px dashed var(--line);font-size:13.5px}
+.row .foot b{color:var(--green);font-weight:700}
+.row .side{position:absolute;top:10px;right:10px;z-index:2}
 .ago{font-size:13px;color:var(--muted);white-space:nowrap}
 .tag{display:inline-flex;align-items:center;gap:5px;font-size:12.5px;font-weight:700;border-radius:6px;padding:3px 8px;white-space:nowrap;background:var(--sunk);color:var(--ink-2)}
 .tag.green{background:var(--green-t);color:var(--green)}
@@ -147,11 +157,10 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .tag.red{background:var(--red-t);color:var(--red-ink)}
 .tag.ink{background:var(--ink);color:#fff}
 .tag.week{background:var(--yellow);color:var(--ink)}
-.keep{border:0;background:transparent;cursor:pointer;color:var(--muted);width:38px;height:38px;border-radius:10px;display:grid;place-items:center;margin:-6px -6px 0 0}
-.keep:hover{background:#fff}
+.keep{border:0;background:rgba(255,255,255,.94);cursor:pointer;color:var(--ink-2);width:38px;height:38px;border-radius:50%;display:grid;place-items:center;box-shadow:0 1px 4px rgba(0,0,0,.15)}
+.keep:hover{background:#fff;color:var(--red)}
 .keep[aria-pressed="true"]{color:var(--red)}
 .keep[aria-pressed="true"] svg{fill:var(--red)}
-@media (max-width:520px){.row{grid-template-columns:40px minmax(0,1fr) auto;gap:12px;padding:15px 0}.avatar{width:40px;height:40px;font-size:13px}.row h3{font-size:16.5px}.row .side .ago{display:none}}
 
 .how3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:36px;margin-top:30px}
 .how3 .ic{width:46px;height:46px;border-radius:12px;display:grid;place-items:center;margin-bottom:12px;background:#fff}
@@ -219,17 +228,30 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .places{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
 @media (max-width:1000px){.places{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:640px){.places{grid-template-columns:1fr}}
-.place{background:#fff;border:1.5px solid var(--line);border-radius:var(--r);cursor:pointer;display:flex;flex-direction:column;gap:6px;text-align:left;padding:18px;transition:border-color .15s}
-.place:hover{border-color:var(--green)}
-.place .top-l{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:4px}
-.place .cat{display:inline-flex;align-items:center;gap:7px;font-size:13px;font-weight:700}
-.place .cat i{width:30px;height:30px;border-radius:8px;display:grid;place-items:center}
-.place .budget{font-weight:800;font-size:14px;letter-spacing:.05em}
+.place{position:relative;background:#fff;border:1.5px solid var(--line);border-radius:16px;overflow:hidden;cursor:pointer;display:flex;flex-direction:column;text-align:left;padding:0;transition:border-color .15s,transform .15s;font:inherit;color:inherit}
+.place:hover{border-color:var(--ink);transform:translateY(-2px)}
+.place .ph{position:relative;aspect-ratio:4/3;overflow:hidden;background:var(--sunk)}
+.place .ph img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .5s}
+.place:hover .ph img{transform:scale(1.05)}
+.place .ph.none{display:grid;place-items:center}
+@media (max-width:640px){.place .ph{aspect-ratio:16/10}}
+.place .ph.none svg{width:56px;height:56px;opacity:.9}
+.place .cat{position:absolute;top:12px;left:12px;z-index:1;background:#fff;border-radius:999px;padding:5px 11px 5px 6px;display:inline-flex;align-items:center;gap:6px;font-size:13px;font-weight:700;box-shadow:0 1px 4px rgba(0,0,0,.12)}
+.place .cat i{width:22px;height:22px;border-radius:50%;display:grid;place-items:center}
+.place .cat i svg{width:13px;height:13px}
+.place .illu{position:absolute;right:8px;bottom:7px;z-index:1;font-size:11px;color:#fff;background:rgba(0,0,0,.45);border-radius:4px;padding:1px 6px}
+.place .body{padding:14px 16px 16px;display:flex;flex-direction:column;gap:5px;flex:1}
+.place .top-l{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+.place .budget{font-weight:800;font-size:14px;letter-spacing:.05em;flex:none}
 .place .budget em{font-style:normal;opacity:.22}
 .place h3{margin:0;font-size:18.5px;line-height:1.25}
 .place .w{font-size:14px;color:var(--muted)}
-.place p{margin:2px 0 0;font-size:14.5px;color:var(--ink-2)}
-.place .try{display:flex;flex-wrap:wrap;gap:6px;margin-top:auto;padding-top:10px}
+.place p{margin:2px 0 0;font-size:14.5px;color:var(--ink-2);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.place .try{font-size:13.5px;color:var(--muted);margin-top:auto;padding-top:8px}
+.place .try b{color:var(--ink);font-weight:700}
+.sheet-ph{margin:-4px 0 16px;border-radius:14px;overflow:hidden;aspect-ratio:16/9;background:var(--sunk)}
+.sheet-ph img{width:100%;height:100%;object-fit:cover;display:block}
+.sheet-ph+.credit{margin:-10px 0 14px}
 
 .searchblock{background:var(--green-d);border-radius:18px;padding:14px;display:flex;flex-direction:column;gap:12px}
 .sb-row{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr) minmax(0,1fr);background:#fff;border-radius:11px;overflow:hidden}
@@ -658,7 +680,7 @@ details.tpl .btn{margin-top:8px}
     <div><a class="logo" href="./" data-view="accueil"><span class="mark" aria-hidden="true"><i></i><i></i><i></i></span>djob</a><p>Les offres d'emploi du Bénin, rassemblées chaque matin. Fait à Cotonou, pour celles et ceux qui cherchent.</p><p id="maj" style="font-size:13px;color:#8D9389"></p></div>
     <div><h4>Candidats</h4><button type="button" data-view="offres">Toutes les offres</button><button type="button" data-goto="debut">Débutants bienvenus</button><button type="button" data-goto="stage">Stages</button><button type="button" data-view="accompagnement">Accompagnement</button><button type="button" data-view="conseils">Conseils</button></div>
     <div><h4>Djob</h4><button type="button" data-view="publier">Publier une annonce</button><button type="button" data-view="sortir">Sortir</button><button type="button" data-view="apropos">À propos</button><button type="button" data-share-site>Partager Djob</button></div>
-    <div class="legal">Chaque offre et chaque adresse renvoie vers sa source : vérifiez toujours l'avis officiel avant d'envoyer votre dossier. Photos : statue de l'Amazone par Mister Kolson (domaine public) et Fawaz.tairou (<a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>) via Wikimedia Commons ; Unsplash.</div>
+    <div class="legal">Chaque offre et chaque adresse renvoie vers sa source : vérifiez toujours l'avis officiel avant d'envoyer votre dossier. Photos : statue de l'Amazone par Mister Kolson (domaine public) et Fawaz.tairou (<a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>) via Wikimedia Commons. Photos des lieux et des plats : contributeurs de Wikimedia Commons, crédités sur chaque fiche ; les plats montrés sont des photos d'illustration, pas celles du restaurant. Photos des métiers : <a href="https://unsplash.com" target="_blank" rel="noopener">Unsplash</a>, à titre d'illustration.</div>
   </div>
 </footer>
 
@@ -781,15 +803,37 @@ function renderFilters(){
   $("#f-sect").innerHTML=chipsHTML(Object.keys(s).sort((a,b)=>s[b]-s[a]).map(k=>[k,k,s[k]]),k=>F.sect.has(k),"sect");
   $("#f-zone").innerHTML=chipsHTML(Object.entries(ZONES).map(([k,l])=>[k,l,cnt(o=>o.zone===k)]).filter(x=>x[2]),k=>F.zone===k,"zz");
 }
+const U=id=>`https://images.unsplash.com/${id}?w=640&q=70&auto=format&fit=crop`;
+const SECT_IMG={"Commerce & vente":["photo-1773858440885-361caff45fa3","photo-1641422162969-3a3d177124d5","photo-1734255026082-82fdc81991f0"],
+  "Finance & comptabilité":["photo-1626266061368-46a8f578ddd6","photo-1669034750695-dfe5cad91d6d"],
+  "Organisations internationales":["photo-1573497019418-b400bb3ab074","photo-1573166953836-06864dc70a21"],
+  "Humanitaire & ONG":["photo-1652971876875-05db98fab376","photo-1553775927-a071d5a6a39a"],
+  "Hôtellerie & restauration":["photo-1496811425508-6d7ebb7ff32c"],
+  "BTP & métiers":["photo-1740825961434-e9287638592b","photo-1668609268461-4f6a15269ff1"],
+  "Éducation":["photo-1632215861513-130b66fe97f4","photo-1473649085228-583485e6e4d7"],
+  "Numérique":["photo-1531498860502-7c67cf02f657","photo-1528901166007-3784c7dd3653"],
+  "Santé":["photo-1631558554184-319c88f4f8a4"],
+  "Services à la personne":["photo-1765648580808-76d75e4f3833"],
+  "Droit":["photo-1563132337-f159f484226c"],
+  "Administration publique":["photo-1573166953836-06864dc70a21"],
+  "Communication":["photo-1528901166007-3784c7dd3653","photo-1739300293504-234817eead52"],
+  "Transport & logistique":["photo-1630509866865-feb29d1b8cbb","photo-1738507869660-b44ea20ab037"],
+  "Industrie & énergie":["photo-1512516337334-676e22cc19b6"],
+  "Agriculture":["photo-1741874299706-2b8e16839aaa","photo-1761634373241-5abcfcaa0c39"]};
+const hashN=s=>{let h=0;for(const c of String(s))h=(h*31+c.charCodeAt(0))>>>0;return h};
+const sectImg=o=>{const l=SECT_IMG[o.secteur]||["photo-1669034750695-dfe5cad91d6d","photo-1573497019418-b400bb3ab074"];return U(l[hashN(o.id)%l.length])};
+const imgTag=(src,alt="")=>`<img src="${esc(src)}" alt="${esc(alt)}" loading="lazy" decoding="async" onerror="this.remove()">`;
 function row(o){
   const n=daysLeft(o),k=saved.includes(o.id),a=apps[o.id],wk=weekIds.includes(o.id);
-  const dl=n===null?"":n<=3?`<span class="tag red">${left(n)}</span>`:`<span class="tag">${ic.cal} Jusqu'au ${shortDate(o.dateLimite)}</span>`;
+  const dl=n===null?"Pas de date limite":n<=3?`<b style="color:var(--red-ink)">${left(n)}</b>`:`Jusqu'au <b>${shortDate(o.dateLimite)}</b>`;
   return `<article class="row" data-id="${esc(o.id)}" tabindex="0" role="button" aria-label="${esc(o.titre)}, ${esc(o.employeur)}">
+    <div class="ph">${imgTag(sectImg(o))}<span class="sect">${esc(o.secteur||"Offre d'emploi")}</span></div>
+    <div class="side"><button class="keep" type="button" data-keep="${esc(o.id)}" aria-pressed="${k}" aria-label="${k?"Retirer de mon carnet":"Garder cette offre"}">${ic.keep}</button></div>
     ${avatar(o)}
     <div class="c"><div class="emp">${esc(o.employeur)}</div><h3>${esc(o.titre)}</h3>
-      <div class="meta"><span>${ic.bag}${esc(o.contrat)}</span><span>${ic.pin}${esc(o.ville)}</span>${o.nbPostes>1?`<span>${ic.ppl}${o.nbPostes} postes</span>`:""}</div>
-      <div class="tags">${wk?`<span class="tag week">Offre de la semaine</span>`:""}${a?`<span class="tag ink">Postulé</span>`:""}${dl}${o.debutant?`<span class="tag green">Débutants bienvenus</span>`:""}${o.publieSurDjob?`<span class="tag yellow">Publiée sur Djob</span>`:""}</div></div>
-    <div class="side"><button class="keep" type="button" data-keep="${esc(o.id)}" aria-pressed="${k}" aria-label="${k?"Retirer de mon carnet":"Garder cette offre"}">${ic.keep}</button><span class="ago">${ago(o)}</span></div>
+      <div class="meta"><span>${ic.pin}${esc(o.ville)}</span><span>${ic.bag}${esc(o.contrat)}</span>${o.nbPostes>1?`<span>${ic.ppl}${o.nbPostes} postes</span>`:""}</div>
+      <div class="tags">${wk?`<span class="tag week">Offre de la semaine</span>`:""}${a?`<span class="tag ink">Postulé</span>`:""}${o.debutant?`<span class="tag green">Débutants bienvenus</span>`:""}${o.publieSurDjob?`<span class="tag yellow">Publiée sur Djob</span>`:""}</div></div>
+    <div class="foot"><span>${dl}</span><span class="ago">${ago(o)}</span></div>
   </article>`;
 }
 const TIPS=[["Le bon nom de fichier","Nommez votre CV « NOM-Prénom-Poste.pdf ». Le recruteur le retrouve en deux secondes."],["Un seul PDF","Quand l'avis demande plusieurs pièces, regroupez-les dans un seul PDF, dans l'ordre de la liste."],["L'objet du mail compte","Recopiez exactement l'objet demandé, référence comprise. Beaucoup de dossiers sont triés sur ce seul détail."],["N'attendez pas le dernier jour","Les boîtes mail saturent la veille de la clôture. Envoyez deux ou trois jours avant."],["Relancez, poliment","Sans nouvelles après une semaine, un court message de relance montre votre motivation."],["Gardez vos pièces prêtes","CIP, IFU, casier judiciaire, acte de naissance : scannez-les une fois pour toutes."]];
@@ -807,7 +851,7 @@ function renderOffers(){
   const vis=rows.slice(0,shown),group=F.tri==="recent";
   const parts=[];let cur=null,buf=[];const flush=()=>{if(buf.length)parts.push(`<div class="rows">${buf.join("")}</div>`);buf=[]};
   vis.forEach((o,i)=>{if(group){const k=dayKey(o);if(k!==cur){flush();parts.push(`<div class="dayhead">${k}</div>`);cur=k}}
-    buf.push(row(o));if(i===3){flush();parts.push(tipBox())}if(i===11){flush();parts.push(scam)}});
+    buf.push(row(o));if(i===5){flush();parts.push(tipBox())}if(i===11){flush();parts.push(scam)}});
   flush();if(vis.length<12)parts.push(scam);
   if(rows.length>shown)parts.push(`<button class="btn line more-btn" type="button" data-more>Voir ${Math.min(25,rows.length-shown)} offres de plus</button>`);
   $("#list").innerHTML=parts.join("");
@@ -830,7 +874,7 @@ const coachText=d=>`Bonjour Djob, je souhaite être accompagné(e).\n\n• Nom :
 function adPreview(){
   if(!$("#adForm"))return;const d=formData("#adForm");
   const fake={id:"preview",titre:d.titre||"Intitulé du poste",employeur:d.employeur||"Votre entreprise",ville:d.ville||"Ville",contrat:d.contrat,nbPostes:+d.nb||1,dateLimite:d.dateLimite||null,debutant:d.experience==="Débutant accepté",publieSurDjob:true};
-  $("#adPreview").innerHTML=`<div style="pointer-events:none">${row(fake).replace('class="row"','class="row" style="border-bottom:0;padding:0"')}</div>`;
+  $("#adPreview").innerHTML=`<div style="pointer-events:none;max-width:360px">${row(fake)}</div>`;
   $("#a-val-lbl").textContent={email:"Adresse e-mail",tel:"Numéro de téléphone",depot:"Adresse du dépôt",lien:"Lien (https://…)"}[$("#a-mode").value];
 }
 function validate(form){let ok=true;form.querySelectorAll("[required]").forEach(e=>{const bad=e.type==="checkbox"?!e.checked:!e.value.trim();e.style.borderColor=bad?"var(--red)":"";if(e.type==="checkbox")e.parentElement.style.color=bad?"var(--red-ink)":"";if(bad&&ok){ok=false;e.focus()}});return ok}
@@ -851,10 +895,12 @@ async function submitCoach(e){
 }
 
 const euro=b=>b===0?`<span class="budget" style="color:var(--green)">Gratuit</span>`:`<span class="budget">${"F".repeat(b)}<em>${"F".repeat(3-b)}</em></span>`;
-function placeCard(l){const [icn,b,f]=CATS[l.categorie]||CATS.Culture;
-  return `<button class="place" type="button" data-place="${esc(l.id)}"><div class="top-l"><span class="cat" style="color:${f}"><i style="background:${b}">${icn}</i>${esc(l.categorie)}</span>${euro(l.budget)}</div>
-    <h3>${esc(l.nom)}</h3><div class="w">${esc(l.quartier)}${l.zone==="escapade"?"":" · "+esc(l.ville)}</div><p>${esc(l.resume)}</p>
-    <div class="try">${(l.aEssayer||[]).slice(0,3).map(x=>`<span class="tag">${esc(x)}</span>`).join("")}</div></button>`}
+function placeCard(l){const [icn,b,f]=CATS[l.categorie]||CATS.Culture;const im=l.img;
+  const ph=im?.url?`<div class="ph">${imgTag(im.url,im.legende||l.nom)}${im.illustration?`<span class="illu">Photo d'illustration</span>`:""}</div>`:`<div class="ph none" style="background-color:${b};color:${f}">${icn}</div>`;
+  return `<button class="place" type="button" data-place="${esc(l.id)}">${ph}<span class="cat" style="color:${f}"><i style="background:${b}">${icn}</i>${esc(l.categorie)}</span>
+    <div class="body"><div class="top-l"><h3>${esc(l.nom)}</h3>${euro(l.budget)}</div><div class="w">${esc(l.quartier)}${l.zone==="escapade"?"":" · "+esc(l.ville)}</div><p>${esc(l.resume)}</p>
+    ${l.aEssayer?.length?`<div class="try">${l.categorie==="Manger"?"À goûter":"À faire"} : <b>${esc(l.aEssayer.slice(0,2).join(", "))}</b></div>`:""}</div></button>`}
+const credit=im=>im?.url?`<p class="credit">${im.illustration?"Photo d'illustration"+(im.legende?` (${esc(im.legende)})`:"")+" · ":""}${esc(im.auteur)}, <a href="${esc(im.lien)}" target="_blank" rel="noopener">Wikimedia Commons</a>, ${esc(im.licence)}</p>`:"";
 function renderSortir(){
   const t=today();const ev=events.filter(e=>D(e.fin||e.debut)>=t).sort((a,b)=>a.debut.localeCompare(b.debut));
   $("#events").innerHTML=ev.length?ev.map(e=>{const d=D(e.debut),on=d<=t;return `<button class="event" type="button" data-event="${esc(e.id)}"><div class="date"><b>${on?"En":d.getDate()}</b><span>${on?"cours":MOIS[d.getMonth()]}</span></div><div><h3>${esc(e.titre)}</h3><p>${esc(e.lieu)}${e.fin&&e.fin!==e.debut?` · jusqu'au ${shortDate(e.fin)}`:""}</p><span class="tag" style="margin-top:8px">${esc(e.type)}</span></div></button>`}).join(""):`<div class="empty" style="flex:1"><h3>Le calendrier se remplit</h3><p>Les prochains événements arrivent avec la mise à jour de la semaine.</p></div>`;
@@ -869,6 +915,7 @@ function openPlace(id,push=true){
   const l=lieux.find(x=>x.id===id);if(!l)return;const [,b,f]=CATS[l.categorie]||CATS.Culture;
   const link=SITE+"#s-"+l.id,share=`${l.nom} (${l.ville}) : ${l.resume}\nSur Djob : ${link}`;
   $("#sheet").innerHTML=`<div class="s-top"><div><span class="tag" style="background:${b};color:${f}">${esc(l.categorie)}</span><h2 id="dTitle" style="margin-top:8px">${esc(l.nom)}</h2><div class="emp">${esc(l.quartier)}${l.zone==="escapade"?"":" · "+esc(l.ville)}</div></div><button class="close" type="button" data-close aria-label="Fermer">${ic.x}</button></div>
+    ${l.img?.url?`<div class="sheet-ph">${imgTag(l.img.url,l.img.legende||l.nom)}</div>${credit(l.img)}`:""}
     <div class="facts"><div class="fact"><span>Budget</span><b>${esc(l.prix)}</b></div><div class="fact"><span>${l.infos?"Bon à savoir":"Ville"}</span><b>${esc(l.infos||l.ville)}</b></div></div>
     <div class="s-sec"><p>${esc(l.resume)}</p></div>
     ${l.aEssayer?.length?`<div class="s-sec"><h4>${l.categorie==="Manger"?"À goûter":"À faire"}</h4><ul class="dots">${l.aEssayer.map(x=>`<li>${esc(x)}</li>`).join("")}</ul></div>`:""}

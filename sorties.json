@@ -22,7 +22,15 @@
     "nom": "iCotonou",
     "url": "https://www.icotonou.com/en/que-faire/top-restaurants-cotonou-guide-gastronomique/"
    },
-   "maj": "2026-10-27"
+   "maj": "2026-10-27",
+   "img": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Poisson_brais%C3%A9_oignons.jpg/960px-Poisson_brais%C3%A9_oignons.jpg",
+    "auteur": "Isabelle Christiane",
+    "licence": "CC BY-SA 4.0",
+    "lien": "https://commons.wikimedia.org/wiki/File:Poisson_brais%C3%A9_oignons.jpg",
+    "illustration": true,
+    "legende": "Poisson braisé"
+   }
   },
   {
    "id": "le-cocotier",
@@ -46,7 +54,15 @@
     "nom": "iCotonou",
     "url": "https://www.icotonou.com/en/que-faire/top-restaurants-cotonou-guide-gastronomique/"
    },
-   "maj": "2026-10-27"
+   "maj": "2026-10-27",
+   "img": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Wagasi.jpg",
+    "auteur": "daSupremo",
+    "licence": "CC BY-SA 4.0",
+    "lien": "https://commons.wikimedia.org/wiki/File:Wagasi.jpg",
+    "illustration": true,
+    "legende": "Wagasi frit"
+   }
   },
   {
    "id": "chez-tranquille",
@@ -68,7 +84,15 @@
     "nom": "Petit Futé",
     "url": "https://www.petitfute.com/v49354-cotonou/c1165-restaurants/c1031-cuisines-du-monde/c1032-cuisine-d-afrique/c25-restaurant-beninois/196111-le-maquis-chez-tranquille.html"
    },
-   "maj": "2026-10-27"
+   "maj": "2026-10-27",
+   "img": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Ayimolou_%28Riz_au_haricot%29_03.jpg/960px-Ayimolou_%28Riz_au_haricot%29_03.jpg",
+    "auteur": "Akouete",
+    "licence": "CC BY-SA 4.0",
+    "lien": "https://commons.wikimedia.org/wiki/File:Ayimolou_%28Riz_au_haricot%29_03.jpg",
+    "illustration": true,
+    "legende": "Atassi"
+   }
   },
   {
    "id": "kedjenou",
@@ -90,7 +114,15 @@
     "nom": "Bénin360",
     "url": "https://benin360.com/meilleurs-restaurants-cotonou/"
    },
-   "maj": "2026-10-27"
+   "maj": "2026-10-27",
+   "img": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Igname_pil%C3%A9e_et_sauce_d%27arachide.jpg/960px-Igname_pil%C3%A9e_et_sauce_d%27arachide.jpg",
+    "auteur": "Jolyane01",
+    "licence": "CC BY-SA 4.0",
+    "lien": "https://commons.wikimedia.org/wiki/File:Igname_pil%C3%A9e_et_sauce_d%27arachide.jpg",
+    "illustration": true,
+    "legende": "Igname pilée, sauce arachide"
+   }
   },
   {
    "id": "maquis-du-port",
@@ -112,7 +144,15 @@
     "nom": "Bénin360",
     "url": "https://benin360.com/meilleurs-restaurants-cotonou/"
    },
-   "maj": "2026-10-27"
+   "maj": "2026-10-27",
+   "img": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Brais%C3%A9_de_poisson.JPG",
+    "auteur": "Jacquitoz",
+    "licence": "CC BY-SA 4.0",
+    "lien": "https://commons.wikimedia.org/wiki/File:Brais%C3%A9_de_poisson.JPG",
+    "illustration": true,
+    "legende": "Poisson braisé"
+   }
   },
   {
    "id": "cabane-pecheur",
@@ -135,7 +175,15 @@
     "nom": "Le Petit Journal Cotonou",
     "url": "https://lepetitjournal.com/cotonou/a-voir-a-faire/les-plages-de-cotonou-prisees-par-les-expatries-le-week-end-75088"
    },
-   "maj": "2026-10-27"
+   "maj": "2026-10-27",
+   "img": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Cotonou_Beach.jpg/960px-Cotonou_Beach.jpg",
+    "auteur": "ptahemdjehuty",
+    "licence": "CC BY-SA 4.0",
+    "lien": "https://commons.wikimedia.org/wiki/File:Cotonou_Beach.jpg",
+    "illustration": true,
+    "legende": "Plage de Cotonou"
+   }
   },
   {
    "id": "fair-bar",
@@ -158,7 +206,15 @@
     "nom": "Bénin360",
     "url": "https://benin360.com/meilleurs-restaurants-cotonou/"
    },
-   "maj": "2026-10-27"
+   "maj": "2026-10-27",
+   "img": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Un_plats_d%27amiwo_au_poisson_au_benin.jpg/960px-Un_plats_d%27amiwo_au_poisson_au_benin.jpg",
+    "auteur": "Adoscam",
+    "licence": "CC BY-SA 4.0",
+    "lien": "https://commons.wikimedia.org/wiki/File:Un_plats_d%27amiwo_au_poisson_au_benin.jpg",
+    "illustration": true,
+    "legende": "Amiwo au poisson"
+   }
   },
   {
    "id": "babs-dock",
@@ -181,7 +237,15 @@
     "nom": "iCotonou",
     "url": "https://www.icotonou.com/en/que-faire/top-restaurants-cotonou-guide-gastronomique/"
    },
-   "maj": "2026-10-27"
+   "maj": "2026-10-27",
+   "img": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Pirogue_%C3%A0_voile_ou_pirogue_%C3%A0_balancier_de_type_b%C3%A9ninois_sur_le_fleuve_de_Ganvi%C3%A9_05.jpg/960px-Pirogue_%C3%A0_voile_ou_pirogue_%C3%A0_balancier_de_type_b%C3%A9ninois_sur_le_fleuve_de_Ganvi%C3%A9_05.jpg",
+    "auteur": "Adoscam",
+    "licence": "CC BY-SA 4.0",
+    "lien": "https://commons.wikimedia.org/wiki/File:Pirogue_%C3%A0_voile_ou_pirogue_%C3%A0_balancier_de_type_b%C3%A9ninois_sur_le_fleuve_de_Ganvi%C3%A9_05.jpg",
+    "illustration": true,
+    "legende": "Pirogue sur le lac"
+   }
   },
   {
    "id": "kare-electrique",
@@ -204,7 +268,15 @@
     "nom": "iCotonou",
     "url": "https://www.icotonou.com/en/que-faire/top-restaurants-cotonou-guide-gastronomique/"
    },
-   "maj": "2026-10-27"
+   "maj": "2026-10-27",
+   "img": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Int%C3%A9rieur_d%27un_bar_Restaurant_a_Cotonou_B%C3%A9nin1.jpg/960px-Int%C3%A9rieur_d%27un_bar_Restaurant_a_Cotonou_B%C3%A9nin1.jpg",
+    "auteur": "Adoscam",
+    "licence": "CC BY-SA 4.0",
+    "lien": "https://commons.wikimedia.org/wiki/File:Int%C3%A9rieur_d%27un_bar_Restaurant_a_Cotonou_B%C3%A9nin1.jpg",
+    "illustration": true,
+    "legende": "Un bar-restaurant de Cotonou"
+   }
   },
   {
    "id": "orangerie",
@@ -270,7 +342,15 @@
     "nom": "Bénin360",
     "url": "https://benin360.com/que-faire-a-cotonou/"
    },
-   "maj": "2026-10-27"
+   "maj": "2026-10-27",
+   "img": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Fidjross%C3%A8_Plage_%28Cotonou%29.jpg/960px-Fidjross%C3%A8_Plage_%28Cotonou%29.jpg",
+    "auteur": "Rofik Adam",
+    "licence": "CC BY-SA 4.0",
+    "lien": "https://commons.wikimedia.org/wiki/File:Fidjross%C3%A8_Plage_%28Cotonou%29.jpg",
+    "illustration": false,
+    "legende": ""
+   }
   },
   {
    "id": "eldorado",
@@ -293,7 +373,15 @@
     "nom": "Le Petit Journal Cotonou",
     "url": "https://lepetitjournal.com/cotonou/a-voir-a-faire/les-plages-de-cotonou-prisees-par-les-expatries-le-week-end-75088"
    },
-   "maj": "2026-10-27"
+   "maj": "2026-10-27",
+   "img": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Canoe_in_Cotonou_beach_092016.jpg/960px-Canoe_in_Cotonou_beach_092016.jpg",
+    "auteur": "DonCamillo",
+    "licence": "CC BY-SA 4.0",
+    "lien": "https://commons.wikimedia.org/wiki/File:Canoe_in_Cotonou_beach_092016.jpg",
+    "illustration": true,
+    "legende": "Plage de Cotonou"
+   }
   },
   {
    "id": "fondation-zinsou",
@@ -315,7 +403,15 @@
     "nom": "Bénin360",
     "url": "https://benin360.com/que-faire-a-cotonou/"
    },
-   "maj": "2026-10-27"
+   "maj": "2026-10-27",
+   "img": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Fondation_Zinsou_in_Cotonou_2015.jpg/960px-Fondation_Zinsou_in_Cotonou_2015.jpg",
+    "auteur": "David Stanley",
+    "licence": "CC BY 2.0",
+    "lien": "https://commons.wikimedia.org/wiki/File:Fondation_Zinsou_in_Cotonou_2015.jpg",
+    "illustration": false,
+    "legende": ""
+   }
   },
   {
    "id": "majestic-wologuede",
@@ -359,7 +455,15 @@
     "nom": "Bénin360",
     "url": "https://benin360.com/que-faire-a-cotonou/"
    },
-   "maj": "2026-10-27"
+   "maj": "2026-10-27",
+   "img": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue_panoramique_march%C3%A9_Dantokpa_au_B%C3%A9nin1.jpg/960px-Vue_panoramique_march%C3%A9_Dantokpa_au_B%C3%A9nin1.jpg",
+    "auteur": "Adoscam",
+    "licence": "CC BY-SA 4.0",
+    "lien": "https://commons.wikimedia.org/wiki/File:Vue_panoramique_march%C3%A9_Dantokpa_au_B%C3%A9nin1.jpg",
+    "illustration": false,
+    "legende": ""
+   }
   },
   {
    "id": "ganvie",
@@ -382,7 +486,15 @@
     "nom": "AutoMag.bj",
     "url": "https://automag.bj/2026/01/12/plages-forets-villages-5-idees-de-week-ends-a-moins-de-3h-de-cotonou/"
    },
-   "maj": "2026-10-27"
+   "maj": "2026-10-27",
+   "img": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/The_village_of_Ganvi%C3%A9_on_Lake_Nokou%C3%A9.jpg/960px-The_village_of_Ganvi%C3%A9_on_Lake_Nokou%C3%A9.jpg",
+    "auteur": "Dr. Ondřej Havelka",
+    "licence": "CC BY-SA 4.0",
+    "lien": "https://commons.wikimedia.org/wiki/File:The_village_of_Ganvi%C3%A9_on_Lake_Nokou%C3%A9.jpg",
+    "illustration": false,
+    "legende": ""
+   }
   },
   {
    "id": "ouidah",
@@ -405,7 +517,15 @@
     "nom": "AutoMag.bj",
     "url": "https://automag.bj/2026/01/12/plages-forets-villages-5-idees-de-week-ends-a-moins-de-3h-de-cotonou/"
    },
-   "maj": "2026-10-27"
+   "maj": "2026-10-27",
+   "img": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Porte_du_non-retour_au_Benin.jpg/960px-Porte_du_non-retour_au_Benin.jpg",
+    "auteur": "Borisghost",
+    "licence": "CC0",
+    "lien": "https://commons.wikimedia.org/wiki/File:Porte_du_non-retour_au_Benin.jpg",
+    "illustration": false,
+    "legende": ""
+   }
   },
   {
    "id": "kpasse",
@@ -427,7 +547,15 @@
     "nom": "AutoMag.bj",
     "url": "https://automag.bj/2026/01/12/plages-forets-villages-5-idees-de-week-ends-a-moins-de-3h-de-cotonou/"
    },
-   "maj": "2026-10-27"
+   "maj": "2026-10-27",
+   "img": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Les_champions_blancs_%C3%A0_la_For%C3%AAt_Sacr%C3%A9e_de_Kpass%C3%A8.jpg/960px-Les_champions_blancs_%C3%A0_la_For%C3%AAt_Sacr%C3%A9e_de_Kpass%C3%A8.jpg",
+    "auteur": "Rachad sanoussi",
+    "licence": "CC BY-SA 4.0",
+    "lien": "https://commons.wikimedia.org/wiki/File:Les_champions_blancs_%C3%A0_la_For%C3%AAt_Sacr%C3%A9e_de_Kpass%C3%A8.jpg",
+    "illustration": false,
+    "legende": ""
+   }
   },
   {
    "id": "grand-popo",
@@ -450,7 +578,15 @@
     "nom": "Chez les Belges",
     "url": "https://chezlesbelges.com/"
    },
-   "maj": "2026-10-27"
+   "maj": "2026-10-27",
+   "img": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Grand_popo_plage%2C_B%C3%A9nin_02.jpg/960px-Grand_popo_plage%2C_B%C3%A9nin_02.jpg",
+    "auteur": "Romario COFFI",
+    "licence": "CC BY-SA 4.0",
+    "lien": "https://commons.wikimedia.org/wiki/File:Grand_popo_plage%2C_B%C3%A9nin_02.jpg",
+    "illustration": false,
+    "legende": ""
+   }
   },
   {
    "id": "porto-novo",
@@ -473,7 +609,15 @@
     "nom": "Le Petit Journal Cotonou",
     "url": "https://lepetitjournal.com/cotonou/a-voir-a-faire/idee-sortie-la-decouverte-de-porto-novo-75103"
    },
-   "maj": "2026-10-27"
+   "maj": "2026-10-27",
+   "img": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Grande_mosquee_porto-novo.jpg/960px-Grande_mosquee_porto-novo.jpg",
+    "auteur": "Babylas",
+    "licence": "CC BY-SA 3.0",
+    "lien": "https://commons.wikimedia.org/wiki/File:Grande_mosquee_porto-novo.jpg",
+    "illustration": false,
+    "legende": ""
+   }
   },
   {
    "id": "aguegue",
@@ -495,7 +639,15 @@
     "nom": "AutoMag.bj",
     "url": "https://automag.bj/2026/01/12/plages-forets-villages-5-idees-de-week-ends-a-moins-de-3h-de-cotonou/"
    },
-   "maj": "2026-10-27"
+   "maj": "2026-10-27",
+   "img": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Les_agu%C3%A9gu%C3%A9s_04.jpg/960px-Les_agu%C3%A9gu%C3%A9s_04.jpg",
+    "auteur": "Ciaro pictures",
+    "licence": "CC BY-SA 4.0",
+    "lien": "https://commons.wikimedia.org/wiki/File:Les_agu%C3%A9gu%C3%A9s_04.jpg",
+    "illustration": false,
+    "legende": ""
+   }
   },
   {
    "id": "abomey",
@@ -518,7 +670,15 @@
     "nom": "Visit Benin Republic",
     "url": "https://visitbeninrepublic.com/abomey/"
    },
-   "maj": "2026-10-27"
+   "maj": "2026-10-27",
+   "img": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Royal_Palaces_of_Abomey-133476.jpg/960px-Royal_Palaces_of_Abomey-133476.jpg",
+    "auteur": "Karalyn Monteil",
+    "licence": "CC BY-SA 3.0 IGO",
+    "lien": "https://commons.wikimedia.org/wiki/File:Royal_Palaces_of_Abomey-133476.jpg",
+    "illustration": false,
+    "legende": ""
+   }
   },
   {
    "id": "pendjari",
@@ -540,7 +700,15 @@
     "nom": "Partirou",
     "url": "https://www.partirou.com/quand/voyager/benin/lieu/parc-national-de-la-pendjari/"
    },
-   "maj": "2026-10-27"
+   "maj": "2026-10-27",
+   "img": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Pendjari_kuhantilopen.JPG/960px-Pendjari_kuhantilopen.JPG",
+    "auteur": "Gregor Rom",
+    "licence": "CC BY-SA 4.0",
+    "lien": "https://commons.wikimedia.org/wiki/File:Pendjari_kuhantilopen.JPG",
+    "illustration": false,
+    "legende": ""
+   }
   }
  ],
  "evenements": [
