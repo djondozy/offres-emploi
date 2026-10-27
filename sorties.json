@@ -1,0 +1,647 @@
+{
+ "derniereMaj": "2026-10-27T09:30:00Z",
+ "lieux": [
+  {
+   "id": "maman-piment",
+   "nom": "Chez Maman Piment",
+   "categorie": "Manger",
+   "ville": "Cotonou",
+   "zone": "cotonou",
+   "quartier": "Plage de Fidjrossè",
+   "budget": 1,
+   "prix": "5 000 à 10 000 F par personne",
+   "resume": "Une paillote face à l'océan, simple et toujours pleine. On vient pour le poisson grillé et l'ambiance de bord de mer.",
+   "aEssayer": [
+    "Poisson grillé avec aloko",
+    "Igname frite",
+    "Amiwo"
+   ],
+   "conseil": "Le dimanche midi, venez tôt ou soyez patient.",
+   "infos": null,
+   "source": {
+    "nom": "iCotonou",
+    "url": "https://www.icotonou.com/en/que-faire/top-restaurants-cotonou-guide-gastronomique/"
+   },
+   "maj": "2026-10-27"
+  },
+  {
+   "id": "le-cocotier",
+   "nom": "Le Maquis Le Cocotier",
+   "categorie": "Manger",
+   "ville": "Cotonou",
+   "zone": "cotonou",
+   "quartier": "Akpakpa",
+   "budget": 1,
+   "prix": "4 000 à 9 000 F par personne",
+   "resume": "Un grand maquis où l'on mange la vraie cuisine béninoise, avec un orchestre qui met l'ambiance le week-end.",
+   "aEssayer": [
+    "Mouton braisé au four",
+    "Agouti sauce arachide",
+    "Sauce gombo au poisson fumé",
+    "Wagasi frit"
+   ],
+   "conseil": "Idéal pour une sortie entre amis le samedi soir.",
+   "infos": null,
+   "source": {
+    "nom": "iCotonou",
+    "url": "https://www.icotonou.com/en/que-faire/top-restaurants-cotonou-guide-gastronomique/"
+   },
+   "maj": "2026-10-27"
+  },
+  {
+   "id": "chez-tranquille",
+   "nom": "Maquis Chez Tranquille",
+   "categorie": "Manger",
+   "ville": "Cotonou",
+   "zone": "cotonou",
+   "quartier": "Entre la Poste et le carrefour Trois-Banques",
+   "budget": 1,
+   "prix": "2 000 à 3 500 F le plat",
+   "resume": "Le bon plan du midi au centre-ville : du riz sous toutes ses formes, du poulet et du poisson braisés, à petit prix.",
+   "aEssayer": [
+    "Riz au poisson braisé",
+    "Poulet braisé"
+   ],
+   "conseil": "Très animé à l'heure du déjeuner.",
+   "infos": "Tous les jours, 12 h à 20 h",
+   "source": {
+    "nom": "Petit Futé",
+    "url": "https://www.petitfute.com/v49354-cotonou/c1165-restaurants/c1031-cuisines-du-monde/c1032-cuisine-d-afrique/c25-restaurant-beninois/196111-le-maquis-chez-tranquille.html"
+   },
+   "maj": "2026-10-27"
+  },
+  {
+   "id": "kedjenou",
+   "nom": "Maquis Le Kédjénou",
+   "categorie": "Manger",
+   "ville": "Cotonou",
+   "zone": "cotonou",
+   "quartier": "Akpakpa, rue de la radio Capp FM",
+   "budget": 1,
+   "prix": "Environ 5 000 à 6 000 F le repas",
+   "resume": "Des paillotes colorées et une carte qui mêle cuisine ivoirienne et béninoise. Un classique d'Akpakpa.",
+   "aEssayer": [
+    "Kédjénou de poulet",
+    "Attiéké poisson"
+   ],
+   "conseil": "Prix indicatifs : vérifiez sur place.",
+   "infos": null,
+   "source": {
+    "nom": "Bénin360",
+    "url": "https://benin360.com/meilleurs-restaurants-cotonou/"
+   },
+   "maj": "2026-10-27"
+  },
+  {
+   "id": "maquis-du-port",
+   "nom": "Maquis du Port",
+   "categorie": "Manger",
+   "ville": "Cotonou",
+   "zone": "cotonou",
+   "quartier": "Ganhi, boulevard de la Marina (face à la Loterie nationale)",
+   "budget": 2,
+   "prix": "Voir sur place",
+   "resume": "Un maquis plus soigné, avec service à table, très prisé pour les déjeuners de travail. Cuisine d'Afrique de l'Ouest.",
+   "aEssayer": [
+    "Attiéké ivoirien",
+    "Thiéboudienne sénégalais"
+   ],
+   "conseil": "Pratique pour un déjeuner d'affaires au centre.",
+   "infos": null,
+   "source": {
+    "nom": "Bénin360",
+    "url": "https://benin360.com/meilleurs-restaurants-cotonou/"
+   },
+   "maj": "2026-10-27"
+  },
+  {
+   "id": "cabane-pecheur",
+   "nom": "La Cabane du Pêcheur",
+   "categorie": "Manger",
+   "ville": "Cotonou",
+   "zone": "cotonou",
+   "quartier": "Route des pêches, Fidjrossè",
+   "budget": 2,
+   "prix": "Plats de 4 000 à 7 000 F, langouste vers 11 000 F",
+   "resume": "Les pieds dans le sable, des fruits de mer et une aire de jeux pour les enfants. Parfait pour un dimanche en famille.",
+   "aEssayer": [
+    "Fruits de mer",
+    "Poisson du jour",
+    "Langouste"
+   ],
+   "conseil": "La mer est forte à cet endroit : prudence pour la baignade.",
+   "infos": null,
+   "source": {
+    "nom": "Le Petit Journal Cotonou",
+    "url": "https://lepetitjournal.com/cotonou/a-voir-a-faire/les-plages-de-cotonou-prisees-par-les-expatries-le-week-end-75088"
+   },
+   "maj": "2026-10-27"
+  },
+  {
+   "id": "fair-bar",
+   "nom": "Le Fair Bar",
+   "categorie": "Manger",
+   "ville": "Cotonou",
+   "zone": "cotonou",
+   "quartier": "Route des pêches",
+   "budget": 1,
+   "prix": "Voir sur place",
+   "resume": "Des paillotes sur le sable et une cuisine béninoise sans chichi, pour un après-midi détente au bord de l'eau.",
+   "aEssayer": [
+    "Atassi",
+    "Choukouya de poulet ou de mouton",
+    "Ragoût d'igname"
+   ],
+   "conseil": "Allez-y en fin d'après-midi, quand il fait plus frais.",
+   "infos": null,
+   "source": {
+    "nom": "Bénin360",
+    "url": "https://benin360.com/meilleurs-restaurants-cotonou/"
+   },
+   "maj": "2026-10-27"
+  },
+  {
+   "id": "babs-dock",
+   "nom": "Le Bab's Dock",
+   "categorie": "Manger",
+   "ville": "Cotonou",
+   "zone": "cotonou",
+   "quartier": "Fidjrossè, route des pêches",
+   "budget": 3,
+   "prix": "12 000 à 25 000 F par personne",
+   "resume": "On y arrive en bateau et on déjeune sur des pontons en bois, au milieu de la lagune. Une vraie sortie, pour une occasion spéciale.",
+   "aEssayer": [
+    "Grosses crevettes grillées",
+    "Capitaine grillé",
+    "Carpaccio de poisson"
+   ],
+   "conseil": "Réservez 24 à 48 h avant, surtout le dimanche.",
+   "infos": null,
+   "source": {
+    "nom": "iCotonou",
+    "url": "https://www.icotonou.com/en/que-faire/top-restaurants-cotonou-guide-gastronomique/"
+   },
+   "maj": "2026-10-27"
+  },
+  {
+   "id": "kare-electrique",
+   "nom": "Le Karé Électrique",
+   "categorie": "Manger",
+   "ville": "Cotonou",
+   "zone": "cotonou",
+   "quartier": "Haie Vive",
+   "budget": 2,
+   "prix": "10 000 à 20 000 F par personne",
+   "resume": "Un lieu moderne et animé, entre restaurant et lounge, où la cuisine mélange l'Afrique et l'ailleurs.",
+   "aEssayer": [
+    "Burger au fromage wagasi",
+    "Brochettes de capitaine",
+    "Tapas à l'africaine"
+   ],
+   "conseil": "Bonne adresse pour un afterwork.",
+   "infos": null,
+   "source": {
+    "nom": "iCotonou",
+    "url": "https://www.icotonou.com/en/que-faire/top-restaurants-cotonou-guide-gastronomique/"
+   },
+   "maj": "2026-10-27"
+  },
+  {
+   "id": "orangerie",
+   "nom": "L'Orangerie",
+   "categorie": "Manger",
+   "ville": "Cotonou",
+   "zone": "cotonou",
+   "quartier": "Cadjèhoun",
+   "budget": 3,
+   "prix": "18 000 à 30 000 F par personne",
+   "resume": "Une table chic et calme d'inspiration française, pour un anniversaire ou un dîner important.",
+   "aEssayer": [
+    "Filet de mérou",
+    "Magret de canard à la mangue",
+    "Desserts maison"
+   ],
+   "conseil": "Réservation conseillée.",
+   "infos": null,
+   "source": {
+    "nom": "iCotonou",
+    "url": "https://www.icotonou.com/en/que-faire/top-restaurants-cotonou-guide-gastronomique/"
+   },
+   "maj": "2026-10-27"
+  },
+  {
+   "id": "bangkok-terrasse",
+   "nom": "Bangkok Terrasse",
+   "categorie": "Manger",
+   "ville": "Cotonou",
+   "zone": "cotonou",
+   "quartier": "Camp Guézo",
+   "budget": 2,
+   "prix": "Voir sur place",
+   "resume": "Le restaurant thaï que tout Cotonou connaît, ouvert depuis près de trente ans. Pour changer de la cuisine locale.",
+   "aEssayer": [
+    "Cuisine thaïe"
+   ],
+   "conseil": "Une valeur sûre quand on hésite.",
+   "infos": null,
+   "source": {
+    "nom": "Bénin360",
+    "url": "https://benin360.com/meilleurs-restaurants-cotonou/"
+   },
+   "maj": "2026-10-27"
+  },
+  {
+   "id": "plage-fidjrosse",
+   "nom": "Plage de Fidjrossè",
+   "categorie": "Plage & détente",
+   "ville": "Cotonou",
+   "zone": "cotonou",
+   "quartier": "Fidjrossè",
+   "budget": 0,
+   "prix": "Gratuit",
+   "resume": "La plage des Cotonois : balades, brochettes, pêcheurs et musique le soir. L'endroit où il faut être le vendredi soir.",
+   "aEssayer": [
+    "Balade au coucher du soleil",
+    "Brochettes et boissons fraîches"
+   ],
+   "conseil": "La baignade y est interdite : on profite du sable, pas des vagues.",
+   "infos": null,
+   "source": {
+    "nom": "Bénin360",
+    "url": "https://benin360.com/que-faire-a-cotonou/"
+   },
+   "maj": "2026-10-27"
+  },
+  {
+   "id": "eldorado",
+   "nom": "Eldorado Beach Club",
+   "categorie": "Plage & détente",
+   "ville": "Cotonou",
+   "zone": "cotonou",
+   "quartier": "Akpakpa, quartier Jack",
+   "budget": 2,
+   "prix": "Entrée : voir sur place",
+   "resume": "Piscine, plage aménagée et baignade surveillée à l'abri des vagues : la sortie plage la plus sûre avec des enfants.",
+   "aEssayer": [
+    "Piscine",
+    "Tennis et beach-volley",
+    "Paillotes à louer"
+   ],
+   "conseil": "Très calme en semaine, plein le samedi après-midi et le dimanche.",
+   "infos": null,
+   "source": {
+    "nom": "Le Petit Journal Cotonou",
+    "url": "https://lepetitjournal.com/cotonou/a-voir-a-faire/les-plages-de-cotonou-prisees-par-les-expatries-le-week-end-75088"
+   },
+   "maj": "2026-10-27"
+  },
+  {
+   "id": "fondation-zinsou",
+   "nom": "Fondation Zinsou",
+   "categorie": "Culture",
+   "ville": "Cotonou",
+   "zone": "cotonou",
+   "quartier": "Haie Vive",
+   "budget": 0,
+   "prix": "Expositions principales gratuites",
+   "resume": "Le grand rendez-vous de l'art contemporain africain à Cotonou, ouvert à tous et gratuit.",
+   "aEssayer": [
+    "Les expositions du moment",
+    "Visites guidées"
+   ],
+   "conseil": "Vérifiez la programmation et les horaires avant de passer.",
+   "infos": null,
+   "source": {
+    "nom": "Bénin360",
+    "url": "https://benin360.com/que-faire-a-cotonou/"
+   },
+   "maj": "2026-10-27"
+  },
+  {
+   "id": "majestic-wologuede",
+   "nom": "Majestic Cinéma Wologuèdè",
+   "categorie": "Sorties & spectacles",
+   "ville": "Cotonou",
+   "zone": "cotonou",
+   "quartier": "Wologuèdè",
+   "budget": 1,
+   "prix": "Voir les séances",
+   "resume": "L'ancienne salle CanalOlympia, devenue Majestic Cinéma : films, concerts et spectacles dans une grande salle moderne.",
+   "aEssayer": [
+    "Les films à l'affiche",
+    "Concerts et spectacles"
+   ],
+   "conseil": "Suivez leur page Facebook pour le programme de la semaine.",
+   "infos": null,
+   "source": {
+    "nom": "La Nouvelle Tribune",
+    "url": "https://lanouvelletribune.info/2025/12/benin-canalolympia-devient-majestic-cinema/"
+   },
+   "maj": "2026-10-27"
+  },
+  {
+   "id": "dantokpa",
+   "nom": "Marché Dantokpa",
+   "categorie": "Culture",
+   "ville": "Cotonou",
+   "zone": "cotonou",
+   "quartier": "Centre-ville",
+   "budget": 0,
+   "prix": "Gratuit",
+   "resume": "Le plus grand marché d'Afrique de l'Ouest : tissus wax, épices, tout ce qu'on peut imaginer. Une expérience à vivre au moins une fois.",
+   "aEssayer": [
+    "Tissus wax",
+    "Épices et produits locaux"
+   ],
+   "conseil": "Venez tôt, avant 9 h, et gardez vos affaires près de vous.",
+   "infos": null,
+   "source": {
+    "nom": "Bénin360",
+    "url": "https://benin360.com/que-faire-a-cotonou/"
+   },
+   "maj": "2026-10-27"
+  },
+  {
+   "id": "ganvie",
+   "nom": "Ganvié, la cité lacustre",
+   "categorie": "Escapade",
+   "ville": "Abomey-Calavi",
+   "zone": "escapade",
+   "quartier": "Lac Nokoué, à 30 min de Cotonou",
+   "budget": 1,
+   "prix": "Pirogue environ 8 000 F, bateau à moteur environ 10 500 F",
+   "resume": "Un village entier construit sur pilotis, qu'on rejoint en pirogue. Le marché flottant est magnifique en fin de journée.",
+   "aEssayer": [
+    "Marché flottant",
+    "Balade en pirogue",
+    "Déjeuner sur pilotis"
+   ],
+   "conseil": "Négociez le prix à l'embarcadère avant de monter.",
+   "infos": null,
+   "source": {
+    "nom": "AutoMag.bj",
+    "url": "https://automag.bj/2026/01/12/plages-forets-villages-5-idees-de-week-ends-a-moins-de-3h-de-cotonou/"
+   },
+   "maj": "2026-10-27"
+  },
+  {
+   "id": "ouidah",
+   "nom": "Ouidah, la Route des Esclaves",
+   "categorie": "Escapade",
+   "ville": "Ouidah",
+   "zone": "escapade",
+   "quartier": "À 1 h de Cotonou",
+   "budget": 1,
+   "prix": "Musée environ 1 000 F",
+   "resume": "Quatre kilomètres de mémoire, du musée d'Histoire jusqu'à la Porte du Non-Retour. On complète avec le Temple des Pythons.",
+   "aEssayer": [
+    "Musée d'Histoire",
+    "Porte du Non-Retour",
+    "Temple des Pythons"
+   ],
+   "conseil": "Prévoyez une demi-journée, et de l'eau.",
+   "infos": null,
+   "source": {
+    "nom": "AutoMag.bj",
+    "url": "https://automag.bj/2026/01/12/plages-forets-villages-5-idees-de-week-ends-a-moins-de-3h-de-cotonou/"
+   },
+   "maj": "2026-10-27"
+  },
+  {
+   "id": "kpasse",
+   "nom": "Forêt sacrée de Kpassè",
+   "categorie": "Nature",
+   "ville": "Ouidah",
+   "zone": "escapade",
+   "quartier": "Ouidah",
+   "budget": 1,
+   "prix": "Journée guidée environ 15 000 F, mangroves 5 000 à 7 000 F",
+   "resume": "Une forêt sacrée pleine d'arbres vénérés et de sculptures, qu'on peut prolonger par une balade en pirogue dans les mangroves.",
+   "aEssayer": [
+    "Visite guidée",
+    "Pirogue dans les mangroves"
+   ],
+   "conseil": "À combiner avec la Route des Esclaves le même jour.",
+   "infos": null,
+   "source": {
+    "nom": "AutoMag.bj",
+    "url": "https://automag.bj/2026/01/12/plages-forets-villages-5-idees-de-week-ends-a-moins-de-3h-de-cotonou/"
+   },
+   "maj": "2026-10-27"
+  },
+  {
+   "id": "grand-popo",
+   "nom": "Grand-Popo et Chez les Belges",
+   "categorie": "Escapade",
+   "ville": "Grand-Popo",
+   "zone": "escapade",
+   "quartier": "À 1 h 30 de Cotonou, route de Lomé",
+   "budget": 1,
+   "prix": "Chambres à partir de 10 500 F la nuit",
+   "resume": "La plage pour décrocher le temps d'un week-end : mangroves, île aux oiseaux, et un hôtel-restaurant les pieds dans le sable.",
+   "aEssayer": [
+    "Pirogue vers l'île aux oiseaux",
+    "Piscine d'eau de mer",
+    "Ponte des tortues (novembre à janvier)"
+   ],
+   "conseil": "Les courants sont forts : on se baigne prudemment.",
+   "infos": "Réservation : +229 01 99 09 20 20 (WhatsApp)",
+   "source": {
+    "nom": "Chez les Belges",
+    "url": "https://chezlesbelges.com/"
+   },
+   "maj": "2026-10-27"
+  },
+  {
+   "id": "porto-novo",
+   "nom": "Porto-Novo, la capitale",
+   "categorie": "Escapade",
+   "ville": "Porto-Novo",
+   "zone": "escapade",
+   "quartier": "À 45 min de Cotonou",
+   "budget": 1,
+   "prix": "Voir à l'office de tourisme",
+   "resume": "Palais royaux, mosquée afro-brésilienne, musée Honmè et Jardin des plantes : une journée d'histoire, tranquille et dépaysante.",
+   "aEssayer": [
+    "Musée Honmè",
+    "Jardin des plantes et de la nature",
+    "Grande mosquée"
+   ],
+   "conseil": "Passez par l'office de tourisme place Bayol pour un guide officiel.",
+   "infos": "Office de tourisme : lun-ven 9 h-18 h, sam 10 h-14 h",
+   "source": {
+    "nom": "Le Petit Journal Cotonou",
+    "url": "https://lepetitjournal.com/cotonou/a-voir-a-faire/idee-sortie-la-decouverte-de-porto-novo-75103"
+   },
+   "maj": "2026-10-27"
+  },
+  {
+   "id": "aguegue",
+   "nom": "Village lacustre d'Aguégué",
+   "categorie": "Escapade",
+   "ville": "Porto-Novo",
+   "zone": "escapade",
+   "quartier": "Près de Porto-Novo",
+   "budget": 1,
+   "prix": "Pirogue 6 000 à 8 000 F par personne",
+   "resume": "Moins connu que Ganvié et plus authentique : on y découvre la vie sur l'eau au rythme des habitants.",
+   "aEssayer": [
+    "Balade en pirogue",
+    "Rencontre avec les habitants"
+   ],
+   "conseil": "Départ en pirogue depuis Porto-Novo.",
+   "infos": null,
+   "source": {
+    "nom": "AutoMag.bj",
+    "url": "https://automag.bj/2026/01/12/plages-forets-villages-5-idees-de-week-ends-a-moins-de-3h-de-cotonou/"
+   },
+   "maj": "2026-10-27"
+  },
+  {
+   "id": "abomey",
+   "nom": "Palais royaux d'Abomey",
+   "categorie": "Culture",
+   "ville": "Abomey",
+   "zone": "escapade",
+   "quartier": "Plateau d'Abomey",
+   "budget": 1,
+   "prix": "Voir sur place",
+   "resume": "L'histoire des rois du Dahomey et des Agojie, les guerrières qui ont inspiré The Woman King, dans un site classé par l'UNESCO.",
+   "aEssayer": [
+    "Musée historique",
+    "Bas-reliefs",
+    "Mémorial des Agojie"
+   ],
+   "conseil": "Comptez une journée complète avec un guide.",
+   "infos": null,
+   "source": {
+    "nom": "Visit Benin Republic",
+    "url": "https://visitbeninrepublic.com/abomey/"
+   },
+   "maj": "2026-10-27"
+  },
+  {
+   "id": "pendjari",
+   "nom": "Parc national de la Pendjari",
+   "categorie": "Nature",
+   "ville": "Tanguiéta",
+   "zone": "escapade",
+   "quartier": "Nord-Ouest, via Natitingou",
+   "budget": 3,
+   "prix": "Safari guidé : voir les offres",
+   "resume": "Éléphants, lions, buffles et hippopotames dans le plus grand parc d'Afrique de l'Ouest. Une aventure à préparer.",
+   "aEssayer": [
+    "Safari guidé",
+    "Observation des oiseaux"
+   ],
+   "conseil": "Meilleure saison : décembre à février. Renseignez-vous sur les consignes de sécurité avant de partir.",
+   "infos": null,
+   "source": {
+    "nom": "Partirou",
+    "url": "https://www.partirou.com/quand/voyager/benin/lieu/parc-national-de-la-pendjari/"
+   },
+   "maj": "2026-10-27"
+  }
+ ],
+ "evenements": [
+  {
+   "id": "sima-2026",
+   "titre": "SIMA, le salon de la musique africaine",
+   "debut": "2026-11-07",
+   "fin": "2026-11-14",
+   "lieu": "Cotonou",
+   "type": "Salon",
+   "resume": "Une semaine dédiée à la musique africaine francophone : résidence d'artistes, conférences professionnelles et circuit touristique le dernier jour.",
+   "prix": "Surtout pour les professionnels",
+   "source": {
+    "nom": "Japap",
+    "url": "https://japap.info/blog/2026/09/18/sima-2026-cotonou-benin-musique-africaine/"
+   }
+  },
+  {
+   "id": "tortues-grand-popo",
+   "titre": "Saison de ponte des tortues",
+   "debut": "2026-11-01",
+   "fin": "2027-01-31",
+   "lieu": "Grand-Popo",
+   "type": "Nature",
+   "resume": "De novembre à janvier, les tortues marines viennent pondre sur les plages de Grand-Popo. Une sortie nocturne inoubliable avec un guide.",
+   "prix": "Voir avec les guides locaux",
+   "source": {
+    "nom": "AutoMag.bj",
+    "url": "https://automag.bj/2026/01/12/plages-forets-villages-5-idees-de-week-ends-a-moins-de-3h-de-cotonou/"
+   }
+  },
+  {
+   "id": "pendjari-saison",
+   "titre": "Ouverture de la belle saison à la Pendjari",
+   "debut": "2026-12-01",
+   "fin": "2027-02-28",
+   "lieu": "Parc national de la Pendjari",
+   "type": "Nature",
+   "resume": "La saison sèche regroupe les animaux autour des points d'eau : c'est le meilleur moment pour un safari.",
+   "prix": "Voir les offres de safari",
+   "source": {
+    "nom": "Partirou",
+    "url": "https://www.partirou.com/quand/voyager/benin/lieu/parc-national-de-la-pendjari/"
+   }
+  },
+  {
+   "id": "lukalu-2026",
+   "titre": "Déborah Lukalu en concert",
+   "debut": "2026-12-20",
+   "fin": "2026-12-20",
+   "heure": "16 h",
+   "lieu": "Majestic Cinéma Wologuèdè, Cotonou",
+   "type": "Concert",
+   "resume": "La chanteuse de gospel congolaise en concert de louange, dans le cadre du festival Soheja.",
+   "prix": "Billetterie : voir les organisateurs",
+   "source": {
+    "nom": "Chrétiens.com",
+    "url": "https://chretiens.com/chretiensdumonde/actualitechretienne/deborah-lukalu-en-concert-a-cotonou-au-benin-le-20-decembre-2026/2026/09/26/13/12/"
+   }
+  },
+  {
+   "id": "noel-haie-vive",
+   "titre": "Veillée de Noël à Haie Vive",
+   "debut": "2026-12-24",
+   "fin": "2026-12-25",
+   "lieu": "Haie Vive, Cotonou",
+   "type": "Fête",
+   "resume": "Le quartier s'anime dès la veille au soir, avec de la musique dans les rues et des restaurants ouverts tard.",
+   "prix": "Gratuit",
+   "source": {
+    "nom": "Bénin360",
+    "url": "https://benin360.com/fetes-au-benin/"
+   }
+  },
+  {
+   "id": "chill-groove",
+   "titre": "Chill & Groove, soirée du Nouvel An",
+   "debut": "2026-12-31",
+   "fin": "2026-12-31",
+   "lieu": "Palais des Congrès, Cotonou",
+   "type": "Festival",
+   "resume": "Une grande soirée musicale pour finir l'année au Palais des Congrès.",
+   "prix": "À partir de 2 000 F",
+   "source": {
+    "nom": "Event Bénin",
+    "url": "https://event.bj/event/chill-groove-2025/"
+   }
+  },
+  {
+   "id": "vodun-days-2027",
+   "titre": "Vodun Days 2027",
+   "debut": "2027-01-02",
+   "fin": "2027-01-09",
+   "lieu": "Ouidah",
+   "type": "Festival",
+   "resume": "Le grand festival des cultures vodun passe à sept jours cette année : spectacles, art et cérémonies, avec un point d'orgue le week-end. Les 7 et 8 janvier sont fériés.",
+   "prix": "Accès libre aux festivités publiques",
+   "source": {
+    "nom": "Bénin Web TV",
+    "url": "https://beninwebtv.bj/benin-le-gouvernement-beninois-precise-les-raisons-de-la-prolongation-des-vodun-days-2027-a-ouidah/"
+   }
+  }
+ ]
+}
