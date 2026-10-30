@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Djob · Les offres d'emploi du Bénin</title>
 <meta name="description" content="Toutes les offres d'emploi du Bénin rassemblées chaque matin, un accompagnement pour réussir vos candidatures, et les bonnes adresses pour sortir.">
-<meta name="theme-color" content="#0A7B3E">
+<meta name="theme-color" content="#FFFFFF">
 <meta name="color-scheme" content="light only">
 <link rel="canonical" href="https://djondozy.github.io/offres-emploi/">
 <meta property="og:type" content="website">
@@ -20,1125 +20,388 @@
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://upload.wikimedia.org">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;600;700&family=Figtree:wght@400;500;600;700;800&display=swap">
-<style>
-/* Layout: tricolour top strip + nav · Accueil (Amazone hero, numbers, today's classifieds, services, recruiters, sortir) · Offres · Sortir · Accompagnement · Publier · Carnet · Conseils · À propos. Light only. */
-:root{
-  --bg:#FFFFFF; --ink:#121410; --ink-2:#2C302A; --muted:#5C6158; --line:#E3E6E0; --sunk:#F3F5F1;
-  --green:#0A7B3E; --green-2:#086634; --green-d:#0B3D25; --green-t:#E8F3EC;
-  --yellow:#F5C518; --yellow-t:#FFF5D1; --yellow-ink:#715400;
-  --red:#D7262F; --red-t:#FCEAE8; --red-ink:#B11E26;
-  --display:"Unbounded","Arial Black",system-ui,sans-serif;
-  --body:"Figtree","Segoe UI",system-ui,sans-serif;
-  --r:14px; color-scheme:light;
-  --pagne:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='12' viewBox='0 0 48 12'%3E%3Cpath d='M0 12 6 0l6 12z' fill='%230A7B3E'/%3E%3Cpath d='M18 0l6 6-6 6-6-6z' fill='%23F5C518'/%3E%3Cpath d='M24 12 30 0l6 12z' fill='%23D7262F'/%3E%3Cpath d='M42 0l6 6-6 6-6-6z' fill='%23121410'/%3E%3C/svg%3E");
-}
-*{box-sizing:border-box}
-[hidden]{display:none!important}
-html{-webkit-text-size-adjust:100%;scroll-padding-top:90px}
-body{margin:0;background:var(--bg);color:var(--ink);font:16.5px/1.6 var(--body);padding-bottom:env(safe-area-inset-bottom,0px)}
-button,input,select,textarea{font:inherit;color:inherit}
-a{color:inherit}
-img{max-width:100%;display:block}
-.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
-:focus-visible{outline:2.5px solid var(--green);outline-offset:2px;border-radius:8px}
-.wrap{max-width:1180px;margin:0 auto;padding-left:max(18px,env(safe-area-inset-left,0px));padding-right:max(18px,env(safe-area-inset-right,0px))}
-h1,h2,h3{text-wrap:balance}
-.g{color:var(--green)}
-.pagne{height:12px;background:var(--pagne) repeat-x;background-size:48px 12px}
-
-.flagline{display:grid;grid-template-columns:1fr 1fr 1fr;height:5px}
-.flagline i:nth-child(1){background:var(--green)}.flagline i:nth-child(2){background:var(--yellow)}.flagline i:nth-child(3){background:var(--red)}
-body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:41;background:#fff}
-.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:40;background:rgba(255,255,255,.96);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
-.top .wrap{display:flex;align-items:center;gap:10px;height:66px}
-.logo{display:flex;align-items:center;gap:9px;font:700 22px/1 var(--display);letter-spacing:-.03em;color:var(--ink);text-decoration:none;margin-right:auto;min-height:44px}
-.mark{width:22px;height:22px;border-radius:5px;overflow:hidden;display:grid;grid-template-columns:2fr 3fr;grid-template-rows:1fr 1fr;flex:none}
-.mark i:first-child{grid-row:1/3;background:var(--green)}.mark i:nth-child(2){background:var(--yellow)}.mark i:nth-child(3){background:var(--red)}
-.nav{display:flex;gap:2px}
-.nav button{border:0;background:transparent;padding:9px 12px;border-radius:9px;font-weight:600;font-size:15px;color:var(--ink-2);cursor:pointer;display:inline-flex;gap:6px;align-items:center;position:relative}
-.nav button:hover{background:var(--sunk)}
-.nav button[aria-current="page"]{color:var(--green)}
-.nav button[aria-current="page"]::after{content:"";position:absolute;left:12px;right:12px;bottom:2px;height:2.5px;border-radius:2px;background:var(--green)}
-.n{background:var(--red);color:#fff;border-radius:999px;font-size:11px;padding:0 6px;line-height:18px;font-weight:700}
-.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border-radius:12px;padding:12px 18px;font-weight:700;border:0;cursor:pointer;text-decoration:none;font-size:15.5px;line-height:1.2;text-align:center;min-height:44px;transition:background-color .15s,color .15s,border-color .15s}
-.btn.green{background:var(--green);color:#fff}.btn.green:hover{background:var(--green-2)}
-.btn.yellow{background:var(--yellow);color:var(--ink)}
-.btn.ink{background:var(--ink);color:#fff}
-.btn.line{background:#fff;color:var(--ink);border:1.5px solid var(--ink)}
-.btn.soft{background:var(--sunk);color:var(--ink)}
-.btn.wa{background:#127A40;color:#fff}.btn.wa:hover{background:#0E6635}
-.btn.small{padding:8px 13px;font-size:14px;border-radius:10px;min-height:40px}
-@media (max-width:959px){.nav,.top .btn{display:none}}
-
-.tabbar{display:none}
-@media (max-width:959px){
-  .tabbar{display:grid;grid-template-columns:repeat(5,1fr);position:fixed;left:0;right:0;bottom:0;z-index:40;background:#fff;border-top:1px solid var(--line);padding:5px max(4px,env(safe-area-inset-left,0px)) calc(5px + env(safe-area-inset-bottom,0px)) max(4px,env(safe-area-inset-right,0px))}
-  .tabbar button{border:0;background:none;display:flex;flex-direction:column;align-items:center;gap:3px;font-size:12px;min-height:52px;font-weight:600;color:var(--muted);padding:6px 0;cursor:pointer;position:relative}
-  .tabbar button[aria-current="page"]{color:var(--green)}
-  .tabbar button[aria-current="page"]::before{content:"";position:absolute;top:-5px;left:28%;right:28%;height:3px;border-radius:0 0 3px 3px;background:var(--green)}
-  .tabbar .n{position:absolute;top:0;left:calc(50% + 7px);font-size:10px;line-height:16px;padding:0 5px}
-  main{padding-bottom:80px}
-}
-
-.label{display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-2)}
-.label::before{content:"";width:10px;height:10px;background:var(--green);border-radius:2px}
-.label.y::before{background:var(--yellow)}.label.r::before{background:var(--red)}
-.h2{font:700 clamp(26px,4.2vw,40px)/1.12 var(--display);letter-spacing:-.025em;margin:12px 0 10px}
-.lede{color:var(--muted);font-size:17.5px;max-width:60ch;margin:0}
-.band{padding-block:72px}
-.band.gt{background:var(--green-t)}.band.yt{background:var(--yellow-t)}.band.sunk{background:var(--sunk)}
-.band.dark{background:var(--green-d);color:#E9F2EC}
-.band.dark .lede{color:#B8CCBF}.band.dark .label{color:#E9F2EC}.band.dark .label::before{background:var(--yellow)}
-@media (max-width:640px){.band{padding-block:52px}}
-.sec-head{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;flex-wrap:wrap;margin-bottom:26px}
-
-.hero{padding-block:44px 34px}
-.hero-grid{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:48px;align-items:center}
-.where{font-weight:600;color:var(--muted);font-size:15px;margin:0}
-.hero h1{font:700 clamp(36px,6.2vw,64px)/1.04 var(--display);letter-spacing:-.035em;margin:14px 0 18px}
-.hero h1 .hl{background:linear-gradient(transparent 62%,var(--yellow) 62%,var(--yellow) 90%,transparent 90%);padding:0 .06em}
-.hero .lede{color:var(--ink-2);font-size:18px}
-.search{margin-top:26px;display:flex;gap:8px;max-width:600px}
-.search .field-in{flex:1;min-width:0;display:flex;align-items:center;gap:10px;border:1.5px solid var(--ink);border-radius:12px;padding:0 14px;background:#fff}
-.search .field-in:focus-within{border-color:var(--green);box-shadow:0 0 0 4px var(--green-t)}
-.search input{flex:1;min-width:0;border:0;outline:0;padding:14px 0;font-size:16.5px;background:transparent}
-.popular{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:14px;font-size:14.5px;color:var(--muted)}
-.popular button{border:0;background:none;padding:10px 2px;margin:-10px 0;color:var(--ink);font-weight:600;cursor:pointer;text-decoration:underline;text-decoration-color:var(--yellow);text-decoration-thickness:2px;text-underline-offset:4px}
-.amazone{position:relative;justify-self:end;width:100%;max-width:440px;margin:0}
-.amazone .ph{aspect-ratio:4/5;border-radius:22px;overflow:hidden;background:#C9D9E3}
-.amazone img{width:100%;height:100%;object-fit:cover;object-position:52% 30%}
-.amazone .cap{position:absolute;left:-18px;bottom:28px;background:#fff;border-radius:12px;padding:10px 14px;font-size:13.5px;line-height:1.35;box-shadow:0 8px 24px rgba(18,20,16,.14);max-width:230px}
-.amazone .cap b{display:block;font-size:14.5px}
-.amazone .stripe{position:absolute;right:-10px;top:24px;width:12px;height:120px;border-radius:6px;background:linear-gradient(var(--green) 0 33%,var(--yellow) 33% 66%,var(--red) 66%)}
-@media (max-width:899px){.hero-grid{grid-template-columns:minmax(0,1fr);gap:28px}.amazone{justify-self:start;max-width:none}.amazone .ph{aspect-ratio:16/11}.amazone .cap{left:12px;bottom:12px}.amazone .stripe{display:none}}
-@media (max-width:480px){.search{flex-direction:column}.search .btn{width:100%}.hero h1{font-size:34px}}
-
-.numbers{border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-.numbers .wrap{display:grid;grid-template-columns:repeat(4,minmax(0,1fr))}
-.num{padding:22px 18px 20px;border-left:1px solid var(--line)}
-.num:first-child{border-left:0;padding-left:0}
-.num b{display:block;font:700 34px/1 var(--display);letter-spacing:-.03em;font-variant-numeric:tabular-nums}
-.num span{color:var(--muted);font-size:14.5px}
-@media (max-width:700px){.numbers .wrap{grid-template-columns:repeat(2,minmax(0,1fr))}.num:nth-child(3){border-left:0;padding-left:0}.num:nth-child(n+3){border-top:1px solid var(--line)}.num b{font-size:28px}}
-.readfor{padding-block:18px;font-size:14.5px;color:var(--muted)}
-.readfor b{color:var(--ink-2);font-weight:600}
-
-.dayhead{display:flex;align-items:center;gap:12px;margin:26px 0 8px;font-weight:700;font-size:14px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
-.dayhead::after{content:"";flex:1;height:1px;background:var(--line)}
-#list>.dayhead:first-child{margin-top:0}
-.rows{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
-@media (max-width:1040px){.rows{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media (max-width:620px){.rows{grid-template-columns:minmax(0,1fr);gap:14px}}
-.row{position:relative;display:flex;flex-direction:column;background:#fff;border:1.5px solid var(--line);border-radius:16px;overflow:hidden;cursor:pointer;transition:border-color .15s,transform .15s}
-.row:hover{border-color:var(--ink);transform:translateY(-2px)}
-.row:focus-visible{outline:3px solid var(--yellow);outline-offset:2px}
-.row .ph{position:relative;aspect-ratio:2/1;background:var(--green-t);overflow:hidden}
-.row .ph img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .4s}
-.row:hover .ph img{transform:scale(1.04)}
-.row .sect{position:absolute;left:10px;top:10px;z-index:1;background:rgba(255,255,255,.94);color:var(--ink);font-size:12.5px;font-weight:700;border-radius:999px;padding:4px 10px;max-width:calc(100% - 70px);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;box-shadow:0 1px 4px rgba(0,0,0,.12)}
-.avatar{width:50px;height:50px;border-radius:12px;display:grid;place-items:center;font:700 15px var(--display);flex:none}
-.row .avatar{position:relative;z-index:2;margin:-26px 0 0 14px;border:3px solid #fff;box-shadow:0 2px 6px rgba(0,0,0,.08)}
-.row .c{min-width:0;padding:8px 16px 0;flex:1;display:flex;flex-direction:column}
-.row .emp{font-size:14px;color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.row h3{font-size:17.5px;line-height:1.3;margin:2px 0 0;font-weight:700;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-.row .meta{display:flex;flex-wrap:wrap;gap:3px 14px;font-size:14px;color:var(--ink-2);margin-top:8px}
-.row .meta span{display:inline-flex;align-items:center;gap:6px}
-.row .meta svg{color:var(--muted)}
-.row .tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
-.row .foot{display:flex;justify-content:space-between;align-items:center;gap:10px;margin:14px 16px 0;padding:11px 0 13px;border-top:1px dashed var(--line);font-size:13.5px}
-.row .foot b{color:var(--green);font-weight:700}
-.row .side{position:absolute;top:10px;right:10px;z-index:2}
-.ago{font-size:13px;color:var(--muted);white-space:nowrap}
-.tag{display:inline-flex;align-items:center;gap:5px;font-size:12.5px;font-weight:700;border-radius:6px;padding:3px 8px;white-space:nowrap;background:var(--sunk);color:var(--ink-2)}
-.tag.green{background:var(--green-t);color:var(--green)}
-.tag.yellow{background:var(--yellow-t);color:var(--yellow-ink)}
-.tag.red{background:var(--red-t);color:var(--red-ink)}
-.tag.ink{background:var(--ink);color:#fff}
-.tag.week{background:var(--yellow);color:var(--ink)}
-.keep{border:0;background:rgba(255,255,255,.94);cursor:pointer;color:var(--ink-2);width:44px;height:44px;border-radius:50%;display:grid;place-items:center;box-shadow:0 1px 4px rgba(0,0,0,.15)}
-.keep:hover{background:#fff;color:var(--red)}
-.keep[aria-pressed="true"]{color:var(--red)}
-.keep[aria-pressed="true"] svg{fill:var(--red)}
-
-.how3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:36px;margin-top:30px}
-.how3 .ic{width:46px;height:46px;border-radius:12px;display:grid;place-items:center;margin-bottom:12px;background:#fff}
-.how3 h3{font:600 19px/1.25 var(--display);margin:0 0 6px;letter-spacing:-.02em}
-.how3 p{margin:0;color:var(--muted)}
-@media (max-width:760px){.how3{grid-template-columns:1fr;gap:24px}}
-.tiles{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-top:34px}
-.tile{border:1.5px solid var(--line);background:#fff;border-radius:var(--r);padding:18px;text-align:left;cursor:pointer;display:flex;flex-direction:column;gap:4px;transition:border-color .15s}
-.tile:hover{border-color:var(--green)}
-.tile b{font:600 17px/1.2 var(--display);letter-spacing:-.02em}
-.tile span{font-size:14px;color:var(--muted)}
-.tile i{width:28px;height:4px;border-radius:2px;margin-bottom:10px}
-@media (max-width:900px){.tiles{grid-template-columns:repeat(2,minmax(0,1fr))}}
-
-.services{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:28px}
-@media (max-width:900px){.services{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media (max-width:600px){.services{grid-template-columns:1fr}}
-.svc{background:#fff;color:var(--ink);border-radius:18px;padding:22px;display:flex;flex-direction:column;gap:8px;border:1.5px solid var(--line)}
-.band.dark .svc{border-color:transparent}
-.svc .for{font-size:13px;font-weight:700;color:var(--green);text-transform:uppercase;letter-spacing:.06em}
-.svc h3{font:600 20px/1.2 var(--display);margin:0;letter-spacing:-.02em}
-.svc p{margin:0;color:var(--muted);font-size:15px}
-.svc ul{margin:4px 0 0;padding:0;list-style:none;display:flex;flex-direction:column;gap:6px;font-size:14.5px}
-.svc li{display:flex;gap:8px}
-.svc li::before{content:"";flex:none;width:7px;height:7px;margin-top:8px;border-radius:2px;background:var(--yellow)}
-.svc .foot{margin-top:auto;padding-top:14px;display:flex;justify-content:space-between;align-items:center;gap:10px;border-top:1px solid var(--line)}
-.svc .price{font-weight:800}
-.svc .price small{display:block;font-weight:500;color:var(--muted);font-size:12.5px}
-
-.recruit{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:40px;align-items:center}
-.checklist{list-style:none;margin:18px 0 0;padding:0;display:flex;flex-direction:column;gap:10px}
-.checklist li{display:flex;gap:10px;align-items:flex-start}
-.checklist li svg{flex:none;color:var(--green);margin-top:3px}
-.mock{background:#fff;border-radius:18px;padding:18px;border:1.5px solid var(--ink);box-shadow:8px 8px 0 var(--yellow)}
-.mock h4{margin:0 0 12px;font-size:12.5px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
-@media (max-width:820px){.recruit{grid-template-columns:minmax(0,1fr)}}
-
-.split{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:44px;align-items:center}
-.split .ph{border-radius:20px;overflow:hidden;aspect-ratio:4/3;background:#E7D9C2}
-.split .ph img{width:100%;height:100%;object-fit:cover}
-.credit{font-size:12px;color:var(--muted);margin:8px 0 0}
-.credit a{color:inherit}
-@media (max-width:820px){.split{grid-template-columns:minmax(0,1fr)}}
-.mini-list{margin-top:20px;border-top:1px solid var(--line)}
-.mini-list button{width:100%;border:0;border-bottom:1px solid var(--line);background:none;padding:14px 2px;display:flex;justify-content:space-between;align-items:center;gap:12px;text-align:left;cursor:pointer}
-.mini-list button:hover{background:var(--sunk)}
-.mini-list b{display:block;font-size:16px}
-.mini-list span{font-size:14px;color:var(--muted)}
-
-.page-top{padding-block:36px 10px}
-.page-top h1{font:700 clamp(30px,5.4vw,52px)/1.06 var(--display);letter-spacing:-.035em;margin:10px 0 14px}
-.events{display:flex;gap:12px;overflow-x:auto;padding:2px 2px 12px;scroll-snap-type:x proximity}
-.event{flex:0 0 min(84%,320px);scroll-snap-align:start;background:#fff;border:1.5px solid var(--line);border-radius:var(--r);padding:16px;display:flex;gap:14px;cursor:pointer;text-align:left}
-.event:hover{border-color:var(--green)}
-.event .date{flex:none;width:62px;border-radius:10px;background:var(--green);color:#fff;text-align:center;padding:9px 0;line-height:1.1}
-.event .date b{display:block;font:700 22px var(--display)}
-.event .date span{font-size:11.5px;font-weight:700;text-transform:uppercase;color:var(--yellow)}
-.event h3{margin:0 0 4px;font-size:16.5px;line-height:1.25}
-.event p{margin:0;font-size:13.5px;color:var(--muted)}
-.chips{display:flex;flex-wrap:wrap;gap:8px}
-.chip{border:1.5px solid var(--line);background:#fff;border-radius:999px;padding:7px 14px;font-size:14px;font-weight:600;cursor:pointer;white-space:nowrap;display:inline-flex;gap:6px;align-items:center;min-height:44px;transition:background-color .15s,border-color .15s}
-.chip small{font-weight:500;color:var(--muted)}
-.chip[aria-pressed="true"]{background:var(--green);border-color:var(--green);color:#fff}
-.chip[aria-pressed="true"] small{color:inherit;opacity:.8}
-.places{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
-@media (max-width:1000px){.places{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media (max-width:640px){.places{grid-template-columns:1fr}}
-.place{position:relative;background:#fff;border:1.5px solid var(--line);border-radius:16px;overflow:hidden;cursor:pointer;display:flex;flex-direction:column;text-align:left;padding:0;transition:border-color .15s,transform .15s;font:inherit;color:inherit}
-.place:hover{border-color:var(--ink);transform:translateY(-2px)}
-.place .ph{position:relative;aspect-ratio:4/3;overflow:hidden;background:var(--sunk)}
-.place .ph img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .5s}
-.place:hover .ph img{transform:scale(1.05)}
-.place .ph.none{display:grid;place-items:center}
-@media (max-width:640px){.place .ph{aspect-ratio:16/10}}
-.place .ph.none svg{width:56px;height:56px;opacity:.9}
-.place .cat{position:absolute;top:12px;left:12px;z-index:1;background:#fff;border-radius:999px;padding:5px 11px 5px 6px;display:inline-flex;align-items:center;gap:6px;font-size:13px;font-weight:700;box-shadow:0 1px 4px rgba(0,0,0,.12)}
-.place .cat i{width:22px;height:22px;border-radius:50%;display:grid;place-items:center}
-.place .cat i svg{width:13px;height:13px}
-.place .illu{position:absolute;right:8px;bottom:7px;z-index:1;font-size:11px;color:#fff;background:rgba(0,0,0,.45);border-radius:4px;padding:1px 6px}
-.place .body{padding:14px 16px 16px;display:flex;flex-direction:column;gap:5px;flex:1}
-.place .top-l{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
-.place .budget{font-weight:800;font-size:14px;letter-spacing:.05em;flex:none}
-.place .budget em{font-style:normal;opacity:.22}
-.place h3{margin:0;font-size:18.5px;line-height:1.25}
-.place .w{font-size:14px;color:var(--muted)}
-.place p{margin:2px 0 0;font-size:14.5px;color:var(--ink-2);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
-.place .try{font-size:13.5px;color:var(--muted);margin-top:auto;padding-top:8px}
-.place .try b{color:var(--ink);font-weight:700}
-.sheet-ph{margin:-4px 0 16px;border-radius:14px;overflow:hidden;aspect-ratio:16/9;background:var(--sunk)}
-.sheet-ph img{width:100%;height:100%;object-fit:cover;display:block}
-.sheet-ph+.credit{margin:-10px 0 14px}
-
-.searchblock{background:var(--green-d);border-radius:18px;padding:14px;display:flex;flex-direction:column;gap:12px}
-.sb-row{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr) minmax(0,1fr);background:#fff;border-radius:11px;overflow:hidden}
-.sb-row label{display:flex;align-items:center;gap:10px;padding:4px 14px;min-width:0;border-left:1px solid var(--line)}
-.sb-row label:first-child{border-left:0}
-.sb-row svg{flex:none;color:var(--muted)}
-.sb-row input,.sb-row select{flex:1;min-width:0;border:0;outline:0;background:transparent;padding:12px 0;font-size:15.5px;appearance:none;-webkit-appearance:none;cursor:pointer}
-.sb-row input{cursor:text}
-.sb-bottom{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
-.qchip{border:1px solid #2D5B42;background:transparent;color:#fff;border-radius:999px;padding:8px 13px;font-size:14px;font-weight:600;cursor:pointer;white-space:nowrap;min-height:44px}
-.qchip[aria-pressed="true"]{background:var(--yellow);color:var(--ink);border-color:var(--yellow)}
-.qchip.f{background:#fff;color:var(--ink);border-color:#fff;display:inline-flex;gap:6px;align-items:center}
-.qchip.f b{background:var(--red);color:#fff;border-radius:999px;padding:0 6px;font-size:12px}
-@media (max-width:760px){.sb-row{grid-template-columns:1fr 1fr}.sb-row label:first-child{grid-column:1/-1;border-bottom:1px solid var(--line)}.sb-row label:nth-child(2){border-left:0}.sb-bottom{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none}.sb-bottom::-webkit-scrollbar{display:none}}
-.panel{margin-top:12px;background:#fff;border:1.5px solid var(--line);border-radius:16px;padding:18px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
-.panel h4{margin:0 0 10px;font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
-.panel .foot{grid-column:1/-1;display:flex;justify-content:space-between;align-items:center;gap:10px;border-top:1px solid var(--line);padding-top:14px}
-@media (max-width:760px){.panel{grid-template-columns:1fr}}
-.listhead{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin:26px 0 12px}
-.count{margin:0;font:700 22px var(--display);letter-spacing:-.02em;display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
-.count small{font:500 15px var(--body);color:var(--muted);letter-spacing:0}
-.sortsel{display:flex;align-items:center;gap:8px;font-size:14.5px;font-weight:600}
-.sortsel select{border:1.5px solid var(--line);background:#fff;border-radius:10px;padding:8px 12px;min-height:44px;font-weight:600;font-size:14px}
-.alertbtn{border:1.5px dashed var(--green);background:var(--green-t);color:var(--green);border-radius:10px;padding:7px 12px;font-weight:700;font-size:13.5px;cursor:pointer;min-height:44px}
-.more-btn{margin:20px auto 0;display:flex}
-
-.note{border-radius:var(--r);padding:16px 18px;display:flex;gap:14px;align-items:flex-start;font-size:15px;margin:14px 0}
-.note svg{flex:none;margin-top:2px}
-.note p{margin:0}
-.note b{display:block;font-size:16px;margin-bottom:2px}
-.note.y{background:var(--yellow-t)} .note.y svg{color:var(--yellow-ink)}
-.note.g{background:var(--green-t)} .note.g svg{color:var(--green)}
-.empty{text-align:center;padding:44px 20px;border:1.5px dashed var(--line);border-radius:16px;color:var(--muted);background:#fff}
-.empty h3{font-size:20px;color:var(--ink);margin:0 0 6px}
-.empty p{margin:0 auto;max-width:46ch}
-.empty .btn{margin-top:16px}
-
-.formgrid{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:32px;align-items:start}
-@media (max-width:900px){.formgrid{grid-template-columns:minmax(0,1fr)}}
-.form{display:grid;grid-template-columns:1fr 1fr;gap:14px 16px}
-.form .full{grid-column:1/-1}
-.form label{display:flex;flex-direction:column;gap:6px;font-weight:700;font-size:14.5px}
-.form label small{font-weight:500;color:var(--muted)}
-.form input,.form select,.form textarea{border:1.5px solid var(--line);border-radius:11px;padding:11px 13px;font-size:15.5px;background:#fff;font-weight:500}
-.form input:focus,.form select:focus,.form textarea:focus{outline:0;border-color:var(--green);box-shadow:0 0 0 4px var(--green-t)}
-.form textarea{min-height:110px;resize:vertical}
-.form .legend{grid-column:1/-1;font:600 17px var(--display);letter-spacing:-.02em;margin:10px 0 0}
-.form .check{flex-direction:row;align-items:flex-start;gap:10px;font-weight:500}
-.form .check input{width:20px;height:20px;margin-top:2px;accent-color:var(--green);flex:none}
-.form .actions-f{grid-column:1/-1;display:flex;gap:10px;flex-wrap:wrap;margin-top:6px}
-.preview{position:sticky;top:90px}
-@media (max-width:900px){.preview{position:static}}
-@media (max-width:560px){.form{grid-template-columns:1fr}}
-.done{text-align:center;padding:40px 20px;border-radius:18px;background:var(--green-t)}
-.done h3{font:700 24px var(--display);margin:8px 0}
-
-.seg{display:flex;gap:4px;background:var(--sunk);border-radius:12px;padding:4px;margin:8px 0 20px;max-width:520px}
-.seg button{flex:1;border:0;background:transparent;border-radius:9px;padding:9px 10px;font-weight:700;font-size:14.5px;color:var(--muted);cursor:pointer;white-space:nowrap}
-.seg button[aria-selected="true"]{background:#fff;color:var(--ink);box-shadow:0 1px 3px rgba(0,0,0,.08)}
-.stack{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;align-items:start}
-@media (max-width:820px){.stack{grid-template-columns:1fr}}
-.app{background:#fff;border:1.5px solid var(--line);border-radius:var(--r);padding:16px;display:flex;flex-direction:column;gap:10px}
-.app-top{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
-.app h3{margin:0;font-size:17px;line-height:1.3}
-.app .emp{font-size:13.5px;color:var(--muted)}
-.app-row{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:14px;color:var(--muted)}
-.app select{border:1.5px solid var(--line);border-radius:9px;padding:6px 10px;font-size:14px;background:#fff}
-.app textarea{width:100%;border:1.5px solid var(--line);border-radius:10px;padding:9px 11px;font-size:14.5px;resize:vertical;background:var(--sunk)}
-.relance{background:var(--yellow-t);color:var(--yellow-ink);border-radius:8px;padding:7px 11px;font-size:13.5px;font-weight:600}
-.linkish{border:0;background:none;padding:10px 0;color:var(--green);font-weight:700;cursor:pointer;font-size:14px;text-decoration:underline;text-underline-offset:3px}
-.linkish.danger{color:var(--red-ink)}
-.alert-item{display:flex;justify-content:space-between;align-items:center;gap:10px;background:#fff;border:1.5px solid var(--line);border-radius:var(--r);padding:14px 16px}
-.alert-item b{font-size:16px}
-.alert-item span{display:block;font-size:13.5px;color:var(--muted)}
-.alert-item em{font-style:normal;background:var(--green-t);color:var(--green);border-radius:6px;padding:2px 8px;font-weight:700;font-size:12.5px;margin-left:6px}
-
-.guide{display:grid;gap:10px;max-width:860px}
-details.gd{background:#fff;border:1.5px solid var(--line);border-radius:var(--r)}
-details.gd summary{list-style:none;cursor:pointer;padding:17px 18px;display:flex;gap:14px;align-items:center}
-details.gd summary::-webkit-details-marker{display:none}
-details.gd .gi{width:10px;height:40px;border-radius:3px;flex:none}
-details.gd h3{margin:0;font-size:17px;line-height:1.3}
-details.gd summary p{margin:2px 0 0;font-size:14px;color:var(--muted)}
-details.gd .chev{margin-left:auto;transition:transform .2s;color:var(--muted);flex:none}
-details.gd[open] .chev{transform:rotate(180deg)}
-details.gd .gb{padding:0 18px 18px 42px;display:flex;flex-direction:column;gap:10px}
-details.gd .gb.plain{padding-left:18px}
-details.gd .gb p{margin:0}
-details.gd .gb ul{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:6px}
-@media (max-width:520px){details.gd .gb{padding-left:18px}}
-.mailbox{background:var(--sunk);border-radius:12px;padding:12px 14px;white-space:pre-wrap;font-size:14.5px}
-.about p{max-width:64ch;margin:0 0 14px;font-size:17px}
-.about h2{font:700 24px var(--display);letter-spacing:-.02em;margin:34px 0 14px}
-
-footer{background:var(--ink);color:#C4C9C0;font-size:14.5px}
-footer .inner{padding-block:44px 40px;display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:28px}
-footer .logo{color:#fff}
-footer p{margin:12px 0 0;max-width:40ch}
-footer h4{color:#fff;margin:0 0 10px;font-size:14.5px}
-footer button{border:0;background:none;color:#C4C9C0;padding:10px 0;min-height:44px;cursor:pointer;display:block;font-size:14.5px;text-align:left}
-footer button:hover{color:#fff}
-footer .legal{grid-column:1/-1;border-top:1px solid #2B2F29;padding-top:18px;font-size:13px;color:#8D9389}
-footer .legal a{color:inherit}
-@media (max-width:720px){footer .inner{grid-template-columns:1fr 1fr}footer .inner>div:first-child{grid-column:1/-1}}
-@media (max-width:959px){footer .inner{padding-bottom:110px}}
-
-dialog{border:0;padding:0;background:transparent;max-width:none;max-height:none;width:100%;height:100%;margin:0;color:var(--ink)}
-dialog::backdrop{background:rgba(12,20,14,.45)}
-.sheet{position:fixed;left:0;right:0;bottom:0;max-height:92vh;max-height:92dvh;overflow-y:auto;background:#fff;border-radius:22px 22px 0 0;padding:0 max(20px,env(safe-area-inset-right,0px)) calc(28px + env(safe-area-inset-bottom,0px)) max(20px,env(safe-area-inset-left,0px));animation:up .2s ease-out;overscroll-behavior:contain}
-.sheet::before{content:"";display:block;height:6px;margin:0 -20px 18px;background:linear-gradient(90deg,var(--green) 0 33.3%,var(--yellow) 33.3% 66.6%,var(--red) 66.6%)}
-@media (min-width:960px){.sheet{left:auto;top:0;bottom:0;width:560px;max-height:none;border-radius:0;padding:0 32px 34px;animation:side .2s ease-out}.sheet::before{margin:0 -32px 24px}}
-@keyframes up{from{transform:translateY(30px);opacity:0}}
-@keyframes side{from{transform:translateX(30px);opacity:0}}
-@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.row:hover,.place:hover,.row:active,.place:active,.tile:active,.event:active,.row:hover .ph img,.place:hover .ph img{transform:none!important}}
-@media (hover:none){.row:hover,.place:hover{transform:none}.row:hover .ph img,.place:hover .ph img{transform:none}}
-.row:active,.place:active,.tile:active,.event:active{transform:scale(.985)}
-.relax{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin-top:16px}
-.relax .chip small{color:var(--green);font-weight:700}
-.empty .hint{font-size:14px;margin-top:14px}
-.s-top{display:flex;gap:14px;align-items:flex-start}
-.s-top>div{flex:1;min-width:0}
-.close{border:0;background:var(--sunk);border-radius:10px;width:44px;height:44px;cursor:pointer;flex:none;display:grid;place-items:center}
-.sheet .emp{font-size:14.5px;color:var(--ink-2)}
-.sheet h2{font:700 24px/1.18 var(--display);letter-spacing:-.025em;margin:4px 0 0}
-.deadline{margin:18px 0 0;padding:13px 15px;border-radius:12px;background:var(--sunk);font-weight:600;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
-.deadline.hot{background:var(--red-t);color:var(--red-ink)}
-.deadline .linkish{margin-left:auto}
-.s-sec{margin-top:24px}
-.s-sec h4{font-size:13px;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);margin:0 0 8px}
-.s-sec p{margin:0}
-.facts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-top:16px}
-.fact{background:var(--sunk);border-radius:12px;padding:10px 13px;min-width:0}
-.fact span{display:block;font-size:12.5px;color:var(--muted)}
-.fact b{font-weight:700;font-size:15px}
-.postes{list-style:none;margin:0;padding:0}
-.postes li{display:flex;justify-content:space-between;gap:12px;padding:9px 0;border-bottom:1px solid var(--line)}
-.postes li:last-child{border-bottom:0}
-.postes b{color:var(--green)}
-ul.dots{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:5px}
-.how{background:var(--green-t);border-radius:16px;padding:16px;display:flex;flex-direction:column;gap:12px}
-.field span{display:block;font-size:12.5px;color:var(--muted);font-weight:700;margin-bottom:4px}
-.copyrow{display:flex;gap:8px;align-items:stretch}
-.copyrow code{flex:1;min-width:0;background:#fff;border-radius:10px;padding:10px 12px;font:600 15px var(--body);overflow-wrap:anywhere;user-select:all}
-.copy{border:0;background:var(--green);color:#fff;border-radius:10px;padding:0 14px;font-weight:700;font-size:14px;cursor:pointer;flex:none}
-.copy.ok{background:var(--ink)}
-.how .small{font-size:14px;color:var(--muted);margin:0}
-details.tpl{background:#fff;border-radius:12px;padding:10px 12px}
-details.tpl summary{cursor:pointer;font-weight:700;font-size:14.5px}
-details.tpl .mailbox{margin-top:10px}
-details.tpl .btn{margin-top:8px}
-.checks{list-style:none;margin:0;padding:0}
-.checks label{display:flex;gap:10px;align-items:flex-start;padding:7px 0;cursor:pointer}
-.checks input{width:20px;height:20px;accent-color:var(--green);flex:none;margin-top:2px}
-.checks input:checked+span{color:var(--muted);text-decoration:line-through}
-.applied{display:flex;align-items:center;gap:10px;background:var(--green-t);color:var(--green);border-radius:12px;padding:12px 14px;font-weight:600;margin-top:22px}
-.actions{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:22px}
-.actions .wide{grid-column:1/-1}
-.src{margin-top:18px;font-size:13.5px;color:var(--muted)}
-.src a{color:var(--green)}
-.toast{position:fixed;left:50%;bottom:calc(90px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:#fff;padding:11px 18px;border-radius:12px;font-weight:600;font-size:14.5px;z-index:60;max-width:calc(100% - 32px);text-align:center}
-@media (min-width:960px){.toast{bottom:28px}}
-</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400..700&display=swap">
+<link rel="stylesheet" href="styles.css">
 </head>
-<body>
-<div class="flagline" aria-hidden="true"><i></i><i></i><i></i></div>
-<header class="top">
-  <div class="wrap">
-    <a class="logo" href="./" data-view="accueil" aria-label="Djob, accueil"><span class="mark" aria-hidden="true"><i></i><i></i><i></i></span>djob</a>
-    <nav class="nav" aria-label="Rubriques">
-      <button type="button" data-view="offres">Offres d'emploi</button>
-      <button type="button" data-view="accompagnement">Accompagnement</button>
-      <button type="button" data-view="sortir">Sortir</button>
-      <button type="button" data-view="conseils">Conseils</button>
-      <button type="button" data-view="moi">Mon carnet <span class="n" data-badge hidden></span></button>
+<body class="min-h-screen">
+
+<!-- Icônes (trait 1,75, style Lucide) -->
+<svg width="0" height="0" class="absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></symbol>
+    <symbol id="i-bag" viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.6-3.6 3.3-5.5 6.5-5.5s5.9 1.9 6.5 5.5M16 4.6a3.5 3.5 0 0 1 0 6.8M18 14.7c2 .7 3.2 2.5 3.5 5.3"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8z"/></symbol>
+    <symbol id="i-home" viewBox="0 0 24 24"><path d="M3 10.5 12 4l9 6.5V20a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></symbol>
+    <symbol id="i-spark" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.6-3.6 3.3-5.5 6.5-5.5s5.9 1.9 6.5 5.5"/><path d="m15.5 9 2 2 4-4"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12.5 4.5 4.5L19 7.5"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+    <symbol id="i-chev" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+    <symbol id="i-filter" viewBox="0 0 24 24"><path d="M4 6h16M7 12h10M10 18h4"/></symbol>
+    <symbol id="i-bell" viewBox="0 0 24 24"><path d="M6 8a6 6 0 1 1 12 0c0 7 3 9 3 9H3s3-2 3-9M10.3 21a1.9 1.9 0 0 0 3.4 0"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3 4 6v6c0 4.5 3.4 8 8 9 4.6-1 8-4.5 8-9V6z"/><path d="M12 8v5M12 16h.01"/></symbol>
+    <symbol id="i-bulb" viewBox="0 0 24 24"><path d="M9 18h6M10 22h4"/><path d="M12 2a7 7 0 0 0-4 12.7c.6.5 1 1.2 1 2.3h6c0-1.1.4-1.8 1-2.3A7 7 0 0 0 12 2z"/></symbol>
+    <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5h.01"/></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1"/></symbol>
+    <symbol id="i-cal" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></symbol>
+    <symbol id="i-share" viewBox="0 0 24 24"><path d="M12 3v13M7 8l5-5 5 5M5 14v5a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-5"/></symbol>
+    <symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" stroke="none" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.4.1-.7.3-.2.3-.9.9-.9 2.2s.9 2.5 1 2.7c.1.2 1.8 2.8 4.4 3.9 1.7.7 2.3.8 3.1.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.6-.3z"/></symbol>
+  </defs>
+</svg>
+
+<a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[70] focus:rounded-full focus:bg-ink focus:px-4 focus:py-2 focus:text-white">Aller au contenu</a>
+
+<header class="sticky top-0 z-40 border-b border-line/70 bg-white/85 backdrop-blur-xl" style="padding-top:env(safe-area-inset-top,0px)">
+  <div class="wrap flex h-16 items-center gap-6">
+    <a href="./" data-view="accueil" class="mr-auto flex min-h-[44px] items-center gap-2.5" aria-label="Djob, accueil">
+      <span class="grid h-[18px] w-[18px] grid-cols-[2fr_3fr] grid-rows-2 overflow-hidden rounded-[5px]" aria-hidden="true"><i class="row-span-2 bg-brand-600"></i><i class="bg-[#E9B70C]"></i><i class="bg-[#C8262E]"></i></span>
+      <span class="text-[19px] font-semibold tracking-[-0.04em]">djob</span>
+    </a>
+    <nav class="hidden items-center gap-1 lg:flex" aria-label="Rubriques">
+      <button type="button" class="navlink" data-view="offres">Offres</button>
+      <button type="button" class="navlink" data-view="accompagnement">Accompagnement</button>
+      <button type="button" class="navlink" data-view="sortir">Sortir</button>
+      <button type="button" class="navlink" data-view="conseils">Conseils</button>
+      <button type="button" class="navlink gap-2" data-view="moi">Carnet <span hidden class="num inline-block min-w-[20px] rounded-full bg-ink px-1.5 text-center text-[11px] font-semibold leading-5 text-white" data-badge></span></button>
     </nav>
-    <button class="btn ink small" type="button" data-view="publier">Publier une annonce</button>
+    <button type="button" class="btn-primary btn-sm hidden lg:inline-flex" data-view="publier">Publier une annonce</button>
   </div>
 </header>
 
-<main>
-<section class="view" id="v-accueil">
-  <div class="wrap hero">
-    <div class="hero-grid">
-      <div>
-        <p class="where" id="hello">Bonjour.</p>
-        <h1>Votre prochain job est <span class="hl">peut-être déjà publié</span>.</h1>
-        <p class="lede">Chaque matin, on lit les sites d'emploi, les avis officiels, les ONG et LinkedIn pour vous. Il ne vous reste qu'à choisir, et à postuler directement chez l'employeur.</p>
-        <form class="search" id="homeSearch" role="search">
-          <label class="field-in"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><span class="sr">Métier, ville ou employeur</span><input id="hq" type="search" placeholder="Comptable, chauffeur, Parakou…" autocomplete="off" enterkeyhint="search"></label>
-          <button class="btn green" type="submit">Chercher</button>
-        </form>
-        <div class="popular" id="popular"></div>
-      </div>
-      <figure class="amazone">
-        <div class="ph"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Le_monument_de_l%27Amazone.jpg/960px-Le_monument_de_l%27Amazone.jpg" alt="La statue de l'Amazone sur l'esplanade de la Marina, à Cotonou" width="960" height="950" fetchpriority="high"></div>
-        <figcaption class="cap"><b>L'Amazone, Cotonou</b>Hommage aux Agojie, les guerrières du Danxomè. Du courage, pour la recherche aussi.</figcaption>
-        <span class="stripe" aria-hidden="true"></span>
-      </figure>
-    </div>
-  </div>
-  <div class="numbers"><div class="wrap" id="numbers"></div></div>
-  <div class="wrap readfor" id="readfor"></div>
-  <div class="pagne" aria-hidden="true"></div>
+<main id="main" class="pb-24 lg:pb-0">
 
-  <section class="band">
-    <div class="wrap">
-      <div class="sec-head"><div><span class="label">Fraîchement publiées</span><h2 class="h2">Les annonces du jour</h2></div><button class="btn line" type="button" data-view="offres">Toutes les offres</button></div>
-      <div id="homeJobs"></div>
-    </div>
-  </section>
-
-  <section class="band gt">
-    <div class="wrap">
-      <span class="label">Comment ça marche</span>
-      <h2 class="h2">Pas de compte, pas de frais, pas d'intermédiaire</h2>
-      <div class="how3">
-        <div><div class="ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0A7B3E" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></div><h3>Vous cherchez</h3><p>Par métier, par ville ou par niveau d'études. Un cœur pour garder une offre et la retrouver plus tard.</p></div>
-        <div><div class="ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#715400" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M14 3H6v18h12V7z"/><path d="M14 3v4h4M9 13l2 2 4-4"/></svg></div><h3>Vous préparez</h3><p>Chaque fiche liste les pièces à fournir et vous donne le mail ou le message WhatsApp déjà rédigé.</p></div>
-        <div><div class="ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#B11E26" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M22 2 11 13M22 2l-7 20-4-9-9-4z"/></svg></div><h3>Vous postulez</h3><p>Directement chez l'employeur. Ensuite, votre carnet vous aide à suivre et à relancer au bon moment.</p></div>
-      </div>
-      <div class="tiles" id="tiles"></div>
-    </div>
-  </section>
-
-  <section class="band dark">
-    <div class="wrap">
-      <div class="sec-head"><div><span class="label">Accompagnement</span><h2 class="h2">Mettez toutes les chances de votre côté</h2><p class="lede">CV, lettre, entretien : un conseiller Djob vous accompagne, à votre rythme. C'est un service payant et facultatif ; les offres, elles, restent gratuites pour tout le monde.</p></div><button class="btn yellow" type="button" data-view="accompagnement">Voir l'accompagnement</button></div>
-      <div class="services" id="homeServices"></div>
-    </div>
-  </section>
-
-  <section class="band yt">
-    <div class="wrap recruit">
-      <div>
-        <span class="label y">Vous recrutez ?</span>
-        <h2 class="h2">Publiez votre annonce, gratuitement</h2>
-        <p class="lede">Remplissez le formulaire en deux minutes. On relit chaque annonce avant de la mettre en ligne, pour que les candidats puissent vous faire confiance.</p>
-        <ul class="checklist">
-          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg>En ligne en moins de 24 h, après vérification</li>
-          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg>Les candidats vous écrivent directement</li>
-          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg>Partage facile sur WhatsApp</li>
-        </ul>
-        <button class="btn ink" type="button" data-view="publier" style="margin-top:22px">Publier une annonce</button>
-      </div>
-      <div class="mock" aria-hidden="true"><h4>Votre annonce sur Djob</h4>
-        <div class="row" style="cursor:default;border-bottom:0;padding:0"><div class="avatar" style="background:var(--green-t);color:var(--green)">VE</div><div class="c"><div class="emp">Votre entreprise</div><h3>Le poste que vous proposez</h3><div class="meta"><span>CDI</span><span>Cotonou</span><span>2 postes</span></div><div class="tags"><span class="tag">Jusqu'au 30 nov.</span><span class="tag green">Débutants bienvenus</span><span class="tag yellow">Publiée sur Djob</span></div></div><span></span></div>
-      </div>
-    </div>
-  </section>
-
-  <section class="band">
-    <div class="wrap split">
-      <div><div class="ph"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Lever_de_soleil_sur_l%27Esplanade_de_l%27amazone_%C3%A0_Cotonou.jpg/960px-Lever_de_soleil_sur_l%27Esplanade_de_l%27amazone_%C3%A0_Cotonou.jpg" alt="Lever de soleil sur l'esplanade de l'Amazone à Cotonou" loading="lazy"></div>
-        <p class="credit">Lever de soleil sur l'esplanade de l'Amazone · photo <a href="https://commons.wikimedia.org/wiki/File:Lever_de_soleil_sur_l%27Esplanade_de_l%27amazone_%C3%A0_Cotonou.jpg" target="_blank" rel="noopener">Fawaz.tairou</a>, CC BY-SA 4.0</p></div>
-      <div>
-        <span class="label r">Sortir</span>
-        <h2 class="h2">Et le week-end, on souffle</h2>
-        <p class="lede">Chercher du travail, ça use. Nos adresses pour manger, se poser au bord de l'eau ou découvrir le pays, de Fidjrossè à Grand-Popo, avec les vrais prix.</p>
-        <div class="mini-list" id="homeSortir"></div>
-        <button class="btn line" type="button" data-view="sortir" style="margin-top:20px">Toutes nos adresses</button>
-      </div>
-    </div>
-  </section>
-
-  <section class="band sunk">
-    <div class="wrap">
-      <span class="label">Vos questions</span>
-      <h2 class="h2">On vous répond</h2>
-      <div class="guide" id="faqHome" style="margin-top:20px"></div>
-    </div>
-  </section>
-</section>
-
-<section class="view" id="v-offres" hidden>
-  <div class="wrap page-top">
-    <span class="label">Offres d'emploi</span>
-    <h1>Toutes les offres <span class="g">ouvertes</span></h1>
-    <div class="searchblock">
-      <div class="sb-row">
-        <label><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><span class="sr">Recherche</span><input id="q" type="search" placeholder="Métier, employeur, mot-clé…" autocomplete="off" enterkeyhint="search"></label>
-        <label><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg><span class="sr">Contrat</span><select id="f-contrat-sel"></select></label>
-        <label><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg><span class="sr">Ville</span><select id="f-ville"></select></label>
-      </div>
-      <div class="sb-bottom" id="quick"></div>
-    </div>
-    <div class="panel" id="panel" hidden>
-      <div><h4>Votre niveau d'études</h4><div class="chips" id="f-niv"></div></div>
-      <div><h4>Domaine</h4><div class="chips" id="f-sect"></div></div>
-      <div><h4>Où ?</h4><div class="chips" id="f-zone"></div></div>
-      <div class="foot"><button class="linkish" type="button" data-reset>Tout effacer</button><button class="btn green small" type="button" data-toggle-panel>Voir les offres</button></div>
-    </div>
-    <div class="listhead">
-      <p class="count" id="count" aria-live="polite" aria-atomic="true"></p>
-      <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">
-        <button class="alertbtn" id="alertBtn" type="button" hidden>Me prévenir des nouvelles offres</button>
-        <label class="sortsel"><span>Trier</span><select id="f-tri"><option value="recent">Les plus récentes</option><option value="urgence">Date limite proche</option><option value="postes">Le plus de postes</option></select></label>
-      </div>
-    </div>
-    <div id="list"><div class="empty"><h3>Un instant…</h3><p>On charge les offres du jour.</p></div></div>
-    <div style="height:40px"></div>
-  </div>
-</section>
-
-<section class="view" id="v-accompagnement" hidden>
-  <div class="wrap page-top">
-    <span class="label">Accompagnement</span>
-    <h1>Se faire <span class="g">accompagner</span></h1>
-    <p class="lede">Un regard extérieur change tout : un CV qu'on lit jusqu'au bout, une lettre qui sonne juste, un entretien où l'on arrive serein. Choisissez ce dont vous avez besoin, on s'occupe du reste.</p>
-    <div class="note y" style="max-width:860px;margin-top:22px"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5h.01"/></svg><p><b>Un service de Djob, jamais une condition pour postuler.</b>Les offres restent gratuites et accessibles à tous. Un employeur, lui, ne vous demandera jamais de payer : si c'est le cas, méfiez-vous.</p></div>
-    <div class="services" id="services"></div>
-    <div class="band" style="padding-bottom:30px">
-      <div class="formgrid">
-        <div>
-          <span class="label y">Réserver</span>
-          <h2 class="h2">Parlons de votre projet</h2>
-          <p class="lede" style="margin-bottom:20px">Dites-nous où vous en êtes. On vous recontacte sur WhatsApp pour fixer un moment et vous donner le tarif exact.</p>
-          <form class="form" id="coachForm" novalidate>
-            <label>Votre nom<input id="c-nom" name="nom" required autocomplete="name"></label>
-            <label>Numéro WhatsApp<input id="c-tel" name="tel" required inputmode="tel" autocomplete="tel" placeholder="01 XX XX XX XX"></label>
-            <label class="full">Ce dont vous avez besoin<select id="c-service" name="service" required></select></label>
-            <label class="full">Le poste ou le domaine visé <small>Par exemple : comptable dans une banque, premier emploi en communication…</small><input id="c-poste" name="poste"></label>
-            <label class="full">Un mot sur votre situation <small>Facultatif</small><textarea id="c-msg" name="message" rows="3"></textarea></label>
-            <label>Vos disponibilités<input id="c-dispo" name="dispo" placeholder="Le soir, le samedi matin…"></label>
-            <label>Ville<input id="c-ville" name="ville" placeholder="Cotonou"></label>
-            <div class="actions-f"><button class="btn green" type="submit">Envoyer ma demande</button><button class="btn wa" type="button" data-wa-coach hidden>Écrire sur WhatsApp</button></div>
-            <p class="full" id="coachMsg" style="margin:0;color:var(--muted);font-size:14px"></p>
-          </form>
-        </div>
-        <div class="preview"><div class="mock"><h4>Ce qui se passe ensuite</h4>
-          <ul class="checklist" style="margin:0"><li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg>On vous écrit sur WhatsApp sous 24 h (jours ouvrés).</li><li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg>On convient ensemble du service, du tarif et du créneau.</li><li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg>Vous ne payez qu'une fois d'accord, jamais avant.</li></ul></div></div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="view" id="v-publier" hidden>
-  <div class="wrap page-top" style="padding-bottom:50px">
-    <span class="label y">Recruteurs</span>
-    <h1>Publier une <span class="g">annonce</span></h1>
-    <p class="lede">Gratuit, sans compte. On relit chaque annonce avant de la mettre en ligne, en général en moins de 24 h. Les coordonnées de la personne qui publie restent privées.</p>
-    <div class="formgrid" style="margin-top:26px">
-      <form class="form" id="adForm" novalidate>
-        <p class="legend">Le poste</p>
-        <label class="full">Intitulé du poste<input id="a-titre" name="titre" required placeholder="Ex. : Comptable, Vendeuse en boutique…"></label>
-        <label>Entreprise ou structure<input id="a-employeur" name="employeur" required></label>
-        <label>Nombre de postes<input id="a-nb" name="nb" type="number" min="1" value="1"></label>
-        <label>Ville<input id="a-ville" name="ville" required placeholder="Cotonou, Parakou…"></label>
-        <label>Type de contrat<select id="a-contrat" name="contrat"><option>CDI</option><option>CDD</option><option>Stage</option><option>Temps partiel</option><option>Prestation / consultance</option><option>Missions ponctuelles</option></select></label>
-        <label>Niveau d'études demandé<select id="a-niveau" name="niveau"><option>Sans diplôme exigé</option><option>BEPC</option><option>BAC</option><option>BAC+2</option><option>BAC+3 / Licence</option><option>BAC+5 / Master</option></select></label>
-        <label>Expérience demandée<select id="a-exp" name="experience"><option>Débutant accepté</option><option>1 à 3 ans</option><option>3 à 5 ans</option><option>5 ans et +</option></select></label>
-        <label class="full">Missions et profil recherché <small>Quelques lignes suffisent : ce que la personne fera, ce que vous attendez.</small><textarea id="a-desc" name="description" required rows="5"></textarea></label>
-        <label>Salaire <small>Facultatif, mais très apprécié</small><input id="a-salaire" name="salaire" placeholder="Ex. : 120 000 F / mois"></label>
-        <label>Date limite<input id="a-date" name="dateLimite" type="date"></label>
-        <p class="legend">Comment postuler</p>
-        <label>Les candidats postulent par<select id="a-mode" name="mode"><option value="email">E-mail</option><option value="tel">Téléphone / WhatsApp</option><option value="depot">Dépôt sur place</option><option value="lien">Lien internet</option></select></label>
-        <label><span id="a-val-lbl">Adresse e-mail</span><input id="a-valeur" name="valeur" required></label>
-        <label class="full">Pièces à fournir <small>Facultatif · une par ligne</small><textarea id="a-pieces" name="pieces" rows="3" placeholder="CV&#10;Lettre de motivation"></textarea></label>
-        <p class="legend">Vos coordonnées (privées)</p>
-        <label>Votre nom<input id="a-contact" name="contact" required autocomplete="name"></label>
-        <label>Téléphone ou e-mail<input id="a-contact2" name="contact2" required></label>
-        <label class="full check"><input type="checkbox" id="a-ok" required><span>Je confirme que ce recrutement est réel et entièrement gratuit pour les candidats (aucun frais de dossier, de formation ou de dépôt).</span></label>
-        <div class="actions-f"><button class="btn green" type="submit">Envoyer mon annonce</button><button class="btn wa" type="button" data-wa-ad hidden>Envoyer par WhatsApp</button></div>
-        <p class="full" id="adMsg" style="margin:0;color:var(--muted);font-size:14px"></p>
+<!-- ============ ACCUEIL ============ -->
+<section class="view" id="v-accueil" aria-label="Accueil">
+  <div class="wrap grid grid-cols-[minmax(0,1fr)] items-center gap-12 pb-16 pt-12 sm:pt-20 lg:grid-cols-[1.15fr_.85fr] lg:gap-16 lg:pb-24 lg:pt-24">
+    <div class="animate-rise">
+      <p class="eyebrow flex items-center gap-2" id="hello"><span class="h-1.5 w-1.5 rounded-full bg-brand-500"></span>Mis à jour chaque matin</p>
+      <h1 class="mt-5 text-display">Votre prochain emploi est <span class="whitespace-nowrap">peut-être</span> déjà publié.</h1>
+      <p class="lede mt-6">On lit chaque matin les sites d'emploi, les avis officiels, les ONG et LinkedIn pour vous. Il ne vous reste qu'à choisir, et à postuler directement chez l'employeur.</p>
+      <form id="homeSearch" role="search" class="mt-9 flex max-w-xl items-center gap-2 rounded-full bg-white p-1.5 pl-5 ring-1 ring-line-strong shadow-hair transition-shadow focus-within:ring-2 focus-within:ring-ink">
+        <svg class="h-5 w-5 flex-none fill-none stroke-ink-faint" stroke-width="1.75" aria-hidden="true"><use href="#i-search"/></svg>
+        <label for="hq" class="sr-only">Métier, ville ou employeur</label>
+        <input id="hq" type="search" class="min-w-0 flex-1 bg-transparent py-2.5 text-base placeholder:text-ink-faint focus:outline-none" placeholder="Comptable, chauffeur, Parakou…" autocomplete="off" enterkeyhint="search">
+        <button type="submit" class="btn-primary">Rechercher</button>
       </form>
-      <div class="preview"><div class="mock"><h4>Aperçu sur Djob</h4><div id="adPreview"></div></div>
-        <div class="note g" style="margin-top:22px"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3 4 6v6c0 4.5 3.4 8 8 9 4.6-1 8-4.5 8-9V6z"/></svg><p><b>Ce qu'on vérifie</b>Une entreprise identifiable, un poste clair, un moyen de postuler et aucun frais pour les candidats. Les annonces douteuses ne sont pas publiées.</p></div></div>
+      <div class="mt-5 flex flex-wrap items-center gap-x-1 gap-y-1 text-sm text-ink-muted" id="popular"></div>
     </div>
+    <figure class="relative hidden lg:block">
+      <picture>
+        <source media="(min-width:1024px)" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Le_monument_de_l%27Amazone.jpg/960px-Le_monument_de_l%27Amazone.jpg">
+        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" alt="La statue de l'Amazone sur l'esplanade de la Marina, à Cotonou" width="960" height="950" class="aspect-[4/5] w-full rounded-[28px] bg-paper-sunk object-cover object-[52%_30%]" fetchpriority="high">
+      </picture>
+      <figcaption class="mt-4 flex items-start justify-between gap-6 text-[13px] leading-snug text-ink-muted"><span><span class="font-medium text-ink">L'Amazone, Cotonou.</span> Hommage aux Agojie, les guerrières du Danxomè.</span><span class="whitespace-nowrap">Domaine public</span></figcaption>
+    </figure>
   </div>
-</section>
 
-<section class="view" id="v-sortir" hidden>
-  <div class="wrap page-top">
-    <div class="split">
+  <div class="border-y border-line">
+    <dl class="wrap grid grid-cols-2 sm:grid-cols-4" id="numbers"></dl>
+  </div>
+  <p class="wrap pt-5 text-sm text-ink-muted" id="readfor"></p>
+
+  <section class="wrap py-20 sm:py-28" aria-labelledby="h-today">
+    <div class="flex flex-wrap items-end justify-between gap-6">
+      <div><p class="eyebrow">Fraîchement publiées</p><h2 id="h-today" class="mt-3 text-title">Les annonces du jour</h2></div>
+      <button type="button" class="btn-secondary" data-view="offres">Toutes les offres <svg class="h-4 w-4 fill-none stroke-current" stroke-width="1.75" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+    </div>
+    <div id="homeJobs" class="mt-10"></div>
+    <div class="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-4" id="tiles"></div>
+  </section>
+
+  <section class="border-t border-line bg-paper-warm" aria-labelledby="h-how">
+    <div class="wrap py-20 sm:py-28">
+      <p class="eyebrow">Comment ça marche</p>
+      <h2 id="h-how" class="mt-3 max-w-2xl text-title">Pas de compte, pas de frais, pas d'intermédiaire.</h2>
+      <ol class="mt-14 grid gap-10 sm:grid-cols-3 sm:gap-8">
+        <li class="border-t border-ink pt-6"><span class="num text-sm font-medium text-ink-faint">01</span><h3 class="mt-3 text-xl font-semibold tracking-[-0.025em]">Vous cherchez</h3><p class="mt-2 leading-relaxed text-ink-muted">Par métier, par ville ou par niveau d'études. Un cœur pour garder une offre et la retrouver plus tard.</p></li>
+        <li class="border-t border-ink pt-6"><span class="num text-sm font-medium text-ink-faint">02</span><h3 class="mt-3 text-xl font-semibold tracking-[-0.025em]">Vous préparez</h3><p class="mt-2 leading-relaxed text-ink-muted">Chaque fiche liste les pièces à fournir et vous donne le mail ou le message WhatsApp déjà rédigé.</p></li>
+        <li class="border-t border-ink pt-6"><span class="num text-sm font-medium text-ink-faint">03</span><h3 class="mt-3 text-xl font-semibold tracking-[-0.025em]">Vous postulez</h3><p class="mt-2 leading-relaxed text-ink-muted">Directement chez l'employeur. Votre carnet vous aide ensuite à suivre et à relancer au bon moment.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="wrap py-20 sm:py-28" aria-labelledby="h-coach">
+    <div class="flex flex-wrap items-end justify-between gap-6">
+      <div class="max-w-2xl"><p class="eyebrow">Accompagnement</p><h2 id="h-coach" class="mt-3 text-title">Mettez toutes les chances de votre côté.</h2><p class="lede mt-4">CV, lettre, entretien : un conseiller vous accompagne, à votre rythme. Un service payant et facultatif ; les offres, elles, restent gratuites pour tous.</p></div>
+      <button type="button" class="btn-secondary" data-view="accompagnement">Voir l'accompagnement</button>
+    </div>
+    <div class="mt-12 grid gap-4 md:grid-cols-3" id="homeServices"></div>
+  </section>
+
+  <section class="bg-ink text-white" aria-labelledby="h-recruit">
+    <div class="wrap grid grid-cols-[minmax(0,1fr)] items-center gap-14 py-20 sm:py-28 lg:grid-cols-2">
       <div>
-        <span class="label r">Sortir au Bénin</span>
-        <h1>Où manger, où souffler, <span class="g">quoi faire</span> ce week-end</h1>
-        <p class="lede">Maquis, plages, musées et escapades à moins de trois heures de Cotonou. Des adresses vérifiées, avec les prix pour savoir à quoi s'attendre.</p>
+        <p class="text-[13px] font-medium text-white/50">Vous recrutez ?</p>
+        <h2 id="h-recruit" class="mt-3 text-title">Publiez votre annonce, gratuitement.</h2>
+        <p class="mt-4 max-w-[52ch] text-lg leading-relaxed text-white/65">Deux minutes de formulaire. On relit chaque annonce avant de la mettre en ligne, pour que les candidats puissent vous faire confiance.</p>
+        <ul class="mt-8 space-y-3 text-white/85">
+          <li class="flex items-center gap-3"><svg class="h-5 w-5 fill-none stroke-white/50" stroke-width="2" aria-hidden="true"><use href="#i-check"/></svg>En ligne en moins de 24 h, après vérification</li>
+          <li class="flex items-center gap-3"><svg class="h-5 w-5 fill-none stroke-white/50" stroke-width="2" aria-hidden="true"><use href="#i-check"/></svg>Les candidats vous écrivent directement</li>
+          <li class="flex items-center gap-3"><svg class="h-5 w-5 fill-none stroke-white/50" stroke-width="2" aria-hidden="true"><use href="#i-check"/></svg>Partage facile sur WhatsApp</li>
+        </ul>
+        <button type="button" class="btn mt-10 bg-white text-ink hover:bg-white/90" data-view="publier">Publier une annonce</button>
       </div>
-      <div><div class="ph"><img src="https://images.unsplash.com/photo-1753818268536-b3227488c3f8?w=1000&q=75&auto=format&fit=crop" alt="Un pêcheur lance son filet sur le lac" loading="lazy"></div><p class="credit">Pêcheur sur le lac · photo Unsplash</p></div>
+      <div class="rounded-3xl bg-white/[.06] p-3 ring-1 ring-white/10" aria-hidden="true">
+        <div class="rounded-2xl bg-white p-1 text-ink" id="recruitMock"></div>
+      </div>
     </div>
-    <div style="margin-top:40px"><span class="label">À ne pas rater</span><h2 class="h2">Bientôt au Bénin</h2></div>
-    <div class="events" id="events" style="margin-top:14px"></div>
-    <div style="margin-top:36px"><span class="label">Nos adresses</span><h2 class="h2">On y va ?</h2></div>
-    <div class="chips" id="s-cat" style="margin:14px 0 10px"></div>
-    <div class="chips" id="s-more" style="margin-bottom:20px"></div>
-    <div class="places" id="places"></div>
-    <div class="note y" style="margin:24px 0 40px"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5h.01"/></svg><p><b>Aucune adresse n'a payé pour être ici.</b>Les prix sont indicatifs et peuvent changer : un petit appel avant de vous déplacer évite les mauvaises surprises.</p></div>
-  </div>
-</section>
+  </section>
 
-<section class="view" id="v-moi" hidden>
-  <div class="wrap page-top">
-    <span class="label">Mon carnet</span>
-    <h1>Mes <span class="g">candidatures</span></h1>
-    <p class="lede" style="margin-bottom:12px">Offres gardées, candidatures envoyées et recherches suivies. Tout reste sur votre téléphone.</p>
-    <div class="seg" role="tablist">
-      <button type="button" role="tab" data-seg="gardees" aria-selected="true">Gardées</button>
-      <button type="button" role="tab" data-seg="postulees" aria-selected="false">Postulées</button>
-      <button type="button" role="tab" data-seg="alertes" aria-selected="false">Mes alertes</button>
+  <section class="wrap grid grid-cols-[minmax(0,1fr)] items-center gap-12 py-20 sm:py-28 lg:grid-cols-2 lg:gap-20" aria-labelledby="h-out">
+    <figure class="order-2 lg:order-1">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Lever_de_soleil_sur_l%27Esplanade_de_l%27amazone_%C3%A0_Cotonou.jpg/960px-Lever_de_soleil_sur_l%27Esplanade_de_l%27amazone_%C3%A0_Cotonou.jpg" alt="Lever de soleil sur l'esplanade de l'Amazone à Cotonou" loading="lazy" decoding="async" class="aspect-[4/3] w-full rounded-[24px] bg-paper-sunk object-cover">
+      <figcaption class="mt-3 text-xs text-ink-faint">Lever de soleil sur l'esplanade de l'Amazone · <a class="underline underline-offset-2" href="https://commons.wikimedia.org/wiki/File:Lever_de_soleil_sur_l%27Esplanade_de_l%27amazone_%C3%A0_Cotonou.jpg" target="_blank" rel="noopener">Fawaz.tairou</a>, CC BY-SA 4.0</figcaption>
+    </figure>
+    <div class="order-1 lg:order-2">
+      <p class="eyebrow">Sortir</p>
+      <h2 id="h-out" class="mt-3 text-title">Et le week-end, on souffle.</h2>
+      <p class="lede mt-4">Chercher du travail, ça use. Nos adresses pour manger, se poser au bord de l'eau ou découvrir le pays, de Fidjrossè à Grand-Popo, avec les vrais prix.</p>
+      <div class="mt-8 divide-y divide-line border-y border-line" id="homeSortir"></div>
+      <button type="button" class="btn-secondary mt-8" data-view="sortir">Toutes nos adresses</button>
     </div>
-    <div id="moiBody" style="padding-bottom:40px"></div>
+  </section>
+
+  <section class="border-t border-line bg-paper-warm" aria-labelledby="h-faq">
+    <div class="wrap grid gap-10 py-20 sm:py-28 lg:grid-cols-[1fr_1.6fr] lg:gap-20">
+      <div><p class="eyebrow">Vos questions</p><h2 id="h-faq" class="mt-3 text-title">On vous répond.</h2></div>
+      <div class="divide-y divide-line border-y border-line" id="faqHome"></div>
+    </div>
+  </section>
+</section>
+
+<!-- ============ OFFRES ============ -->
+<section class="view" id="v-offres" hidden aria-labelledby="h-offres">
+  <div class="wrap pt-12 sm:pt-16">
+    <p class="eyebrow">Offres d'emploi</p>
+    <h1 id="h-offres" class="mt-3 text-title">Toutes les offres ouvertes</h1>
+
+    <div class="mt-8 rounded-2xl bg-white ring-1 ring-line-strong shadow-hair">
+      <div class="grid sm:grid-cols-[1.6fr_1fr_1fr]">
+        <label class="flex items-center gap-3 px-4 sm:px-5">
+          <svg class="h-5 w-5 flex-none fill-none stroke-ink-faint" stroke-width="1.75" aria-hidden="true"><use href="#i-search"/></svg>
+          <span class="sr-only">Recherche</span>
+          <input id="q" type="search" class="min-w-0 flex-1 bg-transparent py-4 text-base placeholder:text-ink-faint focus:outline-none" placeholder="Métier, employeur, mot-clé…" autocomplete="off" enterkeyhint="search">
+          <kbd class="hidden rounded-md px-1.5 text-xs text-ink-faint ring-1 ring-line md:inline">/</kbd>
+        </label>
+        <label class="flex items-center gap-2.5 border-t border-line px-4 sm:border-l sm:border-t-0 sm:px-5">
+          <svg class="h-[18px] w-[18px] flex-none fill-none stroke-ink-faint" stroke-width="1.75" aria-hidden="true"><use href="#i-bag"/></svg>
+          <span class="sr-only">Contrat</span><select id="f-contrat-sel" class="min-w-0 flex-1 cursor-pointer appearance-none bg-transparent py-4 text-[15px] focus:outline-none"></select>
+        </label>
+        <label class="flex items-center gap-2.5 border-t border-line px-4 sm:border-l sm:border-t-0 sm:px-5">
+          <svg class="h-[18px] w-[18px] flex-none fill-none stroke-ink-faint" stroke-width="1.75" aria-hidden="true"><use href="#i-pin"/></svg>
+          <span class="sr-only">Ville</span><select id="f-ville" class="min-w-0 flex-1 cursor-pointer appearance-none bg-transparent py-4 text-[15px] focus:outline-none"></select>
+        </label>
+      </div>
+    </div>
+    <div class="no-scrollbar -mx-5 mt-4 flex gap-2 overflow-x-auto px-5 sm:mx-0 sm:flex-wrap sm:px-0" id="quick"></div>
+
+    <div class="mt-4 rounded-2xl bg-paper-warm p-5 ring-1 ring-line sm:p-6" id="panel" hidden>
+      <div class="grid gap-7 md:grid-cols-3">
+        <div><h3 class="eyebrow">Votre niveau d'études</h3><div class="mt-3 flex flex-wrap gap-2" id="f-niv"></div></div>
+        <div><h3 class="eyebrow">Domaine</h3><div class="mt-3 flex flex-wrap gap-2" id="f-sect"></div></div>
+        <div><h3 class="eyebrow">Où ?</h3><div class="mt-3 flex flex-wrap gap-2" id="f-zone"></div></div>
+      </div>
+      <div class="mt-6 flex items-center justify-between gap-4 border-t border-line pt-5"><button type="button" class="btn-ghost btn-sm -ml-3" data-reset>Tout effacer</button><button type="button" class="btn-primary btn-sm" data-toggle-panel>Voir les offres</button></div>
+    </div>
+
+    <div class="mt-10 flex flex-wrap items-center justify-between gap-4">
+      <p class="flex items-baseline gap-3 text-2xl font-semibold tracking-[-0.03em]" id="count" aria-live="polite" aria-atomic="true"></p>
+      <div class="flex flex-wrap items-center gap-2">
+        <button type="button" id="alertBtn" class="btn-secondary btn-sm" hidden><svg class="h-4 w-4 fill-none stroke-current" stroke-width="1.75" aria-hidden="true"><use href="#i-bell"/></svg>Me prévenir des nouvelles offres</button>
+        <label class="relative"><span class="sr-only">Trier</span><select id="f-tri" class="input min-h-[40px] rounded-full py-0 pl-4 text-sm"><option value="recent">Les plus récentes</option><option value="urgence">Date limite proche</option><option value="postes">Le plus de postes</option></select></label>
+      </div>
+    </div>
+    <div id="list" class="mt-6 pb-20"><div class="py-24 text-center text-ink-muted">Chargement des offres du jour…</div></div>
   </div>
 </section>
 
-<section class="view" id="v-conseils" hidden>
-  <div class="wrap page-top" style="padding-bottom:40px">
-    <span class="label">Conseils</span>
-    <h1>Bien postuler, <span class="g">sans stress</span></h1>
-    <p class="lede" style="margin-bottom:24px">Les petites choses qui font la différence quand un recruteur reçoit 300 dossiers pour un seul poste.</p>
-    <div class="guide" id="guide"></div>
-    <div class="note g" style="max-width:860px;margin-top:20px"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 18h6M10 22h4"/><path d="M12 2a7 7 0 0 0-4 12.7c.6.5 1 1.2 1 2.3h6c0-1.1.4-1.8 1-2.3A7 7 0 0 0 12 2z"/></svg><p><b>Besoin d'un coup de main ?</b>Nos conseillers peuvent relire votre CV ou vous préparer à un entretien. <button class="linkish" type="button" data-view="accompagnement">Voir l'accompagnement</button></p></div>
+<!-- ============ ACCOMPAGNEMENT ============ -->
+<section class="view" id="v-accompagnement" hidden aria-labelledby="h-acc">
+  <div class="wrap pb-20 pt-12 sm:pt-16">
+    <p class="eyebrow">Accompagnement</p>
+    <h1 id="h-acc" class="mt-3 max-w-3xl text-title">Un regard extérieur change tout.</h1>
+    <p class="lede mt-4">Un CV qu'on lit jusqu'au bout, une lettre qui sonne juste, un entretien où l'on arrive serein. Choisissez ce dont vous avez besoin, on s'occupe du reste.</p>
+    <div class="note mt-8 max-w-3xl bg-signal-amberbg text-ink-soft"><svg class="mt-0.5 h-5 w-5 flex-none fill-none stroke-signal-amber" stroke-width="1.75" aria-hidden="true"><use href="#i-info"/></svg><p><b>Un service de Djob, jamais une condition pour postuler.</b>Les offres restent gratuites et accessibles à tous. Un employeur ne vous demandera jamais de payer : si c'est le cas, méfiez-vous.</p></div>
+    <div class="mt-12 grid gap-4 md:grid-cols-2 lg:grid-cols-3" id="services"></div>
+
+    <div class="mt-24 grid gap-12 lg:grid-cols-[1.3fr_1fr] lg:gap-16" id="reserver">
+      <div>
+        <p class="eyebrow">Réserver</p>
+        <h2 class="mt-3 text-title">Parlons de votre projet.</h2>
+        <p class="lede mt-4">Dites-nous où vous en êtes. On vous recontacte sur WhatsApp pour fixer un moment et vous donner le tarif exact.</p>
+        <form id="coachForm" class="mt-10 grid gap-5 sm:grid-cols-2" novalidate>
+          <label class="field">Votre nom<input class="input" id="c-nom" name="nom" required autocomplete="name"></label>
+          <label class="field">Numéro WhatsApp<input class="input" id="c-tel" name="tel" required inputmode="tel" autocomplete="tel" placeholder="01 XX XX XX XX"></label>
+          <label class="field sm:col-span-2">Ce dont vous avez besoin<select class="input" id="c-service" name="service" required></select></label>
+          <label class="field sm:col-span-2">Le poste ou le domaine visé <small>Par exemple : comptable dans une banque, premier emploi en communication…</small><input class="input" id="c-poste" name="poste"></label>
+          <label class="field sm:col-span-2">Un mot sur votre situation <small>Facultatif</small><textarea class="input" id="c-msg" name="message" rows="3"></textarea></label>
+          <label class="field">Vos disponibilités<input class="input" id="c-dispo" name="dispo" placeholder="Le soir, le samedi matin…"></label>
+          <label class="field">Ville<input class="input" id="c-ville" name="ville" placeholder="Cotonou"></label>
+          <div class="flex flex-wrap gap-3 sm:col-span-2"><button type="submit" class="btn-primary">Envoyer ma demande</button><button type="button" class="btn-wa" data-wa-coach hidden><svg class="h-[18px] w-[18px]" aria-hidden="true"><use href="#i-wa"/></svg>Écrire sur WhatsApp</button></div>
+          <p class="text-sm text-ink-muted sm:col-span-2" id="coachMsg" role="status"></p>
+        </form>
+      </div>
+      <aside class="lg:pt-16">
+        <div class="card p-7 lg:sticky lg:top-24">
+          <h3 class="text-lg font-semibold tracking-[-0.02em]">Ce qui se passe ensuite</h3>
+          <ol class="mt-6 space-y-6">
+            <li class="flex gap-4"><span class="num grid h-7 w-7 flex-none place-items-center rounded-full bg-paper-sunk text-sm font-medium">1</span><p class="leading-relaxed text-ink-soft">On vous écrit sur WhatsApp sous 24 h, les jours ouvrés.</p></li>
+            <li class="flex gap-4"><span class="num grid h-7 w-7 flex-none place-items-center rounded-full bg-paper-sunk text-sm font-medium">2</span><p class="leading-relaxed text-ink-soft">On convient ensemble du service, du tarif et du créneau.</p></li>
+            <li class="flex gap-4"><span class="num grid h-7 w-7 flex-none place-items-center rounded-full bg-paper-sunk text-sm font-medium">3</span><p class="leading-relaxed text-ink-soft">Vous ne payez qu'une fois d'accord, jamais avant.</p></li>
+          </ol>
+        </div>
+      </aside>
+    </div>
   </div>
 </section>
 
-<section class="view about" id="v-apropos" hidden>
-  <div class="wrap page-top" style="padding-bottom:40px">
-    <span class="label">À propos</span>
-    <h1>Djob, <span class="g">c'est quoi ?</span></h1>
-    <p>Chercher du travail au Bénin, c'est souvent passer ses soirées à fouiller des groupes WhatsApp, des pages Facebook et des sites qui se contredisent. Djob rassemble au même endroit les offres encore ouvertes, explique ce qu'on attend de vous et dit exactement comment postuler.</p>
-    <p>Les offres sont gratuites, sans inscription et sans publicité. Nous ne recevons pas les candidatures : elles vont directement chez l'employeur. Pour ceux qui le souhaitent, nous proposons un accompagnement payant (CV, lettre, entretien). Et parce qu'on ne fait pas que chercher du travail dans la vie, la rubrique « Sortir » partage nos bonnes adresses.</p>
-    <h2>Questions fréquentes</h2>
-    <div class="guide" id="faq"></div>
-    <div id="contact"></div>
+<!-- ============ PUBLIER ============ -->
+<section class="view" id="v-publier" hidden aria-labelledby="h-pub">
+  <div class="wrap pb-20 pt-12 sm:pt-16">
+    <p class="eyebrow">Recruteurs</p>
+    <h1 id="h-pub" class="mt-3 text-title">Publier une annonce</h1>
+    <p class="lede mt-4">Gratuit, sans compte. On relit chaque annonce avant de la mettre en ligne, en général en moins de 24 h. Les coordonnées de la personne qui publie restent privées.</p>
+    <div class="mt-12 grid gap-12 lg:grid-cols-[1.3fr_1fr] lg:gap-16">
+      <form id="adForm" class="grid gap-5 sm:grid-cols-2" novalidate>
+        <h2 class="text-lg font-semibold tracking-[-0.02em] sm:col-span-2">Le poste</h2>
+        <label class="field sm:col-span-2">Intitulé du poste<input class="input" id="a-titre" name="titre" required placeholder="Ex. : Comptable, Vendeuse en boutique…"></label>
+        <label class="field">Entreprise ou structure<input class="input" id="a-employeur" name="employeur" required></label>
+        <label class="field">Nombre de postes<input class="input" id="a-nb" name="nb" type="number" min="1" value="1"></label>
+        <label class="field">Ville<input class="input" id="a-ville" name="ville" required placeholder="Cotonou, Parakou…"></label>
+        <label class="field">Type de contrat<select class="input" id="a-contrat" name="contrat"><option>CDI</option><option>CDD</option><option>Stage</option><option>Temps partiel</option><option>Prestation / consultance</option><option>Missions ponctuelles</option></select></label>
+        <label class="field">Niveau d'études demandé<select class="input" id="a-niveau" name="niveau"><option>Sans diplôme exigé</option><option>BEPC</option><option>BAC</option><option>BAC+2</option><option>BAC+3 / Licence</option><option>BAC+5 / Master</option></select></label>
+        <label class="field">Expérience demandée<select class="input" id="a-exp" name="experience"><option>Débutant accepté</option><option>1 à 3 ans</option><option>3 à 5 ans</option><option>5 ans et +</option></select></label>
+        <label class="field sm:col-span-2">Missions et profil recherché <small>Quelques lignes suffisent : ce que la personne fera, ce que vous attendez.</small><textarea class="input" id="a-desc" name="description" required rows="5"></textarea></label>
+        <label class="field">Salaire <small>Facultatif, mais très apprécié</small><input class="input" id="a-salaire" name="salaire" placeholder="Ex. : 120 000 F / mois"></label>
+        <label class="field">Date limite <small>&nbsp;</small><input class="input" id="a-date" name="dateLimite" type="date"></label>
+        <h2 class="mt-6 text-lg font-semibold tracking-[-0.02em] sm:col-span-2">Comment postuler</h2>
+        <label class="field">Les candidats postulent par<select class="input" id="a-mode" name="mode"><option value="email">E-mail</option><option value="tel">Téléphone / WhatsApp</option><option value="depot">Dépôt sur place</option><option value="lien">Lien internet</option></select></label>
+        <label class="field"><span id="a-val-lbl">Adresse e-mail</span><input class="input" id="a-valeur" name="valeur" required></label>
+        <label class="field sm:col-span-2">Pièces à fournir <small>Facultatif · une par ligne</small><textarea class="input" id="a-pieces" name="pieces" rows="3" placeholder="CV&#10;Lettre de motivation"></textarea></label>
+        <h2 class="mt-6 text-lg font-semibold tracking-[-0.02em] sm:col-span-2">Vos coordonnées <span class="font-normal text-ink-muted">· privées</span></h2>
+        <label class="field">Votre nom<input class="input" id="a-contact" name="contact" required autocomplete="name"></label>
+        <label class="field">Téléphone ou e-mail<input class="input" id="a-contact2" name="contact2" required></label>
+        <label class="flex cursor-pointer items-start gap-3 text-[15px] leading-relaxed text-ink-soft sm:col-span-2" id="a-ok-wrap"><input type="checkbox" id="a-ok" required class="mt-1 h-5 w-5 flex-none rounded accent-ink"><span>Je confirme que ce recrutement est réel et entièrement gratuit pour les candidats (aucun frais de dossier, de formation ou de dépôt).</span></label>
+        <div class="flex flex-wrap gap-3 sm:col-span-2"><button type="submit" class="btn-primary">Envoyer mon annonce</button><button type="button" class="btn-wa" data-wa-ad hidden><svg class="h-[18px] w-[18px]" aria-hidden="true"><use href="#i-wa"/></svg>Envoyer par WhatsApp</button></div>
+        <p class="text-sm text-ink-muted sm:col-span-2" id="adMsg" role="status"></p>
+      </form>
+      <aside>
+        <div class="lg:sticky lg:top-24">
+          <p class="eyebrow">Aperçu en direct</p>
+          <div class="mt-4 rounded-3xl bg-paper-sunk p-3"><div class="rounded-2xl bg-white" id="adPreview"></div></div>
+          <div class="note mt-6 bg-brand-50 text-ink-soft"><svg class="mt-0.5 h-5 w-5 flex-none fill-none stroke-brand-600" stroke-width="1.75" aria-hidden="true"><use href="#i-shield"/></svg><p><b>Ce qu'on vérifie</b>Une entreprise identifiable, un poste clair, un moyen de postuler et aucun frais pour les candidats. Les annonces douteuses ne sont pas publiées.</p></div>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SORTIR ============ -->
+<section class="view" id="v-sortir" hidden aria-labelledby="h-sortir">
+  <div class="wrap pb-20 pt-12 sm:pt-16">
+    <div class="grid items-end gap-10 lg:grid-cols-[1.2fr_1fr] lg:gap-16">
+      <div>
+        <p class="eyebrow">Sortir au Bénin</p>
+        <h1 id="h-sortir" class="mt-3 text-title">Où manger, où souffler, quoi faire ce week-end.</h1>
+        <p class="lede mt-4">Maquis, plages, musées et escapades à moins de trois heures de Cotonou. Des adresses vérifiées, avec les prix pour savoir à quoi s'attendre.</p>
+      </div>
+      <figure><img src="https://images.unsplash.com/photo-1753818268536-b3227488c3f8?w=1000&q=75&auto=format&fit=crop" alt="Un pêcheur lance son filet sur le lac" loading="lazy" decoding="async" class="aspect-[16/10] w-full rounded-[24px] bg-paper-sunk object-cover"><figcaption class="mt-3 text-xs text-ink-faint">Pêcheur sur le lac · Unsplash</figcaption></figure>
+    </div>
+
+    <h2 class="mt-20 text-2xl font-semibold tracking-[-0.03em]">Bientôt au Bénin</h2>
+    <div class="no-scrollbar -mx-5 mt-6 flex snap-x gap-3 overflow-x-auto px-5 pb-2 sm:mx-0 sm:px-0" id="events"></div>
+
+    <h2 class="mt-20 text-2xl font-semibold tracking-[-0.03em]">Nos adresses</h2>
+    <div class="no-scrollbar -mx-5 mt-6 flex gap-2 overflow-x-auto px-5 sm:mx-0 sm:flex-wrap sm:px-0" id="s-cat"></div>
+    <div class="mt-3 flex flex-wrap gap-2" id="s-more"></div>
+    <div class="mt-8 grid gap-x-5 gap-y-10 sm:grid-cols-2 lg:grid-cols-3" id="places"></div>
+    <div class="note mt-14 bg-paper-warm text-ink-soft ring-1 ring-line"><svg class="mt-0.5 h-5 w-5 flex-none fill-none stroke-ink-muted" stroke-width="1.75" aria-hidden="true"><use href="#i-info"/></svg><p><b>Aucune adresse n'a payé pour être ici.</b>Les prix sont indicatifs et peuvent changer : un petit appel avant de vous déplacer évite les mauvaises surprises.</p></div>
+  </div>
+</section>
+
+<!-- ============ CARNET ============ -->
+<section class="view" id="v-moi" hidden aria-labelledby="h-moi">
+  <div class="wrap pb-20 pt-12 sm:pt-16">
+    <p class="eyebrow">Mon carnet</p>
+    <h1 id="h-moi" class="mt-3 text-title">Mes candidatures</h1>
+    <p class="lede mt-4">Offres gardées, candidatures envoyées et recherches suivies. Tout reste sur votre téléphone, rien n'est envoyé.</p>
+    <div class="mt-8 flex max-w-md gap-1 rounded-full bg-paper-sunk p-1" role="tablist" aria-label="Carnet">
+      <button type="button" role="tab" class="seg" data-seg="gardees" aria-selected="true">Gardées</button>
+      <button type="button" role="tab" class="seg" data-seg="postulees" aria-selected="false">Postulées</button>
+      <button type="button" role="tab" class="seg" data-seg="alertes" aria-selected="false">Alertes</button>
+    </div>
+    <div id="moiBody" class="mt-8" role="tabpanel"></div>
+  </div>
+</section>
+
+<!-- ============ CONSEILS ============ -->
+<section class="view" id="v-conseils" hidden aria-labelledby="h-cons">
+  <div class="wrap grid gap-12 pb-20 pt-12 sm:pt-16 lg:grid-cols-[1fr_1.6fr] lg:gap-20">
+    <div>
+      <p class="eyebrow">Conseils</p>
+      <h1 id="h-cons" class="mt-3 text-title">Bien postuler, sans stress.</h1>
+      <p class="lede mt-4">Les petites choses qui font la différence quand un recruteur reçoit 300 dossiers pour un seul poste.</p>
+      <div class="note mt-8 bg-brand-50 text-ink-soft"><svg class="mt-0.5 h-5 w-5 flex-none fill-none stroke-brand-600" stroke-width="1.75" aria-hidden="true"><use href="#i-bulb"/></svg><p><b>Besoin d'un coup de main ?</b>Nos conseillers peuvent relire votre CV ou vous préparer à un entretien. <button type="button" class="link" data-view="accompagnement">Voir l'accompagnement</button></p></div>
+    </div>
+    <div class="divide-y divide-line border-y border-line" id="guide"></div>
+  </div>
+</section>
+
+<!-- ============ À PROPOS ============ -->
+<section class="view" id="v-apropos" hidden aria-labelledby="h-about">
+  <div class="wrap grid gap-12 pb-20 pt-12 sm:pt-16 lg:grid-cols-[1fr_1.6fr] lg:gap-20">
+    <div><p class="eyebrow">À propos</p><h1 id="h-about" class="mt-3 text-title">Djob, c'est quoi ?</h1></div>
+    <div>
+      <div class="space-y-5 text-lg leading-[1.7] text-ink-soft">
+        <p>Chercher du travail au Bénin, c'est souvent passer ses soirées à fouiller des groupes WhatsApp, des pages Facebook et des sites qui se contredisent. Djob rassemble au même endroit les offres encore ouvertes, explique ce qu'on attend de vous et dit exactement comment postuler.</p>
+        <p>Les offres sont gratuites, sans inscription et sans publicité. Nous ne recevons pas les candidatures : elles vont directement chez l'employeur. Pour ceux qui le souhaitent, nous proposons un accompagnement payant (CV, lettre, entretien). Et parce qu'on ne fait pas que chercher du travail dans la vie, la rubrique « Sortir » partage nos bonnes adresses.</p>
+      </div>
+      <h2 class="mt-16 text-2xl font-semibold tracking-[-0.03em]">Questions fréquentes</h2>
+      <div class="mt-6 divide-y divide-line border-y border-line" id="faq"></div>
+      <div id="contact"></div>
+    </div>
   </div>
 </section>
 </main>
 
-<footer>
-  <div class="pagne" aria-hidden="true"></div>
-  <div class="wrap inner">
-    <div><a class="logo" href="./" data-view="accueil"><span class="mark" aria-hidden="true"><i></i><i></i><i></i></span>djob</a><p>Les offres d'emploi du Bénin, rassemblées chaque matin. Fait à Cotonou, pour celles et ceux qui cherchent.</p><p id="maj" style="font-size:13px;color:#8D9389"></p></div>
-    <div><h4>Candidats</h4><button type="button" data-view="offres">Toutes les offres</button><button type="button" data-goto="debut">Débutants bienvenus</button><button type="button" data-goto="stage">Stages</button><button type="button" data-view="accompagnement">Accompagnement</button><button type="button" data-view="conseils">Conseils</button></div>
-    <div><h4>Djob</h4><button type="button" data-view="publier">Publier une annonce</button><button type="button" data-view="sortir">Sortir</button><button type="button" data-view="apropos">À propos</button><button type="button" data-share-site>Partager Djob</button></div>
-    <div class="legal">Chaque offre et chaque adresse renvoie vers sa source : vérifiez toujours l'avis officiel avant d'envoyer votre dossier. Photos : statue de l'Amazone par Mister Kolson (domaine public) et Fawaz.tairou (<a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>) via Wikimedia Commons. Photos des lieux et des plats : contributeurs de Wikimedia Commons, crédités sur chaque fiche ; les plats montrés sont des photos d'illustration, pas celles du restaurant. Photos des métiers : <a href="https://unsplash.com" target="_blank" rel="noopener">Unsplash</a>, à titre d'illustration.</div>
+<footer class="border-t border-line bg-paper-warm">
+  <div class="wrap grid gap-10 py-16 pb-32 sm:grid-cols-2 lg:grid-cols-[1.6fr_1fr_1fr] lg:pb-16">
+    <div class="sm:col-span-2 lg:col-span-1">
+      <a href="./" data-view="accueil" class="inline-flex min-h-[44px] items-center gap-2.5"><span class="grid h-[18px] w-[18px] grid-cols-[2fr_3fr] grid-rows-2 overflow-hidden rounded-[5px]" aria-hidden="true"><i class="row-span-2 bg-brand-600"></i><i class="bg-[#E9B70C]"></i><i class="bg-[#C8262E]"></i></span><span class="text-[19px] font-semibold tracking-[-0.04em]">djob</span></a>
+      <p class="mt-3 max-w-sm leading-relaxed text-ink-muted">Les offres d'emploi du Bénin, rassemblées chaque matin. Fait à Cotonou, pour celles et ceux qui cherchent.</p>
+      <p class="mt-4 text-sm text-ink-faint" id="maj"></p>
+    </div>
+    <div><h2 class="text-sm font-semibold">Candidats</h2><ul class="mt-3 text-[15px] text-ink-muted">
+      <li><button type="button" class="min-h-[40px] hover:text-ink" data-view="offres">Toutes les offres</button></li>
+      <li><button type="button" class="min-h-[40px] hover:text-ink" data-goto="debut">Débutants bienvenus</button></li>
+      <li><button type="button" class="min-h-[40px] hover:text-ink" data-goto="stage">Stages</button></li>
+      <li><button type="button" class="min-h-[40px] hover:text-ink" data-view="accompagnement">Accompagnement</button></li>
+      <li><button type="button" class="min-h-[40px] hover:text-ink" data-view="conseils">Conseils</button></li></ul></div>
+    <div><h2 class="text-sm font-semibold">Djob</h2><ul class="mt-3 text-[15px] text-ink-muted">
+      <li><button type="button" class="min-h-[40px] hover:text-ink" data-view="publier">Publier une annonce</button></li>
+      <li><button type="button" class="min-h-[40px] hover:text-ink" data-view="sortir">Sortir</button></li>
+      <li><button type="button" class="min-h-[40px] hover:text-ink" data-view="apropos">À propos</button></li>
+      <li><button type="button" class="min-h-[40px] hover:text-ink" data-share-site>Partager Djob</button></li></ul></div>
+    <p class="border-t border-line pt-8 text-xs leading-relaxed text-ink-faint sm:col-span-2 lg:col-span-3">Chaque offre et chaque adresse renvoie vers sa source : vérifiez toujours l'avis officiel avant d'envoyer votre dossier. Photos : statue de l'Amazone par Mister Kolson (domaine public) et Fawaz.tairou (<a class="underline" href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>) via Wikimedia Commons. Photos des lieux : contributeurs de Wikimedia Commons, crédités sur chaque fiche ; les plats montrés sont des photos d'illustration. Autres photos : <a class="underline" href="https://unsplash.com" target="_blank" rel="noopener">Unsplash</a>.</p>
   </div>
 </footer>
 
-<nav class="tabbar" aria-label="Rubriques">
-  <button type="button" data-view="accueil"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 11 12 4l9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></svg>Accueil</button>
-  <button type="button" data-view="offres"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg>Offres</button>
-  <button type="button" data-view="accompagnement"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.6-3.6 3.3-5.5 6.5-5.5s5.9 1.9 6.5 5.5"/><path d="m15.5 9 2 2 4-4"/></svg>Coaching</button>
-  <button type="button" data-view="sortir"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>Sortir</button>
-  <button type="button" data-view="moi"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8z"/></svg>Carnet<span class="n" data-badge hidden></span></button>
+<nav class="fixed inset-x-0 bottom-0 z-40 grid grid-cols-5 border-t border-line bg-white/90 px-1 backdrop-blur-xl pb-safe lg:hidden" aria-label="Rubriques">
+  <button type="button" class="tab" data-view="accueil"><svg class="h-[22px] w-[22px] fill-none stroke-current" stroke-width="1.75" aria-hidden="true"><use href="#i-home"/></svg>Accueil</button>
+  <button type="button" class="tab" data-view="offres"><svg class="h-[22px] w-[22px] fill-none stroke-current" stroke-width="1.75" aria-hidden="true"><use href="#i-bag"/></svg>Offres</button>
+  <button type="button" class="tab" data-view="accompagnement"><svg class="h-[22px] w-[22px] fill-none stroke-current" stroke-width="1.75" aria-hidden="true"><use href="#i-spark"/></svg>Coaching</button>
+  <button type="button" class="tab" data-view="sortir"><svg class="h-[22px] w-[22px] fill-none stroke-current" stroke-width="1.75" aria-hidden="true"><use href="#i-pin"/></svg>Sortir</button>
+  <button type="button" class="tab" data-view="moi"><span class="relative"><svg class="h-[22px] w-[22px] fill-none stroke-current" stroke-width="1.75" aria-hidden="true"><use href="#i-heart"/></svg><span hidden class="num absolute -right-2.5 -top-1.5 block min-w-[18px] rounded-full bg-ink px-1 text-center text-[10px] font-semibold leading-[18px] text-white ring-2 ring-white" data-badge></span></span>Carnet</button>
 </nav>
 
-<dialog id="dlg" aria-labelledby="dTitle"><div class="sheet" id="sheet"></div></dialog>
-<div class="toast" id="toast" role="status" hidden></div>
+<dialog id="dlg" class="sheet-dialog" aria-labelledby="dTitle">
+  <div id="sheet" class="fixed inset-x-0 bottom-0 max-h-[92dvh] overflow-y-auto overscroll-contain rounded-t-[28px] bg-white shadow-sheet animate-slideup lg:inset-y-0 lg:left-auto lg:right-0 lg:max-h-none lg:w-[580px] lg:rounded-none lg:animate-slidein"></div>
+</dialog>
+<div id="toast" role="status" aria-live="polite" class="pointer-events-none fixed bottom-[88px] left-1/2 z-[60] -translate-x-1/2 rounded-full bg-ink px-5 py-3 text-sm font-medium text-white shadow-lift transition-all duration-200 lg:bottom-8" hidden></div>
 
-<script>
-const SITE="https://djondozy.github.io/offres-emploi/";
-const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
-const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-const okUrl=u=>typeof u==="string"&&/^https?:\/\//.test(u);
-const store={get(k,d){try{const v=localStorage.getItem(k);return v?JSON.parse(v):d}catch{return d}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch{}}};
-
-const ZONES={cotonou:"Cotonou et environs",benin:"Ailleurs au Bénin",region:"Sous-région",distance:"À distance"};
-const NIVEAUX=[["sans","Sans diplôme"],["bepc","BEPC"],["bac","BAC"],["lic","BAC+2 / Licence"],["master","BAC+5 / Master"]];
-const CONTRATS=[["cdi","CDI"],["cdd","CDD"],["stage","Stage"],["volont","Volontariat"],["autre","Autre"]];
-const MOIS=["janv.","févr.","mars","avr.","mai","juin","juil.","août","sept.","oct.","nov.","déc."];
-const JOURS=["dimanche","lundi","mardi","mercredi","jeudi","vendredi","samedi"];
-const PALETTE=[["#E8F3EC","#0A7B3E"],["#FFF5D1","#715400"],["#FCEAE8","#B11E26"],["#ECEEE9","#2C302A"],["#E3EFF4","#1F5F7A"]];
-const SVGI=p=>`<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">${p}</svg>`;
-const CATS={"Manger":[SVGI('<path d="M7 3v8a2 2 0 0 0 2 2v8M11 3v8M7 7h4M17 3c-2 2-2 6 0 8v10"/>'),"var(--red-t)","var(--red-ink)"],
- "Plage & détente":[SVGI('<path d="M2 17c2 0 2-2 4-2s2 2 4 2 2-2 4-2 2 2 4 2 2-2 4-2M2 21c2 0 2-2 4-2s2 2 4 2 2-2 4-2 2 2 4 2 2-2 4-2"/><circle cx="12" cy="8" r="3"/>'),"#E3EFF4","#1F5F7A"],
- "Culture":[SVGI('<path d="M3 21h18M5 21V10M10 21V10M14 21V10M19 21V10M2 10l10-6 10 6z"/>'),"#ECEEE9","var(--ink-2)"],
- "Sorties & spectacles":[SVGI('<path d="M4 7h16v4a2 2 0 0 0 0 4v4H4v-4a2 2 0 0 0 0-4z"/><path d="M10 7v12"/>'),"var(--yellow-t)","var(--yellow-ink)"],
- "Escapade":[SVGI('<path d="M3 17h18M5 17V9l4-4h6l4 4v8"/><circle cx="7.5" cy="17.5" r="1.5"/><circle cx="16.5" cy="17.5" r="1.5"/>'),"var(--yellow-t)","var(--yellow-ink)"],
- "Nature":[SVGI('<path d="M11 20A7 7 0 0 1 4 13c0-6 7-9 16-9 0 9-3 16-9 16zM4 20c4-4 7-6 11-8"/>'),"var(--green-t)","var(--green)"]};
-const ic={
-  pin:'<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>',
-  bag:'<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg>',
-  ppl:'<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.6-3.6 3.3-5.5 6.5-5.5s5.9 1.9 6.5 5.5"/><path d="M16 4.6a3.5 3.5 0 0 1 0 6.8M18 14.7c2 .7 3.2 2.5 3.5 5.3"/></svg>',
-  cal:'<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>',
-  keep:'<svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8z"/></svg>',
-  clock:'<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>',
-  shield:'<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3 4 6v6c0 4.5 3.4 8 8 9 4.6-1 8-4.5 8-9V6z"/><path d="M12 8v5M12 16h.01"/></svg>',
-  bulb:'<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 18h6M10 22h4"/><path d="M12 2a7 7 0 0 0-4 12.7c.6.5 1 1.2 1 2.3h6c0-1.1.4-1.8 1-2.3A7 7 0 0 0 12 2z"/></svg>',
-  check:'<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m8 12 3 3 5-6"/></svg>',
-  x:'<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>',
-  chev:'<svg class="chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>',
-  filt:'<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M4 5h16l-6 8v6l-4-2v-4z"/></svg>',
-  wa:'<svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.4.1-.7.3-.2.3-.9.9-.9 2.2s.9 2.5 1 2.7c.1.2 1.8 2.8 4.4 3.9 1.7.7 2.3.8 3.1.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.6-.3z"/></svg>'
-};
-
-let all=[],maj=null,lieux=[],events=[],CFG={whatsapp:"",email:"",formulaires:{},services:[]},view="accueil",seg="gardees",panelOpen=false,shown=25,weekIds=[];
-const F={q:"",zone:"tout",niv:new Set(),sect:new Set(),contrat:"",ville:"",tri:"recent"};
-const SF={cat:"Tout",cheap:false,zone:""};
-let saved=store.get("djob-saved",[]),checks=store.get("djob-checks",{}),apps=store.get("djob-apps",{}),alerts=store.get("djob-alerts",[]);
-const lastVisit=store.get("djob-last",null);let sinceIds=[];
-
-const today=()=>{const t=new Date();t.setHours(0,0,0,0);return t};
-const D=s=>{const d=new Date(s+"T12:00:00");d.setHours(0,0,0,0);return d};
-const daysLeft=o=>o.dateLimite?Math.round((D(o.dateLimite)-today())/864e5):null;
-const isOpen=o=>{const n=daysLeft(o);return n===null||n>=0};
-const addedTs=o=>o.ajoute?new Date(o.ajoute).getTime():0;
-const isToday=o=>o.ajoute&&Date.now()-addedTs(o)<26*36e5;
-const norm=s=>String(s||"").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"");
-const hay=o=>o._h||(o._h=norm([o.titre,o.employeur,o.ville,o.secteur,o.contrat,o.niveau,o.resume,...(o.postes||[]).map(p=>p.nom),...(o.profil||[])].join(" ")));
-const left=n=>n===0?"Dernier jour":n===1?"Ferme demain":`Plus que ${n} jours`;
-const shortDate=s=>{const d=D(s);return `${d.getDate()} ${MOIS[d.getMonth()]}`};
-const longDate=s=>{const d=D(s);return `${JOURS[d.getDay()]} ${d.getDate()} ${MOIS[d.getMonth()].replace(".","")}`};
-const ago=o=>{const t=addedTs(o);if(!t)return "";const m=(Date.now()-t)/6e4;if(m<60)return "à l'instant";const h=m/60;if(h<24)return `il y a ${Math.round(h)} h`;const d=Math.round(h/24);return d===1?"hier":`il y a ${d} jours`};
-const dayKey=o=>{const t=addedTs(o);if(!t)return "Plus tôt";const d=new Date(t);d.setHours(0,0,0,0);const n=Math.round((today()-d)/864e5);return n<=0?"Aujourd'hui":n===1?"Hier":n<7?"Cette semaine":"Plus tôt"};
-const initials=s=>{const w=String(s).replace(/\(.*?\)/g,"").replace(/[^\p{L}\p{N}\s'-]/gu," ").split(/\s+/).filter(x=>x&&!/^(de|du|des|la|le|les|l'|d'|et|pour|via|au|aux|sa|sarl|s\.a\.|inc|avec)$/i.test(x));return ((w[0]||"?")[0]+((w[1]||"")[0]||"")).toUpperCase()};
-const hue=s=>{let h=0;for(const c of String(s))h=(h*31+c.charCodeAt(0))>>>0;return PALETTE[h%PALETTE.length]};
-const avatar=o=>{const [b,f]=hue(o.employeur);return `<div class="avatar" style="background:${b};color:${f}" aria-hidden="true">${esc(initials(o.employeur))}</div>`};
-function levels(o){const n=norm(o.niveau),s=new Set();
-  if(/sans diplome|aucun diplome|certificat|cap\b/.test(n))s.add("sans");if(/bepc/.test(n))s.add("bepc");
-  if(/\bbac\b/.test(n.replace(/bac\s*\+\s*\d/g,"")))s.add("bac");if(/bac\s*\+\s*[234]|licence/.test(n))s.add("lic");
-  if(/bac\s*\+\s*5|master|ingenieur/.test(n))s.add("master");if(/du bepc a la licence/.test(n)){s.add("bepc");s.add("bac");s.add("lic")}
-  if(/diplome/.test(n)&&!s.size)s.add("lic");return s}
-function contratKey(o){const c=norm(o.contrat);return /cdi/.test(c)?"cdi":/cdd/.test(c)?"cdd":/stage/.test(c)?"stage":/volont/.test(c)?"volont":"autre"}
-function cityOf(o){const v=String(o.ville||"").split(/[,(]| et | ou /)[0].trim();return o.zone==="distance"?"À distance":v.replace(/^Glo-Djigbé.*/,"Glo-Djigbé")}
-const waNum=n=>{const d=String(n||"").replace(/\D/g,"");return d?(d.startsWith("229")?d:"229"+d):""};
-
-function greet(){const h=new Date().getHours(),d=new Date().getDay();
-  $("#hello").textContent=(h<12?(d===1?"Bonjour, et bonne semaine.":"Bonjour."):h<18?"Bon après-midi.":"Bonsoir.")+" Cotonou, Porto-Novo, Parakou et partout au Bénin."}
-function renderHome(){
-  const postes=all.reduce((s,o)=>s+(o.nbPostes||1),0),t=all.filter(isToday).length,v=new Set(all.map(cityOf)).size;
-  $("#numbers").innerHTML=[[all.length,"offres ouvertes"],[postes,"postes à pourvoir"],[t,"ajoutées aujourd'hui"],[v,"villes"]].map(([n,l])=>`<div class="num"><b>${n}</b><span>${l}</span></div>`).join("");
-  const src={};all.forEach(o=>{const n=o.source?.nom;if(n)src[n]=(src[n]||0)+1});
-  const names=Object.keys(src).sort((a,b)=>src[b]-src[a]).slice(0,10);
-  $("#readfor").innerHTML=names.length?`On lit pour vous : <b>${names.map(esc).join("</b>, <b>")}</b>, et d'autres encore.`:"";
-  $("#popular").innerHTML=`<span>On cherche souvent :</span>`+SUGG.map(s=>`<button type="button" data-sugg="${s}">${s}</button>`).join("");
-  const fresh=[...all].sort((a,b)=>addedTs(b)-addedTs(a)).slice(0,6);
-  $("#homeJobs").innerHTML=fresh.length?`<div class="rows">${fresh.map(row).join("")}</div>`:`<div class="empty"><h3>Les annonces arrivent</h3><p>La liste se remplit chaque matin.</p></div>`;
-  const cnt=f=>all.filter(f).length;
-  const T=[["debut","Débutants bienvenus",`${cnt(o=>o.debutant)} offres sans expérience exigée`,"var(--green)"],
-    ["bientot","Ça ferme bientôt",`${cnt(o=>{const n=daysLeft(o);return n!==null&&n<=3})} offres à saisir vite`,"var(--red)"],
-    ["stage","Stages et volontariats",`${cnt(o=>["stage","volont"].includes(contratKey(o)))} pour mettre un pied dedans`,"var(--yellow)"],
-    ["horscot","Hors de Cotonou",`${cnt(o=>o.zone!=="cotonou")} offres ailleurs au Bénin et autour`,"var(--ink)"]];
-  $("#tiles").innerHTML=T.map(([k,t,s,c])=>`<button class="tile" type="button" data-goto="${k}"><i style="background:${c}"></i><b>${t}</b><span>${s}</span></button>`).join("");
-  $("#homeServices").innerHTML=(CFG.services||[]).slice(0,3).map(svcCard).join("");
-  $("#homeSortir").innerHTML=lieux.filter(l=>["chez-tranquille","plage-fidjrosse","ganvie","grand-popo"].includes(l.id)).map(l=>`<button type="button" data-place="${esc(l.id)}"><span><b>${esc(l.nom)}</b><span>${esc(l.ville)} · ${esc(l.prix)}</span></span><span aria-hidden="true">→</span></button>`).join("");
-  $("#faqHome").innerHTML=faqHTML(FAQ.slice(0,5));
-}
-
-function activeCount(){return F.niv.size+F.sect.size+(Object.keys(ZONES).includes(F.zone)?1:0)}
-function zoneMatch(o,z){return z==="tout"||(z==="debut"?o.debutant:z==="bientot"?(daysLeft(o)!==null&&daysLeft(o)<=3):z==="nouveau"?(isToday(o)||sinceIds.includes(o.id)):z==="horscot"?o.zone!=="cotonou":z==="stage"?["stage","volont"].includes(contratKey(o)):o.zone===z)}
-function match(o,f=F){const q=norm(f.q.trim());return zoneMatch(o,f.zone)&&(!f.niv.size||[...levels(o)].some(l=>f.niv.has(l)))&&(!f.sect.size||f.sect.has(o.secteur))&&(!f.contrat||contratKey(o)===f.contrat)&&(!f.ville||cityOf(o)===f.ville)&&(!q||q.split(/\s+/).every(w=>hay(o).includes(w)))}
-function sorted(rows){const by={urgence:(a,b)=>(daysLeft(a)??999)-(daysLeft(b)??999)||addedTs(b)-addedTs(a),recent:(a,b)=>addedTs(b)-addedTs(a)||(daysLeft(a)??999)-(daysLeft(b)??999),postes:(a,b)=>(b.nbPostes||1)-(a.nbPostes||1)};return rows.sort(by[F.tri])}
-function chipsHTML(list,isOn,attr){return list.map(([k,l,n])=>`<button class="chip" type="button" data-${attr}="${esc(k)}" aria-pressed="${isOn(k)}">${esc(l)}${n!=null?` <small>${n}</small>`:""}</button>`).join("")}
-function renderFilters(){
-  const cnt=f=>all.filter(f).length,ac=activeCount();
-  const q=[["tout","Toutes"],["nouveau","Nouvelles"],["debut","Débutants bienvenus"],["bientot","Ferme bientôt"],["stage","Stages"],["horscot","Hors de Cotonou"]];
-  $("#quick").innerHTML=`<button class="qchip f" type="button" data-toggle-panel aria-expanded="${panelOpen}">${ic.filt} Plus de filtres${ac?` <b>${ac}</b>`:""}</button>`+q.map(([k,l])=>`<button class="qchip" type="button" data-z="${k}" aria-pressed="${F.zone===k}">${l}</button>`).join("");
-  $("#f-contrat-sel").innerHTML=`<option value="">Tous les contrats</option>`+CONTRATS.map(([k,l])=>[k,l,cnt(o=>contratKey(o)===k)]).filter(x=>x[2]).map(([k,l,n])=>`<option value="${k}" ${F.contrat===k?"selected":""}>${l} (${n})</option>`).join("");
-  const v={};all.forEach(o=>{const c=cityOf(o);v[c]=(v[c]||0)+1});
-  $("#f-ville").innerHTML=`<option value="">Toutes les villes</option>`+Object.keys(v).sort((a,b)=>v[b]-v[a]).map(c=>`<option value="${esc(c)}" ${F.ville===c?"selected":""}>${esc(c)} (${v[c]})</option>`).join("");
-  $("#f-tri").value=F.tri;
-  $("#panel").hidden=!panelOpen;if(!panelOpen)return;
-  $("#f-niv").innerHTML=chipsHTML(NIVEAUX.map(([k,l])=>[k,l,cnt(o=>levels(o).has(k))]),k=>F.niv.has(k),"niv");
-  const s={};all.forEach(o=>s[o.secteur]=(s[o.secteur]||0)+1);
-  $("#f-sect").innerHTML=chipsHTML(Object.keys(s).sort((a,b)=>s[b]-s[a]).map(k=>[k,k,s[k]]),k=>F.sect.has(k),"sect");
-  $("#f-zone").innerHTML=chipsHTML(Object.entries(ZONES).map(([k,l])=>[k,l,cnt(o=>o.zone===k)]).filter(x=>x[2]),k=>F.zone===k,"zz");
-}
-const U=id=>`https://images.unsplash.com/${id}?w=640&q=70&auto=format&fit=crop`;
-const SECT_IMG={"Commerce & vente":["photo-1773858440885-361caff45fa3","photo-1641422162969-3a3d177124d5","photo-1734255026082-82fdc81991f0"],
-  "Finance & comptabilité":["photo-1626266061368-46a8f578ddd6","photo-1669034750695-dfe5cad91d6d"],
-  "Organisations internationales":["photo-1573497019418-b400bb3ab074","photo-1573166953836-06864dc70a21"],
-  "Humanitaire & ONG":["photo-1652971876875-05db98fab376","photo-1553775927-a071d5a6a39a"],
-  "Hôtellerie & restauration":["photo-1496811425508-6d7ebb7ff32c"],
-  "BTP & métiers":["photo-1740825961434-e9287638592b","photo-1668609268461-4f6a15269ff1"],
-  "Éducation":["photo-1632215861513-130b66fe97f4","photo-1473649085228-583485e6e4d7"],
-  "Numérique":["photo-1531498860502-7c67cf02f657","photo-1528901166007-3784c7dd3653"],
-  "Santé":["photo-1631558554184-319c88f4f8a4"],
-  "Services à la personne":["photo-1765648580808-76d75e4f3833"],
-  "Droit":["photo-1563132337-f159f484226c"],
-  "Administration publique":["photo-1573166953836-06864dc70a21"],
-  "Communication":["photo-1528901166007-3784c7dd3653","photo-1739300293504-234817eead52"],
-  "Transport & logistique":["photo-1630509866865-feb29d1b8cbb","photo-1738507869660-b44ea20ab037"],
-  "Industrie & énergie":["photo-1512516337334-676e22cc19b6"],
-  "Agriculture":["photo-1741874299706-2b8e16839aaa","photo-1761634373241-5abcfcaa0c39"]};
-const hashN=s=>{let h=0;for(const c of String(s))h=(h*31+c.charCodeAt(0))>>>0;return h};
-const sectImg=o=>{const l=SECT_IMG[o.secteur]||["photo-1669034750695-dfe5cad91d6d","photo-1573497019418-b400bb3ab074"];return U(l[hashN(o.id)%l.length])};
-const imgTag=(src,alt="")=>`<img src="${esc(src)}" alt="${esc(alt)}" loading="lazy" decoding="async" onerror="this.remove()">`;
-function row(o){
-  const n=daysLeft(o),k=saved.includes(o.id),a=apps[o.id],wk=weekIds.includes(o.id);
-  const dl=n===null?"Pas de date limite":n<=3?`<b style="color:var(--red-ink)">${left(n)}</b>`:`Jusqu'au <b>${shortDate(o.dateLimite)}</b>`;
-  return `<article class="row" data-id="${esc(o.id)}" tabindex="0" role="button" aria-label="${esc(o.titre)}, ${esc(o.employeur)}">
-    <div class="ph">${imgTag(sectImg(o))}<span class="sect">${esc(o.secteur||"Offre d'emploi")}</span></div>
-    <div class="side"><button class="keep" type="button" data-keep="${esc(o.id)}" aria-pressed="${k}" aria-label="${k?"Retirer de mon carnet":"Garder cette offre"}">${ic.keep}</button></div>
-    ${avatar(o)}
-    <div class="c"><div class="emp">${esc(o.employeur)}</div><h3>${esc(o.titre)}</h3>
-      <div class="meta"><span>${ic.pin}${esc(o.ville)}</span><span>${ic.bag}${esc(o.contrat)}</span>${o.nbPostes>1?`<span>${ic.ppl}${o.nbPostes} postes</span>`:""}</div>
-      <div class="tags">${wk?`<span class="tag week">Offre de la semaine</span>`:""}${a?`<span class="tag ink">Postulé</span>`:""}${o.debutant?`<span class="tag green">Débutants bienvenus</span>`:""}${o.publieSurDjob?`<span class="tag yellow">Publiée sur Djob</span>`:""}</div></div>
-    <div class="foot"><span>${dl}</span><span class="ago">${ago(o)}</span></div>
-  </article>`;
-}
-const TIPS=[["Le bon nom de fichier","Nommez votre CV « NOM-Prénom-Poste.pdf ». Le recruteur le retrouve en deux secondes."],["Un seul PDF","Quand l'avis demande plusieurs pièces, regroupez-les dans un seul PDF, dans l'ordre de la liste."],["L'objet du mail compte","Recopiez exactement l'objet demandé, référence comprise. Beaucoup de dossiers sont triés sur ce seul détail."],["N'attendez pas le dernier jour","Les boîtes mail saturent la veille de la clôture. Envoyez deux ou trois jours avant."],["Relancez, poliment","Sans nouvelles après une semaine, un court message de relance montre votre motivation."],["Gardez vos pièces prêtes","CIP, IFU, casier judiciaire, acte de naissance : scannez-les une fois pour toutes."]];
-const scam=`<aside class="note y">${ic.shield}<p><b>Un employeur ne vous demande jamais d'argent.</b>Frais de dossier, de test ou de « réservation de place » : c'est une arnaque. Passez votre chemin.</p></aside>`;
-const tipBox=()=>{const [t,x]=TIPS[new Date().getDate()%TIPS.length];return `<aside class="note g">${ic.bulb}<p><b>Le conseil du jour · ${esc(t)}</b>${esc(x)}</p></aside>`};
-const SUGG=["Comptable","Chauffeur","Commercial","Stage","Parakou","ONG","Santé"];
-const ZL={debut:"Débutants",bientot:"Ferme bientôt",nouveau:"Nouvelles",stage:"Stages",horscot:"Hors de Cotonou",...ZONES};
-function relaxOpts(){const out=[],cp=()=>({...F,niv:new Set(F.niv),sect:new Set(F.sect)});
-  const add=(id,label,mut)=>{const f=cp();mut(f);const n=all.filter(o=>match(o,f)).length;if(n)out.push([id,label,n])};
-  if(F.q.trim())add("q",`« ${F.q.trim()} »`,f=>{f.q=""});
-  if(F.zone!=="tout")add("zone",ZL[F.zone]||F.zone,f=>{f.zone="tout"});
-  if(F.contrat)add("contrat",CONTRATS.find(x=>x[0]===F.contrat)?.[1]||F.contrat,f=>{f.contrat=""});
-  if(F.ville)add("ville",F.ville,f=>{f.ville=""});
-  F.niv.forEach(k=>add("niv:"+k,NIVEAUX.find(x=>x[0]===k)?.[1]||k,f=>{f.niv.delete(k)}));
-  F.sect.forEach(k=>add("sect:"+k,k,f=>{f.sect.delete(k)}));
-  return out.sort((a,b)=>b[2]-a[2]).slice(0,4)}
-function relax(id){const [k,v]=id.split(":");if(k==="q"){F.q="";$("#q").value=""}else if(k==="zone")F.zone="tout";else if(k==="contrat")F.contrat="";else if(k==="ville")F.ville="";else if(k==="niv")F.niv.delete(v);else if(k==="sect")F.sect.delete(v);shown=25;renderOffers()}
-function noResults(){const opts=relaxOpts(),pl=n=>`${n} offre${n>1?"s":""}`;
-  const chips=opts.length?opts.map(([id,l,n])=>`<button class="chip" type="button" data-relax="${esc(id)}">Sans ${esc(l)} <small>${pl(n)}</small></button>`).join("")
-    :SUGG.filter(s=>norm(s)!==norm(F.q.trim())).slice(0,5).map(s=>`<button class="chip" type="button" data-sugg="${esc(s)}">${esc(s)}</button>`).join("");
-  return `<div class="empty"><h3>Rien pour cette recherche aujourd'hui</h3><p>${opts.length?"Retirez un critère pour voir des offres proches :":"Essayez un mot plus simple, ou l'une de ces recherches fréquentes :"}</p><div class="relax">${chips}</div><button class="btn green" type="button" data-reset>Tout afficher</button><p class="hint">Ou touchez « Me prévenir des nouvelles offres » : votre carnet vous signalera les prochaines annonces qui correspondent.</p></div>`}
-function renderOffers(){
-  renderFilters();
-  const rows=sorted(all.filter(o=>match(o)));
-  const postes=rows.reduce((s,o)=>s+(o.nbPostes||1),0);
-  $("#count").innerHTML=rows.length?`${rows.length} offre${rows.length>1?"s":""}<small>${postes} poste${postes>1?"s":""} à pourvoir</small>`:(all.length?"Aucune offre":"");
-  const plain=F.zone==="tout"&&!F.niv.size&&!F.sect.size&&!F.contrat&&!F.ville&&!F.q;
-  $("#alertBtn").hidden=plain||!all.length;
-  if(!all.length){$("#list").innerHTML=`<div class="empty"><h3>Pas d'offre ouverte ce matin</h3><p>Revenez demain : la liste est mise à jour chaque jour.</p></div>`;return}
-  if(!rows.length){$("#list").innerHTML=noResults();return}
-  const vis=rows.slice(0,shown),group=F.tri==="recent";
-  const parts=[];let cur=null,buf=[];const flush=()=>{if(buf.length)parts.push(`<div class="rows">${buf.join("")}</div>`);buf=[]};
-  vis.forEach((o,i)=>{if(group){const k=dayKey(o);if(k!==cur){flush();parts.push(`<div class="dayhead">${k}</div>`);cur=k}}
-    buf.push(row(o));if(i===5){flush();parts.push(tipBox())}if(i===11){flush();parts.push(scam)}});
-  flush();if(vis.length<12)parts.push(scam);
-  if(rows.length>shown)parts.push(`<button class="btn line more-btn" type="button" data-more>Voir ${Math.min(25,rows.length-shown)} offres de plus</button>`);
-  $("#list").innerHTML=parts.join("");
-}
-
-const svcCard=s=>`<article class="svc"><span class="for">${esc(s.pour)}</span><h3>${esc(s.nom)}</h3><p>${esc(s.desc)}</p><ul>${(s.inclus||[]).map(x=>`<li>${esc(x)}</li>`).join("")}</ul>
-  <div class="foot"><span class="price">${s.prix?esc(s.prix):"Tarif sur demande"}<small>${esc(s.duree||"")}</small></span><button class="btn green small" type="button" data-book="${esc(s.id)}">Réserver</button></div></article>`;
-function renderServices(){
-  $("#services").innerHTML=(CFG.services||[]).map(svcCard).join("");
-  $("#c-service").innerHTML=(CFG.services||[]).map(s=>`<option value="${esc(s.nom)}">${esc(s.nom)}</option>`).join("")+`<option value="Je ne sais pas encore">Je ne sais pas encore, conseillez-moi</option>`;
-  $("[data-wa-coach]").hidden=!CFG.whatsapp;$("[data-wa-ad]").hidden=!CFG.whatsapp;
-}
-function formData(id){const f=$(id),o={};if(!f)return o;f.querySelectorAll("input,select,textarea").forEach(e=>{if(e.name)o[e.name]=e.type==="checkbox"?e.checked:e.value.trim()});return o}
-async function sendGoogle(key,data){const g=CFG.formulaires?.[key];if(!g||!g.action||!g.champs)return false;
-  const body=new URLSearchParams();Object.entries(g.champs).forEach(([k,entry])=>{if(data[k]!=null)body.append(entry,data[k])});
-  try{await fetch(g.action,{method:"POST",mode:"no-cors",body});return true}catch{return false}}
-function waLink(text){const n=waNum(CFG.whatsapp);return n?`https://wa.me/${n}?text=${encodeURIComponent(text)}`:null}
-const adText=d=>`Bonjour Djob, je souhaite publier une annonce :\n\n• Poste : ${d.titre}\n• Entreprise : ${d.employeur}\n• Postes : ${d.nb}\n• Ville : ${d.ville}\n• Contrat : ${d.contrat}\n• Niveau : ${d.niveau}\n• Expérience : ${d.experience}\n• Salaire : ${d.salaire||"non précisé"}\n• Date limite : ${d.dateLimite||"non précisée"}\n• Postuler par ${d.mode} : ${d.valeur}\n• Pièces : ${(d.pieces||"").replace(/\n/g,", ")||"non précisées"}\n\nMissions et profil :\n${d.description}\n\nContact : ${d.contact}, ${d.contact2}\nJe confirme que le recrutement est gratuit pour les candidats.`;
-const coachText=d=>`Bonjour Djob, je souhaite être accompagné(e).\n\n• Nom : ${d.nom}\n• WhatsApp : ${d.tel}\n• Besoin : ${d.service}\n• Poste visé : ${d.poste||"-"}\n• Disponibilités : ${d.dispo||"-"}\n• Ville : ${d.ville||"-"}\n\n${d.message||""}`;
-function adPreview(){
-  if(!$("#adForm"))return;const d=formData("#adForm");
-  const fake={id:"preview",titre:d.titre||"Intitulé du poste",employeur:d.employeur||"Votre entreprise",ville:d.ville||"Ville",contrat:d.contrat,nbPostes:+d.nb||1,dateLimite:d.dateLimite||null,debutant:d.experience==="Débutant accepté",publieSurDjob:true};
-  $("#adPreview").innerHTML=`<div style="pointer-events:none;max-width:360px">${row(fake)}</div>`;
-  $("#a-val-lbl").textContent={email:"Adresse e-mail",tel:"Numéro de téléphone",depot:"Adresse du dépôt",lien:"Lien (https://…)"}[$("#a-mode").value];
-}
-function validate(form){let ok=true;form.querySelectorAll("[required]").forEach(e=>{const bad=e.type==="checkbox"?!e.checked:!e.value.trim();e.style.borderColor=bad?"var(--red)":"";if(e.type==="checkbox")e.parentElement.style.color=bad?"var(--red-ink)":"";if(bad&&ok){ok=false;e.focus()}});return ok}
-async function submitAd(e){
-  e.preventDefault();const f=$("#adForm");if(!validate(f)){$("#adMsg").textContent="Il manque quelques informations (en rouge).";return}
-  const d=formData("#adForm");d.date=new Date().toISOString();
-  if(await sendGoogle("annonce",d)){f.outerHTML=`<div class="done"><span class="mark" style="margin:0 auto;width:34px;height:34px"><i></i><i></i><i></i></span><h3>Merci, c'est bien reçu !</h3><p>On relit votre annonce : elle sera en ligne d'ici 24 h. Vous pourrez la partager dès qu'elle apparaît.</p><button class="btn line" type="button" data-view="offres">Voir les offres</button></div>`;return}
-  const l=waLink(adText(d));if(l){open(l,"_blank");return}
-  $("#adMsg").innerHTML="Le dépôt en ligne ouvre très bientôt. En attendant, copiez votre annonce, elle est prête. <button class='linkish' type='button' id='copyAd'>Copier l'annonce</button>";
-  $("#copyAd").onclick=()=>copy(adText(d));
-}
-async function submitCoach(e){
-  e.preventDefault();const f=$("#coachForm");if(!validate(f)){$("#coachMsg").textContent="Indiquez au moins votre nom et votre numéro WhatsApp.";return}
-  const d=formData("#coachForm");d.date=new Date().toISOString();
-  if(await sendGoogle("accompagnement",d)){f.outerHTML=`<div class="done"><h3>Merci ${esc(d.nom.split(" ")[0])} !</h3><p>On vous écrit sur WhatsApp au ${esc(d.tel)} très vite pour en parler.</p></div>`;return}
-  const l=waLink(coachText(d));if(l){open(l,"_blank");return}
-  $("#coachMsg").textContent="Les réservations en ligne ouvrent très bientôt. Gardez cette page de côté et revenez dans quelques jours.";
-}
-
-const euro=b=>b===0?`<span class="budget" style="color:var(--green)">Gratuit</span>`:`<span class="budget">${"F".repeat(b)}<em>${"F".repeat(3-b)}</em></span>`;
-function placeCard(l){const [icn,b,f]=CATS[l.categorie]||CATS.Culture;const im=l.img;
-  const ph=im?.url?`<div class="ph">${imgTag(im.url,im.legende||l.nom)}${im.illustration?`<span class="illu">Photo d'illustration</span>`:""}</div>`:`<div class="ph none" style="background-color:${b};color:${f}">${icn}</div>`;
-  return `<button class="place" type="button" data-place="${esc(l.id)}">${ph}<span class="cat" style="color:${f}"><i style="background:${b}">${icn}</i>${esc(l.categorie)}</span>
-    <div class="body"><div class="top-l"><h3>${esc(l.nom)}</h3>${euro(l.budget)}</div><div class="w">${esc(l.quartier)}${l.zone==="escapade"?"":" · "+esc(l.ville)}</div><p>${esc(l.resume)}</p>
-    ${l.aEssayer?.length?`<div class="try">${l.categorie==="Manger"?"À goûter":"À faire"} : <b>${esc(l.aEssayer.slice(0,2).join(", "))}</b></div>`:""}</div></button>`}
-const credit=im=>im?.url?`<p class="credit">${im.illustration?"Photo d'illustration"+(im.legende?` (${esc(im.legende)})`:"")+" · ":""}${esc(im.auteur)}, <a href="${esc(im.lien)}" target="_blank" rel="noopener">Wikimedia Commons</a>, ${esc(im.licence)}</p>`:"";
-function renderSortir(){
-  const t=today();const ev=events.filter(e=>D(e.fin||e.debut)>=t).sort((a,b)=>a.debut.localeCompare(b.debut));
-  $("#events").innerHTML=ev.length?ev.map(e=>{const d=D(e.debut),on=d<=t;return `<button class="event" type="button" data-event="${esc(e.id)}"><div class="date"><b>${on?"En":d.getDate()}</b><span>${on?"cours":MOIS[d.getMonth()]}</span></div><div><h3>${esc(e.titre)}</h3><p>${esc(e.lieu)}${e.fin&&e.fin!==e.debut?` · jusqu'au ${shortDate(e.fin)}`:""}</p><span class="tag" style="margin-top:8px">${esc(e.type)}</span></div></button>`}).join(""):`<div class="empty" style="flex:1"><h3>Le calendrier se remplit</h3><p>Les prochains événements arrivent avec la mise à jour de la semaine.</p></div>`;
-  const cats=["Tout",...Object.keys(CATS).filter(c=>lieux.some(l=>l.categorie===c))];
-  $("#s-cat").innerHTML=cats.map(c=>`<button class="chip" type="button" data-scat="${esc(c)}" aria-pressed="${SF.cat===c}">${esc(c)} <small>${c==="Tout"?lieux.length:lieux.filter(l=>l.categorie===c).length}</small></button>`).join("");
-  $("#s-more").innerHTML=`<button class="chip" type="button" data-scheap aria-pressed="${SF.cheap}">Petit budget</button><button class="chip" type="button" data-szone="cotonou" aria-pressed="${SF.zone==="cotonou"}">À Cotonou</button><button class="chip" type="button" data-szone="escapade" aria-pressed="${SF.zone==="escapade"}">Hors de Cotonou</button>`;
-  const rows=lieux.filter(l=>(SF.cat==="Tout"||l.categorie===SF.cat)&&(!SF.cheap||l.budget<=1)&&(!SF.zone||l.zone===SF.zone));
-  $("#places").innerHTML=rows.length?rows.map(placeCard).join(""):`<div class="empty" style="grid-column:1/-1"><h3>Aucune adresse avec ces filtres</h3><p>Essayez une autre catégorie.</p></div>`;
-}
-const mapsUrl=l=>"https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(`${l.nom} ${l.quartier} ${l.ville} Bénin`);
-function openPlace(id,push=true){
-  const l=lieux.find(x=>x.id===id);if(!l)return;const [,b,f]=CATS[l.categorie]||CATS.Culture;
-  const link=SITE+"#s-"+l.id,share=`${l.nom} (${l.ville}) : ${l.resume}\nSur Djob : ${link}`;
-  $("#sheet").innerHTML=`<div class="s-top"><div><span class="tag" style="background:${b};color:${f}">${esc(l.categorie)}</span><h2 id="dTitle" style="margin-top:8px">${esc(l.nom)}</h2><div class="emp">${esc(l.quartier)}${l.zone==="escapade"?"":" · "+esc(l.ville)}</div></div><button class="close" type="button" data-close aria-label="Fermer">${ic.x}</button></div>
-    ${l.img?.url?`<div class="sheet-ph">${imgTag(l.img.url,l.img.legende||l.nom)}</div>${credit(l.img)}`:""}
-    <div class="facts"><div class="fact"><span>Budget</span><b>${esc(l.prix)}</b></div><div class="fact"><span>${l.infos?"Bon à savoir":"Ville"}</span><b>${esc(l.infos||l.ville)}</b></div></div>
-    <div class="s-sec"><p>${esc(l.resume)}</p></div>
-    ${l.aEssayer?.length?`<div class="s-sec"><h4>${l.categorie==="Manger"?"À goûter":"À faire"}</h4><ul class="dots">${l.aEssayer.map(x=>`<li>${esc(x)}</li>`).join("")}</ul></div>`:""}
-    ${l.conseil?`<div class="note g">${ic.bulb}<p><b>Notre conseil</b>${esc(l.conseil)}</p></div>`:""}
-    <div class="actions"><a class="btn green wide" href="${mapsUrl(l)}" target="_blank" rel="noopener">${ic.pin} Y aller avec Google Maps</a><a class="btn wa" href="https://wa.me/?text=${encodeURIComponent(share)}" target="_blank" rel="noopener">${ic.wa} Proposer à un ami</a><button class="btn soft" type="button" data-copy="${esc(link)}">Copier le lien</button></div>
-    <p class="src">Infos vérifiées sur ${okUrl(l.source?.url)?`<a href="${esc(l.source.url)}" target="_blank" rel="noopener">${esc(l.source.nom)}</a>`:esc(l.source?.nom)}. Prix et horaires peuvent changer : appelez avant de vous déplacer.</p>`;
-  showSheet("s-"+l.id,push,l.nom);
-}
-function openEvent(id){
-  const e=events.find(x=>x.id===id);if(!e)return;
-  $("#sheet").innerHTML=`<div class="s-top"><div><span class="tag yellow">${esc(e.type)}</span><h2 id="dTitle" style="margin-top:8px">${esc(e.titre)}</h2><div class="emp">${esc(e.lieu)}</div></div><button class="close" type="button" data-close aria-label="Fermer">${ic.x}</button></div>
-    <div class="deadline">${ic.clock}<span>${e.fin&&e.fin!==e.debut?`Du ${longDate(e.debut)} au ${longDate(e.fin)}`:`Le ${longDate(e.debut)}`}${e.heure?` à ${esc(e.heure)}`:""}</span></div>
-    <div class="facts"><div class="fact"><span>Prix</span><b>${esc(e.prix||"Voir les organisateurs")}</b></div><div class="fact"><span>Lieu</span><b>${esc(e.lieu)}</b></div></div>
-    <div class="s-sec"><p>${esc(e.resume)}</p></div>
-    <div class="actions"><a class="btn wa wide" href="https://wa.me/?text=${encodeURIComponent(`${e.titre}, ${e.lieu}. On y va ? ${SITE}#sortir`)}" target="_blank" rel="noopener">${ic.wa} Proposer à un ami</a></div>
-    <p class="src">Source : ${okUrl(e.source?.url)?`<a href="${esc(e.source.url)}" target="_blank" rel="noopener">${esc(e.source.nom)}</a>`:esc(e.source?.nom)}. Vérifiez les détails auprès des organisateurs.</p>`;
-  showSheet(null,false,e.titre);
-}
-
-const STATUTS=[["envoyee","Dossier envoyé"],["relance","Relancé"],["entretien","Entretien prévu"],["retenu","Retenu(e) !"],["non","Pas retenu(e)"]];
-function badge(){const n=saved.filter(id=>all.some(o=>o.id===id)).length+Object.keys(apps).length;$$("[data-badge]").forEach(b=>{b.hidden=!n;b.textContent=n})}
-const ser=f=>({q:f.q,zone:f.zone,niv:[...f.niv],sect:[...f.sect],contrat:f.contrat,ville:f.ville,tri:f.tri});
-const deser=s=>({q:s.q||"",zone:s.zone||"tout",niv:new Set(s.niv||[]),sect:new Set(s.sect||[]),contrat:typeof s.contrat==="string"?s.contrat:(s.contrat||[])[0]||"",ville:s.ville||"",tri:s.tri||"recent"});
-function renderMoi(){
-  $$("[data-seg]").forEach(b=>b.setAttribute("aria-selected",b.dataset.seg===seg));
-  const body=$("#moiBody");
-  if(seg==="gardees"){const rows=saved.map(id=>all.find(o=>o.id===id)).filter(Boolean);
-    body.innerHTML=rows.length?`<div class="rows">${rows.map(row).join("")}</div>`:`<div class="empty"><h3>Rien de gardé pour l'instant</h3><p>Touchez le cœur d'une offre pour la mettre de côté et la retrouver ici.</p><button class="btn green" type="button" data-view="offres">Parcourir les offres</button></div>`}
-  else if(seg==="postulees"){const ids=Object.keys(apps).sort((a,b)=>(apps[b].date||"").localeCompare(apps[a].date||""));
-    body.innerHTML=ids.length?`<div class="stack">${ids.map(id=>{const a=apps[id],o=all.find(x=>x.id===id)||a.snap||{titre:id,employeur:""};const days=Math.floor((Date.now()-new Date(a.date))/864e5),relance=a.statut==="envoyee"&&days>=7;
-      return `<div class="app"><div class="app-top"><div><div class="emp">${esc(o.employeur)}</div><h3>${esc(o.titre)}</h3></div>${all.some(x=>x.id===id)?`<button class="linkish" type="button" data-id="${esc(id)}">Revoir</button>`:`<span class="tag">Offre close</span>`}</div>
-        <div class="app-row"><span>Postulé le ${new Date(a.date).toLocaleDateString("fr-FR",{day:"numeric",month:"long"})}</span><label class="sr" for="st-${esc(id)}">Où en êtes-vous ?</label><select id="st-${esc(id)}" data-statut="${esc(id)}">${STATUTS.map(([k,l])=>`<option value="${k}" ${a.statut===k?"selected":""}>${l}</option>`).join("")}</select></div>
-        ${relance?`<div class="relance">Cela fait ${days} jours. Un petit message de relance poli peut faire la différence.</div>`:""}
-        ${a.statut==="entretien"?`<div class="note g" style="margin:0">${ic.bulb}<p><b>Bonne nouvelle !</b>Envie d'arriver prêt(e) ? <button class="linkish" type="button" data-book="entretien">Préparer l'entretien avec nous</button></p></div>`:""}
-        ${a.statut==="retenu"?`<div class="note g" style="margin:0">${ic.check}<p><b>Félicitations !</b>Vous l'avez mérité.</p></div>`:""}
-        <label class="sr" for="nt-${esc(id)}">Notes</label><textarea id="nt-${esc(id)}" data-note="${esc(id)}" rows="2" placeholder="Une note : nom du contact, date d'entretien…">${esc(a.note||"")}</textarea>
-        <div><button class="linkish danger" type="button" data-unapply="${esc(id)}">Retirer de la liste</button></div></div>`}).join("")}</div>`
-      :`<div class="empty"><h3>Aucune candidature notée</h3><p>Quand vous postulez, touchez « J'ai postulé » sur la fiche de l'offre. Vous suivrez ici où vous en êtes.</p><button class="btn green" type="button" data-view="offres">Trouver une offre</button></div>`}
-  else{body.innerHTML=alerts.length?`<div class="stack">${alerts.map((al,i)=>{const f=deser(al.f),rows=all.filter(o=>match(o,f)),nw=rows.filter(o=>addedTs(o)>(al.seen||0)).length;
-      return `<div class="alert-item"><div><b>${esc(al.label)}</b>${nw?`<em>${nw} nouvelle${nw>1?"s":""}</em>`:""}<span>${rows.length} offre${rows.length>1?"s":""} ouverte${rows.length>1?"s":""}</span></div><div style="display:flex;gap:8px;align-items:center"><button class="btn green small" type="button" data-run-alert="${i}">Voir</button><button class="close" type="button" data-del-alert="${i}" aria-label="Supprimer l'alerte">${ic.x}</button></div></div>`}).join("")}</div>`
-      :`<div class="empty"><h3>Aucune alerte</h3><p>Faites une recherche (par exemple « comptable » à Parakou), puis touchez « Me prévenir des nouvelles offres ».</p><button class="btn green" type="button" data-view="offres">Faire une recherche</button></div>`}
-}
-
-const GUIDE=[
- ["Votre dossier béninois, prêt d'avance","Les pièces qu'on vous demande presque toujours","var(--green)",`<p>La plupart des avis au Bénin demandent les mêmes documents. Les avoir déjà scannés vous fait gagner des jours.</p><ul><li><b>CIP</b> (Certificat d'Identification Personnelle) : il remplace de nombreuses pièces d'état civil ; il se demande auprès de l'ANIP.</li><li><b>Acte de naissance sécurisé</b> : également délivré via l'ANIP.</li><li><b>IFU</b> (Identifiant Fiscal Unique) : demandé surtout pour les prestations et l'intérim.</li><li><b>Casier judiciaire</b> de moins de 3 mois : pensez à le renouveler.</li><li><b>Diplômes et attestations</b> : des copies nettes, légalisées pour la fonction publique.</li></ul>`],
- ["Un CV qui se lit en 30 secondes","Ce que le recruteur regarde vraiment","var(--yellow)",`<ul><li>Une page, deux au maximum avec plus de 10 ans d'expérience.</li><li>En haut : nom, numéro WhatsApp, e-mail, ville.</li><li>Pour chaque poste : ce que vous avez fait et un résultat concret (« 40 clients suivis », « caisse tenue sans écart pendant 2 ans »).</li><li>Adaptez le titre du CV au poste visé.</li><li>Une adresse e-mail sérieuse : prenom.nom@…</li></ul>`],
- ["La lettre et le mail de candidature","Court, personnel, sans fautes","var(--red)",`<p>Trois paragraphes suffisent : pourquoi ce poste, ce que vous apportez (avec un exemple), votre disponibilité. Faites relire par quelqu'un.</p><div class="mailbox">Madame, Monsieur,
-
-Suite à votre avis de recrutement pour le poste de [poste], je vous adresse ma candidature. Vous trouverez en pièce jointe mon dossier complet.
-
-Je reste disponible pour un entretien à votre convenance.
-
-Veuillez agréer, Madame, Monsieur, mes salutations distinguées.
-[Prénom NOM] · [téléphone]</div>`],
- ["Postuler par téléphone ou WhatsApp","Pour les petites entreprises et les boutiques","var(--green)",`<ul><li>Appelez entre 9 h et 17 h, dans un endroit calme.</li><li>Présentez-vous en une phrase : prénom, poste visé, où vous avez vu l'offre, quartier où vous habitez.</li><li>Sur WhatsApp, un message clair et poli, sans abréviations. Pas de vocal de 3 minutes au premier contact.</li></ul>`],
- ["Réussir l'entretien","Se préparer la veille, arriver serein","var(--yellow)",`<ul><li>Relisez l'offre et renseignez-vous sur l'entreprise.</li><li>Préparez trois exemples concrets de ce que vous avez réussi.</li><li>Arrivez 10 à 15 minutes en avance, avec une copie de votre CV.</li><li>À la fin, posez une question sur le poste.</li><li>Le soir même, un court message de remerciement fait bonne impression.</li></ul>`],
- ["Repérer une arnaque","Les signaux qui ne trompent pas","var(--red)",`<ul><li>L'employeur vous demande de l'argent : frais de dossier, de formation, de visite médicale, de « réservation ».</li><li>Le salaire promis est très élevé pour peu d'efforts, ou il faut recruter d'autres personnes.</li><li>Pas de nom d'entreprise, pas d'adresse, seulement un numéro WhatsApp étranger.</li><li>On vous demande une photo « en pied » ou des informations sans rapport avec le poste.</li></ul>`]
-];
-const FAQ=[
- ["Les offres sont-elles vraiment gratuites ?","Oui. Consulter les offres et postuler ne coûte rien, sans inscription. Seul l'accompagnement personnalisé (CV, entretien…) est payant, et il reste facultatif."],
- ["Est-ce que Djob transmet mon CV ?","Non. Vous postulez directement auprès de l'employeur, avec les coordonnées indiquées sur chaque offre."],
- ["D'où viennent les offres ?","Des sites d'emploi béninois, des avis officiels, des organisations internationales, des cabinets de recrutement, de LinkedIn, et des recruteurs qui publient directement sur Djob. Chaque fiche indique sa source."],
- ["Comment se passe l'accompagnement ?","Vous choisissez un service et laissez votre numéro. Un conseiller vous écrit sur WhatsApp pour convenir du tarif et du moment. Vous ne payez qu'une fois d'accord."],
- ["Je recrute : comment publier ?","Remplissez le formulaire « Publier une annonce ». C'est gratuit. On vérifie chaque annonce avant de la mettre en ligne, en général sous 24 h."],
- ["Les adresses de « Sortir » sont-elles sponsorisées ?","Non, aucune adresse n'a payé pour apparaître."],
- ["Puis-je installer Djob comme une application ?","Oui. Sur Android, menu de Chrome puis « Ajouter à l'écran d'accueil ». Sur iPhone, Partager puis « Sur l'écran d'accueil »."]
-];
-const faqHTML=list=>list.map(([q,a])=>`<details class="gd"><summary><div><h3>${esc(q)}</h3></div>${ic.chev}</summary><div class="gb plain"><p>${esc(a)}</p></div></details>`).join("");
-function renderGuide(){
-  $("#guide").innerHTML=GUIDE.map(([t,s,c,body],i)=>`<details class="gd"${i===0?" open":""}><summary><span class="gi" style="background:${c}"></span><div><h3>${esc(t)}</h3><p>${esc(s)}</p></div>${ic.chev}</summary><div class="gb">${body}</div></details>`).join("");
-  $("#faq").innerHTML=faqHTML(FAQ);
-}
-
-function copyBtn(v){return `<button class="copy" type="button" data-copy="${esc(v)}">Copier</button>`}
-function mailText(o){return `Madame, Monsieur,\n\nSuite à votre avis de recrutement pour le poste de ${o.titre.replace(/^\d+\s+postes?\s+/i,"")}${o.employeur?` (${o.employeur})`:""}, je vous adresse ma candidature.\n\nVous trouverez en pièce jointe mon dossier complet${o.pieces?.length?` : ${o.pieces.map(p=>p.toLowerCase()).join(", ")}`:""}.\n\nJe reste à votre disposition pour un entretien à votre convenance.\n\nVeuillez agréer, Madame, Monsieur, l'expression de mes salutations distinguées.\n\n[Prénom NOM]\n[Téléphone / WhatsApp]`}
-function howTo(o){
-  const p=o.postuler||{};
-  if(p.mode==="email")return `<div class="how"><div class="field"><span>Envoyez votre dossier à</span><div class="copyrow"><code>${esc(p.valeur)}</code>${copyBtn(p.valeur)}</div></div>
-    ${p.copie?`<div class="field"><span>En copie (obligatoire)</span><div class="copyrow"><code>${esc(p.copie)}</code>${copyBtn(p.copie)}</div></div>`:""}
-    ${p.objet?`<div class="field"><span>Objet du mail</span><div class="copyrow"><code>${esc(p.objet)}</code>${copyBtn(p.objet)}</div></div>`:""}
-    ${p.depot?`<p class="small">${esc(p.depot)}${p.tel?` · tél. ${esc(p.tel)}`:""}</p>`:p.tel?`<p class="small">Une question ? Téléphone / WhatsApp : ${esc(p.tel)}</p>`:""}
-    <details class="tpl"><summary>Votre mail de candidature, prêt à copier</summary><div class="mailbox">${esc(mailText(o))}</div><button class="btn green small" type="button" data-copy="${esc(mailText(o))}">Copier le mail</button></details></div>`;
-  if(p.mode==="tel"){const intl=waNum(p.valeur);return `<div class="how"><div class="field"><span>Appelez ou écrivez sur WhatsApp</span><div class="copyrow"><code>${esc(p.valeur)}</code>${copyBtn(p.valeur)}</div></div>
-    ${p.email?`<div class="field"><span>Ou par e-mail</span><div class="copyrow"><code>${esc(p.email)}</code>${copyBtn(p.email)}</div></div>`:""}${p.note?`<p class="small">${esc(p.note)}</p>`:""}
-    <a class="btn wa" href="https://wa.me/${intl}?text=${encodeURIComponent(`Bonjour, je vous contacte pour l'offre « ${o.titre} ». Je suis intéressé(e) et disponible pour en parler. Merci !`)}" target="_blank" rel="noopener">${ic.wa} Écrire sur WhatsApp</a></div>`}
-  if(p.mode==="depot")return `<div class="how"><div class="field"><span>Déposez votre dossier</span><p><b>${esc(p.valeur)}</b></p></div>${p.horaires?`<p class="small">${esc(p.horaires)}</p>`:""}${p.objet?`<p class="small">${esc(p.objet)}</p>`:""}</div>`;
-  if(p.mode==="lien"&&okUrl(p.valeur))return `<div class="how"><p class="small">La candidature se fait à partir de l'annonce d'origine.</p><a class="btn green" href="${esc(p.valeur)}" target="_blank" rel="noopener">${esc(p.libelle||"Voir l'avis et postuler")} →</a></div>`;
-  return `<p>Voir l'annonce d'origine.</p>`;
-}
-function showSheet(hash,push,title){const d=$("#dlg");if(!d.open)d.showModal();$("#sheet").scrollTop=0;if(hash&&push&&location.hash!=="#"+hash)history.pushState(null,"","#"+hash);document.title=`${title} · Djob`;$("#sheet").dataset.hash=hash||""}
-function openOffer(id,push=true){
-  const o=all.find(x=>x.id===id);if(!o)return;
-  const n=daysLeft(o),k=saved.includes(o.id),ch=checks[o.id]||[],a=apps[o.id];
-  const link=SITE+"#"+o.id,shareTxt=`${o.titre} · ${o.employeur} (${o.ville})${o.dateLimite?`, jusqu'au ${longDate(o.dateLimite)}`:""}.\nToutes les infos ici : ${link}`;
-  $("#sheet").innerHTML=`<div class="s-top">${avatar(o)}<div><div class="emp">${esc(o.employeur)}</div><h2 id="dTitle">${esc(o.titre)}</h2></div><button class="close" type="button" data-close aria-label="Fermer">${ic.x}</button></div>
-    ${n!==null?`<div class="deadline${n<=3?" hot":""}">${ic.clock}<span>Jusqu'au ${longDate(o.dateLimite)} · ${left(n).toLowerCase()}</span><button class="linkish" type="button" data-ics="${esc(o.id)}">Me le rappeler</button></div>`:`<div class="deadline">${ic.clock}<span>Pas de date limite annoncée. N'attendez pas trop quand même.</span></div>`}
-    <div class="facts"><div class="fact"><span>Où</span><b>${esc(o.ville)}</b></div><div class="fact"><span>Contrat</span><b>${esc(o.contrat)}</b></div><div class="fact"><span>Niveau</span><b>${esc(o.niveau)}</b></div><div class="fact"><span>Expérience</span><b>${esc(o.experience)}</b></div>${o.salaire?`<div class="fact" style="grid-column:1/-1"><span>Salaire</span><b>${esc(o.salaire)}</b></div>`:""}</div>
-    <div class="s-sec"><p>${esc(o.resume)}</p></div>
-    ${o.postes?.length?`<div class="s-sec"><h4>Les postes</h4><ul class="postes">${o.postes.map(p=>`<li><span>${esc(p.nom)}</span><b>${p.nombre??""}</b></li>`).join("")}</ul></div>`:""}
-    ${o.profil?.length?`<div class="s-sec"><h4>Ce qu'on attend de vous</h4><ul class="dots">${o.profil.map(x=>`<li>${esc(x)}</li>`).join("")}</ul></div>`:""}
-    ${o.pieces?.length?`<div class="s-sec"><h4>Votre dossier · cochez au fur et à mesure</h4><ul class="checks">${o.pieces.map((x,i)=>`<li><label><input type="checkbox" id="ck-${esc(o.id)}-${i}" data-ck="${i}" ${ch.includes(i)?"checked":""}><span>${esc(x)}</span></label></li>`).join("")}</ul></div>`:""}
-    <div class="s-sec"><h4>Comment postuler</h4>${howTo(o)}</div>
-    ${a?`<div class="applied">${ic.check}<span>Vous avez postulé le ${new Date(a.date).toLocaleDateString("fr-FR",{day:"numeric",month:"long"})}. Suivez-la dans votre carnet.</span></div>`:""}
-    <div class="actions">${a?"":`<button class="btn green wide" type="button" data-apply="${esc(o.id)}">${ic.check} J'ai postulé</button>`}
-      <a class="btn wa wide" href="https://wa.me/?text=${encodeURIComponent(shareTxt)}" target="_blank" rel="noopener">${ic.wa} Envoyer à un ami sur WhatsApp</a>
-      <button class="btn soft" type="button" data-keep="${esc(o.id)}" aria-pressed="${k}">${k?"Gardée":"Garder"}</button><button class="btn soft" type="button" data-copy="${esc(link)}">Copier le lien</button></div>
-    <div class="note y" style="margin-top:18px">${ic.bulb}<p><b>Envie d'un coup de pouce ?</b>On peut relire votre CV ou vous préparer à l'entretien pour ce poste. <button class="linkish" type="button" data-book="cv">Se faire accompagner</button></p></div>
-    <p class="src">Annonce repérée sur ${okUrl(o.source?.url)?`<a href="${esc(o.source.url)}" target="_blank" rel="noopener">${esc(o.source.nom)}</a>`:esc(o.source?.nom)}${o.publie?`, publiée le ${longDate(o.publie)}`:""}. Vérifiez l'avis officiel avant d'envoyer votre dossier.</p>`;
-  $("#sheet").dataset.cur=o.id;showSheet(o.id,push,o.titre);
-}
-function closeSheet(){const d=$("#dlg");if(d.open)d.close()}
-$("#dlg").addEventListener("close",()=>{document.title="Djob · Les offres d'emploi du Bénin";const h=$("#sheet").dataset.hash;if(h&&location.hash==="#"+h)history.pushState(null,"",view==="accueil"?location.pathname:"#"+view)});
-$("#dlg").addEventListener("click",e=>{if(e.target===e.currentTarget)closeSheet()});
-
-let tt;function toast(m){const t=$("#toast");t.textContent=m;t.hidden=false;clearTimeout(tt);tt=setTimeout(()=>t.hidden=true,2300)}
-async function copy(txt,btn){try{await navigator.clipboard.writeText(txt);if(btn&&btn.classList.contains("copy")){const o=btn.textContent;btn.textContent="Copié";btn.classList.add("ok");setTimeout(()=>{btn.textContent=o;btn.classList.remove("ok")},1600)}else toast("Copié")}catch{toast("Sélectionnez le texte pour le copier")}}
-function refresh(){badge();if(view==="offres")renderOffers();if(view==="moi")renderMoi();if(view==="accueil")renderHome()}
-function toggleKeep(id){saved=saved.includes(id)?saved.filter(x=>x!==id):[...saved,id];store.set("djob-saved",saved);toast(saved.includes(id)?"Gardée dans votre carnet":"Retirée de votre carnet");refresh();if($("#dlg").open&&$("#sheet").dataset.cur===id)openOffer(id,false)}
-function apply(id){const o=all.find(x=>x.id===id);apps[id]={date:new Date().toISOString(),statut:"envoyee",note:"",snap:{titre:o.titre,employeur:o.employeur}};store.set("djob-apps",apps);toast("Bravo, c'est envoyé. Bonne chance !");refresh();openOffer(id,false)}
-function ics(o){const r=new Date(D(o.dateLimite).getTime()-2*864e5),rd=`${r.getFullYear()}${String(r.getMonth()+1).padStart(2,"0")}${String(r.getDate()).padStart(2,"0")}`;const t=s=>String(s).replace(/[,;\\]/g,m=>"\\"+m).replace(/\n/g,"\\n");
-  const body=["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//Djob//FR","BEGIN:VEVENT",`UID:${o.id}@djob`,`DTSTAMP:${new Date().toISOString().replace(/[-:]/g,"").split(".")[0]}Z`,`DTSTART;VALUE=DATE:${rd}`,`SUMMARY:${t("Djob · Envoyer ma candidature : "+o.titre)}`,`DESCRIPTION:${t(`${o.employeur}. Date limite : ${longDate(o.dateLimite)}. ${SITE}#${o.id}`)}`,"BEGIN:VALARM","TRIGGER:PT9H","ACTION:DISPLAY","DESCRIPTION:Candidature à envoyer","END:VALARM","END:VEVENT","END:VCALENDAR"].join("\r\n");
-  const a=document.createElement("a");a.href=URL.createObjectURL(new Blob([body],{type:"text/calendar"}));a.download=`rappel-${o.id}.ics`;document.body.appendChild(a);a.click();a.remove();toast("Rappel créé 2 jours avant la date limite")}
-function alertLabel(){const p=[];if(F.q)p.push(`« ${F.q.trim()} »`);const zl={debut:"Débutants",bientot:"Ferme bientôt",nouveau:"Nouvelles",stage:"Stages",horscot:"Hors de Cotonou",...ZONES};if(F.zone!=="tout")p.push(zl[F.zone]);F.niv.forEach(k=>p.push(NIVEAUX.find(x=>x[0]===k)[1]));F.sect.forEach(s=>p.push(s));if(F.contrat)p.push(CONTRATS.find(x=>x[0]===F.contrat)[1]);if(F.ville)p.push(F.ville);return p.join(" · ")||"Toutes les offres"}
-function addAlert(){const label=alertLabel();if(alerts.some(a=>a.label===label)){toast("Cette alerte existe déjà");return}alerts.push({label,f:ser(F),seen:Date.now()});store.set("djob-alerts",alerts);toast("Alerte créée, retrouvez-la dans votre carnet")}
-function resetFilters(){F.zone="tout";F.niv.clear();F.sect.clear();F.contrat="";F.ville="";F.q="";$("#q").value="";shown=25}
-function setView(v,push=true){
-  view=v;$$(".view").forEach(s=>s.hidden=s.id!=="v-"+v);
-  $$(".nav [data-view],.tabbar [data-view]").forEach(b=>b.setAttribute("aria-current",b.dataset.view===v?"page":"false"));
-  if(v==="accueil")renderHome();if(v==="offres")renderOffers();if(v==="sortir")renderSortir();if(v==="moi")renderMoi();if(v==="publier")adPreview();
-  window.scrollTo({top:0});
-  if(push){const h=v==="accueil"?"":"#"+v;if(location.hash!==h)history.pushState(null,"",h||location.pathname)}
-}
-function goto(k){resetFilters();F.zone=k;panelOpen=false;setView("offres")}
-function book(id){closeSheet();setView("accompagnement");const s=(CFG.services||[]).find(x=>x.id===id);if(s)$("#c-service").value=s.nom;setTimeout(()=>$("#coachForm")?.scrollIntoView({behavior:"smooth",block:"start"}),60)}
-
-document.addEventListener("click",e=>{
-  const t=e.target;
-  const kp=t.closest("[data-keep]");if(kp){e.stopPropagation();toggleKeep(kp.dataset.keep);return}
-  const cp=t.closest("[data-copy]");if(cp){copy(cp.dataset.copy,cp);return}
-  const ap=t.closest("[data-apply]");if(ap){apply(ap.dataset.apply);return}
-  const ic_=t.closest("[data-ics]");if(ic_){ics(all.find(o=>o.id===ic_.dataset.ics));return}
-  const bk=t.closest("[data-book]");if(bk){book(bk.dataset.book);return}
-  if(t.closest("[data-close]")){closeSheet();return}
-  const vw=t.closest("[data-view]");if(vw){e.preventDefault();closeSheet();setView(vw.dataset.view);return}
-  const gt=t.closest("[data-goto]");if(gt){goto(gt.dataset.goto);return}
-  if(t.closest("[data-share-site]")){const txt="Djob : toutes les offres d'emploi du Bénin, mises à jour chaque matin. Gratuit. "+SITE;if(navigator.share)navigator.share({title:"Djob",text:txt,url:SITE}).catch(()=>{});else copy(SITE);return}
-  if(t.closest("[data-wa-ad]")){if(!validate($("#adForm")))return;const l=waLink(adText(formData("#adForm")));if(l)open(l,"_blank");return}
-  if(t.closest("[data-wa-coach]")){if(!validate($("#coachForm")))return;const l=waLink(coachText(formData("#coachForm")));if(l)open(l,"_blank");return}
-  if(t.closest("[data-toggle-panel]")){panelOpen=!panelOpen;renderFilters();return}
-  if(t.closest("[data-reset]")){resetFilters();renderOffers();return}
-  const rx=t.closest("[data-relax]");if(rx){relax(rx.dataset.relax);return}
-  if(t.closest("[data-more]")){shown+=25;renderOffers();return}
-  if(t.closest("#alertBtn")){addAlert();return}
-  const sg=t.closest("[data-sugg]");if(sg){resetFilters();F.q=sg.dataset.sugg;$("#q").value=F.q;setView("offres");return}
-  const z=t.closest("[data-z]");if(z){F.zone=z.dataset.z;shown=25;renderOffers();return}
-  const zz=t.closest("[data-zz]");if(zz){F.zone=F.zone===zz.dataset.zz?"tout":zz.dataset.zz;shown=25;renderOffers();return}
-  for(const [attr,set] of [["niv",F.niv],["sect",F.sect]]){const b=t.closest(`[data-${attr}]`);if(b){const k=b.dataset[attr];set.has(k)?set.delete(k):set.add(k);shown=25;renderOffers();return}}
-  const sc=t.closest("[data-scat]");if(sc){SF.cat=sc.dataset.scat;renderSortir();return}
-  if(t.closest("[data-scheap]")){SF.cheap=!SF.cheap;renderSortir();return}
-  const sz=t.closest("[data-szone]");if(sz){SF.zone=SF.zone===sz.dataset.szone?"":sz.dataset.szone;renderSortir();return}
-  const pl=t.closest("[data-place]");if(pl){openPlace(pl.dataset.place);return}
-  const ev=t.closest("[data-event]");if(ev){openEvent(ev.dataset.event);return}
-  const sgm=t.closest("[data-seg]");if(sgm){seg=sgm.dataset.seg;renderMoi();return}
-  const ra=t.closest("[data-run-alert]");if(ra){const al=alerts[+ra.dataset.runAlert];Object.assign(F,deser(al.f));$("#q").value=F.q;al.seen=Date.now();store.set("djob-alerts",alerts);panelOpen=false;setView("offres");return}
-  const da=t.closest("[data-del-alert]");if(da){alerts.splice(+da.dataset.delAlert,1);store.set("djob-alerts",alerts);renderMoi();toast("Alerte supprimée");return}
-  const ua=t.closest("[data-unapply]");if(ua){delete apps[ua.dataset.unapply];store.set("djob-apps",apps);refresh();return}
-  const c=t.closest("[data-id]");if(c&&c.dataset.id!=="preview"){openOffer(c.dataset.id);return}
-});
-document.addEventListener("keydown",e=>{if((e.key==="Enter"||e.key===" ")&&e.target.classList?.contains("row")&&e.target.dataset.id&&e.target.dataset.id!=="preview"){e.preventDefault();openOffer(e.target.dataset.id)}});
-document.addEventListener("change",e=>{
-  const t=e.target;
-  if(t.id==="f-ville"){F.ville=t.value;shown=25;renderOffers();return}
-  if(t.id==="f-contrat-sel"){F.contrat=t.value;shown=25;renderOffers();return}
-  if(t.id==="f-tri"){F.tri=t.value;renderOffers();return}
-  if(t.dataset.statut){apps[t.dataset.statut].statut=t.value;store.set("djob-apps",apps);if(t.value==="retenu")toast("Félicitations !");renderMoi();return}
-  const ck=t.closest("[data-ck]");if(ck){const id=$("#sheet").dataset.cur,i=+ck.dataset.ck,cur=new Set(checks[id]||[]);ck.checked?cur.add(i):cur.delete(i);checks[id]=[...cur];store.set("djob-checks",checks);const o=all.find(x=>x.id===id);if(o&&checks[id].length===o.pieces.length)toast("Dossier complet. Vous êtes prêt(e).");return}
-  if(t.closest("#adForm"))adPreview();
-});
-document.addEventListener("input",e=>{const t=e.target;if(t.dataset.note){apps[t.dataset.note].note=t.value;store.set("djob-apps",apps)}if(t.closest("#adForm"))adPreview()});
-let tq;$("#q").addEventListener("input",e=>{clearTimeout(tq);tq=setTimeout(()=>{F.q=e.target.value;shown=25;renderOffers()},160)});
-$("#homeSearch").addEventListener("submit",e=>{e.preventDefault();resetFilters();F.q=$("#hq").value;$("#q").value=F.q;setView("offres")});
-$("#adForm").addEventListener("submit",submitAd);$("#coachForm").addEventListener("submit",submitCoach);
-function route(){
-  const h=location.hash.slice(1);
-  if(["offres","sortir","moi","conseils","apropos","accompagnement","publier"].includes(h)){closeSheet();setView(h,false)}
-  else if(h.startsWith("s-")&&lieux.some(l=>"s-"+l.id===h)){if(view!=="sortir")setView("sortir",false);openPlace(h.slice(2),false)}
-  else if(h&&all.some(o=>o.id===h)){if(view!=="offres")setView("offres",false);openOffer(h,false)}
-  else{closeSheet();setView("accueil",false)}
-}
-window.addEventListener("popstate",route);
-function stamp(){if(!maj)return;const d=new Date(maj);if(isNaN(d))return;const same=d.toDateString()===new Date().toDateString();$("#maj").textContent=`Dernière mise à jour ${same?"aujourd'hui":"le "+d.toLocaleDateString("fr-FR",{weekday:"long",day:"numeric",month:"long"})} à ${d.toLocaleTimeString("fr-FR",{hour:"2-digit",minute:"2-digit"})}.`}
-function contactBlock(){const p=[];if(CFG.whatsapp)p.push(`WhatsApp : <b>${esc(CFG.whatsapp)}</b>`);if(CFG.email)p.push(`e-mail : <b>${esc(CFG.email)}</b>`);$("#contact").innerHTML=p.length?`<h2>Nous écrire</h2><p>${p.join(" · ")}. Pour signaler une offre douteuse, une erreur, ou simplement dire bonjour.</p>`:""}
-
-greet();renderGuide();
-const getJ=(u,d)=>fetch(u,{cache:"no-cache"}).then(r=>r.ok?r.json():d).catch(()=>d);
-Promise.all([fetch("data.json",{cache:"no-cache"}).then(r=>{if(!r.ok)throw 0;return r.json()}),getJ("sorties.json",{lieux:[],evenements:[]}),getJ("config.json",CFG)]).then(([d,s,c])=>{
-  all=(d.offres||[]).filter(isOpen);maj=d.derniereMaj;lieux=s.lieux||[];events=s.evenements||[];CFG=Object.assign(CFG,c||{});
-  if(lastVisit)sinceIds=all.filter(o=>addedTs(o)>lastVisit).map(o=>o.id);store.set("djob-last",Date.now());
-  weekIds=all.filter(o=>Date.now()-addedTs(o)<7*864e5&&(daysLeft(o)===null||daysLeft(o)>=2)).sort((a,b)=>(b.nbPostes||1)-(a.nbPostes||1)).slice(0,2).map(o=>o.id);
-  renderServices();contactBlock();stamp();badge();route();
-}).catch(()=>{$("#homeJobs").innerHTML=$("#list").innerHTML=`<div class="empty"><h3>La liste n'a pas pu se charger</h3><p>Vérifiez votre connexion, puis rechargez la page.</p><button class="btn green" type="button" onclick="location.reload()">Recharger</button></div>`;setView("accueil",false)});
-if("serviceWorker" in navigator)window.addEventListener("load",()=>navigator.serviceWorker.register("sw.js").catch(()=>{}));
-</script>
+<script src="app.js" defer></script>
 </body>
 </html>
